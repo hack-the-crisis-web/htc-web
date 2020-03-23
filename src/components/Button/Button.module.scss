@@ -1,9 +1,10 @@
-@import "../../styles/variables.scss";
+@import "../all.sass";
+
 
 /* BRAND SPECIFIC VARIABLES */
-$main-color: $main;
-$main-color-hover: $main;
-$main-color-disabled: $main;
+$main-color: $primary;
+$main-color-hover: $primary;
+$main-color-disabled: $primary;
 
 $large-font-size: 16px;
 $large-padding: 16px 22px;

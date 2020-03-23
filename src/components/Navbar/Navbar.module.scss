@@ -1,0 +1,21 @@
+@import "~bulma";
+
+.hoverMenu {
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  @include desktop() {
+    position: static;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+
+  @include desktop() {
+    flex-flow: row nowrap;
+  }
+}

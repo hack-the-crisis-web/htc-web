@@ -2,18 +2,23 @@
 
 // configure style here
 
-$dark-blue: #0065f2;
-$blue: #bbd6fc;
-$light-blue: #eef6ff;
-$dark-purple: #d2dffe;
-$light-purple: #cddffc;
+$dark-purple: #101060;
+$dark-blue: #0060F6;
+$blue: #48B5E7;
+$light-blue: #BEE8FA;
 $white: #ffffff;
+$orange: #F9583E;
+$black: #101010;
+$light-beige: #F4F1E9;
+$dark-grey: #202020;
+$light-grey: #979797;
 
-$primary: $dark-blue;
-$link: $blue;
-$info: $light-blue;
-$success: $dark-purple;
-$warning: $light-purple;
+$primary: $dark-purple;
+$link: $dark-blue;
+$info: $blue;
+$success: $light-blue;
+$warning: $orange;
+$danger: $light-beige;
 
 $body-color: $white;
 
@@ -21,3 +26,7 @@ $body-color: $white;
 $navbar-item-color: $primary;
 $navbar-item-hover-color: $primary;
 $navbar-item-hover-background-color: transparent;
+
+$text: $black;
+$text-light: $light-grey;
+$text-strong: $black;

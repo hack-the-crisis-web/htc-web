@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Button from '../components/Button/Button'
 
 export const IndexPageTemplate = ({
   image,
@@ -49,6 +50,7 @@ export const IndexPageTemplate = ({
         >
           {title}
         </h1>
+
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
@@ -62,6 +64,14 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <div
+          style={{
+            display: 'flex',
+          }}
+        >
+          <Button isLoading={true}>Tell me more</Button>
+          <Button btnStyle="outline">Submit idea</Button>
+        </div>
       </div>
     </div>
     <section className="section section--gradient">

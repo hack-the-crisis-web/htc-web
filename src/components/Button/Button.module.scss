@@ -1,0 +1,127 @@
+@import "../../styles/variables.scss";
+
+/* BRAND SPECIFIC VARIABLES */
+$main-color: $main;
+$main-color-hover: $main;
+$main-color-disabled: $main;
+
+$large-font-size: 16px;
+$large-padding: 16px 22px;
+
+$normal-font-size: 16px;
+$normal-padding: 12px 20px;
+
+$small-font-size: 14px;
+$small-padding: 10px 18px;
+
+@mixin buttonFill($bg-color, $bg-color-hover, $bg-color-disabled, $text-color) {
+  background: $bg-color;
+  color: $text-color;
+
+  &:hover {
+    background-color: $bg-color-hover;
+  }
+
+  &.disabled,
+  &:disabled {
+    background-color: $bg-color-disabled;
+  }
+}
+
+@mixin buttonOutline($outline-color, $outline-color-disabled) {
+  color: $outline-color;
+  border-color: $outline-color;
+  background: transparent;
+
+  &:hover {
+    color: $white;
+    background-color: $outline-color;
+
+    .circle-loader__dot::before {
+      background-color: $white;
+    }
+  }
+
+  &.is-disabled,
+  &:disabled {
+    color: $outline-color-disabled;
+    border-color: $outline-color-disabled;
+  }
+}
+
+@mixin buttonSize($font-size, $padding) {
+  padding: $padding;
+  font-size: $font-size;
+}
+
+.button,
+a.button {
+  position: relative;
+  outline: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+
+  @include buttonSize($normal-font-size, $normal-padding);
+
+  &.small {
+    @include buttonSize($small-font-size, $small-padding);
+  }
+
+  &.large {
+    @include buttonSize($large-font-size, $large-padding);
+  }
+
+  &.primary {
+    @include buttonFill(
+      $main-color,
+      $main-color-hover,
+      $main-color-disabled,
+      white
+    );
+  }
+
+  &.outline {
+    @include buttonOutline($main-color, $main-color-disabled);
+  }
+
+  &.block {
+    width: 100%;
+  }
+
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.65;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  & + & {
+    margin-left: 5px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1em;
+
+  .loading & {
+    visibility: hidden;
+  }
+
+  .block & {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

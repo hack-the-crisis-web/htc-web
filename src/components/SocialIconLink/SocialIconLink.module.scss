@@ -1,0 +1,8 @@
+.noDecoration {
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
+}

@@ -27,6 +27,7 @@ export const IndexPageTemplate = ({
     <HowItWorksSection />
     <TracklistsSection />
     <TrackLeads />
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

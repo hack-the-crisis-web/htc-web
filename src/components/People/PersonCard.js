@@ -2,9 +2,9 @@ import React from 'react'
 import '../all.sass'
 import styles from './PersonCard.module.scss'
 
-const selectClassname = type => {
-  switch (type) {
-    case 'tracklead':
+const selectClassname = label => {
+  switch (label) {
+    case 'track-lead':
       return styles.tracklead
     case 'mentor':
       return styles.mentor
@@ -13,33 +13,35 @@ const selectClassname = type => {
   }
 }
 
-const PersonCard = ({ person, type }) => {
-  const { name, role } = person
-
-  return (
-    <div className={'column is-4'}>
-      <div className={'tile is-parent '}>
-        <div
-          className={`tile is-child box notification has-text-white ${
-            styles.persontile
-          } ${selectClassname(type)}`}
-        >
-          <div className={`${styles.tiletext}`}>
-            <div>
-              <p className="title">{name}</p>
-              <p className="subtitle ">{role}</p>
-            </div>
-            <p className="subtitle">#{type}</p>
+const PersonCard = ({ name, photo, surname, role, tracklist, label }) => (
+  <div className={'column is-4'}>
+    <div className={'tile is-parent '}>
+      <div
+        className={`tile is-child box notification has-text-white ${
+          styles.persontile
+        } ${selectClassname(label)}`}
+      >
+        <div className={`${styles.tiletext}`}>
+          <div>
+            <p className={`title ${styles.name}`}>{`${name} ${surname}`}</p>
+            <p className={`subtitle ${styles.description}`}>{role}</p>
           </div>
+          {!!tracklist && (
+            <p className={`subtitle ${styles.description}`}>
+              #{tracklist.toLowerCase()}
+            </p>
+          )}
+        </div>
+        {!!photo && (
           <img
-            src="https://www.nobackgroundimages.com/wp-content/uploads/2014/11/Image-02-300x239.jpg"
-            height="30px"
+            src={photo}
+            alt={`${name} ${surname}`}
             className={`${styles.personimage}`}
           />
-        </div>
+        )}
       </div>
     </div>
-  )
-}
+  </div>
+)
 
 export default PersonCard

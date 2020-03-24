@@ -19,14 +19,7 @@ export const ProductPageTemplate = ({
   pricing,
 }) => (
   <div className="content">
-    <div
-      className="margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-      }}
-    >
+    <div className="margin-top-0">
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
@@ -81,16 +74,7 @@ export const ProductPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
-              <div
-                className=""
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
+              <div className="" />
               <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
@@ -167,13 +151,6 @@ export const productPageQuery = graphql`
         description
         intro {
           blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             text
           }
           heading
@@ -182,47 +159,10 @@ export const productPageQuery = graphql`
         main {
           heading
           description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
         testimonials {
           author
           quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
         pricing {
           heading

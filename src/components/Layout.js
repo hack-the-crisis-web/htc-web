@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from './Footer'
+import Footer from './Footer/Footer'
 import Navbar from './Navbar/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'

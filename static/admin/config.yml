@@ -27,6 +27,19 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "mentors"
+      label: "Mentors"
+      folder: "src/content/mentors"
+      create: true
+      slug: "{{slug}}"
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mentor"}
+        - {label: "Name", name: "name", widget: "string", required: true}
+        - {label: "Surname", name: "surname", widget: "string", required: true}
+        - {label: "Photo", name: "photo", widget: "image", default: "/uploads/portrait-placeholder.png", required: true}               
+        - {label: "Bio", name: "bio", widget: "text", required: false}
+        - {label: "Linkedin", name: "linkedin", widget: "string", required: true}
+
   - name: "pages"
     label: "Pages"
     files:
@@ -36,7 +49,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: "Event Date", name: eventDate, widget: string,  default: "3-5 april"}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}

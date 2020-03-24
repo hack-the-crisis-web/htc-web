@@ -5,10 +5,12 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import Button from '../components/Button/Button'
+import HeroSection from '../components/HeroSection/HeroSection'
+import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
+import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
 
 export const IndexPageTemplate = ({
-  image,
+  eventDate,
   title,
   heading,
   subheading,
@@ -17,63 +19,32 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
+    <TracklistsSection />
+    <HowItWorksSection />
     <div
-      className="full-width-image margin-top-0"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
+        display: 'flex',
+        height: '150px',
+        lineHeight: '1',
+        justifyContent: 'space-around',
+        alignItems: 'left',
+        flexDirection: 'column',
       }}
     >
-      <div
+      <h3
+        className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
         style={{
-          display: 'flex',
-          height: '150px',
+          boxShadow:
+            'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+          backgroundColor: 'rgb(255, 68, 0)',
+          color: 'white',
           lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          padding: '0.25em',
         }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
-        <div
-          style={{
-            display: 'flex',
-          }}
-        >
-          <Button isLoading={true}>Tell me more</Button>
-          <Button btnStyle="outline">Submit idea</Button>
-        </div>
-      </div>
+      ></h3>
     </div>
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -142,10 +113,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        eventDate={frontmatter.eventDate}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -169,14 +140,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
+        eventDate
         subheading
         mainpitch {
           title

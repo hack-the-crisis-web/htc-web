@@ -26,9 +26,9 @@ const getImgPropsForIconType = (type, color) => {
     case "twitter":
       return { alt: "twitter", src: getTwitterIcon(color) };
     default:
-      return {};
+      return {}
   }
-};
+}
 
 const SocialIconLink = ({ type, href, color = "white" }) => (
   <a className={styles.noDecoration} href={href}>
@@ -37,6 +37,6 @@ const SocialIconLink = ({ type, href, color = "white" }) => (
       style={{ width: "20px", height: "20px" }}
     />
   </a>
-);
+)
 
-export default SocialIconLink;
+export default SocialIconLink

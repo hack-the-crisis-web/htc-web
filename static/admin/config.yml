@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master
   commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
+    create: 'Create {{collection}}'
+    update: 'Update {{collection}}'
+    delete: 'Delete {{collection}}'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
@@ -39,7 +39,7 @@ collections:
 
   - name: 'supporters'
     label: 'Supporters'
-    folder: 'src/pages/supporters'
+    folder: 'src/content/supporters'
     create: true
     slug: '{{slug}}'
     fields:
@@ -60,7 +60,7 @@ collections:
 
   - name: 'sponsors'
     label: 'Sponsors'
-    folder: 'src/pages/sponsors'
+    folder: 'src/content/sponsors'
     create: true
     slug: '{{slug}}'
     fields:
@@ -99,6 +99,7 @@ collections:
           name: 'photo',
           widget: 'image',
           default: '/uploads/portrait-placeholder.png',
+          media_library: { config: { multiple: false } },
           required: false,
         }
       - { label: 'About', name: 'about', widget: 'text', required: false }
@@ -139,12 +140,6 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - {
-          label: 'Key Mentor',
-          name: 'keyMentor',
-          widget: 'string',
-          required: true,
-        }
-      - {
           label: 'Twitter hashtag',
           name: 'hashtag',
           widget: 'string',
@@ -156,8 +151,8 @@ collections:
           name: 'keyMentor',
           widget: 'relation',
           collection: 'person',
-          searchFields: ['title'],
-          valueField: 'title',
+          searchFields: ['surname', 'name'],
+          valueField: 'surname',
           required: true,
         }
       - {
@@ -165,6 +160,7 @@ collections:
           name: 'featuredimage',
           widget: image,
           required: true,
+          media_library: { config: { multiple: false } },
           default: '/uploads/portrait-placeholder.png',
         }
 

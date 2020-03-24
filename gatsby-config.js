@@ -5,8 +5,6 @@ module.exports = {
       'Hack the Crisis 2020 is a global hackathon to provide solutions to the crisis',
   },
   plugins: [
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -38,6 +36,8 @@ module.exports = {
         name: 'images',
       },
     },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',
       options: {

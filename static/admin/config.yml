@@ -30,7 +30,54 @@ collections:
       - { label: 'Featured Post', name: 'featuredpost', widget: 'boolean' }
       - { label: 'Featured Image', name: 'featuredimage', widget: image }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+          media_library: { config: { multiple: false } },
+        }
+
+  - name: 'supporters'
+    label: 'Supporters'
+    folder: 'src/pages/supporters'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'supporters',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+
+  - name: 'sponsors'
+    label: 'Sponsors'
+    folder: 'src/pages/sponsors'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'sponsors',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
 
   - name: 'person'
     label: 'Person'
@@ -46,6 +93,7 @@ collections:
         }
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Surname', name: 'surname', widget: 'string', required: true }
+      - { label: 'Role', name: 'role', widget: 'string', required: true }
       - {
           label: 'Photo',
           name: 'photo',
@@ -53,15 +101,15 @@ collections:
           default: '/uploads/portrait-placeholder.png',
           required: false,
         }
-      - { label: 'Bio', name: 'bio', widget: 'text', required: false }
+      - { label: 'About', name: 'about', widget: 'text', required: false }
       - {
           label: 'Linkedin',
           name: 'linkedin',
           widget: 'string',
           required: false,
         }
-      - label: 'Role'
-        name: 'role'
+      - label: 'Label'
+        name: 'label'
         widget: 'select'
         options:
           - { label: 'Mentor', value: 'mentor' }
@@ -73,6 +121,7 @@ collections:
           widget: 'relation',
           collection: 'tracklists',
           searchFields: ['title'],
+          valueField: 'title',
           required: false,
         }
 
@@ -90,12 +139,27 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string', required: true }
       - {
+          label: 'Key Mentor',
+          name: 'keyMentor',
+          widget: 'string',
+          required: true,
+        }
+      - {
           label: 'Twitter hashtag',
           name: 'hashtag',
           widget: 'string',
           required: true,
         }
       - { label: 'Description', name: 'description', widget: 'text' }
+      - {
+          label: 'Key Mentor',
+          name: 'keyMentor',
+          widget: 'relation',
+          collection: 'person',
+          searchFields: ['title'],
+          valueField: 'title',
+          required: true,
+        }
       - {
           label: 'Featured Image',
           name: 'featuredimage',

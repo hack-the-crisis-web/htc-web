@@ -9,8 +9,6 @@ import TracklistsCard from '../TracklistsCard/TracklistsCard'
 import styles from './TracklistsSection.module.scss'
 
 const TracklistsSection = ({ data }) => {
-  const { edges } = data.allMarkdownRemark
-
   return (
     <Section className="has-background-success">
       <div
@@ -22,7 +20,7 @@ const TracklistsSection = ({ data }) => {
             repellendus.Mxime placeat facere possimus, omnis voluptas."
         />
 
-        {edges.map(
+        {data.map(
           (
             {
               node: {
@@ -70,6 +68,6 @@ export default () => (
         }
       }
     `}
-    render={data => <TracklistsSection data={data} />}
+    render={data => <TracklistsSection data={data.allMarkdownRemark.edges} />}
   />
 )

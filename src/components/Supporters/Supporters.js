@@ -1,4 +1,5 @@
 import React from 'react'
+import uuid from 'uuid'
 import { graphql, StaticQuery } from 'gatsby'
 import styles from './Supporters.module.scss'
 import '../all.sass'
@@ -19,10 +20,11 @@ const Supporters = ({ data }) => {
             node: {
               frontmatter: { name, link, image, templateKey },
             },
+            index,
           }) => {
             return (
               templateKey === 'supporters' && (
-                <div key={name} className="column is-3">
+                <div key={uuid()} className="column is-3">
                   <a href={link} target="_blank" className={styles.link}>
                     <img className={styles.logo} src={image} alt={name} />
                   </a>
@@ -43,10 +45,11 @@ const Supporters = ({ data }) => {
             node: {
               frontmatter: { name, link, image, templateKey },
             },
+            index,
           }) => {
             return (
               templateKey === 'sponsors' && (
-                <div key={name} className="column is-3">
+                <div key={uuid()} className="column is-3">
                   <a href={link} target="_blank" className={styles.link}>
                     <img className={styles.logo} src={image} alt={name} />
                   </a>

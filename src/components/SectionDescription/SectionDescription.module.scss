@@ -1,10 +1,13 @@
 @import '../../styles/styleSetup.scss';
 
 .content {
-  max-width: 526px;
   margin-bottom: 55px;
   color: $dark-grey;
   font-size: 15px;
   letter-spacing: 0;
   line-height: 25px;
+}
+
+.restrictWidth {
+  max-width: 526px;
 }

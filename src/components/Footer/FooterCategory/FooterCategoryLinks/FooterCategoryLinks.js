@@ -4,8 +4,8 @@ import styles from './FooterCategoryLinks.module.scss'
 
 const FooterCategoryLinks = ({ links }) => (
   <ul>
-    {links.map(({ title, url }) => (
-      <Link to={url} className={styles.link} title={title}>
+    {links.map(({ title, url }, index) => (
+      <Link to={url} className={styles.link} title={title} key={index}>
         {title}
       </Link>
     ))}

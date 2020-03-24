@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "gatsby";
-import classnames from "classnames";
+import React from 'react'
+import { Link } from 'gatsby'
+import classnames from 'classnames'
 
-import styles from "./Navbar.module.scss";
-import SocialIconLink from "../SocialIconLink/SocialIconLink";
-import Brand from "../Brand/Brand";
-import NavLink from "../NavLink/NavLink";
+import styles from './Navbar.module.scss'
+import SocialIconLink from '../SocialIconLink/SocialIconLink'
+import Brand from '../Brand/Brand'
+import NavLink from '../NavLink/NavLink'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const navLinkClassnames = classnames("navbar-item", styles.navItem);
+    const navLinkClassnames = classnames('navbar-item', styles.navItem)
     return (
       <nav
         className="navbar is-transparent"
@@ -70,9 +70,9 @@ const Navbar = class extends React.Component {
           >
             <div
               className={classnames(
-                "navbar-start",
-                "has-text-right",
-                "has-text-centered-desktop",
+                'navbar-start',
+                'has-text-right',
+                'has-text-centered-desktop',
                 styles.spaceRight
               )}
             >
@@ -94,8 +94,8 @@ const Navbar = class extends React.Component {
             </div>
             <div
               className={classnames(
-                "navbar-end",
-                "has-text-right",
+                'navbar-end',
+                'has-text-right',
                 styles.spaceRight
               )}
             >

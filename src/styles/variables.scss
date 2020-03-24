@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600|Prompt:400,600,700&display=swap');
 
 // configure style here
 
@@ -32,3 +33,5 @@ $navbar-item-hover-color: $body-color;
 $navbar-item-hover-background-color: transparent;
 $navbar-background-color: $primary;
 $navbar-height: 5rem;
+
+$family-sans-serif: 'Muli', sans-serif;

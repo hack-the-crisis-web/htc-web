@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Hack the Crisis 2020',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Hack the Crisis 2020 is a global hackathon to provide solutions to the crisis',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

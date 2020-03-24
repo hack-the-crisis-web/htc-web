@@ -9,8 +9,8 @@ $main-color-disabled: $primary;
 $large-font-size: 16px;
 $large-padding: 16px 22px;
 
-$normal-font-size: 16px;
-$normal-padding: 12px 20px;
+$normal-font-size: 17px;
+$normal-padding: 12px 50px;
 
 $small-font-size: 14px;
 $small-padding: 10px 18px;
@@ -18,7 +18,7 @@ $small-padding: 10px 18px;
 @mixin buttonFill($bg-color, $bg-color-hover, $bg-color-disabled, $text-color) {
   background: $bg-color;
   color: $text-color;
-
+  
   &:hover {
     background-color: $bg-color-hover;
   }
@@ -62,11 +62,13 @@ a.button {
   display: flex;
   align-items: center;
   font-size: 16px;
-  border-radius: 6px;
+  border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
+  line-height: 1;
+
 
   @include buttonSize($normal-font-size, $normal-padding);
 

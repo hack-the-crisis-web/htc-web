@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Hack the crisis
-image: /img/home-jumbotron.jpg
+title: Back to the Future
+eventDate: 3-5 april
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Global online 48 hours Hackaton mission in one sentece
 mainpitch:
   title: Why Kaldi
   description: >

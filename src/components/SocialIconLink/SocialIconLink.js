@@ -1,24 +1,40 @@
 import React from "react";
-import facebookIcon from "../../img/social/facebook.svg";
-import twitterIcon from "../../img/social/twitter.svg";
+import facebookWhiteIcon from "../../img/social/facebookWhite.svg";
+import twitterWhiteIcon from "../../img/social/twitterWhite.svg";
 import styles from "./SocialIconLink.module.scss";
 
-const getImgPropsForIconType = type => {
+const getFacebookIcon = color => {
+  switch (color) {
+    case "white":
+    default:
+      return facebookWhiteIcon;
+  }
+};
+
+const getTwitterIcon = color => {
+  switch (color) {
+    case "white":
+    default:
+      return twitterWhiteIcon;
+  }
+};
+
+const getImgPropsForIconType = (type, color) => {
   switch (type) {
     case "facebook":
-      return { alt: "facebook", src: facebookIcon };
+      return { alt: "facebook", src: getFacebookIcon(color) };
     case "twitter":
-      return { alt: "twitter", src: twitterIcon };
+      return { alt: "twitter", src: getTwitterIcon(color) };
     default:
       return {};
   }
 };
 
-const SocialIconLink = ({ type, href }) => (
+const SocialIconLink = ({ type, href, color = "white" }) => (
   <a className={styles.noDecoration} href={href}>
     <img
-      {...getImgPropsForIconType(type)}
-      style={{ width: "1em", height: "1em" }}
+      {...getImgPropsForIconType(type, color)}
+      style={{ width: "20px", height: "20px" }}
     />
   </a>
 );

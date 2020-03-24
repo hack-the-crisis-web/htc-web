@@ -66,7 +66,13 @@ const Navbar = class extends React.Component {
               styles.hoverMenu
             )}
           >
-            <div className={classnames("navbar-start", "has-text-centered")}>
+            <div
+              className={classnames(
+                "navbar-start",
+                "has-text-right",
+                "has-text-centered-desktop"
+              )}
+            >
               <Link className="navbar-item" to="/about">
                 About
               </Link>
@@ -83,7 +89,13 @@ const Navbar = class extends React.Component {
                 Form Examples
               </Link>
             </div>
-            <div className={classnames("navbar-end", styles.flex)}>
+            <div
+              className={classnames(
+                "navbar-end",
+                "has-text-right",
+                styles.flex
+              )}
+            >
               <div className="navbar-item">
                 {/* TODO add correct social links */}
                 <SocialIconLink type="facebook" href="https://facebook.com" />

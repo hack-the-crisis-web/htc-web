@@ -1,6 +1,24 @@
 @import '../../styles/styleSetup.scss';
 
-.cardsWrapper {
-  display: flex;
-  flex-wrap: wrap;
+.container {
+  padding: 86px 0 118px 0;
+
+  .cardsWrapper {
+    max-width: 963px;
+  }
+
+  @include until($desktop) {
+    .cardsWrapper {
+      margin: 0 auto;
+      max-width: 643px;
+    }
+  }
+
+  @include until($tablet) {
+    padding: 72px 0 101px 0;
+
+    .cardsWrapper {
+      max-width: 396px;
+    }
+  }
 }

@@ -1,0 +1,12 @@
+@import '../../styles/styleSetup.scss';
+
+footer.footer {
+  position: relative;
+  width: $widescreen;
+  max-width: 90%;
+  border-top: 2px solid $black;
+  background-color: $footer-background-color;
+  padding: $footer-padding;
+  margin: 0 auto;
+  color: $black;
+}

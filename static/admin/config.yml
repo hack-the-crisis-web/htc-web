@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master
   commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
+    create: 'Create {{collection}}'
+    update: 'Update {{collection}}'
+    delete: 'Delete {{collection}}'
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
@@ -32,6 +32,48 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: 'Tags', name: 'tags', widget: 'list' }
 
+  - name: 'supporters'
+    label: 'Supporters'
+    folder: 'src/content/supporters'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'supporters',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+
+  - name: 'sponsors'
+    label: 'Sponsors'
+    folder: 'src/content/sponsors'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'sponsors',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+
   - name: 'person'
     label: 'Person'
     folder: 'src/content/persons'
@@ -46,22 +88,24 @@ collections:
         }
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Surname', name: 'surname', widget: 'string', required: true }
+      - { label: 'Role', name: 'role', widget: 'string', required: true }
       - {
           label: 'Photo',
           name: 'photo',
           widget: 'image',
           default: '/uploads/portrait-placeholder.png',
+          media_library: { config: { multiple: false } },
           required: false,
         }
-      - { label: 'Bio', name: 'bio', widget: 'text', required: false }
+      - { label: 'About', name: 'about', widget: 'text', required: false }
       - {
           label: 'Linkedin',
           name: 'linkedin',
           widget: 'string',
           required: false,
         }
-      - label: 'Role'
-        name: 'role'
+      - label: 'Label'
+        name: 'label'
         widget: 'select'
         options:
           - { label: 'Mentor', value: 'mentor' }
@@ -73,6 +117,7 @@ collections:
           widget: 'relation',
           collection: 'tracklists',
           searchFields: ['title'],
+          valueField: 'title',
           required: false,
         }
 
@@ -97,10 +142,20 @@ collections:
         }
       - { label: 'Description', name: 'description', widget: 'text' }
       - {
+          label: 'Key Mentor',
+          name: 'keyMentor',
+          widget: 'relation',
+          collection: 'person',
+          searchFields: ['surname', 'name'],
+          valueField: 'surname',
+          required: true,
+        }
+      - {
           label: 'Featured Image',
           name: 'featuredimage',
           widget: image,
           required: true,
+          media_library: { config: { multiple: false } },
           default: '/uploads/portrait-placeholder.png',
         }
 

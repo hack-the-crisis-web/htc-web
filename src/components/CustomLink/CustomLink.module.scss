@@ -1,6 +1,17 @@
 @import '../../styles/styleSetup.scss';
 
 .customLink {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
+
   &.light {
     color: $white;
   }
@@ -11,8 +22,7 @@
 }
 
 .text {
-  padding-bottom: 3px;
-  border-bottom: 1px solid;
+  padding-bottom: 5px;
   color: inherit;
 }
 

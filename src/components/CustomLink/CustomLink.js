@@ -1,19 +1,30 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import classNames from 'classnames'
+import classnames from 'classnames'
 import styles from './CustomLink.module.scss'
 
 const CustomLink = ({ children, to, light }) => {
-  return (
-    <Link
-      className={classNames(styles.customLink, {
-        [styles['light']]: light,
-      })}
-      to={to}
-    >
+  const isInternal = !!to && /^\/(?!\/)/.test(to)
+
+  const linkContent = (
+    <>
       <span className={styles.text}>{children}</span>
       <span className={styles.arrow}>&gt;</span>
+    </>
+  )
+
+  const linkClasses = classnames(styles.customLink, {
+    [styles['light']]: light,
+  })
+
+  return isInternal ? (
+    <Link className={linkClasses} to={to}>
+      {linkContent}
     </Link>
+  ) : (
+    <a className={linkClasses} href={to}>
+      {linkContent}
+    </a>
   )
 }
 

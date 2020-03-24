@@ -1,0 +1,8 @@
+@import '../../styles/styleSetup.scss';
+
+.bottomMargin {
+  margin-bottom: 50px;
+  @include desktop() {
+    margin-bottom: 100px;
+  }
+}

@@ -12,7 +12,7 @@ const FooterCategory = ({ title, linkColumns }) => (
     {linkColumns.length > 1 &&
       linkColumns.map((column, index) =>
         index === 0 ? null : (
-          <div className={styles.menuColumn}>
+          <div className={styles.menuColumn} key={index}>
             <FooterCategoryTitle title="&nbsp;" />
             <FooterCategoryLinks links={column} />
           </div>

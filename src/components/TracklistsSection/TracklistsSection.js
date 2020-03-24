@@ -22,9 +22,11 @@ const TracklistsSection = () => (
         )}
       >
         {[...Array(12).keys()].map(index => (
-          <div className="column is-half-mobile is-half-tablet is-one-third-desktop">
+          <div
+            className="column is-half-mobile is-half-tablet is-one-third-desktop"
+            key={index}
+          >
             <TracklistsCard
-              key={index}
               url="/"
               title="Education"
               text="Impedit quo minus id quod maxime Est et expedita distinctio. Nam libero.impedit quo mi"

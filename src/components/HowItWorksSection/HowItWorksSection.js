@@ -25,13 +25,13 @@ const HowItWorksSection = props => (
       </p>
 
       <div className="columns">
-        <div class="column">
+        <div className="column">
           <IdeaCard />
         </div>
-        <div class="column">
+        <div className="column">
           <IdeaCard />
         </div>
-        <div class="column">
+        <div className="column">
           <IdeaCard />
         </div>
       </div>

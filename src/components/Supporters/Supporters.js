@@ -16,17 +16,23 @@ const Supporters = ({ data }) => {
         {edges.map(
           ({
             node: {
-              frontmatter: { name, link, image },
+              frontmatter: { name, link, image, templateKey },
             },
           }) => {
             return (
-              <div key={name} className="column">
-                <a href={link} target="_blank">
-                  <figure className="image is-3by1" height="45px" width="156px">
-                    <img src={image} height="45px" width="156px" alt={name} />
-                  </figure>
-                </a>
-              </div>
+              templateKey === 'supporters' && (
+                <div key={name} className="column">
+                  <a href={link} target="_blank">
+                    <figure
+                      className="image is-3by1"
+                      height="45px"
+                      width="156px"
+                    >
+                      <img src={image} height="45px" width="156px" alt={name} />
+                    </figure>
+                  </a>
+                </div>
+              )
             )
           }
         )}
@@ -37,15 +43,29 @@ const Supporters = ({ data }) => {
         Sponsors
       </h2>
       <div className="columns">
-        {/* {sponsors.map(({ image, name, link }) => (
-          <div className="column">
-            <a href={link} target="_blank">
-              <figure class="image is-3by1" height="45px" width="156px">
-                <img src={image} height="45px" width="156px" alt={name} />
-              </figure>
-            </a>
-          </div>
-        ))} */}
+        {edges.map(
+          ({
+            node: {
+              frontmatter: { name, link, image, templateKey },
+            },
+          }) => {
+            return (
+              templateKey === 'sponsors' && (
+                <div key={name} className="column">
+                  <a href={link} target="_blank">
+                    <figure
+                      className="image is-3by1"
+                      height="45px"
+                      width="156px"
+                    >
+                      <img src={image} height="45px" width="156px" alt={name} />
+                    </figure>
+                  </a>
+                </div>
+              )
+            )
+          }
+        )}
       </div>
     </div>
   )
@@ -56,11 +76,14 @@ export default () => (
     query={graphql`
       query Supporters {
         allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { eq: "supporters" } } }
+          filter: {
+            frontmatter: { templateKey: { in: ["supporters", "sponsors"] } }
+          }
         ) {
           edges {
             node {
               frontmatter {
+                templateKey
                 name
                 link
                 image
@@ -70,6 +93,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <Supporters data={data} count={count} />}
+    render={data => <Supporters data={data} />}
   />
 )

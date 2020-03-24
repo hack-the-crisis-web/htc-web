@@ -1,6 +1,5 @@
 import React from 'react'
 import classNames from 'classnames'
-import CusomLink from '../CustomLink/CustomLink'
 import Button from '../Button/Button'
 import styles from './HowItWorksSection.module.scss'
 

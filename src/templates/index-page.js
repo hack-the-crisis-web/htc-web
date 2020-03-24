@@ -8,6 +8,7 @@ import BlogRoll from '../components/BlogRoll'
 import HeroSection from '../components/HeroSection/HeroSection'
 import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
 import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
+import Supporters from '../components/Supporters/Supporters'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -87,6 +88,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
               </div>
+              <Supporters />
             </div>
           </div>
         </div>

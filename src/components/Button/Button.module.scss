@@ -2,15 +2,15 @@
 
 
 /* BRAND SPECIFIC VARIABLES */
-$main-color: $primary;
-$main-color-hover: $primary;
-$main-color-disabled: $primary;
+$main-color: $warning;
+$main-color-hover: $warning;
+$main-color-disabled: $warning;
 
 $large-font-size: 16px;
 $large-padding: 16px 22px;
 
 $normal-font-size: 17px;
-$normal-padding: 12px 50px;
+$normal-padding: 17px 35px;
 
 $small-font-size: 14px;
 $small-padding: 10px 18px;
@@ -61,13 +61,14 @@ a.button {
   outline: 0;
   display: flex;
   align-items: center;
-  font-size: 16px;
-  border-radius: 5px;
+  font-size: 17px;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid transparent;
   line-height: 1;
+  border-radius: 0;
+  height: unset;
 
 
   @include buttonSize($normal-font-size, $normal-padding);

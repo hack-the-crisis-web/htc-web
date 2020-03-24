@@ -3,8 +3,8 @@ import TracklistsCard from '../TracklistsCard/TracklistsCard'
 
 import styles from './TracklistsSection.module.scss'
 
-const TracklistsSection = props => (
-  <div className="container has-background-info has-text-primary">
+const TracklistsSection = (props) => (
+  <div className="container  has-text-primary has-background-success">
     <h5 className="header-medium">Tracklists</h5>
     <div>
       <p>

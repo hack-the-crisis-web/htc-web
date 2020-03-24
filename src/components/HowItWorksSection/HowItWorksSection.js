@@ -1,6 +1,7 @@
 import React from 'react'
 import classNames from 'classnames'
 import CusomLink from '../CustomLink/CustomLink'
+import Button from '../Button/Button'
 import styles from './HowItWorksSection.module.scss'
 
 const IdeaCard = () => (
@@ -11,7 +12,7 @@ const IdeaCard = () => (
       Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
       tempore, cum soluta nobis es.
     </p>
-    <CusomLink>See Tracklists</CusomLink>
+    <Button>See Tracklists</Button>
   </div>
 )
 

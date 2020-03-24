@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button'
 import Icon from '../Icon/Icon'
-import Card from '../SlackCard/SlackCard'
+import SlackCard from '../SlackCard/SlackCard'
 import CustomLink from '../CustomLink/CustomLink'
 
 import styles from './HeroSection.module.scss'
@@ -18,13 +18,16 @@ const HeroSection = ({ title, subheading, eventDate }) => (
     <div className="container columns">
       <div>
         <div className={styles.iconWrapper}>
-          <Icon type="slack" size="smd" />
+          <Icon type="slack-colour" size="smd" />
           <p className="header-medium">News</p>
         </div>
-        <CustomLink to="/">Join slack for more</CustomLink>
+        <CustomLink light to="/">
+          Join slack for more
+        </CustomLink>
       </div>
       <div className="columns">
-        <Card
+        <SlackCard
+          className="has-text-primary"
           text="Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Est et expedita distinctio"
           image="https://bulma.io/images/placeholders/128x128.png"
         />

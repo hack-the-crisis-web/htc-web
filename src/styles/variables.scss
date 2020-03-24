@@ -21,17 +21,18 @@ $success: $light-blue;
 $warning: $orange;
 $danger: $light-beige;
 
-$body-color: $white;
+// $body-color: $white;
 
 $text: $black;
 $text-light: $light-grey;
 $text-strong: $black;
 
 // navbar: https://bulma.io/documentation/components/navbar/#variables
-$navbar-item-color: $body-color;
-$navbar-item-hover-color: $body-color;
+$navbar-item-color: $white;
+$navbar-item-hover-color: $white;
 $navbar-item-hover-background-color: transparent;
 $navbar-background-color: $primary;
 $navbar-height: 5rem;
 
 $family-sans-serif: 'Muli', sans-serif;
+$family-secondary: 'Prompt', sans-serif;

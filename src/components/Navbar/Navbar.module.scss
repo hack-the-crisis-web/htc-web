@@ -1,4 +1,4 @@
-@import "~bulma";
+@import "../../styles/styleSetup.scss";
 
 .hoverMenu {
   position: absolute;
@@ -13,7 +13,6 @@
 .flex {
   display: flex;
   flex-flow: column nowrap;
-  align-items: flex-end;
 
   @include desktop() {
     flex-flow: row nowrap;

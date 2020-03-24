@@ -1,9 +1,10 @@
 @charset "utf-8";
-@import "~bulma/sass/utilities/initial-variables";
+
+// configure style here
 
 $dark-blue: #0065f2;
 $blue: #bbd6fc;
-$light-blue: #EEF6FF;
+$light-blue: #eef6ff;
 $dark-purple: #d2dffe;
 $light-purple: #cddffc;
 $white: #ffffff;
@@ -15,3 +16,8 @@ $success: $dark-purple;
 $warning: $light-purple;
 
 $body-color: $white;
+
+// navbar: https://bulma.io/documentation/components/navbar/#variables
+$navbar-item-color: $primary;
+$navbar-item-hover-color: $primary;
+$navbar-item-hover-background-color: transparent;

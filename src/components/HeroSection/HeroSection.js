@@ -3,6 +3,7 @@ import Button from '../Button/Button'
 import Icon from '../Icon/Icon'
 import SlackCard from '../SlackCard/SlackCard'
 import CustomLink from '../CustomLink/CustomLink'
+import SlackIcon from '../../img/social/slackColour.svg'
 
 import styles from './HeroSection.module.scss'
 
@@ -18,7 +19,7 @@ const HeroSection = ({ title, subheading, eventDate }) => (
     <div className="container columns">
       <div>
         <div className={styles.iconWrapper}>
-          <Icon type="slack-colour" size="smd" />
+          <Icon src={SlackIcon} type="slack-colour" size="smd" />
           <p className="header-medium">News</p>
         </div>
         <CustomLink light to="/">

@@ -1,9 +1,24 @@
 @import '../../styles/styleSetup.scss';
 
 .header {
+  margin-top: 10px;
   margin-bottom: 10px;
 
   @include desktop() {
     margin-bottom: 55px;
+    margin-top: 55px;
   }
+}
+
+.logo {
+  height: 45px;
+  max-width: 155px;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link {
+  text-align: center;
+  display: block;
 }

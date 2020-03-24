@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import styles from './Supporters.module.scss'
+import '../all.sass'
 
 const Supporters = ({ data }) => {
   const { edges } = data.allMarkdownRemark
@@ -8,11 +9,11 @@ const Supporters = ({ data }) => {
   return (
     <div className="column">
       <h2
-        className={`has-text-centered is-size-3 has-text-black ${styles.header}`}
+        className={`is-size-4 has-text-black ${styles.header} is-family-secondary`}
       >
-        Organizing partners
+        Huge thanks folks
       </h2>
-      <div className="columns">
+      <div className="columns is-multiline">
         {edges.map(
           ({
             node: {
@@ -21,15 +22,9 @@ const Supporters = ({ data }) => {
           }) => {
             return (
               templateKey === 'supporters' && (
-                <div key={name} className="column">
-                  <a href={link} target="_blank">
-                    <figure
-                      className="image is-3by1"
-                      height="45px"
-                      width="156px"
-                    >
-                      <img src={image} height="45px" width="156px" alt={name} />
-                    </figure>
+                <div key={name} className="column is-3">
+                  <a href={link} target="_blank" className={styles.link}>
+                    <img className={styles.logo} src={image} alt={name} />
                   </a>
                 </div>
               )
@@ -38,11 +33,11 @@ const Supporters = ({ data }) => {
         )}
       </div>
       <h2
-        className={`has-text-centered is-size-3 has-text-black ${styles.header}`}
+        className={`is-size-4 has-text-black ${styles.header} is-family-secondary`}
       >
         Sponsors
       </h2>
-      <div className="columns">
+      <div className="columns is-multiline">
         {edges.map(
           ({
             node: {
@@ -51,15 +46,9 @@ const Supporters = ({ data }) => {
           }) => {
             return (
               templateKey === 'sponsors' && (
-                <div key={name} className="column">
-                  <a href={link} target="_blank">
-                    <figure
-                      className="image is-3by1"
-                      height="45px"
-                      width="156px"
-                    >
-                      <img src={image} height="45px" width="156px" alt={name} />
-                    </figure>
+                <div key={name} className="column is-3">
+                  <a href={link} target="_blank" className={styles.link}>
+                    <img className={styles.logo} src={image} alt={name} />
                   </a>
                 </div>
               )

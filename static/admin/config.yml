@@ -78,7 +78,7 @@ collections:
 
   - name: 'tracklists'
     label: 'Tracklists'
-    folder: 'src/content/mentors'
+    folder: 'src/content/tracklists'
     create: true
     slug: '{{slug}}'
     fields:

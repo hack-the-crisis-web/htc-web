@@ -1,22 +1,31 @@
 import React from 'react'
+import classNames from 'classnames'
 import Button from '../Button/Button'
-import Icon from '../Icon/Icon'
-import SlackCard from '../SlackCard/SlackCard'
-import CustomLink from '../CustomLink/CustomLink'
-import SlackIcon from '../../img/social/slackColour.svg'
+
+// waiting for slack integration
+// import Icon from '../Icon/Icon'
+// import SlackCard from '../SlackCard/SlackCard'
+// import CustomLink from '../CustomLink/CustomLink'
+// import SlackIcon from '../../img/social/slackColour.svg'
 
 import styles from './HeroSection.module.scss'
 
 const HeroSection = ({ title, subheading, eventDate }) => (
-  <div className={styles.heroWrapper}>
-    <h4>{eventDate}</h4>
-    <h1>{title}</h1>
-    <h3>{subheading}</h3>
-    <div className={styles.buttonWrapper}>
-      <Button>Tell me more</Button>
-      <Button btnStyle="outline">Submit idea</Button>
-    </div>
-    <div className="container columns">
+  <>
+    <section className={classNames('section', styles.heroWrapper)}>
+      <div className="container">
+        <h4>{eventDate}</h4>
+        <h1 className="is-family-secondary">{title}</h1>
+        <h3 className="is-family-secondary">{subheading}</h3>
+        <div className={styles.buttonWrapper}>
+          <Button>Tell me more</Button>
+          <Button btnStyle="outline">Join slack</Button>
+        </div>
+      </div>
+    </section>
+
+    {/* waiting for slack integration */}
+    {/* <div className="container columns">
       <div>
         <div className={styles.iconWrapper}>
           <Icon src={SlackIcon} type="slack-colour" size="smd" />
@@ -33,8 +42,8 @@ const HeroSection = ({ title, subheading, eventDate }) => (
           image="https://bulma.io/images/placeholders/128x128.png"
         />
       </div>
-    </div>
-  </div>
+    </div> */}
+  </>
 )
 
 export default HeroSection

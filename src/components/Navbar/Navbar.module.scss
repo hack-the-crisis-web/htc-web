@@ -4,17 +4,29 @@
   position: absolute;
   right: 0;
   left: 0;
+  padding-right: 50px;
 
   @include desktop() {
     position: static;
+    padding-right: 0;
   }
 }
 
-.flex {
-  display: flex;
-  flex-flow: column nowrap;
+.spaceRight {
+  @include touch() {
+    margin-right: 50px;
+  }
+}
+
+.navItem {
+  margin: 16px 0;
+  font-size: 28px;
+  font-weight: bold;
 
   @include desktop() {
-    flex-flow: row nowrap;
+    margin: 0 25px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 18px;
   }
 }

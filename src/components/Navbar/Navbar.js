@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 import classnames from "classnames";
-import logo from "../../img/logo.svg";
 
 import styles from "./Navbar.module.scss";
 import SocialIconLink from "../SocialIconLink/SocialIconLink";
+import Brand from "../Brand/Brand";
+import NavLink from "../NavLink/NavLink";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -36,6 +37,7 @@ const Navbar = class extends React.Component {
   };
 
   render() {
+    const navLinkClassnames = classnames("navbar-item", styles.navItem);
     return (
       <nav
         className="navbar is-transparent"
@@ -45,7 +47,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <Brand></Brand>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -70,30 +72,31 @@ const Navbar = class extends React.Component {
               className={classnames(
                 "navbar-start",
                 "has-text-right",
-                "has-text-centered-desktop"
+                "has-text-centered-desktop",
+                styles.spaceRight
               )}
             >
-              <Link className="navbar-item" to="/about">
+              <NavLink to="/about" className={navLinkClassnames}>
                 About
-              </Link>
-              <Link className="navbar-item" to="/products">
+              </NavLink>
+              <NavLink to="/products" className={navLinkClassnames}>
                 Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
+              </NavLink>
+              <NavLink to="/blog" className={navLinkClassnames}>
                 Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
+              </NavLink>
+              <NavLink to="/contact" className={navLinkClassnames}>
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
+              </NavLink>
+              <NavLink to="/contact/examples" className={navLinkClassnames}>
                 Form Examples
-              </Link>
+              </NavLink>
             </div>
             <div
               className={classnames(
                 "navbar-end",
                 "has-text-right",
-                styles.flex
+                styles.spaceRight
               )}
             >
               <div className="navbar-item">

@@ -3,13 +3,13 @@
 // configure style here
 
 $dark-purple: #101060;
-$dark-blue: #0060F6;
-$blue: #48B5E7;
-$light-blue: #BEE8FA;
+$dark-blue: #0060f6;
+$blue: #48b5e7;
+$light-blue: #bee8fa;
 $white: #ffffff;
-$orange: #F9583E;
+$orange: #f9583e;
 $black: #101010;
-$light-beige: #F4F1E9;
+$light-beige: #f4f1e9;
 $dark-grey: #202020;
 $light-grey: #979797;
 
@@ -22,11 +22,13 @@ $danger: $light-beige;
 
 $body-color: $white;
 
-// navbar: https://bulma.io/documentation/components/navbar/#variables
-$navbar-item-color: $primary;
-$navbar-item-hover-color: $primary;
-$navbar-item-hover-background-color: transparent;
-
 $text: $black;
 $text-light: $light-grey;
 $text-strong: $black;
+
+// navbar: https://bulma.io/documentation/components/navbar/#variables
+$navbar-item-color: $body-color;
+$navbar-item-hover-color: $body-color;
+$navbar-item-hover-background-color: transparent;
+$navbar-background-color: $primary;
+$navbar-height: 5rem;

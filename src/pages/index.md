@@ -70,20 +70,20 @@ howItWorksItems:
       tempore, cum soluta nobis es.
     ctaText: TRACKLISTS
     ctaLink: 'https://www.delfi.ee/'
-    image: /img/products-grid3.jpg
+    image: /img/step1.png
   - title: Start hacking
     textContent: >
       Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
       tempore, cum soluta nobis es.
     ctaText: SLACK
     ctaLink: /
-    image: 'https://via.placeholder.com/261.png/'
+    image: /img/step2.png
   - title: Register team
     textContent: >
       Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
       tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
     ctaText: GUAANA
     ctaLink: /
-    image: 'https://via.placeholder.com/237.png/'
+    image: /img/step3.png
 description: placeholder
 ---

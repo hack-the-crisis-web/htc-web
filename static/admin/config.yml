@@ -174,12 +174,27 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Event Date', name: eventDate, widget: string }
-          - { label: Subheading, name: subheading, widget: string, default: "" }
-          - { label: 'How it works', name: howItWorksDescription, widget: 'text', default: ""},
-          - { label: 'Tracklist', name: tracklistDescription, widget: 'text', default: ""},
-          - { label: 'Track Leads', name: trackleadsDescription, widget: 'text', default: ""},
+          - { label: Subheading, name: subheading, widget: string, default: '' }
           - {
-              label: "How it works Items",
+              label: 'How it works',
+              name: howItWorksDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: 'Tracklist',
+              name: tracklistDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: 'Track Leads',
+              name: trackleadsDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: 'How it works Items',
               name: howItWorksItems,
               widget: list,
               fields:

@@ -3,6 +3,6 @@ templateKey: person
 name: Person
 surname: Person
 role: Role
-photo: /uploads/portrait-placeholder.png
+photo: /img/testimage-removebg-preview.png
 label: track-lead
 ---

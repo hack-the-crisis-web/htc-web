@@ -6,7 +6,7 @@ description: >-
   How do we help medical workers and emergency response personnel and what
   lessons can we all take forward for the next crisis?
 featuredimage: /uploads/portrait-placeholder.png
-trackLogo: /src/img/placeholders/hero.png
+trackLogo: /img/crisis.jpg
 ---
 Medical workers and other emergency response personnel will be on the frontline of this pandemic, although many others will be working behind the scenes to support them, and every single person has a duty to help them by preventing the spread of the virus.
 

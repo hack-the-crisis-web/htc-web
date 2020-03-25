@@ -1,10 +1,10 @@
 ---
 templateKey: person
-name: Lisa very very very very very very long name
-surname: Smith
 personId: c
+name: 'Our person, not track lead'
+surname: Smith
 role: Director
 photo: /img/gandgi-removebg-preview.png
-label: track-lead
+label: our-people
 tracklist: ''
 ---

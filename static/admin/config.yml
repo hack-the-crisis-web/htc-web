@@ -93,7 +93,7 @@ collections:
           label: 'Photo',
           name: 'photo',
           widget: 'image',
-          default: '/uploads/portrait-placeholder.png',
+          default: '/src/img/placeholders/placeholder-person.png',
           media_library: { config: { multiple: false } },
           required: false,
         }

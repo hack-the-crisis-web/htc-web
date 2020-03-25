@@ -1,0 +1,48 @@
+@import '../../styles/styleSetup.scss';
+
+.tracklead {
+  background-color: $orange;
+}
+
+.mentor {
+  background-color: $blue;
+}
+
+.ourpeople {
+  background-color: $dark-green;
+}
+
+.persontile {
+  height: 300px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.tiletext {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+
+.personimage {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  width: 60%;
+  max-height: 70%;
+  object-fit: contain;
+
+  @include desktop() {
+    right: 35%;
+    transform: translate(50%);
+  }
+}

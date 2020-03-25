@@ -9,6 +9,7 @@ import Supporters from '../components/Supporters/Supporters'
 import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
+import TrackLeads from '../components/People/TrackLeads'
 import '../components/all.sass'
 
 export const IndexPageTemplate = ({
@@ -25,6 +26,8 @@ export const IndexPageTemplate = ({
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <HowItWorksSection />
     <TracklistsSection />
+    <TrackLeads />
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

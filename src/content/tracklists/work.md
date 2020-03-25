@@ -7,6 +7,7 @@ description: >-
   become the new normal and remain permanently.
 keyMentor: Obama
 featuredimage: /uploads/portrait-placeholder.png
+trackLogo: /img/work.jpg
 ---
 Organisations of all types and sizes have been forced to adapt during the crisis, largely by embracing remote work through technology and new processes. This is considerably easier for some than others, however.
 

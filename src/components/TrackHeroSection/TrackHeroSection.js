@@ -28,6 +28,13 @@ const TrackHeroSection = ({
             className={classnames('is-hidden-tablet', styles.responsiveImage)}
           >
             <img alt={hasMentor ? mentor : title} src={featuredImage} />
+            {trackLogo && (
+              <img
+                className={styles.trackLogo}
+                alt={title}
+                src={trackLogo}
+              />
+            )}
           </div>
           <div
             className={classnames(
@@ -41,7 +48,7 @@ const TrackHeroSection = ({
           {hasMentor && (
             <>
               <div className={classnames(styles.text, styles.mentorHeading)}>
-                KEY MENTOR
+                TRACK LEAD
               </div>
               <h2 className={classnames('is-family-secondary', styles.mentor)}>
                 {mentor}
@@ -55,6 +62,9 @@ const TrackHeroSection = ({
         </div>
         <div className={classnames('is-hidden-mobile', styles.image)}>
           <img alt={hasMentor ? mentor : title} src={featuredImage} />
+          {trackLogo && (
+            <img className={styles.trackLogo} alt={title} src={trackLogo} />
+          )}
         </div>
       </div>
     </Section>

@@ -7,6 +7,6 @@ description: >-
   was not expecting that. The parents were not expecting that. 
 
   What can we do better?
-keyMentor: 'b'
+keyMentor: b
 featuredimage: /img/testimonial.png
 ---

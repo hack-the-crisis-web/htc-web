@@ -1,9 +1,9 @@
 ---
 templateKey: person
-name: John
-surname: Smith
+name: Barack
+surname: Obama
 role: Test very long long long long name
-photo: /img/testimage-removebg-preview.png
+photo: /img/barack-removebg-preview.png
 label: track-lead
 tracklist: Economy
 ---

@@ -31,7 +31,12 @@ const SEO = ({ title, description, pathname }) => (
               content={`${withPrefix('/')}img/g48_crisis-cover.jpg`}
             />
             {seo.url && <meta property="og:url" content={seo.url} />}
-            {seo.title && <meta property="og:title" content={seo.title} />}
+            {seo.title && (
+              <meta
+                property="og:title"
+                content={`${seo.title} | The Global Hack`}
+              />
+            )}
             {seo.description && (
               <meta property="og:description" content={seo.description} />
             )}
@@ -42,7 +47,12 @@ const SEO = ({ title, description, pathname }) => (
               />
             )}
             <meta name="twitter:card" content="summary_large_image" />
-            {seo.title && <meta name="twitter:title" content={seo.title} />}
+            {seo.title && (
+              <meta
+                name="twitter:title"
+                content={`${seo.title} | The Global Hack`}
+              />
+            )}
             {seo.description && (
               <meta name="twitter:description" content={seo.description} />
             )}

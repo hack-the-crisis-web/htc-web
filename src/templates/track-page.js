@@ -6,6 +6,7 @@ import '../components/all.sass'
 import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
+import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
 
 export const TrackTemplate = ({
   title,
@@ -27,6 +28,12 @@ export const TrackTemplate = ({
       mentorAbout={mentorAbout}
       featuredImage={featuredImage}
       trackLogo={trackLogo}
+    />
+    <HTMLContentSection
+      title={'Content Title'}
+      content={
+        '<div><p>Some content in HTML</p><p>Other text</p><strong>bold text</strong></div>'
+      }
     />
   </>
 )

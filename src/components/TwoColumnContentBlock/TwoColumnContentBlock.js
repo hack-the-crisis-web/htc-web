@@ -1,5 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
+import PropTypes from 'prop-types'
 import contentBlockPropTypes from './contentBlockPropTypes'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import SectionDescription from '../SectionDescription/SectionDescription'
@@ -12,6 +13,8 @@ const TwoColumnContentBlock = ({
   image,
   ctaText,
   ctaLink,
+  titleClassName,
+  descriptionClassName,
 }) => {
   const shouldRenderCTA = !!ctaText && !!ctaLink
   return (
@@ -23,9 +26,10 @@ const TwoColumnContentBlock = ({
           </div>
         )}
         <div className="column">
-          {!!title && <SectionTitle title={title} />}
+          {!!title && <SectionTitle title={title} className={titleClassName} />}
           {!!textContent && (
             <SectionDescription
+              className={descriptionClassName}
               text={textContent}
               restrictWidth={false}
               marginBottom={25}
@@ -38,6 +42,10 @@ const TwoColumnContentBlock = ({
   )
 }
 
-TwoColumnContentBlock.propTypes = contentBlockPropTypes
+TwoColumnContentBlock.propTypes = {
+  ...contentBlockPropTypes,
+  titleClassName: PropTypes.string,
+  descriptionClassName: PropTypes.string,
+}
 
 export default TwoColumnContentBlock

@@ -3,18 +3,20 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SectionTitle from '../components/SectionTitle/SectionTitle'
-import AlternatingContent from '../components/AlternatingContent'
 import SectionDescription from '../components/SectionDescription/SectionDescription'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
+import FAQContent from '../components/FAQContent/FAQContent'
 
 export const FAQPageTemplate = ({ title, content, contentItems }) => (
-  <section className="section">
-    <div className="container">
-      <SectionTitle title={title}></SectionTitle>
-      <SectionDescription text={content}></SectionDescription>
-    </div>
-    <AlternatingContent contentItems={contentItems}></AlternatingContent>
-  </section>
+  <>
+    <section className="section">
+      <div className="container">
+        <SectionTitle title={title} />
+        {!!content && <SectionDescription text={content} />}
+      </div>
+    </section>
+    <FAQContent contentItems={contentItems}></FAQContent>
+  </>
 )
 
 FAQPageTemplate.propTypes = {

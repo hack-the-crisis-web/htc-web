@@ -7,15 +7,12 @@ import SectionDescription from '../SectionDescription/SectionDescription'
 import HowItWorksCard from './HowItWorksCard/HowItWorksCard'
 import styles from './HowItWorksSection.module.scss'
 
-const HowItWorksSection = ({ items }) => (
+const HowItWorksSection = ({ items, description }) => (
   <div className="has-background-danger">
     <Section>
       <div className={classnames('container has-text-primary')}>
         <SectionTitle title="How it works" />
-        <SectionDescription
-          className={styles.description}
-          text="Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo."
-        />
+        <SectionDescription className={styles.description} text={description} />
         <div className={classnames(styles.cards, 'columns is-multiline')}>
           {items.map(({ title, textContent, image, ctaText, ctaLink }) => (
             <div

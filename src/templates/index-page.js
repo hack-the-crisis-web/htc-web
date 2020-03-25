@@ -25,9 +25,12 @@ export const IndexPageTemplate = ({
   <>
     <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
-    <HowItWorksSection items={howItWorksItems} />
-    <TracklistsSection />
-    <TrackLeads />
+    <HowItWorksSection
+      description={howItWorksDescription}
+      items={howItWorksItems}
+    />
+    <TracklistsSection description={tracklistDescription} />
+    <TrackLeads description={trackleadsDescription} />
     <Supporters />
   </>
 )

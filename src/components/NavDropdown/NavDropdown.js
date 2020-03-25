@@ -14,9 +14,14 @@ class NavDropdown extends React.Component {
 
     return (
       <div
-        className={classnames(styles.button, buttonClassName, {
-          [styles.buttonClosed]: !open,
-        })}
+        className={classnames(
+          styles.button,
+          buttonClassName,
+          {
+            [styles.buttonClosed]: !open,
+          },
+          { 'cancel-effect': open }
+        )}
         onClick={this.toggleOpen}
       >
         <div

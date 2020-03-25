@@ -8,7 +8,6 @@ import SectionDescription from '../SectionDescription/SectionDescription'
 import TracklistsCard from '../TracklistsCard/TracklistsCard'
 
 const TracklistsSection = ({ data, description }) => {
-  console.log(description)
   return (
     <div className="has-background-success">
       <Section>

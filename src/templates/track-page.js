@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
-
-import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import '../components/all.sass'
+import Layout from '../components/Layout'
+import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
+import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 
 export const TrackTemplate = ({
   title,
@@ -15,17 +15,27 @@ export const TrackTemplate = ({
   mentorSurname,
   mentorRole,
   mentorAbout,
+  featuredImage,
 }) => (
-  <div>
-    TrackTemplate
-    <h1>{title}</h1>
-    <h1>{description}</h1>
-    <h1>{hashtag}</h1>
-    <h1>{mentorName}</h1>
-    <h1>{mentorSurname}</h1>
-    <h1>{mentorRole}</h1>
-    <h1>{mentorAbout}</h1>
-  </div>
+  <>
+    <TrackHeroSection
+      title={title}
+      description={description}
+      hasMentor={!!mentorName}
+      mentor={`${mentorName} ${mentorSurname}`}
+      mentorRole={mentorRole}
+      mentorAbout={mentorAbout}
+      featuredImage={featuredImage}
+    />
+    {/*TrackTemplate*/}
+    {/*<h1>{title}</h1>*/}
+    {/*<h1>{description}</h1>*/}
+    {/*<h1>{hashtag}</h1>*/}
+    {/*<h1>{mentorName}</h1>*/}
+    {/*<h1>{mentorSurname}</h1>*/}
+    {/*<h1>{mentorRole}</h1>*/}
+    {/*<h1>{mentorAbout}</h1>*/}
+  </>
 )
 
 TrackTemplate.propTypes = {
@@ -49,6 +59,7 @@ const TrackPage = ({ data }) => {
         mentorSurname={mentor.frontmatter.surname}
         mentorRole={mentor.frontmatter.role}
         mentorAbout={mentor.frontmatter.about}
+        featuredImage={frontmatter.featuredimage}
       />
     </Layout>
   )

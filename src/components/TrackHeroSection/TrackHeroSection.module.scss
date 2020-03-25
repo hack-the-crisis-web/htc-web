@@ -1,0 +1,100 @@
+@import '../../styles/styleSetup.scss';
+
+.bg {
+  background-color: $light-blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px 0;
+
+  & > div {
+    flex-basis: 50%;
+  }
+
+  .details {
+    margin-right: 60px;
+    text-align: left;
+    color: $primary;
+
+    .text {
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: 20px;
+    }
+
+    .titleHeading {
+      margin-bottom: 22px;
+    }
+
+    h1.title {
+      margin-bottom: 20px;
+      font-size: 70px;
+      font-weight: bold;
+      letter-spacing: 0;
+      line-height: 60px;
+    }
+
+    .description {
+      margin-bottom: 70px;
+    }
+
+    .mentorHeading {
+      margin-bottom: 10px;
+    }
+
+    h2.mentor {
+      margin-bottom: 6px;
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0;
+      line-height: 40px;
+    }
+
+    .mentorRole {
+      margin-bottom: 14px;
+    }
+  }
+
+  .image {
+    margin-left: 60px;
+    text-align: center;
+  }
+
+  @include mobile() {
+    padding: 0;
+
+    .details {
+      margin-left: auto;
+      margin-right: auto;
+
+      .titleHeading {
+        margin-bottom: 0;
+      }
+
+      h1.title {
+        margin-bottom: 50px;
+        font-size: 50px;
+        line-height: 50px;
+      }
+
+      .responsiveImage {
+        margin-bottom: 29px;
+      }
+
+      .mentorHeading {
+        margin-bottom: 0;
+      }
+
+      h2.mentor {
+        margin-bottom: 15px;
+      }
+
+      .mentorRole {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

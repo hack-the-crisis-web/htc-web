@@ -9,9 +9,14 @@ import '../all.sass'
 // import CustomLink from '../CustomLink/CustomLink'
 // import SlackIcon from '../../img/social/slackColour.svg'
 
-const HeroSection = ({ title, subheading, eventDate }) => (
+const HeroSection = ({ title, subheading, eventDate, backgroundImage }) => (
   <>
-    <section className={classNames('section', styles.heroWrapper)}>
+    <section
+      className={classNames('section', styles.heroWrapper)}
+      style={
+        backgroundImage ? { backgroundImage: `url('${backgroundImage}')` } : {}
+      }
+    >
       <div className="container">
         <div className="columns">
           <div className="column is-7 is-offset-1">

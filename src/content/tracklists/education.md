@@ -7,6 +7,6 @@ description: >-
   was not expecting that. The parents were not expecting that. What can we do
   better? What if one text is much much much  much much much  much much much
   much much much longer than the other?
-keyMentor: c
+keyMentor: ''
 featuredimage: /img/testimonial.png
 ---

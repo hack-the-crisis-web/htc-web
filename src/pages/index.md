@@ -1,8 +1,8 @@
 ---
+heroImage: /img/wide-pic.png
 heading: placeholder
 templateKey: index-page
 title: Fighting off the crisis
-heroImage: /img/hero.png
 eventDate: 3-5th of April
 subheading: >-
   3 billion people in lockdown. Join the world's biggest hackathon so we never

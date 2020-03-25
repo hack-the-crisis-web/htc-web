@@ -1,11 +1,13 @@
 import React from 'react'
-import classnames from 'classnames'
-import styles from './Section.module.scss'
 
-const Section = ({ className, children }) => (
-  <section className={classnames('section', styles.section, className)}>
-    {children}
-  </section>
+const Section = ({ children }) => (
+  <div className="section section--gradient">
+    <div className="container">
+      <div className="columns">
+        <div className="column is-10 is-offset-1">{children}</div>
+      </div>
+    </div>
+  </div>
 )
 
 export default Section

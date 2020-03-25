@@ -22,25 +22,14 @@ export const IndexPageTemplate = ({
   tracklistDescription,
   trackleadsDescription,
 }) => (
-  <div>
+  <>
     <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <HowItWorksSection items={howItWorksItems} />
     <TracklistsSection />
     <TrackLeads />
-
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Supporters />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+    <Supporters />
+  </>
 )
 
 IndexPageTemplate.propTypes = {

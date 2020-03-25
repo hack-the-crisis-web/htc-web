@@ -1,4 +1,5 @@
 import React from 'react'
+import classnames from 'classnames'
 import '../../all.sass'
 import Button from '../../Button/Button'
 import styles from './HowItWorksCard.module.scss'
@@ -11,7 +12,7 @@ const HowItWorksCard = ({
   buttonLabel,
   buttonUrl,
 }) => (
-  <div className={styles.card}>
+  <div className={classnames(styles.card, 'column is-10')}>
     {!!image && (
       <div className={styles.imageContainer}>
         <img src={image.publicURL} alt={title} />

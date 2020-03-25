@@ -93,14 +93,20 @@ export const pageQuery = graphql`
         howItWorksItems {
           title
           textContent
-          image
+          image {
+            id
+            publicURL
+          }
           ctaText
           ctaLink
         }
         contentItems {
           title
           textContent
-          image
+          image {
+            id
+            publicURL
+          }
           ctaText
           ctaLink
         }

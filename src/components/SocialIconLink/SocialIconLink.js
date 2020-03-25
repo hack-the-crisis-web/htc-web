@@ -6,6 +6,8 @@ import twitterBlackIcon from '../../img/social/twitterBlack.svg'
 import garage48BlackIcon from '../../img/social/garage48Black.svg'
 import slackBlackIcon from '../../img/social/slackBlack.svg'
 import guaanaBlackIcon from '../../img/social/guaanaBlack.svg'
+import slackWhiteIcon from '../../img/social/slackWhite.svg'
+import guaanaWhiteIcon from '../../img/social/guaanaWhite.svg'
 
 import styles from './SocialIconLink.module.scss'
 
@@ -45,7 +47,7 @@ const getSlackIcon = color => {
       return slackBlackIcon
     case 'white':
     default:
-      return slackBlackIcon
+      return slackWhiteIcon
   }
 }
 
@@ -55,7 +57,7 @@ const getGuaanaIcon = color => {
       return guaanaBlackIcon
     case 'white':
     default:
-      return guaanaBlackIcon
+      return guaanaWhiteIcon
   }
 }
 

@@ -8,16 +8,22 @@ const SectionDescription = ({
   restrictWidth = true,
   marginBottom = 55,
 }) => (
-  <p
+  <div
     className={classnames(
       styles.content,
-      restrictWidth && styles.restrictWidth,
+      { [styles.restrictWidth]: restrictWidth },
       className
     )}
     style={{ marginBottom: marginBottom }}
   >
-    {text}
-  </p>
+    {!!text &&
+      !!text.length &&
+      text.split('\n\n').map((paragraph, i) => (
+        <p className={styles.p} key={i}>
+          {paragraph}
+        </p>
+      ))}
+  </div>
 )
 
 export default SectionDescription

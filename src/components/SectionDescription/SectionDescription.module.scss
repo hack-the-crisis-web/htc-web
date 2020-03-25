@@ -8,6 +8,12 @@
   line-height: 25px;
 }
 
+.p {
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+}
+
 .restrictWidth {
   max-width: 526px;
 }

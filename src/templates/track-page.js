@@ -6,6 +6,7 @@ import '../components/all.sass'
 import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
+import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
 
 export const TrackTemplate = ({
   title,
@@ -16,6 +17,7 @@ export const TrackTemplate = ({
   mentorAbout,
   featuredImage,
   trackLogo,
+  content,
 }) => (
   <>
     <TrackHeroSection
@@ -28,6 +30,9 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
+    {content && (
+      <HTMLContentSection title={'Content Title'} content={content} />
+    )}
   </>
 )
 
@@ -54,6 +59,7 @@ const TrackPage = ({ data }) => {
         mentorAbout={mentor ? mentor.frontmatter.about : undefined}
         featuredImage={frontmatter.featuredimage}
         trackLogo={frontmatter.trackLogo}
+        content={data.markdownRemark.html}
       />
     </Layout>
   )
@@ -72,6 +78,7 @@ export default TrackPage
 export const pageQuery = graphql`
   query TrackTemplate($slug: String!, $keyMentorId: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
       frontmatter {
         title
         description

@@ -1,5 +1,5 @@
 ---
-heroImage: /img/wide-pic.png
+heroImage: /img/keyvisual_nologo.jpg
 heading: placeholder
 templateKey: index-page
 title: Fighting off the crisis

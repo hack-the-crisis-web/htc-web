@@ -28,24 +28,27 @@ title: Back to the Future
 howItWorksDescription: Global online 48 hours Hackaton mission in one sentence
 tracklistDescription: Global online 48 hours Hackaton mission in one sentence
 trackleadsDescription: Global online 48 hours Hackaton mission in one sentence
-description: placeholder
 howItWorksItems:
   - title: Share ideas
     textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis es.
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
+      tempore, cum soluta nobis es.
     ctaText: TRACKLISTS
-    ctaLink: /
-    image: https://via.placeholder.com/216.png/
+    ctaLink: 'https://www.delfi.ee/'
+    image: /img/products-grid3.jpg
   - title: Start hacking
     textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis es.
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
+      tempore, cum soluta nobis es.
     ctaText: SLACK
     ctaLink: /
-    image: https://via.placeholder.com/261.png/
+    image: 'https://via.placeholder.com/261.png/'
   - title: Register team
     textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
+      tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
     ctaText: GUAANA
     ctaLink: /
-    image: https://via.placeholder.com/237.png/
+    image: 'https://via.placeholder.com/237.png/'
+description: placeholder
 ---

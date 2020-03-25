@@ -1,12 +1,14 @@
 ---
 templateKey: about-page
 path: /about
-title: About Garage48
+title: About
 ---
-Garage48 hackathon series was initiated to boost a local startup scene by bringing the Silicon Valley attitude to Eastern Europe as well as to other developing markets. Our event series got started back in April 2010 as an initiative of 6 active Estonian entrepreneurs behind successful startups - Pipedrive, Fortumo, Weekdone, Mooncascade and Taxify. As startup founders themselves, the idea was to create an experience which simulates a resource constrained startup environment- where decisions have to be made fast and the budget is often lean. In addition, the goal was to show that with a strong motivation and get sh*t done attitude a lot can be achieved in just 48-hours, resulting in a real prototype and learning from others in the process.
+On 14–15 March, 2020 something spectacular started in Estonia. It took fewer than six hours for AccelerateEstonia, Garage48, and Guaana to put together an online hackathon with the aim of tackling the expected devastating effects of the Coronavirus crisis. More than a thousand people across fourteen time zones joined this effort, resulting in over thirty proposals—some of which are already up and running in affected countries around the world.
 
-![](/img/capture.png)
+It didn’t take long for news to spread about this amazing online hackathon. As a result, there are currently about thirty different initiatives taking place, from India, to Georgia, to Brazil. If there ever was a time to go all out in our efforts to address the transformation necessary to survive, and thrive, in a post-pandemic world, then this is it!
 
-More than 8 years later, after 140 hackathons organized in 43 different cities and 25 countries all across the globe, more than 1500 ideas pitched and nearly 800 prototypes built, the goal has remained the same- to enrich the startup ecosystems all across the globe from a grassroots level to**bring the utmost impact to the startup world on a lean budget in a limited amount of time.**
+This crisis is far from over. The need to begin addressing the problems that we’ll face as a global society, once we can venture out from our homes again, is now. How will we deal with the expected massive changes to our economy, workplaces, healthcare, and environment as we find our world order transformed—perhaps, beyond recognition?
 
-Our hackathons are shaped around diverse focus points varying from theme-based ones with IT-skillset requirements (e.g. AgTech, Cyber Security, Female Entrepreneurship, VR&AR etc.) to makeathon events where the main focus is on creating physical objects instead of IT-based prototypes (e.g. Wood, Hardware & Arts series, Defence etc.).
+On 3–5 April, 2020 we’re putting on The Global Hack to imagine the possibilities and create solutions to meet the needs of our changed world. Our goal is to bring together world class mentors and globally-talented teams to build solutions for better tomorrows.
+
+We’re looking for brilliant people from every corner of the globe to participate in The Global Hack. We find ourselves in a unique situation, and are literally all in this together—the entire world is looking for solutions to the same problems at the same time.

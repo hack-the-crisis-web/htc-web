@@ -3,10 +3,7 @@ module.exports = {
     title: 'The Global Hack',
     description:
       'Global hack is the biggest online hackathon in the world fighting off the crisis to battle the problems we are facing as a global society after the immediate corona crisis is over. We are bringing together world class mentors and globally talented teams to build the solutions for the better future. Together.',
-
-    titleTemplate: '%s | The Global Hack',
     url: 'https://theglobalhack.com',
-    image: '/img/g48_crisis-cover.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

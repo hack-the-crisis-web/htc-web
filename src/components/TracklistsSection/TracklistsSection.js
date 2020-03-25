@@ -22,7 +22,7 @@ const TracklistsSection = ({ data }) => {
               (
                 {
                   node: {
-                    frontmatter: { title, description, featuredimage },
+                    frontmatter: { title, description, featuredimage, hashtag },
                   },
                 },
                 index
@@ -37,6 +37,7 @@ const TracklistsSection = ({ data }) => {
                       title={title}
                       text={description}
                       image={featuredimage}
+                      hashtag={hashtag}
                     />
                   </div>
                 )
@@ -62,6 +63,7 @@ export default () => (
                 title
                 description
                 featuredimage
+                hashtag
               }
             }
           }

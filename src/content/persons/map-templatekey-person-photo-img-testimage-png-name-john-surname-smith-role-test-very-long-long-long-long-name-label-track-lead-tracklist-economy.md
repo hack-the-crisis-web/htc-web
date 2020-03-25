@@ -8,6 +8,6 @@ photo: /img/barack-removebg-preview.png
 about: >-
   "We are on the verge of a economic crisis that no one can imagine. It hits all
   people and all sectors."
-label: track-lead
+label: our-people
 tracklist: Economy
 ---

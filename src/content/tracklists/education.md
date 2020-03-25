@@ -9,4 +9,5 @@ description: >-
   What can we do better?
 keyMentor: ''
 featuredimage: /img/testimonial.png
+trackLogo: /img/education.jpg
 ---

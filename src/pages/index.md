@@ -1,7 +1,7 @@
 ---
 heading: placeholder
 templateKey: index-page
-title: FIGHTING OFF THE CRISIS
+title: Fighting off the crisis
 eventDate: 3-5th of April
 subheading: >-
   3 billion people in lockdown. Join the world's biggest hackathon so we never

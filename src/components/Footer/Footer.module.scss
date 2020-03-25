@@ -1,6 +1,10 @@
 @import '../../styles/styleSetup.scss';
 
-footer.footer {
+.footerWrapper {
+  padding-bottom: 0;
+}
+
+.footerInfoContainer {
   position: relative;
   width: $widescreen;
   max-width: 90%;

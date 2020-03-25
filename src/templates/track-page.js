@@ -48,10 +48,10 @@ const TrackPage = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.description}
         hashtag={frontmatter.hashtag}
-        mentorName={mentor.frontmatter.name}
-        mentorSurname={mentor.frontmatter.surname}
-        mentorRole={mentor.frontmatter.role}
-        mentorAbout={mentor.frontmatter.about}
+        mentorName={mentor ? mentor.frontmatter.name : undefined}
+        mentorSurname={mentor ? mentor.frontmatter.surname : undefined}
+        mentorRole={mentor ? mentor.frontmatter.role : undefined}
+        mentorAbout={mentor ? mentor.frontmatter.about : undefined}
         featuredImage={frontmatter.featuredimage}
         trackLogo={frontmatter.trackLogo}
       />

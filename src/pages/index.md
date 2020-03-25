@@ -30,15 +30,22 @@ tracklistDescription: Global online 48 hours Hackaton mission in one sentence
 trackleadsDescription: Global online 48 hours Hackaton mission in one sentence
 description: placeholder
 howItWorksItems:
-  - title: howItWorksItems
+  - title: Share ideas
     textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque. 
-      Nihil impedit quo minus id quod maxime Est et expedita distinctio.
-      Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxim.
-    ctaText: Find out more
-    ctaLink: /about
-    image: https://bulma.io/images/placeholders/1280x960.png
-  - title: Problems come with opportunities
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis es.
+    ctaText: TRACKLISTS
+    ctaLink: /
+    image: https://via.placeholder.com/216.png/
+  - title: Start hacking
     textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.\nId quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime.
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis es.
+    ctaText: SLACK
+    ctaLink: /
+    image: https://via.placeholder.com/261.png/
+  - title: Register team
+    textContent: >
+      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
+    ctaText: GUAANA
+    ctaLink: /
+    image: https://via.placeholder.com/237.png/
 ---

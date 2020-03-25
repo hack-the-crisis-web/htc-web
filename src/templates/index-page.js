@@ -24,7 +24,7 @@ export const IndexPageTemplate = ({
   <div>
     <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
-    <HowItWorksSection />
+    <HowItWorksSection items={contentItems} />
     <TracklistsSection />
     <TrackLeads />
 

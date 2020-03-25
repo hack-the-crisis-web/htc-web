@@ -17,6 +17,7 @@ export const TrackTemplate = ({
   mentorAbout,
   featuredImage,
   trackLogo,
+  content,
 }) => (
   <>
     <TrackHeroSection
@@ -29,12 +30,9 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
-    <HTMLContentSection
-      title={'Content Title'}
-      content={
-        '<div><p>Some content in HTML</p><p>Other text</p><strong>bold text</strong></div>'
-      }
-    />
+    {content && (
+      <HTMLContentSection title={'Content Title'} content={content} />
+    )}
   </>
 )
 
@@ -61,6 +59,7 @@ const TrackPage = ({ data }) => {
         mentorAbout={mentor ? mentor.frontmatter.about : undefined}
         featuredImage={frontmatter.featuredimage}
         trackLogo={frontmatter.trackLogo}
+        content={data.markdownRemark.html}
       />
     </Layout>
   )
@@ -79,6 +78,7 @@ export default TrackPage
 export const pageQuery = graphql`
   query TrackTemplate($slug: String!, $keyMentorId: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
       frontmatter {
         title
         description

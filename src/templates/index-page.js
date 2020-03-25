@@ -59,7 +59,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         eventDate={frontmatter.eventDate}
-        contentItems={frontmatter.contentItems}
+        contentItems={frontmatter.howItWorksItems}
         howItWorksDescription={frontmatter.howItWorksDescription}
         tracklistDescription={frontmatter.tracklistDescription}
         trackleadsDescription={frontmatter.trackleadsDescription}
@@ -88,7 +88,7 @@ export const pageQuery = graphql`
         howItWorksDescription
         tracklistDescription
         trackleadsDescription
-        contentItems {
+        howItWorksItems {
           title
           textContent
           image

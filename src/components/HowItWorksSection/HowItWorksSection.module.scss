@@ -1,29 +1,24 @@
-@import "../../styles/variables.scss";
+@import '../../styles/styleSetup.scss';
 
-.card {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    height: 550px;
-    align-items: flex-start;
+.container {
+  padding: 72px 0 86px 0;
 
-    img {
-        height: 300px;
-        width: 300px;
+  .cards {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include until($desktop) {
+    padding: 50px 0 76px 0;
+
+    .description {
+      margin-bottom: 0 !important;
     }
 
-    h5 {
-        font-size: 32px;
-        font-weight: bold;
-        margin: 30px 0 12px 0;
+    .column {
+      display: flex;
+      justify-content: center;
     }
-
-    p {
-        margin-bottom: auto;
-    }
+  }
 }
-
-.wrapper {
-    background-color: $danger;
-}
-

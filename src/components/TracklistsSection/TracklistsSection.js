@@ -19,31 +19,37 @@ const TracklistsSection = ({ data }) => {
           text="Placeat facere possimus, omnis voluptas assumenda est, omnis dolor
             repellendus.Mxime placeat facere possimus, omnis voluptas."
         />
-
-        {data.map(
-          (
-            {
-              node: {
-                frontmatter: { title, description, featuredimage },
+        <div
+          className={classnames(
+            styles.cardsWrapper,
+            'columns is-multiline is-mobile is-desktop'
+          )}
+        >
+          {data.map(
+            (
+              {
+                node: {
+                  frontmatter: { title, description, featuredimage },
+                },
               },
-            },
-            index
-          ) => {
-            return (
-              <div
-                key={index}
-                className="column is-half-mobile is-half-tablet is-one-third-desktop"
-              >
-                <TracklistsCard
-                  url="/"
-                  title={title}
-                  text={description}
-                  image={featuredimage}
-                />
-              </div>
-            )
-          }
-        )}
+              index
+            ) => {
+              return (
+                <div
+                  key={index}
+                  className="column is-half-mobile is-half-tablet is-one-third-desktop"
+                >
+                  <TracklistsCard
+                    url="/"
+                    title={title}
+                    text={description}
+                    image={featuredimage}
+                  />
+                </div>
+              )
+            }
+          )}
+        </div>
       </div>
     </Section>
   )

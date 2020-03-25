@@ -16,6 +16,9 @@ export const IndexPageTemplate = ({
   title,
   subheading,
   contentItems,
+  howItWorksDescription,
+  tracklistDescription,
+  trackleadsDescription,
 }) => (
   <div>
     <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
@@ -54,6 +57,9 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         eventDate={frontmatter.eventDate}
         contentItems={frontmatter.contentItems}
+        howItWorksDescription={frontmatter.howItWorksDescription}
+        tracklistDescription={frontmatter.tracklistDescription}
+        trackleadsDescription={frontmatter.trackleadsDescription}
       />
     </Layout>
   )
@@ -77,6 +83,9 @@ export const pageQuery = graphql`
         heading
         subheading
         eventDate
+        howItWorksDescription
+        tracklistDescription
+        trackleadsDescription
         contentItems {
           title
           textContent

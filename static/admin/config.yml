@@ -174,12 +174,13 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: 'Event Date', name: eventDate, widget: string }
-          - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
-          - { label: Description, name: description, widget: string }
+          - { label: 'How it works', name: 'howItWorksDescription', widget: 'text'},
+          - { label: 'Tracklist', name: 'tracklistDescription', widget: 'text'},
+          - { label: 'Track Leads', name: 'trackleadsDescription', widget: 'text'},
           - {
-              label: Content Items,
-              name: contentItems,
+              label: "How it works Items",
+              name: howItWorksItems,
               widget: list,
               fields:
                 [

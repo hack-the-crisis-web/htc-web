@@ -194,12 +194,12 @@ collections:
               default: '',
             }
           - {
-              label: 'Content Items',
               label: Content Items,
               name: contentItems,
               widget: list,
               fields:
-                [{
+                [
+                  {
                     label: 'Title',
                     name: 'title',
                     widget: 'string',

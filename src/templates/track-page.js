@@ -46,7 +46,7 @@ const TrackPage = ({ data }) => {
   const { mentor = {} } = data
 
   return (
-    <Layout>
+    <Layout title={frontmatter.title}>
       <TrackTemplate
         title={frontmatter.title}
         description={frontmatter.description}

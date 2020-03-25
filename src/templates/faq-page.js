@@ -29,7 +29,7 @@ const FAQPage = ({ data }) => {
   } = data
 
   return (
-    <Layout>
+    <Layout title="FAQ">
       <FAQPageTemplate
         title={payload.title}
         description={payload.description}

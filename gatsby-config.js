@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hack the Crisis 2020',
+    title: 'The Global Hack',
     description:
-      'Hack the Crisis 2020 is a global hackathon to provide solutions to the crisis',
+      'Global hack is the biggest online hackathon in the world fighting off the crisis to battle the problems we are facing as a global society after the immediate corona crisis is over. We are bringing together world class mentors and globally talented teams to build the solutions for the better future. Together.',
+
+    titleTemplate: '%s | The Global Hack',
+    url: 'https://theglobalhack.com',
+    image: '/images/g48_crisis-cover.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

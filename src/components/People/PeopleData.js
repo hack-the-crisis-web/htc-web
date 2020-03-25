@@ -1,17 +1,12 @@
 import { StaticQuery } from 'gatsby'
 import React from 'react'
 
-export const filterVisiblePersons = (data, type, hashtag = '') => {
-  return data.filter(({ label, tracklist }) => {
-    if (label === type) {
-      if (type === 'mentor') {
-        return hashtag.includes(tracklist.toLowerCase())
-      }
-      return true
-    }
-    return false
-  })
-}
+const filterVisiblePersons = (data, type, hashtag = '') =>
+  data.filter(
+    ({ label, tracklist }) =>
+      label === type &&
+      (type !== 'mentor' || hashtag.includes(tracklist.toLowerCase()))
+  )
 
 const filterData = (data, type, hashtag) => {
   const people = data.allMarkdownRemark.edges.map(

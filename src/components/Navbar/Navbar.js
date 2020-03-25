@@ -49,7 +49,11 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className={classnames('navbar-brand', styles.brand)}>
-            <Link to="/" className="navbar-item" title="Logo">
+            <Link
+              to="/"
+              className="navbar-item hover-effect-small"
+              title="Logo"
+            >
               <MainLogo />
             </Link>
             <CountDownWidget

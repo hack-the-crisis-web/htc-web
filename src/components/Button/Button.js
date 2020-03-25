@@ -21,7 +21,7 @@ const Button = ({
   const to = external ? { href } : href ? { to: href } : {}
   const loaderColor = btnStyle === 'primary' ? 'light' : undefined
 
-  const classList = classNames(styles.button, {
+  const classList = classNames(styles.button, 'hover-effect', {
     [styles.disabled]: buttonProps.disabled,
     [styles.loading]: isLoading,
     [styles.block]: block,

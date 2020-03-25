@@ -2,9 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import classnames from 'classnames'
 import styles from './CustomLink.module.scss'
+import checkIfInternalLink from '../checkIfInternalLink'
 
 const CustomLink = ({ children, to, light }) => {
-  const isInternal = !!to && /^\/(?!\/)/.test(to)
+  const isInternal = checkIfInternalLink(to)
 
   const linkContent = (
     <>

@@ -35,19 +35,34 @@ contentItems:
       massive ripple effect (exponential growth, if you pardon the
       epidemiological parlance), which proves that if there ever was a time to
       make things bigger, then this is it! 
-    ctaText: Find out more
-    ctaLink: /about
+    ctaText: About the first hackathon
+    ctaLink: >-
+      http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
     image: /img/g48_crisis-cover.jpg
-  - title: Problems come with opportunities
-    textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
-      tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-      minus.\nId quod maxime Est et expedita distinctio. Nam libero tempore, cum
-      soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-      maxime.
-    image: /img/mc_christmas_2019.jpg
-    ctaText: Button
-    ctaLink: 'https://thebrandmanual.com/'
+  - title: The crisis is far from over
+    textContent: >-
+      We need to start solving the problems that we’ll face as a global society,
+      once we venture out from our homes again. How will we deal with the
+      changed relationships in the economy, the future of work, healthcare and a
+      world transformed, perhaps, beyond recognition? Maybe we’ll even come up
+      with solutions to fight future pandemics more effectively.
+
+
+      To create solutions we’re putting on The Global Hack on April 3-5. 
+
+
+      We’re expecting brilliant people from every corner of the world to
+      participate in an online hackathon. We are also looking for mentors and
+      inspirational global leaders to support our mission and dedicate their
+      time and expertise over the weekend. 
+
+
+      We’re in a unique situation and we literally are in it all together: the
+      whole world is looking for solutions to the same problems at the same
+      time.
+    image: /img/crisis-map.png
+    ctaText: Join the community in Slack
+    ctaLink: 'https://theglobalhack.slack.com/'
 howItWorksItems:
   - title: Share ideas
     textContent: >

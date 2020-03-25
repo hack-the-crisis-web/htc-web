@@ -87,7 +87,7 @@ howItWorksItems:
       have 48h to polish your solution and show it to the world. These are going
       to be extremely intense hours but you can possibly impact the world with
       this
-    ctaText: The hacking environment is slack
+    ctaText: Hack in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png
 description: placeholder

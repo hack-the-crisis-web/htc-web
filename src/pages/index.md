@@ -2,6 +2,7 @@
 heading: placeholder
 templateKey: index-page
 title: Fighting off the crisis
+heroImage: /img/hero.png
 eventDate: 3-5th of April
 subheading: >-
   3 billion people in lockdown. Join the world's biggest hackathon so we never
@@ -10,7 +11,7 @@ howItWorksDescription: >-
   The Global Hack is the biggest online hackathon in the world's history to
   battle the problems we are facing globally after the immediate corona crisis
   is over. We are bringing together world class mentors and globally talented
-  teams to build the solutions for the better tomorrow. 
+  teams to build the solutions for the better tomorrow.
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of future challenges. 
@@ -19,7 +20,7 @@ tracklistDescription: >-
 trackleadsDescription: >-
   Track leads are people who feel a strong sense of personal responsibility to
   help the world tackle this crisis. Hopefully they will inspire you to join
-  their challenge and pitch in with great solutions. 
+  their challenge and pitch in with great solutions.
 contentItems:
   - title: Backstory
     textContent: >-
@@ -34,7 +35,7 @@ contentItems:
       globe hacking away, from India to Georgia to Brazil. There’s been a
       massive ripple effect (exponential growth, if you pardon the
       epidemiological parlance), which proves that if there ever was a time to
-      make things bigger, then this is it! 
+      make things bigger, then this is it!
     ctaText: About the first hackathon
     ctaLink: >-
       http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
@@ -68,7 +69,7 @@ howItWorksItems:
     textContent: >-
       Ideas are shared per track. Each track has a Slack channel and a Twitter
       hashtag. Use either of those channels to let others know what are your
-      great ideas. 
+      great ideas.
     ctaText: Tweet away
     ctaLink: 'https://twitter.com'
     image: /img/step1.png

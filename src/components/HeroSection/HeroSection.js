@@ -13,12 +13,16 @@ const HeroSection = ({ title, subheading, eventDate }) => (
   <>
     <section className={classNames('section', styles.heroWrapper)}>
       <div className="container">
-        <h4>{eventDate}</h4>
-        <h1 className="is-family-secondary">{title}</h1>
-        <h3 className="is-family-secondary">{subheading}</h3>
-        <div className={styles.buttonWrapper}>
-          <Button>Tell me more</Button>
-          <Button btnStyle="outline">Join slack</Button>
+        <div className="columns">
+          <div className="column is-7 is-offset-1">
+            <h4>{eventDate}</h4>
+            <h1 className="is-family-secondary">{title}</h1>
+            <h3 className="is-family-secondary">{subheading}</h3>
+            <div className={styles.buttonWrapper}>
+              <Button>Tell me more</Button>
+              <Button btnStyle="outline">Join slack</Button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

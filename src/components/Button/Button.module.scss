@@ -68,6 +68,7 @@ a.button {
   border: 1px solid transparent;
   line-height: 1;
   border-radius: 2px;
+  border-width: 2px;
   height: unset;
 
   @include buttonSize($normal-font-size, $normal-padding);

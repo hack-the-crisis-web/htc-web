@@ -6,6 +6,7 @@ import SocialIconLink from '../SocialIconLink/SocialIconLink'
 import MainLogo from '../MainLogo/MainLogo'
 import NavLink from '../NavLink/NavLink'
 import CountDownWidget from '../CountDownWidget/CountdownWidget'
+import NavTracklist from '../NavTracklist/NavTracklist'
 import styles from './Navbar.module.scss'
 import '../all.sass'
 
@@ -40,7 +41,15 @@ const Navbar = class extends React.Component {
 
   render() {
     const eventDate = new Date('03 April 2020 10:00 UTC')
-    const navLinkClassnames = classnames('navbar-item', styles.navItem)
+    const navLinkClassnames = classnames(
+      'navbar-item',
+      'hover-effect-small',
+      styles.navItem
+    )
+    const subnavLinkClassnames = classnames(
+      navLinkClassnames,
+      styles.subnavItem
+    )
     return (
       <nav
         className={classnames('navbar', 'is-transparent', styles.nav)}
@@ -91,6 +100,13 @@ const Navbar = class extends React.Component {
                 styles.spaceRight
               )}
             >
+              <NavLink to="/" className={navLinkClassnames}>
+                Home
+              </NavLink>
+              <NavTracklist
+                buttonClassName={navLinkClassnames}
+                subnavButtonClassname={subnavLinkClassnames}
+              />
               <NavLink to="/about" className={navLinkClassnames}>
                 About
               </NavLink>
@@ -106,9 +122,18 @@ const Navbar = class extends React.Component {
               )}
             >
               <CountDownWidget
-                className={'is-hidden-touch'}
+                className="is-hidden-touch"
                 eventTime={eventDate.toISOString()}
               />
+              <div className="navbar-item is-hidden-desktop">
+                <SocialIconLink type="guaana" href="https://guaana.com" />
+              </div>
+              <div className="navbar-item is-hidden-desktop">
+                <SocialIconLink
+                  type="slack"
+                  href="https://theglobalhack.slack.com/"
+                />
+              </div>
               <div className="navbar-item">
                 <SocialIconLink
                   type="facebook"

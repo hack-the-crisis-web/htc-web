@@ -7,10 +7,12 @@ import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
+import TrackMentors from '../components/People/TrackMentors'
 
 export const TrackTemplate = ({
   title,
   description,
+  hashtag,
   mentorName,
   mentorSurname,
   mentorRole,
@@ -31,6 +33,12 @@ export const TrackTemplate = ({
       trackLogo={trackLogo}
     />
     {content && <HTMLContentSection content={content} />}
+    <TrackMentors
+      hashtag={hashtag}
+      description={
+        'Mxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.'
+      }
+    />
   </>
 )
 

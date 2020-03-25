@@ -30,7 +30,10 @@ const TracklistsSection = ({ data }) => {
                 return (
                   <div key={index} className="column is-4">
                     <TracklistsCard
-                      url="/"
+                      url={`tracklists/${title
+                        .toLowerCase()
+                        .replace(/[^\w ]+/g, '')
+                        .replace(/ +/g, '-')}`}
                       title={title}
                       text={description}
                       image={featuredimage}

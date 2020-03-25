@@ -7,7 +7,15 @@ import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import '../components/all.sass'
 
-export const TrackTemplate = ({}) => <div>TrackTemplate</div>
+export const TrackTemplate = ({ title, description, hashtag, pageContext }) => (
+  <div>
+    TrackTemplate
+    {console.log(pageContext)}
+    <h1>{title}</h1>
+    <h1>{description}</h1>
+    <h1>{hashtag}</h1>
+  </div>
+)
 
 TrackTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -16,17 +24,21 @@ TrackTemplate.propTypes = {
   contentItems: PropTypes.arrayOf(PropTypes.shape(contentBlockPropTypes)),
 }
 
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+const TrackPage = ({ data }) => {
+  const { frontmatter = {} } = data.markdownRemark
 
   return (
     <Layout>
-      <TrackTemplate />
+      <TrackTemplate
+        title={frontmatter.title}
+        description={frontmatter.description}
+        hashtag={frontmatter.hashtag}
+      />
     </Layout>
   )
 }
 
-IndexPage.propTypes = {
+TrackPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -34,25 +46,18 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default TrackPage
 
 export const pageQuery = graphql`
-  query TrackTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+  query TrackTemplate($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
-        subheading
-        eventDate
-        howItWorksDescription
-        tracklistDescription
-        trackleadsDescription
-        contentItems {
-          title
-          textContent
-          image
-          ctaText
-          ctaLink
-        }
+        description
+        featuredimage
+        hashtag
+        keyMentor
+        featuredimage
       }
     }
   }

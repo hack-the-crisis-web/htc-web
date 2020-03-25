@@ -68,6 +68,8 @@ exports.createPages = ({ actions, graphql }) => {
 
     tracklists.forEach(edge => {
       const id = edge.node.id
+      const slug = edge.node.fields.slug
+
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -75,6 +77,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          slug,
         },
       })
     })

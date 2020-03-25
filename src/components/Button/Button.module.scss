@@ -28,15 +28,12 @@ $small-padding: 10px 18px;
   }
 }
 
-@mixin buttonOutline($outline-color, $outline-color-disabled) {
-  color: $outline-color;
-  border-color: $outline-color;
+@mixin buttonOutline() {
+  color: $white;
+  border-color: $white;
   background: transparent;
 
   &:hover {
-    color: $white;
-    background-color: $outline-color;
-
     .circle-loader__dot::before {
       background-color: $white;
     }
@@ -44,8 +41,8 @@ $small-padding: 10px 18px;
 
   &.is-disabled,
   &:disabled {
-    color: $outline-color-disabled;
-    border-color: $outline-color-disabled;
+    color: $main-color-disabled;
+    border-color: $main-color-disabled;
   }
 }
 
@@ -65,10 +62,9 @@ a.button {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   line-height: 1;
   border-radius: 2px;
-  border-width: 2px;
   height: unset;
 
   @include buttonSize($normal-font-size, $normal-padding);
@@ -91,7 +87,7 @@ a.button {
   }
 
   &.outline {
-    @include buttonOutline($main-color, $main-color-disabled);
+    @include buttonOutline();
   }
 
   &.block {

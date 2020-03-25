@@ -8,7 +8,7 @@ import HowItWorksCard from './HowItWorksCard/HowItWorksCard'
 import styles from './HowItWorksSection.module.scss'
 
 const HowItWorksSection = ({ items, description }) => (
-  <div className="has-background-danger">
+  <div id="how-it-works" className="has-background-danger">
     <Section>
       <div className={classnames('container has-text-primary')}>
         <SectionTitle title="How it works" />

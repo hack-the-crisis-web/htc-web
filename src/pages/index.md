@@ -65,25 +65,30 @@ contentItems:
     ctaLink: 'https://theglobalhack.slack.com/'
 howItWorksItems:
   - title: Share ideas
-    textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
-      tempore, cum soluta nobis es.
-    ctaText: TRACKLISTS
-    ctaLink: 'https://www.delfi.ee/'
+    textContent: >-
+      Ideas are shared per track. Each track has a Slack channel and a Twitter
+      hashtag. Use either of those channels to let others know what are your
+      great ideas. 
+    ctaText: Tweet away
+    ctaLink: 'https://twitter.com'
     image: /img/step1.png
-  - title: Start hacking
-    textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
-      tempore, cum soluta nobis es.
-    ctaText: SLACK
-    ctaLink: /
-    image: /img/step2.png
   - title: Register team
-    textContent: >
-      Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
-      tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
-    ctaText: GUAANA
+    textContent: >-
+      When you feel like some of your ideas are really getting traction, then
+      it's time to think about who you want to hack with. Find a team of 4-6
+      dedicated people and officially register your idea and team to the
+      hackathon.
+    ctaText: Register team
     ctaLink: /
     image: /img/step3.png
+  - title: Start hacking
+    textContent: >-
+      Be ready on the 3rd of April to start hacking with your team! You only
+      have 48h to polish your solution and show it to the world. These are going
+      to be extremely intense hours but you can possibly impact the world with
+      this
+    ctaText: The hacking environment is slack
+    ctaLink: 'https://theglobalhack.slack.com/'
+    image: /img/step2.png
 description: placeholder
 ---

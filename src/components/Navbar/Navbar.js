@@ -2,10 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import classnames from 'classnames'
 
-import styles from './Navbar.module.scss'
 import SocialIconLink from '../SocialIconLink/SocialIconLink'
-import Brand from '../Brand/Brand'
+import MainLogo from '../MainLogo/MainLogo'
 import NavLink from '../NavLink/NavLink'
+import CountDownWidget from '../CountDownWidget/CountdownWidget'
+import styles from './Navbar.module.scss'
+import '../all.sass'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -37,21 +39,30 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const eventDate = new Date('03 April 2020 10:00 UTC')
     const navLinkClassnames = classnames('navbar-item', styles.navItem)
     return (
       <nav
-        className="navbar is-transparent"
+        className={classnames('navbar', 'is-transparent', styles.nav)}
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div className={classnames('navbar-brand', styles.brand)}>
             <Link to="/" className="navbar-item" title="Logo">
-              <Brand></Brand>
+              <MainLogo />
             </Link>
-            {/* Hamburger menu */}
+            <CountDownWidget
+              className={'is-hidden-desktop'}
+              eventTime={eventDate.toISOString()}
+            />
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={classnames(
+                'navbar-burger',
+                'burger',
+                styles.burger,
+                this.state.navBarActiveClass
+              )}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -79,17 +90,8 @@ const Navbar = class extends React.Component {
               <NavLink to="/about" className={navLinkClassnames}>
                 About
               </NavLink>
-              <NavLink to="/products" className={navLinkClassnames}>
-                Products
-              </NavLink>
-              <NavLink to="/blog" className={navLinkClassnames}>
-                Blog
-              </NavLink>
-              <NavLink to="/contact" className={navLinkClassnames}>
-                Contact
-              </NavLink>
-              <NavLink to="/contact/examples" className={navLinkClassnames}>
-                Form Examples
+              <NavLink to="/faq" className={navLinkClassnames}>
+                FAQ
               </NavLink>
             </div>
             <div
@@ -99,6 +101,10 @@ const Navbar = class extends React.Component {
                 styles.spaceRight
               )}
             >
+              <CountDownWidget
+                className={'is-hidden-touch'}
+                eventTime={eventDate.toISOString()}
+              />
               <div className="navbar-item">
                 {/* TODO add correct social links */}
                 <SocialIconLink type="facebook" href="https://facebook.com" />

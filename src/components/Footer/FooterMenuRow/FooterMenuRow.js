@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import '../../all.sass'
-import Brand from '../../Brand/Brand'
 import ContactInfo from '../ContactInfo/ContactInfo'
 import FooterCategory from '../FooterCategory/FooterCategory'
 import styles from './FooterMenuRow.module.scss'
+import MainLogo from '../../MainLogo/MainLogo'
 
 const transformData = data => {
   const titlesArray = data.map(item => item.node.frontmatter.title)
@@ -35,7 +35,7 @@ const FooterMenuRow = ({ data }) => (
   <div className={`columns is-flex-touch is-desktop ${styles.menuRow}`}>
     <div className="column is-one-third-desktop is-one-quarter-widescreen">
       <Link to="/" className={styles.homeLink} title="Global Hack">
-        <Brand />
+        <MainLogo color="black" />
       </Link>
       <ContactInfo />
     </div>

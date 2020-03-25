@@ -1,8 +1,13 @@
 ---
 heading: placeholder
 templateKey: index-page
+title: Back to the Future
+description: placeholder
 eventDate: 3-5 APRIL
-subheading: Global online 48 hours Hackaton mission in one sentencexw
+subheading: Global online 48 hours Hackaton mission in one sentence
+howItWorksDescription: How it works descriptions
+tracklistDescription: Track list description
+trackleadsDescription: Track leads description
 contentItems:
   - title: Backstory
     textContent: >
@@ -24,10 +29,6 @@ contentItems:
     image: /img/mc_christmas_2019.jpg
     ctaText: Button
     ctaLink: 'https://thebrandmanual.com/'
-title: Back to the Future
-howItWorksDescription: Global online 48 hours Hackaton mission in one sentence
-tracklistDescription: Global online 48 hours Hackaton mission in one sentence
-trackleadsDescription: Global online 48 hours Hackaton mission in one sentence
 howItWorksItems:
   - title: Share ideas
     textContent: >
@@ -49,6 +50,5 @@ howItWorksItems:
       tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo.
     ctaText: GUAANA
     ctaLink: /
-    image: 'https://via.placeholder.com/237.png/'
-description: placeholder
+    image: https://via.placeholder.com/237.png/
 ---

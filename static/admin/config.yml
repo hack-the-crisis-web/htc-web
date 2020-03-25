@@ -195,19 +195,39 @@ collections:
             }
           - {
               label: 'Content Items',
+              label: Content Items,
               name: contentItems,
               widget: list,
               fields:
-                [
-                  { label: 'Title', name: 'title', widget: 'string' },
+                [{
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    optional: true,
+                  },
                   {
                     label: 'Text content',
                     name: 'textContent',
                     widget: 'text',
                   },
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'CTA text', name: 'ctaText', widget: 'string' },
-                  { label: 'CTA link', name: 'ctaLink', widget: 'string' },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image',
+                    optional: true,
+                  },
+                  {
+                    label: 'CTA text',
+                    name: 'ctaText',
+                    widget: 'string',
+                    optional: true,
+                  },
+                  {
+                    label: 'CTA link',
+                    name: 'ctaLink',
+                    widget: 'string',
+                    optional: true,
+                  },
                 ],
             }
           - {

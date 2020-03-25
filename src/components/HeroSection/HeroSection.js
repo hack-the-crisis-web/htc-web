@@ -1,14 +1,13 @@
 import React from 'react'
 import classNames from 'classnames'
 import Button from '../Button/Button'
-
+import styles from './HeroSection.module.scss'
+import '../all.sass'
 // waiting for slack integration
 // import Icon from '../Icon/Icon'
 // import SlackCard from '../SlackCard/SlackCard'
 // import CustomLink from '../CustomLink/CustomLink'
 // import SlackIcon from '../../img/social/slackColour.svg'
-
-import styles from './HeroSection.module.scss'
 
 const HeroSection = ({ title, subheading, eventDate }) => (
   <>

@@ -23,8 +23,8 @@ export const IndexPageTemplate = ({
   <div>
     <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
-    <TracklistsSection />
     <HowItWorksSection />
+    <TracklistsSection />
     <section className="section section--gradient">
       <div className="container">
         <div className="section">

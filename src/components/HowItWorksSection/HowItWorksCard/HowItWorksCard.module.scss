@@ -1,0 +1,53 @@
+@import '../../../styles/styleSetup.scss';
+
+.card {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+  height: 100%;
+  align-items: flex-start;
+
+  .imageContainer {
+    width: 274px;
+    height: 264px;
+    margin-bottom: 40px;
+
+    img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .step {
+    margin-bottom: 6px;
+    color: $dark-grey;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 29px;
+  }
+
+  h5 {
+    margin-bottom: 12px;
+    color: $dark-grey;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 35px;
+  }
+
+  p {
+    color: $dark-grey;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin-top: auto;
+    min-width: 200px;
+  }
+}

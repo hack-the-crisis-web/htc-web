@@ -4,9 +4,7 @@ import classnames from 'classnames'
 import './all.sass'
 
 const AlternatingContentSection = ({ children }) => (
-  <section className={classnames('section', 'alternateSection')}>
-    {children}
-  </section>
+  <div className={classnames('alternateSection')}>{children}</div>
 )
 
 AlternatingContentSection.propTypes = { children: PropTypes.node }

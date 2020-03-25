@@ -6,7 +6,7 @@ module.exports = {
 
     titleTemplate: '%s | The Global Hack',
     url: 'https://theglobalhack.com',
-    image: '/images/g48_crisis-cover.jpg',
+    image: '/img/g48_crisis-cover.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

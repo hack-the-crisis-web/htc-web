@@ -7,16 +7,13 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 import SectionDescription from '../SectionDescription/SectionDescription'
 import TracklistsCard from '../TracklistsCard/TracklistsCard'
 
-const TracklistsSection = ({ data }) => {
+const TracklistsSection = ({ data, description }) => {
   return (
     <div className="has-background-success">
       <Section>
         <div className={classnames('container has-text-primary')}>
           <SectionTitle title="Tracklists" />
-          <SectionDescription
-            text="Placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-            repellendus.Mxime placeat facere possimus, omnis voluptas."
-          />
+          <SectionDescription text={description} />
           <div className={classnames('columns is-multiline')}>
             {data.map(
               (
@@ -50,7 +47,7 @@ const TracklistsSection = ({ data }) => {
   )
 }
 
-export default () => (
+export default props => (
   <StaticQuery
     query={graphql`
       query TracklistsSection {
@@ -70,6 +67,8 @@ export default () => (
         }
       }
     `}
-    render={data => <TracklistsSection data={data.allMarkdownRemark.edges} />}
+    render={data => (
+      <TracklistsSection data={data.allMarkdownRemark.edges} {...props} />
+    )}
   />
 )

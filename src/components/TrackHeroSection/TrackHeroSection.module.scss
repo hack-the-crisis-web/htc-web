@@ -58,9 +58,26 @@
     }
   }
 
+  .trackLogo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+  }
+
   .image {
+    position: relative;
     margin-left: 60px;
     text-align: center;
+
+    img {
+      display: block;
+    }
+
+    .trackLogo {
+      width: 30%;
+      transform: translate(-7%, 10%);
+    }
   }
 
   @include mobile() {
@@ -81,7 +98,14 @@
       }
 
       .responsiveImage {
+        position: relative;
         margin-bottom: 29px;
+
+        .trackLogo {
+          width: 33%;
+          height: auto;
+          transform: translate(-20%, -10%);
+        }
       }
 
       .mentorHeading {

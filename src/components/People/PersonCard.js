@@ -17,7 +17,7 @@ const PersonCard = ({ name, photo, surname, role, tracklist, label }) => (
   <div className={'column is-4'}>
     <div className={'tile is-parent '}>
       <div
-        className={`tile is-child box notification has-text-white ${
+        className={`tile is-child box notification has-text-white hover-effect ${
           styles.persontile
         } ${selectClassname(label)}`}
       >

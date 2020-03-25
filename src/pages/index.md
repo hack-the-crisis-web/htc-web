@@ -37,7 +37,9 @@ contentItems:
   - title: The crisis is far from over
     textContent: >-
       How will we deal with the changed relationships in the economy, the future
-      of work, healthcare and a world transformed, perhaps, beyond recognition?
+      of work, healthcare and a world transformed, perhaps, beyond recognition? 
+
+
       We need to come up with solutions that will help us fight future
       pandemics, and all crises for that matter, more effectively. So we never
       have to lock down again. 

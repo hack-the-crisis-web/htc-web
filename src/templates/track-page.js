@@ -30,9 +30,7 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
-    {content && (
-      <HTMLContentSection title={'Content Title'} content={content} />
-    )}
+    {content && <HTMLContentSection content={content} />}
   </>
 )
 

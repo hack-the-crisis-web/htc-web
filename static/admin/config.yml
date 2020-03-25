@@ -194,6 +194,23 @@ collections:
               default: '',
             }
           - {
+              label: 'Content Items',
+              name: contentItems,
+              widget: list,
+              fields:
+                [
+                  { label: 'Title', name: 'title', widget: 'string' },
+                  {
+                    label: 'Text content',
+                    name: 'textContent',
+                    widget: 'text',
+                  },
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'CTA text', name: 'ctaText', widget: 'string' },
+                  { label: 'CTA link', name: 'ctaLink', widget: 'string' },
+                ],
+            }
+          - {
               label: 'How it works Items',
               name: howItWorksItems,
               widget: list,

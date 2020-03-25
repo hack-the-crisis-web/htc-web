@@ -156,7 +156,7 @@ collections:
           searchFields: ['surname', 'name'],
           displayFields: ['surname', 'name'],
           valueField: 'personId',
-          required: true,
+          required: false,
         }
       - {
           label: 'Featured Image',

@@ -1,15 +1,17 @@
 @import '../../../styles/styleSetup.scss';
 
-.creditsWrapper {
-  height: 60px;
-}
-
 .creditsContainer {
   display: block;
   width: $widescreen;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 5px 0;
   max-width: 90%;
+  text-transform: uppercase;
+  font-size: 12px;
+
+  @include desktop() {
+    padding: 13px 0;
+  }
 }
 
 .creditsInnerContainer {
@@ -23,7 +25,7 @@
 
 .creditsContent {
   display: flex;
-  padding: 15px 0;
+  padding: 7px 0;
   align-items: center;
   overflow: visible;
 
@@ -31,8 +33,8 @@
     padding: 0;
   }
 
-  p {
-    margin-right: 15px;
+  > p {
+    margin-right: 6px;
     width: 110px;
 
     @include desktop() {
@@ -41,15 +43,25 @@
   }
 
   a {
-    margin-bottom: -0.2em;
-  }
-
-  img {
-    margin-right: 25px;
-    height: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    width: 135px;
   }
 }
 
-.imageLink img {
-  height: 30px;
+.brandManual {
+  color: $brandmanual-orange;
+}
+
+.mooncascade {
+  color: $mooncascade-yellow;
+}
+
+.and {
+  display: none;
+
+  @include desktop() {
+    display: block;
+    padding: 0 15px 0 6px;
+  }
 }

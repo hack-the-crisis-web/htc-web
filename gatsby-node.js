@@ -22,6 +22,23 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      tracklists: allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "tracklists" } } }
+      ) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+              description
+              featuredimage
+            }
+          }
+        }
+      }
     }
   `).then(result => {
     if (result.errors) {
@@ -39,6 +56,22 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
+        // additional data can be passed via context
+        context: {
+          id,
+        },
+      })
+    })
+
+    // Tracklists pages:
+    let tracklists = result.data.tracklists.edges
+
+    tracklists.forEach(edge => {
+      const id = edge.node.id
+      createPage({
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(`src/templates/track-page.js`),
         // additional data can be passed via context
         context: {
           id,

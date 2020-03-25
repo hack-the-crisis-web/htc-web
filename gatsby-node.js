@@ -71,7 +71,10 @@ exports.createPages = ({ actions, graphql }) => {
       const slug = edge.node.fields.slug
 
       createPage({
-        path: edge.node.fields.slug,
+        path: edge.node.frontmatter.title
+          .toLowerCase()
+          .replace(/[^\w ]+/g, '')
+          .replace(/ +/g, '-'),
         tags: edge.node.frontmatter.tags,
         component: path.resolve(`src/templates/track-page.js`),
         // additional data can be passed via context

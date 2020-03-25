@@ -10,10 +10,10 @@ const transformData = data => {
   const titlesArray = data.map(item => item.node.frontmatter.title)
   const linksWithSlugs = titlesArray.map(title => ({
     title,
-    url: `tracklists/${title
+    url: title
       .toLowerCase()
       .replace(/[^\w ]+/g, '')
-      .replace(/ +/g, '-')}`,
+      .replace(/ +/g, '-'),
   }))
 
   const numberOfItemsInColumn = 4

@@ -57,7 +57,6 @@ export const pageQuery = graphql`
         featuredimage
         hashtag
         keyMentor
-        featuredimage
       }
     }
   }

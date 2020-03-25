@@ -24,8 +24,16 @@ const HeroSection = ({ title, subheading, eventDate, backgroundImage }) => (
             <h1 className="is-family-secondary">{title}</h1>
             <h3 className="is-family-secondary">{subheading}</h3>
             <div className={styles.buttonWrapper}>
-              <Button>Tell me more</Button>
-              <Button btnStyle="outline">Join slack</Button>
+              <Button href="#how-it-works">Let's hack</Button>
+              <Button
+                external
+                href="https://theglobalhack.slack.com/"
+                className={styles.joinButton}
+                btnStyle="outline"
+                target="_blank"
+              >
+                Join slack
+              </Button>
             </div>
           </div>
         </div>

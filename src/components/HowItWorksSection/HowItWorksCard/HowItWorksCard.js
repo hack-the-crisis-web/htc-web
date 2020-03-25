@@ -12,9 +12,11 @@ const HowItWorksCard = ({
   buttonUrl,
 }) => (
   <div className={styles.card}>
-    <div className={styles.imageContainer}>
-      <img src={image} alt={title} />
-    </div>
+    {!!image && (
+      <div className={styles.imageContainer}>
+        <img src={image.publicURL} alt={title} />
+      </div>
+    )}
     {!!step && <span className={styles.step}>{step}</span>}
     <h5 className="is-family-secondary">{title}</h5>
     <p>{description}</p>

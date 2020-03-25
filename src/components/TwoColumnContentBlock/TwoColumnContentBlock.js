@@ -19,7 +19,7 @@ const TwoColumnContentBlock = ({
       <div className="columns">
         {!!image && (
           <div className="column">
-            <img src={image}></img>
+            <img src={image.publicURL}></img>
           </div>
         )}
         <div className="column">

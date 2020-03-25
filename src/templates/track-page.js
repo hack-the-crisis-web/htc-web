@@ -7,13 +7,24 @@ import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import '../components/all.sass'
 
-export const TrackTemplate = ({ title, description, hashtag, pageContext }) => (
+export const TrackTemplate = ({
+  title,
+  description,
+  hashtag,
+  mentorName,
+  mentorSurname,
+  mentorRole,
+  mentorAbout,
+}) => (
   <div>
     TrackTemplate
-    {console.log(pageContext)}
     <h1>{title}</h1>
     <h1>{description}</h1>
     <h1>{hashtag}</h1>
+    <h1>{mentorName}</h1>
+    <h1>{mentorSurname}</h1>
+    <h1>{mentorRole}</h1>
+    <h1>{mentorAbout}</h1>
   </div>
 )
 
@@ -26,6 +37,9 @@ TrackTemplate.propTypes = {
 
 const TrackPage = ({ data }) => {
   const { frontmatter = {} } = data.markdownRemark
+  const { mentor = {} } = data
+
+  console.log(mentor)
 
   return (
     <Layout>
@@ -33,6 +47,10 @@ const TrackPage = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.description}
         hashtag={frontmatter.hashtag}
+        mentorName={mentor.frontmatter.name}
+        mentorSurname={mentor.frontmatter.surname}
+        mentorRole={mentor.frontmatter.role}
+        mentorAbout={mentor.frontmatter.about}
       />
     </Layout>
   )
@@ -49,7 +67,7 @@ TrackPage.propTypes = {
 export default TrackPage
 
 export const pageQuery = graphql`
-  query TrackTemplate($slug: String!) {
+  query TrackTemplate($slug: String!, $keyMentorId: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
@@ -57,6 +75,14 @@ export const pageQuery = graphql`
         featuredimage
         hashtag
         keyMentor
+      }
+    }
+    mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {
+      frontmatter {
+        name
+        surname
+        role
+        about
       }
     }
   }

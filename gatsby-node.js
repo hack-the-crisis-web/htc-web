@@ -33,8 +33,7 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               title
-              description
-              featuredimage
+              keyMentor
             }
           }
         }
@@ -69,6 +68,7 @@ exports.createPages = ({ actions, graphql }) => {
     tracklists.forEach(edge => {
       const id = edge.node.id
       const slug = edge.node.fields.slug
+      const keyMentorId = edge.node.frontmatter.keyMentor
 
       createPage({
         path: edge.node.frontmatter.title
@@ -81,6 +81,7 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           id,
           slug,
+          keyMentorId,
         },
       })
     })

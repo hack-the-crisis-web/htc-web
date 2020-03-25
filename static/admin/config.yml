@@ -86,6 +86,13 @@ collections:
           widget: 'hidden',
           default: 'person',
         }
+
+      - {
+          label: 'Person ID',
+          name: 'personId',
+          widget: 'hidden',
+          default: '{{uuid}}',
+        }
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Surname', name: 'surname', widget: 'string', required: true }
       - { label: 'Role', name: 'role', widget: 'string', required: true }
@@ -147,7 +154,8 @@ collections:
           widget: 'relation',
           collection: 'person',
           searchFields: ['surname', 'name'],
-          valueField: 'surname',
+          displayFields: 'surname',
+          valueField: 'personId',
           required: true,
         }
       - {

@@ -2,6 +2,7 @@
 templateKey: person
 name: 'Mentor, not a track lead'
 surname: Obama
+personId: a
 role: ' Former president of the United States'
 photo: /img/testimage-removebg-preview.png
 about: >-

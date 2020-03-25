@@ -21,9 +21,15 @@ export const IndexPageTemplate = ({
   howItWorksDescription,
   tracklistDescription,
   trackleadsDescription,
+  heroImage,
 }) => (
   <>
-    <HeroSection title={title} subheading={subheading} eventDate={eventDate} />
+    <HeroSection
+      backgroundImage={heroImage}
+      title={title}
+      subheading={subheading}
+      eventDate={eventDate}
+    />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <HowItWorksSection
       description={howItWorksDescription}
@@ -57,6 +63,7 @@ const IndexPage = ({ data }) => {
         howItWorksDescription={frontmatter.howItWorksDescription}
         tracklistDescription={frontmatter.tracklistDescription}
         trackleadsDescription={frontmatter.trackleadsDescription}
+        heroImage={frontmatter.heroImage.publicURL}
       />
     </Layout>
   )
@@ -82,6 +89,9 @@ export const pageQuery = graphql`
         howItWorksDescription
         tracklistDescription
         trackleadsDescription
+        heroImage {
+          publicURL
+        }
         howItWorksItems {
           title
           textContent

@@ -10,12 +10,12 @@ import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 export const TrackTemplate = ({
   title,
   description,
-  hashtag,
   mentorName,
   mentorSurname,
   mentorRole,
   mentorAbout,
   featuredImage,
+  trackLogo,
 }) => (
   <>
     <TrackHeroSection
@@ -26,15 +26,8 @@ export const TrackTemplate = ({
       mentorRole={mentorRole}
       mentorAbout={mentorAbout}
       featuredImage={featuredImage}
+      trackLogo={trackLogo}
     />
-    {/*TrackTemplate*/}
-    {/*<h1>{title}</h1>*/}
-    {/*<h1>{description}</h1>*/}
-    {/*<h1>{hashtag}</h1>*/}
-    {/*<h1>{mentorName}</h1>*/}
-    {/*<h1>{mentorSurname}</h1>*/}
-    {/*<h1>{mentorRole}</h1>*/}
-    {/*<h1>{mentorAbout}</h1>*/}
   </>
 )
 
@@ -60,6 +53,7 @@ const TrackPage = ({ data }) => {
         mentorRole={mentor.frontmatter.role}
         mentorAbout={mentor.frontmatter.about}
         featuredImage={frontmatter.featuredimage}
+        trackLogo={frontmatter.trackLogo}
       />
     </Layout>
   )
@@ -76,7 +70,7 @@ TrackPage.propTypes = {
 export default TrackPage
 
 export const pageQuery = graphql`
-  query TrackTemplate($slug: String!, $keyMentorId: String!) {
+  query TrackTemplate($slug: String!, $keyMentorId: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
@@ -84,6 +78,7 @@ export const pageQuery = graphql`
         featuredimage
         hashtag
         keyMentor
+        trackLogo
       }
     }
     mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {

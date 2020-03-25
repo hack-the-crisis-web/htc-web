@@ -166,6 +166,14 @@ collections:
           media_library: { config: { multiple: false } },
           default: '/uploads/portrait-placeholder.png',
         }
+      - {
+          label: 'Track Logo',
+          name: 'trackLogo',
+          widget: 'image',
+          default: '/src/img/placeholders/hero.png',
+          media_library: { config: { multiple: false } },
+          required: false,
+        }
 
   - name: 'pages'
     label: 'Pages'
@@ -183,6 +191,14 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: 'Event Date', name: eventDate, widget: string }
           - { label: Subheading, name: subheading, widget: string, default: '' }
+          - {
+              label: 'Hero image',
+              name: 'heroImage',
+              widget: 'image',
+              default: '/src/img/placeholders/hero.png',
+              media_library: { config: { multiple: false } },
+              required: false,
+            }
           - {
               label: 'How it works',
               name: howItWorksDescription,

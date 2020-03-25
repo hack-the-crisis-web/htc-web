@@ -12,6 +12,7 @@ const TrackHeroSection = ({
   mentorRole,
   mentorAbout,
   featuredImage,
+  trackLogo,
 }) => (
   <div className={styles.bg}>
     <Section>

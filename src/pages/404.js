@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import AlternatingContent from '../components/AlternatingContent'
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </div>
+    <AlternatingContent
+      contentItems={[{ title: 'Page not found' }]}
+    ></AlternatingContent>
   </Layout>
 )
 

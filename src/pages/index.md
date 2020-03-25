@@ -2,8 +2,10 @@
 templateKey: index-page
 title: Back to the Future
 eventDate: 3-5 April
-heading: Great coffee with a conscience
-subheading: Global online 48 hours Hackaton mission in one sentence
+subheading: Global online 48 hours Hackaton mission in one sentencexw
+howItWorksDescription: Global online 48 hours Hackaton mission in one sentence
+tracklistDescription: Global online 48 hours Hackaton mission in one sentence
+trackleadsDescription: Global online 48 hours Hackaton mission in one sentence
 contentItems:
   - title: Backstory
     textContent: >

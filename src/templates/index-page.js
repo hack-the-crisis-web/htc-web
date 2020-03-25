@@ -80,7 +80,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        heading
         subheading
         eventDate
         howItWorksDescription

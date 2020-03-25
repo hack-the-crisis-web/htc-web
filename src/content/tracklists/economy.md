@@ -2,7 +2,11 @@
 templateKey: tracklists
 title: Economy
 hashtag: '#economyhacking'
-description: 'Barack Obama: "The key to economy is to economise".'
+description: >-
+  We are on the verge of the economic crisis that no one has seen. It's not a
+  bubble that bursted. Everything just stopped. With no revenues a lot of
+  companies are closing their doors and people losing their jobs. How do we come
+  out of that?
 keyMentor: a
 featuredimage: /img/economy.jpg
 ---

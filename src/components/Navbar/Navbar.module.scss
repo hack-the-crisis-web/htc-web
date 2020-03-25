@@ -46,6 +46,10 @@
   margin: 8px 0;
 
   @include desktop() {
+    &:hover {
+      color: $primary !important;
+      text-decoration: underline;
+    }
     color: $text;
     font-weight: 600;
     font-size: 13px;

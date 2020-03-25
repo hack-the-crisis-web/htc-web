@@ -4,6 +4,6 @@ name: Lisa very very very very very very long name
 surname: Smith
 role: Director
 photo: /img/testimage-removebg-preview.png
-label: our-people
+label: track-lead
 tracklist: ''
 ---

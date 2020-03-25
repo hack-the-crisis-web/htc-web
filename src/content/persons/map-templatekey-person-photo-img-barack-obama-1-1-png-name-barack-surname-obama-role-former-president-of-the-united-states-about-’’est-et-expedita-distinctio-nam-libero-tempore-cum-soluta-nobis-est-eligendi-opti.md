@@ -1,6 +1,6 @@
 ---
 templateKey: person
-name: Barack
+name: 'Mentor, not a track lead'
 surname: Obama
 role: ' Former president of the United States'
 photo: /img/testimage-removebg-preview.png

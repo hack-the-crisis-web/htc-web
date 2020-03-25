@@ -8,5 +8,5 @@ description: >-
   companies are closing their doors and people losing their jobs. How do we come
   out of that?
 keyMentor: a
-featuredimage: /img/economy.jpg
+featuredimage: /img/barack-removebg-preview.png
 ---

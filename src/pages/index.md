@@ -15,9 +15,9 @@ tracklistDescription: >-
   of future challenges. These are the areas most likely to see the biggest
   changes:
 trackleadsDescription: >-
-  Track leads are people who feel a strong sense of personal responsibility to
-  help the world tackle this crisis. Hopefully they will inspire you to join
-  their challenge and pitch in with great solutions.
+  Our track leads feel a strong sense of personal responsibility to help the
+  world tackle this crisis. They’re here to inspire you to join the fight and
+  pitch in with great solutions.
 contentItems:
   - title: Backstory
     textContent: >-

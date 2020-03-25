@@ -5,7 +5,11 @@ import styles from './FooterSocialLinks.module.scss'
 export const FooterSocialLinks = () => (
   <div className={styles.links}>
     <div className={styles.link}>
-      <SocialIconLink type="slack" color="black" href="https://slack.com" />
+      <SocialIconLink
+        type="slack"
+        color="black"
+        href="https://theglobalhack.slack.com/"
+      />
     </div>
     <div className={styles.link}>
       <SocialIconLink type="guaana" color="black" href="https://guaana.com" />
@@ -14,11 +18,15 @@ export const FooterSocialLinks = () => (
       <SocialIconLink
         type="facebook"
         color="black"
-        href="https://facebook.com"
+        href="https://www.facebook.com/Garage48/"
       />
     </div>
     <div className={styles.link}>
-      <SocialIconLink type="twitter" color="black" href="https://twitter.com" />
+      <SocialIconLink
+        type="twitter"
+        color="black"
+        href="https://twitter.com/garage48"
+      />
     </div>
   </div>
 )

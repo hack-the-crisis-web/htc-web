@@ -3,6 +3,10 @@ import facebookWhiteIcon from '../../img/social/facebookWhite.svg'
 import facebookBlackIcon from '../../img/social/facebookBlack.svg'
 import twitterWhiteIcon from '../../img/social/twitterWhite.svg'
 import twitterBlackIcon from '../../img/social/twitterBlack.svg'
+import garage48BlackIcon from '../../img/social/garage48Black.svg'
+import slackBlackIcon from '../../img/social/slackBlack.svg'
+import guaanaBlackIcon from '../../img/social/guaanaBlack.svg'
+
 import styles from './SocialIconLink.module.scss'
 
 const getFacebookIcon = color => {
@@ -25,30 +29,85 @@ const getTwitterIcon = color => {
   }
 }
 
+const getGarage48Icon = color => {
+  switch (color) {
+    case 'black':
+      return garage48BlackIcon
+    case 'white':
+    default:
+      return garage48BlackIcon
+  }
+}
+
+const getSlackIcon = color => {
+  switch (color) {
+    case 'black':
+      return slackBlackIcon
+    case 'white':
+    default:
+      return slackBlackIcon
+  }
+}
+
+const getGuaanaIcon = color => {
+  switch (color) {
+    case 'black':
+      return guaanaBlackIcon
+    case 'white':
+    default:
+      return guaanaBlackIcon
+  }
+}
+
 const getImgPropsForIconType = (type, color) => {
   switch (type) {
     case 'slack':
-      return { alt: 'slack', src: getFacebookIcon(color) }
+      return {
+        alt: 'slack',
+        src: getSlackIcon(color),
+        width: '46px',
+        height: '11px',
+      }
     case 'guaana':
-      return { alt: 'guaana', src: getFacebookIcon(color) }
+      return {
+        alt: 'guaana',
+        src: getGuaanaIcon(color),
+        width: '49px',
+        height: '11px',
+      }
     case 'garage48':
-      return { alt: 'garage48', src: getFacebookIcon(color) }
+      return {
+        alt: 'garage48',
+        src: getGarage48Icon(color),
+        width: '60px',
+        height: '18px',
+      }
     case 'facebook':
-      return { alt: 'facebook', src: getFacebookIcon(color) }
+      return {
+        alt: 'facebook',
+        src: getFacebookIcon(color),
+        width: '20px',
+        height: '20px',
+      }
     case 'twitter':
-      return { alt: 'twitter', src: getTwitterIcon(color) }
+      return {
+        alt: 'twitter',
+        src: getTwitterIcon(color),
+        width: '20px',
+        height: '20px',
+      }
     default:
       return {}
   }
 }
 
-const SocialIconLink = ({ type, href, color = 'white' }) => (
-  <a className={styles.noDecoration} href={href} target="_blank">
-    <img
-      {...getImgPropsForIconType(type, color)}
-      style={{ width: '20px', height: '20px' }}
-    />
-  </a>
-)
+const SocialIconLink = ({ type, href, color = 'white' }) => {
+  const { alt, src, width, height } = getImgPropsForIconType(type, color)
+  return (
+    <a className={styles.noDecoration} href={href} target="_blank">
+      <img alt={alt} src={src} style={{ width, height }} />
+    </a>
+  )
+}
 
 export default SocialIconLink

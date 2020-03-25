@@ -106,11 +106,16 @@ const Navbar = class extends React.Component {
                 eventTime={eventDate.toISOString()}
               />
               <div className="navbar-item">
-                {/* TODO add correct social links */}
-                <SocialIconLink type="facebook" href="https://facebook.com" />
+                <SocialIconLink
+                  type="facebook"
+                  href="https://www.facebook.com/Garage48/"
+                />
               </div>
               <div className="navbar-item">
-                <SocialIconLink type="twitter" href="https://twitter.com" />
+                <SocialIconLink
+                  type="twitter"
+                  href="https://twitter.com/garage48"
+                />
               </div>
             </div>
           </div>

@@ -46,6 +46,8 @@
   margin: 8px 0;
 
   @include desktop() {
+    text-align: left;
+
     &:hover {
       color: $primary !important;
       text-decoration: underline;

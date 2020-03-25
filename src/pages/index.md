@@ -2,11 +2,9 @@
 heroImage: /img/keyvisual_nologo.jpg
 heading: placeholder
 templateKey: index-page
-title: Fighting off the crisis
-eventDate: 3-5th of April
-subheading: >-
-  3 billion people in lockdown. Join the world's biggest hackathon so we never
-  go through this again.
+title: Fighting a Global Crisis
+eventDate: '3-5th April, 2020'
+subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
 howItWorksDescription: >-
   The Global Hack is the biggest online hackathon in the world's history to
   battle the problems we are facing globally after the immediate corona crisis
@@ -14,9 +12,8 @@ howItWorksDescription: >-
   teams to build the solutions for the better tomorrow.
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
-  of future challenges. 
-
-  These are the areas most likely to see the biggest changes:
+  of future challenges. These are the areas most likely to see the biggest
+  changes:
 trackleadsDescription: >-
   Track leads are people who feel a strong sense of personal responsibility to
   help the world tackle this crisis. Hopefully they will inspire you to join
@@ -24,70 +21,48 @@ trackleadsDescription: >-
 contentItems:
   - title: Backstory
     textContent: >-
-      March 14 and 15 something spectacular happened. In less than 6 hours
-      AccelerateEstonia and Garage48 put together an online hackathon to tackle
-      the effects of the Coronavirus crisis. More than a thousand people across
-      14 time zones joined, and out of the 30 or so ideas, several are already
-      up and running!
-
-
-      The world took notice. Now there are almost 30 initiatives around the
-      globe hacking away, from India to Georgia to Brazil. There’s been a
-      massive ripple effect (exponential growth, if you pardon the
-      epidemiological parlance), which proves that if there ever was a time to
-      make things bigger, then this is it!
+      On 14–15 March something spectacular started in Estonia. It took fewer
+      than six hours for AccelerateEstonia, Garage48, and Guaana to put together
+      an online hackathon to tackle the devastating effects of the Coronavirus
+      crisis. More than 1200 people across 14 time zones joined this effort and
+      the world took notice. Now there are almost 30 initiatives around the
+      globe hacking away, from India to Georgia to Brazil.
     ctaText: About the first hackathon
     ctaLink: >-
       http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
     image: /img/g48_crisis-cover.jpg
   - title: The crisis is far from over
     textContent: >-
-      We need to start solving the problems that we’ll face as a global society,
-      once we venture out from our homes again. How will we deal with the
-      changed relationships in the economy, the future of work, healthcare and a
-      world transformed, perhaps, beyond recognition? Maybe we’ll even come up
-      with solutions to fight future pandemics more effectively.
-
-
-      To create solutions we’re putting on The Global Hack on April 3-5. 
-
-
-      We’re expecting brilliant people from every corner of the world to
-      participate in an online hackathon. We are also looking for mentors and
-      inspirational global leaders to support our mission and dedicate their
-      time and expertise over the weekend. 
-
-
-      We’re in a unique situation and we literally are in it all together: the
-      whole world is looking for solutions to the same problems at the same
-      time.
+      How will we deal with the changed relationships in the economy, the future
+      of work, healthcare and a world transformed, perhaps, beyond recognition?
+      We need to come up with solutions that will help us fight future
+      pandemics, and all crises for that matter, more effectively. So we never
+      have to lock down again. 
     image: /img/crisis-map.png
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
 howItWorksItems:
-  - title: Share ideas
+  - title: Share Ideas
     textContent: >-
       Ideas are shared per track. Each track has a Slack channel and a Twitter
-      hashtag. Use either of those channels to let others know what are your
-      great ideas.
-    ctaText: Tweet away
+      hashtag. Use either of those channels to let others know what your great
+      ideas are.
+    ctaText: Go to Tracks
     ctaLink: 'https://twitter.com'
     image: /img/step1.png
-  - title: Register team
+  - title: Register Team
     textContent: >-
-      When you feel like some of your ideas are really getting traction, then
-      it's time to think about who you want to hack with. Find a team of 4-6
-      dedicated people and officially register your idea and team to the
-      hackathon.
-    ctaText: Register team
+      When you feel like you’ve found an attractive idea it's time to think
+      about who to hack with. Assemble a team of 4-6 dedicated people and
+      register the idea and team.
+    ctaText: Register Team
     ctaLink: /
     image: /img/step3.png
   - title: Start hacking
     textContent: >-
-      Be ready on the 3rd of April to start hacking with your team! You only
-      have 48h to polish your solution and show it to the world. These are going
-      to be extremely intense hours but you can possibly impact the world with
-      this
+      Start hacking with your team on 3rd of April! You only have 48h to polish
+      your solution and show it to the world. These extremely intense hours may
+      change the world!
     ctaText: Hack in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png

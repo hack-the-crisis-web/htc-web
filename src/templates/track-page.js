@@ -39,8 +39,6 @@ const TrackPage = ({ data }) => {
   const { frontmatter = {} } = data.markdownRemark
   const { mentor = {} } = data
 
-  console.log(mentor)
-
   return (
     <Layout>
       <TrackTemplate

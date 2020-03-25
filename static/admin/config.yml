@@ -154,7 +154,7 @@ collections:
           widget: 'relation',
           collection: 'person',
           searchFields: ['surname', 'name'],
-          displayFields: 'surname',
+          displayFields: ['surname', 'name'],
           valueField: 'personId',
           required: true,
         }

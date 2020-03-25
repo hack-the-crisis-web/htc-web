@@ -211,7 +211,7 @@ collections:
                     label: 'Title',
                     name: 'title',
                     widget: 'string',
-                    optional: true,
+                    required: false,
                   },
                   {
                     label: 'Text content',
@@ -222,19 +222,19 @@ collections:
                     label: 'Image',
                     name: 'image',
                     widget: 'image',
-                    optional: true,
+                    required: false,
                   },
                   {
                     label: 'CTA text',
                     name: 'ctaText',
                     widget: 'string',
-                    optional: true,
+                    required: false,
                   },
                   {
                     label: 'CTA link',
                     name: 'ctaLink',
                     widget: 'string',
-                    optional: true,
+                    required: false,
                   },
                 ],
             }

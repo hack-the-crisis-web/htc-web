@@ -1,12 +1,37 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import "../../all.sass";
+import { Link, graphql, StaticQuery } from 'gatsby'
+import '../../all.sass'
 import Brand from '../../Brand/Brand'
-import ContactInfo from '../ContactInfo/ContactInfo';
+import ContactInfo from '../ContactInfo/ContactInfo'
 import FooterCategory from '../FooterCategory/FooterCategory'
 import styles from './FooterMenuRow.module.scss'
 
-const FooterMenuRow = () => (
+const transformData = data => {
+  const titlesArray = data.map(item => item.node.frontmatter.title)
+  const linksWithSlugs = titlesArray.map(title => ({
+    title,
+    url: title
+      .toLowerCase()
+      .replace(/[^\w ]+/g, '')
+      .replace(/ +/g, '-'),
+  }))
+
+  const numberOfItemsInColumn = 4
+  const groupedCategories = []
+
+  linksWithSlugs.forEach((element, index) => {
+    const innerArrayIndex = Math.floor(index / numberOfItemsInColumn)
+    if (!groupedCategories[innerArrayIndex]) {
+      groupedCategories[innerArrayIndex] = []
+    }
+
+    groupedCategories[innerArrayIndex].push(element)
+  })
+
+  return groupedCategories
+}
+
+const FooterMenuRow = ({ data }) => (
   <div className={`columns is-flex-touch is-desktop ${styles.menuRow}`}>
     <div className="column is-one-third-desktop is-one-quarter-widescreen">
       <Link to="/" className={styles.homeLink} title="Global Hack">
@@ -40,31 +65,28 @@ const FooterMenuRow = () => (
       />
     </div>
     <div className="column is-one-third-desktop is-one-quarter-widescreen">
-      <FooterCategory
-        title="Tracks"
-        linkColumns={[
-          [
-            { title: 'Relationships', url: '/' },
-            { title: 'Media', url: '/' },
-            { title: 'Health', url: '/' },
-            { title: 'Economy', url: '/' },
-          ],
-          [
-            { title: 'Education', url: '/' },
-            { title: 'Environment', url: '/' },
-            { title: 'Content', url: '/' },
-            { title: 'Event', url: '/' },
-          ],
-          [
-            { title: 'Music and Art', url: '/' },
-            { title: 'Culture', url: '/' },
-            { title: 'Content', url: '/' },
-            { title: 'Event', url: '/' },
-          ],
-        ]}
-      />
+      <FooterCategory title="Tracks" linkColumns={transformData(data)} />
     </div>
   </div>
 )
 
-export default FooterMenuRow
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query FooterMenuRow {
+        allMarkdownRemark(
+          filter: { frontmatter: { templateKey: { eq: "tracklists" } } }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => <FooterMenuRow data={data.allMarkdownRemark.edges} />}
+  />
+)

@@ -1,6 +1,11 @@
-@import "../../styles/styleSetup.scss";
+@import '../../styles/styleSetup.scss';
 
 .noDecoration {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+
   &:hover,
   &:visited,
   &:link,

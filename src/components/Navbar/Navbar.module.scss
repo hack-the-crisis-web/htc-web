@@ -1,4 +1,10 @@
-@import "../../styles/styleSetup.scss";
+@import '../../styles/styleSetup.scss';
+
+.nav {
+  @include touch() {
+    min-height: 3.75rem;
+  }
+}
 
 .hoverMenu {
   position: absolute;
@@ -9,6 +15,12 @@
   @include desktop() {
     position: static;
     padding-right: 0;
+  }
+}
+
+.burger {
+  @include touch() {
+    margin-left: 0;
   }
 }
 

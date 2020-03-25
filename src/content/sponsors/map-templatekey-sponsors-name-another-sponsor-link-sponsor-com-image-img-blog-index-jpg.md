@@ -1,6 +1,6 @@
 ---
 templateKey: sponsors
 name: Another sponsor
-link: sponsor.com
+link: www.sponsor.com
 image: /img/blog-index.jpg
 ---

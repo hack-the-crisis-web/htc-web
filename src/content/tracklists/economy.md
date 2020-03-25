@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Economy
-hashtag: '#economyhacking'
+hashtag: '#theglobalhack #economy'
 description: >-
   We are on the verge of the economic crisis that no one has seen. It's not a
   bubble that bursted. Everything just stopped. How do we come out of that? 

@@ -5,6 +5,7 @@ hashtag: '#theglobalhack #mentalhealth'
 description: >-
   The circumstances can be mentally challenging as relationships will be under
   pressure and many will feel lonelier than ever before.
+keyMentor: '{{uuid}}'
 featuredimage: /img/mental_health.jpg
 trackLogo: ''
 widgetCode: >-

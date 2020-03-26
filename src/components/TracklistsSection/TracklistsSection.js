@@ -14,7 +14,7 @@ const TracklistsSection = ({ data, description }) => {
         <div className={classnames('container has-text-primary')}>
           <SectionTitle title="Tracklists" />
           <SectionDescription text={description} />
-          <div className={classnames('columns is-multiline')}>
+          <div className={classnames('columns is-multiline is-mobile')}>
             {data.map(
               (
                 {
@@ -25,7 +25,10 @@ const TracklistsSection = ({ data, description }) => {
                 index
               ) => {
                 return (
-                  <div key={index} className="column is-4">
+                  <div
+                    key={index}
+                    className="column is-full-mobile is-half-tablet is-one-third-desktop"
+                  >
                     <TracklistsCard
                       url={title
                         .toLowerCase()

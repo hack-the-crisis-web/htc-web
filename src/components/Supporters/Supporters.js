@@ -16,7 +16,7 @@ const Supporters = ({ data }) => {
         >
           Organising Partners
         </h2>
-        <div className="columns is-multiline">
+        <div className="columns is-multiline is-mobile">
           {edges.map(
             ({
               node: {
@@ -26,8 +26,16 @@ const Supporters = ({ data }) => {
             }) => {
               return (
                 templateKey === 'supporters' && (
-                  <div key={uuid()} className="column is-3">
-                    <a href={link} target="_blank" className={styles.link}>
+                  <div
+                    key={uuid()}
+                    className="column is-one-quarter-desktop is-half-mobile is-half-tablet"
+                  >
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.link}
+                    >
                       <img className={styles.logo} src={image} alt={name} />
                     </a>
                   </div>
@@ -41,7 +49,7 @@ const Supporters = ({ data }) => {
         >
           Sponsors
         </h2>
-        <div className="columns is-multiline">
+        <div className="columns is-multiline is-mobile">
           {edges.map(
             ({
               node: {
@@ -51,8 +59,16 @@ const Supporters = ({ data }) => {
             }) => {
               return (
                 templateKey === 'sponsors' && (
-                  <div key={uuid()} className="column is-3">
-                    <a href={link} target="_blank" className={styles.link}>
+                  <div
+                    key={uuid()}
+                    className="column is-one-quarter-desktop is-half-mobile is-half-tablet"
+                  >
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.link}
+                    >
                       <img className={styles.logo} src={image} alt={name} />
                     </a>
                   </div>

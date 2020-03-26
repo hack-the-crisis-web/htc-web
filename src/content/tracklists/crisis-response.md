@@ -7,6 +7,14 @@ description: >-
   lessons can we all take forward for the next crisis?
 featuredimage: /img/crisis.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## Why Crisis Response?
 

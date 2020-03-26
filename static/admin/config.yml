@@ -215,6 +215,48 @@ collections:
               widget: 'text',
               default: '',
             }
+          - {
+              label: 'Timeline',
+              name: timelineDescription,
+              widget: 'text',
+              default: '',
+            }
+
+          - {
+              label: Timeline,
+              name: timeline,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Is Active?',
+                    name: 'isActive',
+                    widget: 'boolean',
+                    default: false,
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Date',
+                    name: 'date',
+                    widget: 'date',
+                    required: false,
+                    default: '',
+                  },
+                ],
+            }
           - &contentItems {
               label: Content Items,
               name: contentItems,

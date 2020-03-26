@@ -17,7 +17,7 @@ heading: placeholder
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '10-12 April, 2020'
-subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
+subheading: "3 billion people in lockdown. Join the world's biggest hackathon.  "
 heroCTALeftText: Let's hack a
 heroCTALeftLink: '#how-it-works'
 howItWorksDescription: >-
@@ -30,6 +30,10 @@ tracklistDescription: >-
   of future challenges. These are the areas most likely to see the biggest
   changes:
 trackleadsDescription: >-
+  Our track leads feel a strong sense of personal responsibility to help the
+  world tackle this crisis. They’re here to inspire you to join the fight and
+  pitch in with great solutions.
+timelineDescription: >-
   Our track leads feel a strong sense of personal responsibility to help the
   world tackle this crisis. They’re here to inspire you to join the fight and
   pitch in with great solutions.
@@ -57,7 +61,7 @@ contentItems:
 
       We need to come up with solutions that will help us fight future
       pandemics, and all crises for that matter, more effectively. So we never
-      have to lock down again. 
+      have to lock down again.
     image: /img/oportunity_globe.png
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'

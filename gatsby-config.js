@@ -12,7 +12,7 @@ module.exports = {
       resolve: `gatsby-plugin-cookiehub-banner`,
       options: {
         // Your cookiehub widget ID. You can find the widget ID in the CookieHub tab "Your script" of the appropriate widget. The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
-        cookieHubId: '55447995',
+        cookieHubId: 'e7811863',
         categories: [
           {
             categoryName: 'analytics',

@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Arts & Creativity
-hashtag: '#theglobalhack #creativity'
+hashtag: 'Tweet the combination #theglobalhack #creativity'
 description: >-
   Crises pose serious new challenges to creatives as budgets, funding and
   exposure will be strained for the foreseeable future.

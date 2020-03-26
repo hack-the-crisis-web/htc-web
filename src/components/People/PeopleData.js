@@ -1,4 +1,4 @@
-import { StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 
 const filterVisiblePersons = (data, type, hashtag = '') =>

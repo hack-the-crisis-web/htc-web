@@ -5,6 +5,7 @@ hashtag: '#theglobalhack #empowerment'
 description: >-
   This pandemic will affect everyone, but those among the poorest and most
   vulnerable will be negatively impacted more than others.
+keyMentor: ''
 featuredimage: /img/inequality.jpg
 trackLogo: ''
 widgetCode: >-

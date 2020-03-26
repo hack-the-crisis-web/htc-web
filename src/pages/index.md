@@ -47,7 +47,7 @@ contentItems:
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
 howItWorksItems:
-  - title: 1. Share Ideas
+  - title: Share Ideas
     textContent: >-
       Ideas are shared per track. Each track has a Slack channel and a Twitter
       hashtag. Use either of those channels to let others know what your great
@@ -55,7 +55,7 @@ howItWorksItems:
     ctaText: Go to Tracks
     ctaLink: 'https://twitter.com'
     image: /img/step1.png
-  - title: 2. Register Team
+  - title: Register Team
     textContent: >-
       When you feel like you’ve found an attractive idea it's time to think
       about who to hack with. Assemble a team of 4-6 dedicated people and
@@ -63,7 +63,7 @@ howItWorksItems:
     ctaText: Register Team
     ctaLink: /
     image: /img/step3.png
-  - title: 3. Start hacking
+  - title: Start hacking
     textContent: >-
       Start hacking with your team on 3rd of April! You only have 48h to polish
       your solution and show it to the world. These extremely intense hours may

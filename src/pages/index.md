@@ -3,7 +3,7 @@ heroImage: /img/keyvisual_nologo.jpg
 heading: placeholder
 templateKey: index-page
 title: Fighting a Global Crisis
-eventDate: '3-5th April, 2020'
+eventDate: '10-12 April, 2020'
 subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
 howItWorksDescription: >-
   The Global Hack is the biggest online hackathon in the world's history to

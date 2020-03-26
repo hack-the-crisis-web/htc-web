@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #creativity'
 description: >-
   Crises pose serious new challenges to creatives as budgets, funding and
   exposure will be strained for the foreseeable future.
-featuredimage: /uploads/portrait-placeholder.png
-trackLogo: /src/img/placeholders/hero.png
+featuredimage: /img/creativity.jpg
+trackLogo: ''
 ---
 **It’s difficult to value art and creativity in the best of times, but especially alongside an issue that involves loss of life, the most valuable thing of all. But art in its many different forms from music to comedy, is essential for helping us find meaning, beauty and comfort in this world.**
 

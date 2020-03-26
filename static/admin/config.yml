@@ -277,3 +277,16 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: string }
           - *contentItems
+      - file: 'src/pages/join/index.md'
+        label: 'Join us'
+        name: 'join'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'join-page',
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: 'Our People Title', name: ourPeopleTitle, widget: string }
+          - *contentItems

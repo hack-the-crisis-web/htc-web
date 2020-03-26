@@ -20,7 +20,7 @@ const NavTracklist = ({ data, buttonClassName, subnavButtonClassname }) => {
             .replace(/[^\w ]+/g, '')
             .replace(/ +/g, '-')
           return (
-            <NavLink to={path} className={subnavButtonClassname}>
+            <NavLink to={path} className={subnavButtonClassname} key={path}>
               {title}
             </NavLink>
           )

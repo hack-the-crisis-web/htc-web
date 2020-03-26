@@ -8,6 +8,10 @@ import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBl
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
 import TrackMentors from '../components/People/TrackMentors'
+import TwitterFeed from '../components/TwitterFeed/TwitterFeed'
+import parseTwitterWidgetCode from '../components/parseTwitterWidgetCode'
+import Section from '../components/Section/Section'
+import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 
 export const TrackTemplate = ({
   title,
@@ -20,6 +24,7 @@ export const TrackTemplate = ({
   featuredImage,
   trackLogo,
   content,
+  widgetCode,
 }) => (
   <>
     <TrackHeroSection
@@ -32,6 +37,12 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
+    {!!parseTwitterWidgetCode(widgetCode) && (
+      <Section>
+        <TwitterFeedTitle>{hashtag}</TwitterFeedTitle>
+        <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
+      </Section>
+    )}
     {content && <HTMLContentSection content={content} />}
     <TrackMentors
       hashtag={hashtag}
@@ -66,6 +77,7 @@ const TrackPage = ({ data }) => {
         featuredImage={frontmatter.featuredimage}
         trackLogo={frontmatter.trackLogo}
         content={data.markdownRemark.html}
+        widgetCode={frontmatter.widgetCode}
       />
     </Layout>
   )
@@ -92,6 +104,7 @@ export const pageQuery = graphql`
         hashtag
         keyMentor
         trackLogo
+        widgetCode
       }
     }
     mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {

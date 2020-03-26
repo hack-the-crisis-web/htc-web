@@ -1,0 +1,11 @@
+.centered  {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  margin-left: 16px;
+}

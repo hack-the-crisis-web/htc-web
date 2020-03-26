@@ -14,15 +14,11 @@ import styles from './TwitterFeed.module.scss'
 //   },
 // }
 
-// NB! adding this component makes the page resize really slowly due to unthrottled resize handler in dep
-const TwitterFeed = ({
-  scriptContent,
-  containerConfiguration: { className, dataRef },
-}) => {
+const TwitterFeed = ({ scriptContent, className, dataRef }) => {
   return (
     <>
       <Helmet>
-        <script>{scriptContent}</script>
+        <script>{`${scriptContent}`}</script>
       </Helmet>
       <div
         className={classnames(styles.container, className)}

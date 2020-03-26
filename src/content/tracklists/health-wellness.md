@@ -8,6 +8,14 @@ description: >-
 keyMentor: ''
 featuredimage: /img/wellbeing.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## Why Health & Wellness?
 

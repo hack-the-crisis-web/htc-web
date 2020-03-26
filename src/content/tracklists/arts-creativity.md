@@ -23,4 +23,4 @@ widgetCode: >-
 
 **This crisis poses serious new challenges to creatives as less people are able to visit their work and funding from both public and private sources will be strained for the foreseeable future. The world needs art now more than ever though so how do we solve this?**
 
-[Share Your Ideas on Reddit >](https://reddit.com/r/theglobalhack)
+[Share Ideas on Reddit >](https://reddit.com/r/theglobalhack)

@@ -5,11 +5,11 @@ hashtag: '#theglobalhack #economy'
 description: >-
   We are facing a severe economic crisis like no other as traditional methods
   for stimulating the economy don’t work under lockdown. 
-keyMentor: b
+keyMentor: ''
 featuredimage: /img/economy.jpg
 trackLogo: ''
 ---
-## Why economy track?
+## Why economy?
 
 We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too.
 

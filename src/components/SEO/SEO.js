@@ -28,7 +28,7 @@ const SEO = ({ title, description, pathname }) => (
             <meta name="description" content={seo.description} />
             <meta
               name="image"
-              content={`${withPrefix('/')}img/g48_crisis-cover.jpg`}
+              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
             />
             {seo.url && <meta property="og:url" content={seo.url} />}
             {seo.title && (
@@ -43,7 +43,7 @@ const SEO = ({ title, description, pathname }) => (
             {seo.image && (
               <meta
                 property="og:image"
-                content={`${withPrefix('/')}img/g48_crisis-cover.jpg`}
+                content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
               />
             )}
             <meta name="twitter:card" content="summary_large_image" />
@@ -59,7 +59,7 @@ const SEO = ({ title, description, pathname }) => (
             {seo.image && (
               <meta
                 name="twitter:image"
-                content={`${withPrefix('/')}img/g48_crisis-cover.jpg`}
+                content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
               />
             )}
             <link
@@ -87,7 +87,7 @@ const SEO = ({ title, description, pathname }) => (
             />
             <meta
               property="og:image"
-              content={`${withPrefix('/')}img/g48_crisis-cover.jpg`}
+              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
             />
           </Helmet>
         </>

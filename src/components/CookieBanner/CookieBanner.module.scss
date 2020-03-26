@@ -26,6 +26,10 @@
 
   .btn {
     margin-left: auto;
+
+    @include mobile() {
+      margin: 0 auto;
+    }
   }
 }
 

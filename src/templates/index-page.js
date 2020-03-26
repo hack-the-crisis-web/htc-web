@@ -10,6 +10,7 @@ import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackLeads from '../components/People/TrackLeads'
+import TimelineSection from '../components/TimelineSection/TimelineSection'
 import '../components/all.sass'
 import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
 
@@ -35,6 +36,50 @@ export const IndexPageTemplate = ({
     <HowItWorksSection
       description={howItWorksDescription}
       items={howItWorksItems}
+    />
+    <TimelineSection
+      title="Timeline"
+      description="Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis"
+      ctaLabel="Full agenda"
+      ctaUrl="/"
+      items={[
+        {
+          image: 'https://via.placeholder.com/100.png/',
+          title: 'Caption',
+          date: '4. april',
+          isActive: false,
+        },
+        {
+          image: 'https://via.placeholder.com/120.png/',
+          title: 'Caption two with long text',
+          date: '6. april',
+          isActive: true,
+        },
+        {
+          image: 'https://via.placeholder.com/98.png/',
+          title: 'Caption three',
+          date: '7. april',
+          isActive: false,
+        },
+        {
+          image: 'https://via.placeholder.com/198.png/',
+          title: 'Caption 4',
+          date: '8. april',
+          isActive: false,
+        },
+        {
+          image: 'https://via.placeholder.com/88.png/',
+          title: 'Caption 5',
+          date: '9. april',
+          isActive: false,
+        },
+        {
+          image: 'https://via.placeholder.com/128.png/',
+          title: 'Caption 6',
+          date: '10. april',
+          isActive: false,
+        },
+      ]}
     />
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />

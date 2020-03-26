@@ -8,6 +8,31 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-cookiehub-banner`,
+      options: {
+        // Your cookiehub widget ID. You can find the widget ID in the CookieHub tab "Your script" of the appropriate widget. The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
+        cookieHubId: 'e7811863',
+        categories: [
+          {
+            categoryName: 'analytics',
+            cookieName: 'gatsby-plugin-google-analytics-gdpr_cookies-enabled',
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-161868180-1',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+      },
+    },
     'gatsby-plugin-sass',
     {
       // needs to be first, otherwise build fails

@@ -5,6 +5,8 @@ title: About
 ---
 On 14–15 March, 2020 something spectacular started in Estonia. It took fewer than six hours for AccelerateEstonia, Garage48, and Guaana to put together an online hackathon with the aim of tackling the expected devastating effects of the Coronavirus crisis. More than a thousand people across fourteen time zones joined this effort, resulting in over thirty proposals—some of which are already up and running in affected countries around the world.
 
+![](/img/g48_selfied.jpg)
+
 It didn’t take long for news to spread about this amazing online hackathon. As a result, there are currently about thirty different initiatives taking place, from India, to Georgia, to Brazil. If there ever was a time to go all out in our efforts to address the transformation necessary to survive, and thrive, in a post-pandemic world, then this is it!
 
 This crisis is far from over. The need to begin addressing the problems that we’ll face as a global society, once we can venture out from our homes again, is now. How will we deal with the expected massive changes to our economy, workplaces, healthcare, and environment as we find our world order transformed—perhaps, beyond recognition?

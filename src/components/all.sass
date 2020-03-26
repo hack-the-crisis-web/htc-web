@@ -112,20 +112,19 @@ $menu-label-color: $white-ter
   margin: 0 1.5em 0 0
 
 // hover effect
-.hover-effect-small
-  transition: transform 120ms ease-in-out
-  &:hover
-    transform: translateY(-3px)
-
-.hover-effect-small.cancel-effect
-  transition: none
-  &:hover
-    transform: none
-
-.hover-effect
-  transition: transform 120ms ease-in-out
-  &:hover
-    transform: translateY(-8%)
+html.no-touch
+  .hover-effect-small
+    transition: transform 120ms ease-in-out
+    &:hover
+      transform: translateY(-3px)
+  .hover-effect-small.cancel-effect
+    transition: none
+    &:hover
+      transform: none
+  .hover-effect
+    transition: transform 120ms ease-in-out
+    &:hover
+      transform: translateY(-8%)
 
 
 // responsiveness

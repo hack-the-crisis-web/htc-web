@@ -67,7 +67,7 @@
     max-width: 90%;
   }
 
-  a + a.joinButton {
+  a.btn:nth-of-type(1n + 2) {
     margin-left: 42px;
   }
 
@@ -79,7 +79,7 @@
       margin-bottom: 23px;
     }
 
-    a + a.joinButton {
+    a.btn:nth-of-type(1n + 2) {
       margin-left: 0;
     }
   }

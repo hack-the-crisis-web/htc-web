@@ -26,6 +26,10 @@ export const IndexPageTemplate = ({
   timelineDescription,
   heroImage,
   timeline,
+  heroCTALeftText,
+  heroCTALeftLink,
+  heroCTARightText,
+  heroCTARightLink,
 }) => (
   <>
     <HeroSection
@@ -33,6 +37,10 @@ export const IndexPageTemplate = ({
       title={title}
       subheading={subheading}
       eventDate={eventDate}
+      heroCTALeftText={heroCTALeftText}
+      heroCTALeftLink={heroCTALeftLink}
+      heroCTARightText={heroCTARightText}
+      heroCTARightLink={heroCTARightLink}
     />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <HowItWorksSection
@@ -78,6 +86,10 @@ const IndexPage = ({ data }) => {
         timelineDescription={frontmatter.timelineDescription}
         heroImage={frontmatter.heroImage.publicURL}
         timeline={frontmatter.timeline}
+        heroCTALeftText={frontmatter.heroCTALeftText}
+        heroCTALeftLink={frontmatter.heroCTALeftLink}
+        heroCTARightText={frontmatter.heroCTARightText}
+        heroCTARightLink={frontmatter.heroCTARightLink}
       />
     </Layout>
   )
@@ -115,6 +127,10 @@ export const pageQuery = graphql`
         heroImage {
           publicURL
         }
+        heroCTALeftText
+        heroCTALeftLink
+        heroCTARightText
+        heroCTARightLink
         howItWorksItems {
           title
           textContent

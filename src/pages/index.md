@@ -19,18 +19,26 @@ timelineDescription: >-
   world tackle this crisis. They’re here to inspire you to join the fight and
   pitch in with great solutions.
 timeline:
-  - title: First step
-    isActive: false
-    image: /img/crisis.jpg
-    date: 2020-02-29T22:00:00.000Z
-  - title: Second step
+  - title: Share ideas in Reddit
     isActive: true
+    image: /img/crisis.jpg
+    date: ''
+  - title: The registration starts
+    isActive: false
     image: /img/content.jpg
-    date: 2020-03-01T22:00:00.000Z
-  - title: Third step
+    date: 2020-04-06T21:00:00.000Z
+  - title: The hackathon starts
     isActive: false
     image: /img/enviroment.jpg
-    date: 2020-03-04T22:00:00.000Z
+    date: 2020-04-09T21:00:00.000Z
+  - title: The hackathon ends
+    isActive: false
+    image: /img/mental_health.jpg
+    date: 2020-04-11T21:00:00.000Z
+  - title: The world is a better place
+    isActive: false
+    image: /img/oportunity_globe.png
+    date: ''
 heading: placeholder
 trackleadsDescription: >-
   Our track leads feel a strong sense of personal responsibility to help the

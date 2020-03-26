@@ -1,13 +1,23 @@
 ---
+heroCTARightLink: 'https://theglobalhack.slack.com/'
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '10-12 April, 2020'
 subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: Let's hack
-heroCTALeftLink: '#how-it-works'
-heroCTARightText: Join slack
-heroCTARightLink: 'https://theglobalhack.slack.com/'
+howItWorksDescription: >-
+  The Global Hack is the biggest online hackathon in the world's history to
+  battle the problems we are facing globally after the immediate corona crisis
+  is over. We are bringing together world class mentors and globally talented
+  teams to build the solutions for the better tomorrow.
+tracklistDescription: >-
+  The tracks are inspired by the UN sustainability goals that cover the majority
+  of future challenges. These are the areas most likely to see the biggest
+  changes:
+timelineDescription: >-
+  Our track leads feel a strong sense of personal responsibility to help the
+  world tackle this crisis. They’re here to inspire you to join the fight and
+  pitch in with great solutions.
 timeline:
   - title: First step
     isActive: false
@@ -22,20 +32,7 @@ timeline:
     image: /img/enviroment.jpg
     date: 2020-03-04T22:00:00.000Z
 heading: placeholder
-howItWorksDescription: >-
-  The Global Hack is the biggest online hackathon in the world's history to
-  battle the problems we are facing globally after the immediate corona crisis
-  is over. We are bringing together world class mentors and globally talented
-  teams to build the solutions for the better tomorrow.
-tracklistDescription: >-
-  The tracks are inspired by the UN sustainability goals that cover the majority
-  of future challenges. These are the areas most likely to see the biggest
-  changes:
 trackleadsDescription: >-
-  Our track leads feel a strong sense of personal responsibility to help the
-  world tackle this crisis. They’re here to inspire you to join the fight and
-  pitch in with great solutions.
-timelineDescription: >-
   Our track leads feel a strong sense of personal responsibility to help the
   world tackle this crisis. They’re here to inspire you to join the fight and
   pitch in with great solutions.
@@ -67,6 +64,9 @@ contentItems:
     image: /img/oportunity_globe.png
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
+heroCTALeftText: Let's hack
+heroCTARightText: Join slack
+heroCTALeftLink: '#how-it-works'
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
@@ -76,6 +76,7 @@ howItWorksItems:
     ctaText: Go to Tracks
     ctaLink: 'https://hackthecrisis.netlify.com/#tracklists'
     image: /img/step1.png
+    isActive: true
   - title: Register Team
     textContent: >-
       When you feel like you’ve found an attractive idea it's time to think
@@ -84,6 +85,7 @@ howItWorksItems:
     ctaText: Register Team
     ctaLink: /
     image: /img/step3.png
+    isActive: true
   - title: Start hacking
     textContent: >-
       Start hacking with your team on 3rd of April! You only have 48h to polish
@@ -92,5 +94,6 @@ howItWorksItems:
     ctaText: Hack in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png
+    isActive: true
 description: placeholder
 ---

@@ -27,7 +27,12 @@ const TwoColumnContentBlock = ({
       )}
     >
       <div
-        className={classnames('columns', !image && styles.notAlternatingColumn)}
+        className={classnames(
+          'columns',
+          'is-variable',
+          'is-8',
+          !image && styles.notAlternatingColumn
+        )}
       >
         {!!image && (
           <div className="column">

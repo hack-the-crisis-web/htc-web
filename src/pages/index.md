@@ -6,47 +6,44 @@ subheading: '3 billion people in lockdown. Join the world''s biggest hackathon. 
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'
-heroCTARightText: Join slack
-heroCTARightLink: 'https://theglobalhack.slack.com/'
+heroCTARightText: Share Ideas
+heroCTARightLink: 'https://reddit.com/r/theglobalhack/'
 timeline:
-  - title: Share ideas in Reddit
+  - title: Share ideas on Reddit
     isActive: true
     image: /img/crisis.jpg
     date: ''
-  - title: The registration starts
+  - title: Registration Starts
     isActive: false
     image: /img/content.jpg
     date: 2020-04-06T21:00:00.000Z
-  - title: The hackathon starts
+  - title: Hackathon Starts
     isActive: false
     image: /img/enviroment.jpg
     date: 2020-04-09T21:00:00.000Z
-  - title: The hackathon ends
+  - title: Hackathon Ends
     isActive: false
     image: /img/mental_health.jpg
     date: 2020-04-11T21:00:00.000Z
-  - title: The world is a better place
+  - title: New Solutions
     isActive: false
     image: /img/oportunity_globe.png
     date: ''
 heading: placeholder
 howItWorksDescription: >-
-  The Global Hack is the biggest online hackathon in the world's history to
-  battle the problems we are facing globally after the immediate corona crisis
-  is over. We are bringing together world class mentors and globally talented
-  teams to build the solutions for the better tomorrow.
+  We're organising the biggest online hackathon in the world's history to battle
+  the problems we are facing globally after the immediate corona crisis is over.
+  We are bringing together world class mentors and globally talented teams to
+  build the solutions for the better tomorrow.
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
-  of future challenges. These are the areas most likely to see the biggest
+  of our future challenges. These are the areas most likely to see the biggest
   changes:
 trackleadsDescription: >-
   Our track leads feel a strong sense of personal responsibility to help the
   world tackle this crisis. They’re here to inspire you to join the fight and
   pitch in with great solutions.
-timelineDescription: >-
-  Our track leads feel a strong sense of personal responsibility to help the
-  world tackle this crisis. They’re here to inspire you to join the fight and
-  pitch in with great solutions.
+timelineDescription: Needs Copy
 contentItems:
   - title: Backstory
     textContent: >-
@@ -63,7 +60,7 @@ contentItems:
     ctaLink: >-
       http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
     image: /img/backstory.png
-  - title: The crisis is far from over
+  - title: Far from over
     textContent: >-
       How will we deal with the changed relationships in the economy, the future
       of work, healthcare and a world transformed, perhaps, beyond recognition? 

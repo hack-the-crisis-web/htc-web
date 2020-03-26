@@ -23,4 +23,4 @@ Medical workers and other emergency response personnel will be on the frontline 
 
 This is not a drill, but it will test us all to the extreme. How do we help those who help us and what lessons can we all take forward for the next crisis?
 
-[Share Ideas on Reddit >](https://reddit.com/r/theglobalhack)
+[Share Ideas and find a Team on Reddit >](https://reddit.com/r/theglobalhack)

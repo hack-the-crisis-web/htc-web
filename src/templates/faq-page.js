@@ -6,15 +6,16 @@ import SectionTitle from '../components/SectionTitle/SectionTitle'
 import SectionDescription from '../components/SectionDescription/SectionDescription'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import FAQContent from '../components/FAQContent/FAQContent'
+import Section from '../components/Section/Section'
 
 export const FAQPageTemplate = ({ title, content, contentItems }) => (
   <>
-    <section className="section">
-      <div className="container">
+    <Section>
+      <div className="section" style={{ paddingLeft: '0', paddingRight: '0' }}>
         <SectionTitle title={title} />
         {!!content && <SectionDescription text={content} />}
       </div>
-    </section>
+    </Section>
     <FAQContent contentItems={contentItems}></FAQContent>
   </>
 )

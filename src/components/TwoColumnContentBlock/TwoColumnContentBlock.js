@@ -13,12 +13,19 @@ const TwoColumnContentBlock = ({
   image,
   ctaText,
   ctaLink,
+  twoColumnClassName,
   titleClassName,
   descriptionClassName,
 }) => {
   const shouldRenderCTA = !!ctaText && !!ctaLink
   return (
-    <div className={classnames('container', styles.bottomMargin)}>
+    <div
+      className={classnames(
+        'container',
+        styles.bottomMargin,
+        twoColumnClassName
+      )}
+    >
       <div
         className={classnames('columns', !image && styles.notAlternatingColumn)}
       >

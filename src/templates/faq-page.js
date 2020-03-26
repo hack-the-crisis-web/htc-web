@@ -14,9 +14,9 @@ export const FAQPageTemplate = ({ title, content, contentItems }) => (
       <div className="section" style={{ paddingLeft: '0', paddingRight: '0' }}>
         <SectionTitle title={title} />
         {!!content && <SectionDescription text={content} />}
+        <FAQContent contentItems={contentItems} />
       </div>
     </Section>
-    <FAQContent contentItems={contentItems}></FAQContent>
   </>
 )
 

@@ -7,6 +7,8 @@ import contentBlockPropTypes from '../TwoColumnContentBlock/contentBlockPropType
 const FAQContent = props => (
   <AlternatingContent
     {...props}
+    inSection={false}
+    twoColumnClassName={styles.faqSection}
     descriptionClassName={styles.faqDescription}
     titleClassName={styles.faqTitle}
   />

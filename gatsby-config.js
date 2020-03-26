@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-161868180-1',
-        cookieName: `google-analytics`,
+        cookieName: `the-global-hack-google-analytics`,
         head: true,
         anonymize: true,
         respectDNT: true,

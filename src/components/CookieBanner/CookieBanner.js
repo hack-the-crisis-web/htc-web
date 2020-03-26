@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 import styles from './CookieBanner.module.scss'
 import { Link } from 'gatsby'
 
-export const COOKIE_NAME = 'google-analytics'
+export const COOKIE_NAME = 'the-global-hack-google-analytics'
 
 const CookieBanner = () => {
   const [cookiesAccepted, setCookiesAccepted] = useState(false)
@@ -27,8 +27,11 @@ const CookieBanner = () => {
             <div className={styles.row}>
               <div className={styles.bubble} />
               <p className="has-text-white">
-                This website uses cookies to improve your experience.{' '}
-                <Link to="/terms-and-conditions">Terms and Conditions</Link>
+                This site uses cookies. We care about your data, and the cookies
+                are used only to improve your experience.{' '}
+                <Link to="/terms-and-conditions">
+                  Privacy settings & policy
+                </Link>
               </p>
             </div>
           </div>

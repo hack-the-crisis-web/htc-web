@@ -21,7 +21,7 @@ const Layout = ({ children, title }) => {
 
   useEffect(() => {
     const isCookiesAccepted = document.cookie.match(
-      /^(.*;)?\s*google-analytics\s*=\s*[^;]+(.*)?$/
+      /^(.*;)?\s*the-global-hack-google-analytics\s*=\s*[^;]+(.*)?$/
     )
     if (!isCookiesAccepted) {
       setCookiesAccepted(false)

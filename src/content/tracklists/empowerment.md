@@ -7,6 +7,14 @@ description: >-
   vulnerable will be negatively impacted more than others.
 featuredimage: /img/inequality.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="e67898f49a521a080b99bdb65c05f2ae80f7f04b"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## Why Empowerment?
 

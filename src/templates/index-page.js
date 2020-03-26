@@ -23,7 +23,9 @@ export const IndexPageTemplate = ({
   howItWorksDescription,
   tracklistDescription,
   trackleadsDescription,
+  timelineDescription,
   heroImage,
+  timeline,
 }) => (
   <>
     <HeroSection
@@ -39,47 +41,10 @@ export const IndexPageTemplate = ({
     />
     <TimelineSection
       title="Timeline"
-      description="Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore, cum soluta nobis"
+      description={timelineDescription}
       ctaLabel="Full agenda"
       ctaUrl="/"
-      items={[
-        {
-          image: 'https://via.placeholder.com/100.png/',
-          title: 'Caption',
-          date: '4. april',
-          isActive: false,
-        },
-        {
-          image: 'https://via.placeholder.com/120.png/',
-          title: 'Caption two with long text',
-          date: '6. april',
-          isActive: true,
-        },
-        {
-          image: 'https://via.placeholder.com/98.png/',
-          title: 'Caption three',
-          date: '7. april',
-          isActive: false,
-        },
-        {
-          image: 'https://via.placeholder.com/198.png/',
-          title: 'Caption 4',
-          date: '8. april',
-          isActive: false,
-        },
-        {
-          image: 'https://via.placeholder.com/88.png/',
-          title: 'Caption 5',
-          date: '9. april',
-          isActive: false,
-        },
-        {
-          image: 'https://via.placeholder.com/128.png/',
-          title: 'Caption 6',
-          date: '10. april',
-          isActive: false,
-        },
-      ]}
+      items={timeline}
     />
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
@@ -110,7 +75,9 @@ const IndexPage = ({ data }) => {
         howItWorksDescription={frontmatter.howItWorksDescription}
         tracklistDescription={frontmatter.tracklistDescription}
         trackleadsDescription={frontmatter.trackleadsDescription}
+        timelineDescription={frontmatter.timelineDescription}
         heroImage={frontmatter.heroImage.publicURL}
+        timeline={frontmatter.timeline}
       />
     </Layout>
   )
@@ -136,6 +103,15 @@ export const pageQuery = graphql`
         howItWorksDescription
         tracklistDescription
         trackleadsDescription
+        timelineDescription
+        timeline {
+          image {
+            publicURL
+          }
+          title
+          date
+          isActive
+        }
         heroImage {
           publicURL
         }

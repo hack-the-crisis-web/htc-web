@@ -7,7 +7,7 @@ const Timeline = ({ items }) => (
     <div className={styles.dashed} />
     {items.map(({ image, title, date, isActive }) => (
       <TimelineItem
-        image={image}
+        image={image.publicURL}
         title={title}
         date={date}
         isActive={isActive}

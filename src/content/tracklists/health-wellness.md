@@ -5,7 +5,7 @@ hashtag: '#theglobalhack #health'
 description: >-
   Through this crisis and beyond, both people and organisations will be thinking
   how not to overwhelm our healthcare systems.
-keyMentor: '{{uuid}}'
+keyMentor: ''
 featuredimage: /img/wellbeing.jpg
 trackLogo: ''
 ---

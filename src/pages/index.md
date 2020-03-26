@@ -33,7 +33,7 @@ contentItems:
     ctaText: About the first hackathon
     ctaLink: >-
       http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
-    image: /img/g48_crisis-cover.jpg
+    image: /img/backstory.png
   - title: The crisis is far from over
     textContent: >-
       How will we deal with the changed relationships in the economy, the future
@@ -43,7 +43,7 @@ contentItems:
       We need to come up with solutions that will help us fight future
       pandemics, and all crises for that matter, more effectively. So we never
       have to lock down again. 
-    image: /img/crisis-map.png
+    image: /img/oportunity_globe.png
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
 howItWorksItems:

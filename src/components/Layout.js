@@ -15,7 +15,7 @@ const addDeviceClass = () => {
 }
 
 const Layout = ({ children, title }) => {
-  const [cookiesAccepted, setCookiesAccepted] = useState(false)
+  const [cookiesAccepted, setCookiesAccepted] = useState(true)
 
   addDeviceClass()
 
@@ -23,8 +23,8 @@ const Layout = ({ children, title }) => {
     const isCookiesAccepted = document.cookie.match(
       /^(.*;)?\s*google-analytics\s*=\s*[^;]+(.*)?$/
     )
-    if (isCookiesAccepted) {
-      setCookiesAccepted(true)
+    if (!isCookiesAccepted) {
+      setCookiesAccepted(false)
     }
   }, [])
 

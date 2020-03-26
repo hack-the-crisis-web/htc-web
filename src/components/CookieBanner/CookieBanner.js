@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Section from '../Section/Section'
 import Button from '../Button/Button'
 import styles from './CookieBanner.module.scss'
+import { Link } from 'gatsby'
 
 export const COOKIE_NAME = 'google-analytics'
 
@@ -26,9 +27,8 @@ const CookieBanner = () => {
             <div className={styles.row}>
               <div className={styles.bubble} />
               <p className="has-text-white">
-                Est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                est eligendi optio cumque nihil impedit quo minus Terms and
-                Conditions
+                This website uses cookies to improve your experience.{' '}
+                <Link to="/terms-and-conditions">Terms and Conditions</Link>
               </p>
             </div>
           </div>

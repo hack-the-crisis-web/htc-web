@@ -1,0 +1,50 @@
+import React, { useState } from 'react'
+import Section from '../Section/Section'
+import Button from '../Button/Button'
+import styles from './CookieBanner.module.scss'
+
+export const COOKIE_NAME = 'google-analytics'
+
+const CookieBanner = () => {
+  const [cookiesAccepted, setCookiesAccepted] = useState(false)
+
+  const acceptCookies = () => {
+    const date = new Date()
+    date.setTime(date.getTime() + 10 * 24 * 60 * 60 * 1000)
+    const expires = '; expires=' + date.toUTCString()
+
+    document.cookie = COOKIE_NAME + '=' + 'true' + expires + '; path=/'
+    console.log(document.cookie[COOKIE_NAME])
+    setCookiesAccepted(true)
+  }
+
+  return cookiesAccepted ? null : (
+    <div className={styles.cookie}>
+      <Section>
+        <div className="columns">
+          <div className="column  is-7">
+            <div className={styles.row}>
+              <div className={styles.bubble} />
+              <p className="has-text-white">
+                Est et expedita distinctio. Nam libero tempore, cum soluta nobis
+                est eligendi optio cumque nihil impedit quo minus Terms and
+                Conditions
+              </p>
+            </div>
+          </div>
+          <div className="column">
+            <Button
+              onClick={acceptCookies}
+              className={styles.btn}
+              btnStyle="outline"
+            >
+              Accept Cookies
+            </Button>
+          </div>
+        </div>
+      </Section>
+    </div>
+  )
+}
+
+export default CookieBanner

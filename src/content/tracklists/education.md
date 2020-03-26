@@ -8,6 +8,14 @@ description: >-
 keyMentor: Obama
 featuredimage: /img/education.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## Why Education?
 

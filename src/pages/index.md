@@ -4,8 +4,8 @@ title: Fighting a Global Crisis
 eventDate: '10-12 April, 2020'
 subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: ''
-heroCTALeftLink: ''
+heroCTALeftText: Let's hack
+heroCTALeftLink: '#how-it-works'
 heroCTARightText: Join slack
 heroCTARightLink: 'https://theglobalhack.slack.com/'
 timeline:

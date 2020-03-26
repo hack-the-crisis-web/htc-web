@@ -10,7 +10,7 @@ featuredimage: /img/economy.jpg
 trackLogo: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
-  data-ref="129f5f3526eff770a8a6b5d947289ba064f45c00"
+  data-ref="6a7a173001783967e806e3b994cc094df9d93c4c"
   ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
   js = d.createElement(s); js.id = id; js.src =
   "https://embedsocial.com/cdn/ht.js";

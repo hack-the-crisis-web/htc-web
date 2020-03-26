@@ -1,0 +1,73 @@
+@import '../../styles/styleSetup.scss';
+
+.joinUsWrapper {
+  position: relative;
+  height: 770px;
+
+  @include desktop {
+    height: 300px;
+  }
+
+  @include widescreen() {
+    height: 400px;
+  }
+
+  > div {
+    position: relative;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    @include desktop() {
+      top: 50%;
+    }
+  }
+
+  img {
+    position: absolute;
+    height: 270px;
+    top: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    padding: 20px;
+
+    @include tablet() {
+      height: 385px;
+    }
+
+    @include desktop() {
+      height: 300px;
+      padding: 0;
+      right: 0;
+      transform: none;
+      top: 0;
+    }
+
+    @include widescreen {
+      height: 400px;
+    }
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 60px;
+  flex-direction: column;
+
+  @include tablet() {
+    flex-direction: row;
+    width: auto;
+  }
+
+  a,
+  button {
+    margin-bottom: 20px;
+    margin-left: 0;
+
+    @include tablet() {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+}

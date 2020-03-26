@@ -9,7 +9,7 @@ import TracklistsCard from '../TracklistsCard/TracklistsCard'
 
 const TracklistsSection = ({ data, description }) => {
   return (
-    <div className="has-background-success">
+    <div id="tracklists" className="has-background-success">
       <Section>
         <div className={classnames('container has-text-primary')}>
           <SectionTitle title="Tracklists" />

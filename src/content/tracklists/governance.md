@@ -6,7 +6,7 @@ description: >-
   Technology can transform the public sector although the change has so far
   lagged far behind that of the private sector. 
 keyMentor: ''
-featuredimage: /img/hero.png
+featuredimage: /img/goverment.jpg
 trackLogo: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'

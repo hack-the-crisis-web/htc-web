@@ -6,11 +6,11 @@ import SectionDescription from '../SectionDescription/SectionDescription'
 import Section from '../Section/Section'
 import PeopleData from './PeopleData'
 
-const OurPeopleWithData = ({ data, description, ourPeopleTitle }) => {
+const OurPeopleWithData = ({ data, description, title }) => {
   if (data.length === 0) return null
   return (
     <Section>
-      <SectionTitle title={ourPeopleTitle} />
+      <SectionTitle title={title} />
       {description && <SectionDescription text={description} />}
       <div className="columns is-multiline">
         <PeopleBlock data={data} />
@@ -19,9 +19,9 @@ const OurPeopleWithData = ({ data, description, ourPeopleTitle }) => {
   )
 }
 
-const OurPeople = ({ description }) => (
+const OurPeople = ({ description, title }) => (
   <PeopleData type="our-people">
-    <OurPeopleWithData description={description} />
+    <OurPeopleWithData description={description} title={title} />
   </PeopleData>
 )
 

@@ -14,7 +14,7 @@ const Supporters = ({ data }) => {
         <h2
           className={`is-size-4 has-text-black ${styles.header} is-family-secondary`}
         >
-          Huge thanks folks
+          Organising Partners
         </h2>
         <div className="columns is-multiline">
           {edges.map(

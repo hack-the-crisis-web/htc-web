@@ -8,8 +8,32 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-cookiehub-banner`,
+      options: {
+        // Your cookiehub widget ID. You can find the widget ID in the CookieHub tab "Your script" of the appropriate widget. The ID is part of the CookieHub URL: https://cookiehub.net/cc/YOUR_COOKIEHUB_ID.js
+        cookieHubId: '55447995',
+        categories: [
+          {
+            categoryName: 'analytics',
+            cookieName: 'gatsby-plugin-google-analytics-gdpr_cookies-enabled',
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics-gdpr`,
+      options: {
+        // The property ID; the tracking code won't be generated without it.
+        trackingId: 'UA-161868180-1',
+        enableDevelopment: false,
+        // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
+        anonymizeIP: true,
+        // Optional parameter (default false) - Starts google analytics with cookies enabled. In some countries (such as Germany) this is not allowed.
+        autoStartWithCookiesEnabled: false,
+      },
+    },
     'gatsby-plugin-sass',
-
     {
       // needs to be first, otherwise build fails
       resolve: 'gatsby-source-filesystem',
@@ -83,30 +107,6 @@ module.exports = {
         // purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    {
-      resolve: `gatsby-plugin-cookiehub-banner`,
-      options: {
-        cookieHubId: '55447995',
-        categories: [
-          {
-            categoryName: 'analytics',
-            cookieName: 'gatsby-plugin-google-analytics-gdpr_cookies-enabled',
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics-gdpr`,
-      options: {
-        // The property ID; the tracking code won't be generated without it.
-        trackingId: 'UA-161868180-1',
-        enableDevelopment: false,
-        // Optional parameter (default true) - Some countries (such as Germany) require you to use the _anonymizeIP function for Google Analytics. Otherwise you are not allowed to use it.
-        anonymizeIP: true,
-        // Optional parameter (default false) - Starts google analytics with cookies enabled. In some countries (such as Germany) this is not allowed.
-        autoStartWithCookiesEnabled: false,
-      },
-    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }

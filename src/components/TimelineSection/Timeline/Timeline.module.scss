@@ -1,0 +1,35 @@
+@import '../../../styles/styleSetup.scss';
+
+.timeline {
+  position: relative;
+  display: inline-flex;
+  padding-left: 31px;
+
+  .dashed {
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 31px);
+    height: 1px;
+    left: 0;
+    top: 42px;
+    border-top: 2px dashed $info;
+  }
+
+  .item {
+    width: 122px;
+    text-align: center;
+
+    &.active {
+      img {
+        border-color: $primary;
+      }
+    }
+
+    img {
+      width: 84px;
+      height: 84px;
+      border-radius: 100%;
+      border: 3px solid $info;
+    }
+  }
+}

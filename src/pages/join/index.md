@@ -16,6 +16,6 @@ contentItems:
       world took notice. Now there are almost 30 initiatives around the globe
       hacking away, from India to Georgia to Brazil.
     image: /img/backstory.png
-    ctaText: Vaatame
-    ctaLink: www.www.ee
+    ctaText: ''
+    ctaLink: ''
 ---

@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #empowerment'
 description: >-
   This pandemic will affect everyone, but those among the poorest and most
   vulnerable will be negatively impacted more than others.
-featuredimage: /uploads/portrait-placeholder.png
-trackLogo: /img/inequality.jpg
+featuredimage: /img/inequality.jpg
+trackLogo: ''
 ---
 A large proportion of our planet has been lifted out of poverty over recent decades, largely thanks to new opportunities from trade and technology. Yet we still live in a world of vast inequalities. This pandemic will affect everyone on Earth, but some will be negatively impacted more than others, especially those who are already among the poorest and most vulnerable. 
 

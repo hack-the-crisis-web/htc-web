@@ -15,5 +15,5 @@ contentItems:
       More than 1200 people across 14 time zones joined this effort and the
       world took notice. Now there are almost 30 initiatives around the globe
       hacking away, from India to Georgia to Brazil.
-    image: /img/g48_crisis-cover.jpg
+    image: /img/backstory.png
 ---

@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
-title: Share and Inspire using Health & Wellness
-hashtag: '#theglobalhack #health'
+title: Health & Wellness
+hashtag: 'Share and Inspire using #theglobalhack #health'
 description: >-
   Through this crisis and beyond, both people and organisations will be thinking
   how not to overwhelm our healthcare systems.

@@ -33,6 +33,7 @@ const PeopleData = ({ type, hashtag, children }) => (
                 photo
                 label
                 tracklist
+                about
               }
             }
           }

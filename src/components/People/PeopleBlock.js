@@ -3,7 +3,7 @@ import '../all.sass'
 import PersonCard from './PersonCard'
 
 const PeopleBlock = ({ data }) =>
-  data.map(({ name, surname, role, photo, label, tracklist }, index) => (
+  data.map(({ name, surname, role, photo, label, tracklist, about }, index) => (
     <PersonCard
       key={index}
       name={name}
@@ -12,6 +12,7 @@ const PeopleBlock = ({ data }) =>
       role={role}
       tracklist={tracklist}
       label={label}
+      about={about}
     />
   ))
 

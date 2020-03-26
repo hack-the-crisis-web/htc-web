@@ -13,7 +13,15 @@ const selectClassname = label => {
   }
 }
 
-const PersonCard = ({ name, photo, surname, role, tracklist, label }) => (
+const PersonCard = ({
+  name,
+  photo,
+  surname,
+  role,
+  tracklist,
+  label,
+  about,
+}) => (
   <div className={'column is-4'}>
     <div className={'tile is-parent '}>
       <div
@@ -30,6 +38,14 @@ const PersonCard = ({ name, photo, surname, role, tracklist, label }) => (
             <p className={`subtitle ${styles.description}`}>
               #{tracklist.toLowerCase()}
             </p>
+          )}
+          {label === 'our-people' && !!about && (
+            <a
+              href={`mailto:${about}`}
+              className={`subtitle ${styles.description}`}
+            >
+              {about}
+            </a>
           )}
         </div>
         {!!photo && (

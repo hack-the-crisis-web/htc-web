@@ -6,8 +6,8 @@ description: >-
   Measures to combat coronavirus have helped reduce pollution dramatically. We
   now need to figure how to continue doing so.
 keyMentor: Obama
-featuredimage: /uploads/portrait-placeholder.png
-trackLogo: /img/enviroment.jpg
+featuredimage: /img/enviroment.jpg
+trackLogo: ''
 ---
 **Before this coronavirus crisis began, our planet was already in a climate crisis – although with less consensus about the urgency of the issue and less cooperation aimed at solving it.**
 

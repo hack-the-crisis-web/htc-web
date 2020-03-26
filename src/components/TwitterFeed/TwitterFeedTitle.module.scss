@@ -1,11 +1,13 @@
-.centered  {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  text-align: center;
-}
+@import '../../styles/styleSetup.scss';
 
 .title {
   font-size: 20px;
   margin-left: 16px;
+}
+
+.newBlock {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
 }

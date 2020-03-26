@@ -53,7 +53,7 @@ howItWorksItems:
       hashtag. Use either of those channels to let others know what your great
       ideas are.
     ctaText: Go to Tracks
-    ctaLink: 'https://twitter.com'
+    ctaLink: 'https://hackthecrisis.netlify.com/#tracklists'
     image: /img/step1.png
   - title: Register Team
     textContent: >-

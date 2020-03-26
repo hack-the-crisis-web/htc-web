@@ -198,6 +198,34 @@ collections:
               required: false,
             }
           - {
+              label: 'Hero left button text',
+              name: 'heroCTALeftText',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
+              label: 'Hero left button link',
+              name: 'heroCTALeftLink',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
+              label: 'Hero right button text',
+              name: 'heroCTARightText',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
+              label: 'Hero right button link',
+              name: 'heroCTARightLink',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
               label: 'How it works',
               name: howItWorksDescription,
               widget: 'text',

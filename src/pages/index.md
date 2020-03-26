@@ -1,12 +1,9 @@
 ---
-heroImage: /img/keyvisual_nologo.jpg
-heading: placeholder
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '10-12 April, 2020'
 subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
-heroCTALeftText: Let's hack
-heroCTALeftLink: '#how-it-works'
+heroImage: /img/keyvisual_nologo.jpg
 howItWorksDescription: >-
   The Global Hack is the biggest online hackathon in the world's history to
   battle the problems we are facing globally after the immediate corona crisis
@@ -20,6 +17,20 @@ trackleadsDescription: >-
   Our track leads feel a strong sense of personal responsibility to help the
   world tackle this crisis. They’re here to inspire you to join the fight and
   pitch in with great solutions.
+timeline:
+  - title: First step
+    isActive: false
+    image: /img/crisis.jpg
+    date: 2020-02-29T22:00:00.000Z
+  - title: Second step
+    isActive: true
+    image: /img/content.jpg
+    date: 2020-03-01T22:00:00.000Z
+  - title: Third step
+    isActive: false
+    image: /img/enviroment.jpg
+    date: 2020-03-04T22:00:00.000Z
+heading: placeholder
 contentItems:
   - title: Backstory
     textContent: >-
@@ -48,6 +59,8 @@ contentItems:
     image: /img/oportunity_globe.png
     ctaText: Join the community in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
+heroCTALeftText: Let's hack
+heroCTALeftLink: '#how-it-works'
 howItWorksItems:
   - title: Share Ideas
     textContent: >-

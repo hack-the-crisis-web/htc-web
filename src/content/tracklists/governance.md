@@ -5,6 +5,7 @@ hashtag: '#theglobalhack #governance'
 description: >-
   Technology can transform the public sector although the change has so far
   lagged far behind that of the private sector. 
+keyMentor: ''
 featuredimage: /img/hero.png
 trackLogo: ''
 widgetCode: >-

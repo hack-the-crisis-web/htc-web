@@ -8,7 +8,7 @@ const TimelineItem = ({ image, title, date, isActive }) => (
     <div className={styles.title}>{title}</div>
     {date && (
       <div className={styles.date}>
-        {new Date(date).toLocaleDateString('default', {
+        {new Date(date).toLocaleDateString('en-GB', {
           day: 'numeric',
           month: 'long',
         })}

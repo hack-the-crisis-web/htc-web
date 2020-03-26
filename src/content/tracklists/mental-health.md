@@ -7,6 +7,14 @@ description: >-
   pressure and many will feel lonelier than ever before.
 featuredimage: /img/mental_health.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## Why Mental Health?
 

@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #mentalhealth'
 description: >-
   The circumstances can be mentally challenging as relationships will be under
   pressure and many will feel lonelier than ever before.
-featuredimage: /uploads/portrait-placeholder.png
-trackLogo: /img/mental_health.jpg
+featuredimage: /img/mental_health.jpg
+trackLogo: ''
 ---
 A sudden change in circumstances can be mentally challenging, whether it’s losing a loved one, a job or even just political upheaval. All these factors combine in this crisis in ways that most of us have never seen during our lifetimes. In addition, relationships will be put under considerable pressure and many will be lonelier than ever before, which is one of the most significant contributing factors to ill mental health.
 

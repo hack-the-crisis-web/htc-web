@@ -16,10 +16,10 @@ timeline:
   - title: Registration Starts
     isActive: false
     image: /img/content.jpg
-    date: 2020-04-06T21:00:00.000Z
+    date: 2020-04-05T21:00:00.000Z
   - title: Hackathon Starts
     isActive: false
-    image: /img/enviroment.jpg
+    image: /img/goverment.jpg
     date: 2020-04-09T21:00:00.000Z
   - title: Hackathon Ends
     isActive: false
@@ -40,10 +40,9 @@ tracklistDescription: >-
   of our future challenges. These are the areas most likely to see the biggest
   changes:
 trackleadsDescription: >-
-  Our track leads feel a strong sense of personal responsibility to help the
-  world tackle this crisis. They’re here to inspire you to join the fight and
-  pitch in with great solutions.
-timelineDescription: Needs Copy
+  We've on-boarded some amazing track leaders who feel a strong sense to help
+  the world tackle this crisis.
+timelineDescription: ' '
 contentItems:
   - title: Backstory
     textContent: >-
@@ -70,33 +69,31 @@ contentItems:
       pandemics, and all crises for that matter, more effectively. So we never
       have to lock down again.
     image: /img/oportunity_globe.png
-    ctaText: Join the community in Slack
-    ctaLink: 'https://theglobalhack.slack.com/'
+    ctaText: Pitch in on Reddit
+    ctaLink: 'https://reddit.com/r/theglobalhack'
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
-      Ideas are shared per track. Each track has a Slack channel and a Twitter
-      hashtag. Use either of those channels to let others know what your great
-      ideas are.
+      Ideas are shared per track. Each track has been assigned a Flair (label)
+      on our subreddit and #hashtag combination on Twitter.
     ctaText: Go to Tracks
     ctaLink: '#tracklists'
     image: /img/step1.png
     isActive: true
   - title: Register Team
     textContent: >-
-      When you feel like you’ve found an attractive idea it's time to think
-      about who to hack with. Assemble a team of 4-6 dedicated people and
-      register the idea and team.
-    ctaText: Register Team
+      When you feel like you’ve found an attractive idea, think about who to
+      hack with. Assemble a team of 4-6 dedicated people and register the idea
+      and team via Guaana.
+    ctaText: 06-08 March
     ctaLink: /
     image: /img/step3.png
     isActive: false
   - title: Start hacking
     textContent: >-
-      Start hacking with your team on 3rd of April! You only have 48h to polish
-      your solution and show it to the world. These extremely intense hours may
-      change the world!
-    ctaText: Hack in Slack
+      Your team will be assigned a Slack channel on April 10 to be assisted via.
+      Log on and hack away! These extremely intense hours may change the world!
+    ctaText: Get on Slack
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png
     isActive: false

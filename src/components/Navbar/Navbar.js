@@ -110,6 +110,9 @@ const Navbar = class extends React.Component {
               <NavLink to="/about" className={navLinkClassnames}>
                 About
               </NavLink>
+              <NavLink to="/agenda" className={navLinkClassnames}>
+                Agenda
+              </NavLink>
               <NavLink to="/join" className={navLinkClassnames}>
                 Join us
               </NavLink>

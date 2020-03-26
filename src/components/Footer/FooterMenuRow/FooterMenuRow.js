@@ -47,9 +47,9 @@ const FooterMenuRow = ({ data }) => (
           [
             { title: 'Home', url: '/' },
             { title: 'Mentors', url: '/' },
-            { title: 'Join us', url: '/' },
-            { title: 'Agenda', url: '/' },
-            { title: 'FAQ', url: '/' },
+            { title: 'Join us', url: '/join' },
+            { title: 'Agenda', url: '/agenda' },
+            { title: 'FAQ', url: '/faq' },
           ],
         ]}
       />
@@ -57,9 +57,9 @@ const FooterMenuRow = ({ data }) => (
         title="Generals"
         linkColumns={[
           [
-            { title: 'Press kit', url: '/' },
-            { title: 'Privacy Policy', url: '/' },
-            { title: 'Terms of Service', url: '/' },
+            { title: 'Press kit', url: '/press' },
+            { title: 'Privacy Policy', url: '/privacy-policy' },
+            { title: 'Terms of Service', url: '/terms-and-conditions' },
           ],
         ]}
       />

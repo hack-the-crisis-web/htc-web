@@ -13,22 +13,26 @@ timeline:
     isActive: true
     image: /img/crisis.jpg
     date: ''
-  - title: Registration Starts
+  - title: Register on Guaana
     isActive: false
     image: /img/content.jpg
     date: 2020-04-05T21:00:00.000Z
+  - title: Move Team to Slack
+    isActive: false
+    image: /img/creativity.jpg
+    date: ''
   - title: Hackathon Starts
     isActive: false
     image: /img/goverment.jpg
-    date: 2020-04-09T21:00:00.000Z
+    date: 2020-04-08T21:00:00.000Z
   - title: Hackathon Ends
     isActive: false
     image: /img/mental_health.jpg
-    date: 2020-04-11T21:00:00.000Z
-  - title: New Solutions
+    date: 2020-04-10T21:00:00.000Z
+  - title: Demos & Awards
     isActive: false
     image: /img/oportunity_globe.png
-    date: ''
+    date: 2020-04-11T21:00:00.000Z
 heading: placeholder
 howItWorksDescription: >-
   We're organising the biggest online hackathon in the world's history to battle

@@ -31,7 +31,6 @@ module.exports = {
         pageTransitionDelay: 0,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: 'localhost',
       },
     },
     'gatsby-plugin-sass',

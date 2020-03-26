@@ -85,7 +85,7 @@ howItWorksItems:
     ctaText: Register Team
     ctaLink: /
     image: /img/step3.png
-    isActive: true
+    isActive: false
   - title: Start hacking
     textContent: >-
       Start hacking with your team on 3rd of April! You only have 48h to polish
@@ -94,6 +94,6 @@ howItWorksItems:
     ctaText: Hack in Slack
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png
-    isActive: true
+    isActive: false
 description: placeholder
 ---

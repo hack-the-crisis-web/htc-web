@@ -15,7 +15,7 @@ contentItems:
       weekend by world-class mentors. 
   - title: When does the hackathon take place?
     textContent: >-
-      The hackathon will take place this weekend from 3-5 April. You have 48
+      The hackathon will take place this weekend from 10-12 April. You have 48
       hours to collaborate and build a solution within the tracks presented
       here: We’ll start with a kick-off session on Friday at 6:30(which
       time-zone) and end the hackathon on Sunday at 6:00 p.m(which timezone).

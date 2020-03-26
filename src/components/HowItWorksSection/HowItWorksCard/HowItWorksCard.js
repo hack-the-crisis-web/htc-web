@@ -12,6 +12,7 @@ const HowItWorksCard = ({
   description,
   buttonLabel,
   buttonUrl,
+  isActive,
 }) => (
   <div className={classnames(styles.card, 'column is-10')}>
     {!!image && (
@@ -26,6 +27,7 @@ const HowItWorksCard = ({
       className={styles.button}
       href={buttonUrl}
       external={!checkIfInternalLink(buttonUrl)}
+      disabled={!isActive}
     >
       {buttonLabel}
     </Button>

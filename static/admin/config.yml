@@ -313,6 +313,12 @@ collections:
                   { label: 'Image', name: 'image', widget: 'image' },
                   { label: 'CTA text', name: 'ctaText', widget: 'string' },
                   { label: 'CTA link', name: 'ctaLink', widget: 'string' },
+                  {
+                    label: 'Is enabled?',
+                    name: 'isActive',
+                    widget: 'boolean',
+                    default: false,
+                  },
                 ],
             }
       - file: 'src/pages/about/index.md'

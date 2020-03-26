@@ -3,7 +3,7 @@
 /* BRAND SPECIFIC VARIABLES */
 $main-color: $warning;
 $main-color-hover: $warning;
-$main-color-disabled: $warning;
+$main-color-disabled: $light-grey;
 
 $large-font-size: 16px;
 $large-padding: 16px 22px;
@@ -97,8 +97,9 @@ a.button {
   &.disabled,
   &:disabled {
     cursor: not-allowed;
+    opacity: 0.8;
     pointer-events: none;
-    opacity: 0.65;
+    background-color: $main-color-disabled;
   }
 
   &:focus {

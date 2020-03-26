@@ -7,6 +7,14 @@ description: >-
   exposure will be strained for the foreseeable future.
 featuredimage: /img/creativity.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## **Why Arts & Creativity?**
 

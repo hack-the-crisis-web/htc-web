@@ -5,6 +5,8 @@ templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '10-12 April, 2020'
 subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
+heroCTALeftText: Let's hack
+heroCTALeftLink: '#how-it-works'
 howItWorksDescription: >-
   The Global Hack is the biggest online hackathon in the world's history to
   battle the problems we are facing globally after the immediate corona crisis

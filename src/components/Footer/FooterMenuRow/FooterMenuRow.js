@@ -46,7 +46,7 @@ const FooterMenuRow = ({ data }) => (
         linkColumns={[
           [
             { title: 'Home', url: '/' },
-            { title: 'Mentors', url: '/' },
+            { title: 'About', url: '/about' },
             { title: 'Join us', url: '/join' },
             { title: 'Agenda', url: '/agenda' },
             { title: 'FAQ', url: '/faq' },

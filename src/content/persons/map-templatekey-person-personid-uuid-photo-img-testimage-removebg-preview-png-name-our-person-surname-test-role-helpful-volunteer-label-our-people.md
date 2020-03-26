@@ -1,10 +1,11 @@
 ---
 templateKey: person
 personId: '{{uuid}}'
-name: Our Person
-surname: Test
+name: Kai
+surname: Isand
 role: Helpful volunteer
-photo: /img/testimage-removebg-preview.png
+photo: /img/kai-removebg-preview.png
+about: kai@garage48.com
+linkedin: 'https://www.linkedin.com/in/kaiisand/'
 label: our-people
-about: ''
 ---

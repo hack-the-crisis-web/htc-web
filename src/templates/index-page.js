@@ -140,6 +140,7 @@ export const pageQuery = graphql`
           }
           ctaText
           ctaLink
+          isActive
         }
         contentItems {
           title

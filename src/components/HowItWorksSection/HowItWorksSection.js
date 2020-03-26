@@ -14,22 +14,25 @@ const HowItWorksSection = ({ items, description }) => (
         <SectionTitle title="How it works" />
         <SectionDescription className={styles.description} text={description} />
         <div className={classnames(styles.cards, 'columns is-multiline')}>
-          {items.map(({ title, textContent, image, ctaText, ctaLink }) => (
-            <div
-              className={classnames(
-                styles.column,
-                'column is-full-mobile is-full-tablet is-one-third-desktop'
-              )}
-            >
-              <HowItWorksCard
-                image={image}
-                title={title}
-                description={textContent}
-                buttonLabel={ctaText}
-                buttonUrl={ctaLink}
-              />
-            </div>
-          ))}
+          {items.map(
+            ({ title, textContent, image, ctaText, ctaLink, isActive }) => (
+              <div
+                className={classnames(
+                  styles.column,
+                  'column is-full-mobile is-full-tablet is-one-third-desktop'
+                )}
+              >
+                <HowItWorksCard
+                  image={image}
+                  title={title}
+                  description={textContent}
+                  buttonLabel={ctaText}
+                  buttonUrl={ctaLink}
+                  isActive={isActive}
+                />
+              </div>
+            )
+          )}
         </div>
       </div>
     </Section>

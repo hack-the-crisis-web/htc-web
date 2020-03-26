@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Crisis Response
-hashtag: '#theglobalhack #crisisresponse'
+hashtag: 'Share and Inspire using #theglobalhack #crisisresponse'
 description: >-
   How do we help medical workers and emergency response personnel and what
   lessons can we all take forward for the next crisis?

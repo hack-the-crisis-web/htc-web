@@ -6,8 +6,8 @@ description: >-
   We are facing a severe economic crisis like no other as traditional methods
   for stimulating the economy don’t work under lockdown. 
 keyMentor: b
-featuredimage: /img/barack-removebg-preview.png
-trackLogo: /img/economy.jpg
+featuredimage: /img/economy.jpg
+trackLogo: ''
 ---
 ## Why economy track?
 

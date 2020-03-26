@@ -8,6 +8,14 @@ description: >-
 keyMentor: Obama
 featuredimage: /img/content.jpg
 trackLogo: ''
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
 ---
 ## **Why Media & Entertainment?**
 

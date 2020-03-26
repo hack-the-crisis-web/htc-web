@@ -84,12 +84,19 @@ collections:
           media_library: { config: { multiple: false } },
           required: false,
         }
-      - { label: 'About', name: 'about', widget: 'text', required: false }
+      - {
+          label: 'About',
+          name: 'about',
+          widget: 'text',
+          required: false,
+          default: '',
+        }
       - {
           label: 'Linkedin',
           name: 'linkedin',
           widget: 'string',
           required: false,
+          default: '',
         }
       - label: 'Label'
         name: 'label'
@@ -106,6 +113,7 @@ collections:
           searchFields: ['title'],
           valueField: 'title',
           required: false,
+          default: '',
         }
 
   - name: 'tracklists'
@@ -138,6 +146,7 @@ collections:
           displayFields: ['surname', 'name'],
           valueField: 'personId',
           required: false,
+          default: '',
         }
       - {
           label: 'Featured Image',
@@ -161,6 +170,7 @@ collections:
           name: 'widgetCode',
           widget: 'string',
           required: false,
+          default: '',
         }
 
   - name: 'pages'
@@ -216,6 +226,7 @@ collections:
                     name: 'title',
                     widget: 'string',
                     required: false,
+                    default: '',
                   },
                   {
                     label: 'Text content',
@@ -227,18 +238,21 @@ collections:
                     name: 'image',
                     widget: 'image',
                     required: false,
+                    default: '',
                   },
                   {
                     label: 'CTA text',
                     name: 'ctaText',
                     widget: 'string',
                     required: false,
+                    default: '',
                   },
                   {
                     label: 'CTA link',
                     name: 'ctaLink',
                     widget: 'string',
                     required: false,
+                    default: '',
                   },
                 ],
             }

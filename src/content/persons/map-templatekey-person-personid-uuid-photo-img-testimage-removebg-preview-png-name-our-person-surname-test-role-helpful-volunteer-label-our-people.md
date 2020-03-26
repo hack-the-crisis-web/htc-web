@@ -6,4 +6,5 @@ surname: Test
 role: Helpful volunteer
 photo: /img/testimage-removebg-preview.png
 label: our-people
+about: ''
 ---

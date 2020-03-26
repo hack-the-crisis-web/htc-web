@@ -7,7 +7,7 @@ export const HTMLContentSection = ({ content }) => (
   <Section>
     <div className="columns">
       <div className="column is-8">
-        <div className={classnames('container has-text-primary')}>
+        <div className={classnames('container has-text-black')}>
           <HTMLContent className="content" content={content} />
         </div>
       </div>

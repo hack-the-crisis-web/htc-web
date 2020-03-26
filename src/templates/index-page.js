@@ -11,6 +11,7 @@ import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackLeads from '../components/People/TrackLeads'
 import '../components/all.sass'
+import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -37,6 +38,7 @@ export const IndexPageTemplate = ({
     />
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
+    <JoinUsSection />
     <Supporters />
   </>
 )

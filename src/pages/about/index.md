@@ -11,7 +11,7 @@ It didn’t take long for news to spread about this amazing online hackathon. As
 
 This crisis is far from over. The need to begin addressing the problems that we’ll face as a global society, once we can venture out from our homes again, is now. How will we deal with the expected massive changes to our economy, workplaces, healthcare, and environment as we find our world order transformed—perhaps, beyond recognition?
 
-On 9-11 April, 2020 we’re putting on The Global Hack to imagine the possibilities and create solutions to meet the needs of our changed world. Our goal is to bring together world class mentors and globally-talented teams to build solutions for better tomorrows.
+On 9-12 April, 2020 we’re putting on The Global Hack to imagine the possibilities and create solutions to meet the needs of our changed world. Our goal is to bring together world class mentors and globally-talented teams to build solutions for better tomorrows.
 
 We’re looking for brilliant people from every corner of the globe to participate in The Global Hack. We find ourselves in a unique situation, and are literally all in this together—the entire world is looking for solutions to the same problems at the same time.
 

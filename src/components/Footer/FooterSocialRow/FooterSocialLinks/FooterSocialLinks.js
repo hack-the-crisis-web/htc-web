@@ -6,13 +6,10 @@ export const FooterSocialLinks = () => (
   <div className={styles.links}>
     <div className={styles.link}>
       <SocialIconLink
-        type="slack"
+        type="reddit"
         color="black"
-        href="https://theglobalhack.slack.com/"
+        href="https://reddit.com/r/theglobalhack"
       />
-    </div>
-    <div className={styles.link}>
-      <SocialIconLink type="guaana" color="black" href="https://guaana.com" />
     </div>
     <div className={styles.link}>
       <SocialIconLink

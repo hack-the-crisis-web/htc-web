@@ -8,6 +8,8 @@ import slackBlackIcon from '../../img/social/slackBlack.svg'
 import guaanaBlackIcon from '../../img/social/guaanaBlack.svg'
 import slackWhiteIcon from '../../img/social/slackWhite.svg'
 import guaanaWhiteIcon from '../../img/social/guaanaWhite.svg'
+import redditWhiteIcon from '../../img/social/redditWhite.svg'
+import redditBlackIcon from '../../img/social/redditBlack.svg'
 
 import styles from './SocialIconLink.module.scss'
 
@@ -61,6 +63,16 @@ const getGuaanaIcon = color => {
   }
 }
 
+const getRedditIcon = color => {
+  switch (color) {
+    case 'black':
+      return redditBlackIcon
+    case 'white':
+    default:
+      return redditWhiteIcon
+  }
+}
+
 const getImgPropsForIconType = (type, color) => {
   switch (type) {
     case 'slack':
@@ -69,6 +81,13 @@ const getImgPropsForIconType = (type, color) => {
         src: getSlackIcon(color),
         width: '46px',
         height: '11px',
+      }
+    case 'reddit':
+      return {
+        alt: 'reddit',
+        src: getRedditIcon(color),
+        width: '20px',
+        height: '20px',
       }
     case 'guaana':
       return {

@@ -15,78 +15,31 @@ contentItems:
       weekend by world-class mentors. 
   - title: When does the hackathon take place?
     textContent: >-
-      The hackathon will take place this weekend from 10-12 April. You have 48
-      hours to collaborate and build a solution within the tracks presented
-      here: We’ll start with a kick-off session on Friday at 6:30(which
-      time-zone) and end the hackathon on Sunday at 6:00 p.m(which timezone).
-      with the submission of the results.
+      The hackathon will take place on 9-12 April. You have 48 hours to
+      collaborate and build a solution within the tracks: arts and creativity,
+      economy, crisis response, education, empowerment, environment, governance,
+      health & wellness, media&entertainment, mental health and work.  We’ll
+      start with a kick-off session on 9 April(Time: TBA) and end the hackathon
+      on Sunday, 12 April(Time: TBA)  with the announcement of the results.
   - title: Will we get any support during the hackathon?
     textContent: >-
-      Our mentors will be by your side throughout the hackathon. Our track
-      leaders are there for inspiration. Mentors are experts in their tracks and
-      will support you with their feedback and knowledge during the course of
-      several check-ins over the 48 hours.
-  - title: How does a virtual hackathon work?
-    textContent: >-
-      Our hackathon will take place exclusively online. We’ll provide
-      appropriate tools so that you can jointly develop solutions online. We’ll
-      use Slack as a communication platform for the teams and video conferencing
-      for live webinars, Q&A sessions and daily check-ins.
+      Our mentors will be by your side throughout the hackathon. The Global Hack
+      Mentors are experts in their tracks and will support you with their
+      feedback and knowledge during the course of several check-ins over the 48
+      hours.
   - title: How many can participate?
-    textContent: >-
-      There is no limit to the number of participants. Simply join our Slack and
-      find a team and register in Guaana by 2 p.m. on 3 April.
+    textContent: 'There is no limit to the number of participants. '
   - textContent: >-
       We’re looking for programmers, designers, creative people, problem
       solvers. Use your teams’ interdisciplinary skills and be creative together
       to develop solutions that help us in the crisis.
     title: Are there prerequisites for participation?
-  - title: Do I have to be able to program to participate?
-    textContent: >-
-      No, everyone with the interest, the time and an internet connection can
-      participate!
-  - title: I have not received a welcome email!
-    textContent: >-
-      We will send the welcome emails on Friday from 2 p.m. There you will find
-      further information about the hackathon.
-  - title: Do I need pre-installed software?
-    textContent: >-
-      You don’t need pre-installed software per se. An e-mail address is all you
-      need to participate. You need this for registration and for Slack access.
-  - title: What can be submitted as a final result?
-    textContent: >-
-      The solutions developed can be both digital and/or analog. We are looking
-      for everything that can help us overcome the crisis.
-  - title: What happens to the results afterwards?
-    textContent: >-
-      The goal is to have the results put into use after the hackathon, to help
-      people. To ensure that your prototypes become viable solutions after the
-      hackathon, we are currently setting up a digital support program.
-  - title: Can I only submit one idea? Why?
-    textContent: >-
-      You can submit only one idea per person. The reason for this is that as a
-      sponsor you should give input for the challenge for the teams. If there
-      are participants who want to work on your challenge, your challenge will
-      have its own Slack Channel. You are expected to be available in it for
-      questions.
   - title: Can I register as a team / company?
     textContent: >-
       No, but you can coordinate with friends to form a team. Simply register
       separately and then meet each other to join a challenge.
-  - title: What kinds of challenges can I submit?
-    textContent: >-
-      You can submit any challenge that can help us overcome the crisis together
-      and, which helps people feel safe, provides support and prepares them for
-      the time after the crisis. 
-
-
-      It is important that any challenge can be developed as a prototype
-      solution within 48 hours.
-  - title: Should I register as a participant in case my challenge is not accepted?
-    textContent: >-
-      Consider beforehand which role you want to take during the Hackathon –
-      Participant, Mentor or Challenge Sponsor – and please register only for
-      this role.
+  - title: What kinds of ideation can I submit?
+    textContent: .
   - title: Where can I submit my challenge?
     textContent: >-
       You can submit your challenge via Guaana. Each challenge sponsor is

@@ -19,7 +19,7 @@ timeline:
     isActive: false
     image: /img/content.jpg
     date: 2020-04-05T21:00:00.000Z
-  - title: Move Team to Slack
+  - title: Teams Announced
     isActive: false
     image: /img/creativity.jpg
     date: 2020-04-07T21:00:00.000Z

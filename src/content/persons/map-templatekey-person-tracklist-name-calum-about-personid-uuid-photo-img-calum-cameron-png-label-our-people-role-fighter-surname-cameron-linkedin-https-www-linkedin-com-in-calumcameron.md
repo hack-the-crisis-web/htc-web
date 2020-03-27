@@ -1,12 +1,12 @@
 ---
 templateKey: person
 personId: '{{uuid}}'
-name: 'Calum '
-surname: Cameron
-role: Human
-photo: /img/calum-cameron.png
-about: calum@digitalpath.ee
-linkedin: 'https://www.linkedin.com/in/calumcameron/?originalSubdomain=ee'
+name: Marko
+surname: Russiver
+role: Connected Human
+photo: /img/marko_russiver.png
+about: marko@guaana.com
+linkedin: ''
 label: our-people
 tracklist: ''
 ---

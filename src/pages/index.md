@@ -82,22 +82,22 @@ howItWorksItems:
     textContent: >-
       Ideas are shared per track. Each track has been assigned a Flair (label)
       on our subreddit and #hashtag combination on Twitter.
-    ctaText: Go to Tracks
-    ctaLink: '#tracklists'
+    ctaText: Share on Reddit
+    ctaLink: 'https://reddit.com/r/theglobalhack'
     image: /img/step1.png
     isActive: true
   - title: Register Team
     textContent: >-
       When you feel like you’ve found an attractive idea, think about who to
-      hack with. Assemble a team of 4-6 dedicated people and register the idea
-      and team via Guaana.
+      hack with. Assemble a team of atleast 6 dedicated people and register the
+      idea and team via Guaana.
     ctaText: 06-08 April
     ctaLink: /
     image: /img/step3.png
     isActive: false
   - title: Start hacking
     textContent: >-
-      Your team will be assigned a Slack channel on April 10 to be assisted via.
+      Your team will be assigned a Slack channel on April 9 to be assisted via.
       Log on and hack away! These extremely intense hours may change the world!
     ctaText: Get on Slack
     ctaLink: 'https://theglobalhack.slack.com/'

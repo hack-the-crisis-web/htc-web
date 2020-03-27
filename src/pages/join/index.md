@@ -13,7 +13,7 @@ contentItems:
       Help us organise
 
       hello@theglobalhack.com
-    image: ''
+    image: /img/joinus.png
     ctaText: ''
     ctaLink: ''
 ---

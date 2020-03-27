@@ -3,7 +3,7 @@ templateKey: about-page
 path: /about
 title: About
 ---
-On 14–15 March, 2020 something spectacular started in Estonia. It took fewer than six hours for AccelerateEstonia, Garage48, and Guaana to put together an online hackathon with the aim of tackling the expected devastating effects of the Coronavirus crisis. More than a thousand people across fourteen time zones joined this effort, resulting in over thirty proposals—some of which are already up and running in affected countries around the world.
+On 13–15 March, 2020 something spectacular started in Estonia. It took fewer than six hours for AccelerateEstonia, Garage48, and Guaana to put together an online hackathon with the aim of tackling the expected devastating effects of the Coronavirus crisis. More than a thousand people across fourteen time zones joined this effort, resulting in over thirty proposals—some of which are already up and running in affected countries around the world.
 
 ![](/img/backstory.png)
 

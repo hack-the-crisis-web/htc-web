@@ -5,7 +5,7 @@ name: Anniken
 surname: Haldna
 role: Human too
 photo: /img/anniken_haldna.png
-about: anniken.haldna@gmail.com
+about: anniken@latitude59.ee
 linkedin: ''
 label: our-people
 tracklist: ''

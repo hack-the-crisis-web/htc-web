@@ -52,7 +52,7 @@ timelineDescription: ' '
 contentItems:
   - title: Backstory
     textContent: >-
-      On 14–15 March something spectacular started in Estonia. It took fewer
+      On 13–15 March something spectacular started in Estonia. It took fewer
       than six hours for AccelerateEstonia, Garage48, and Guaana to put together
       an online hackathon to tackle the devastating effects of the Coronavirus
       crisis. 

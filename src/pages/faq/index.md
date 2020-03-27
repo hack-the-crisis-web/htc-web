@@ -6,6 +6,13 @@ description: >
   Please go through the questions to see if your query has already been
   answered.
 contentItems:
+  - title: ''
+    image: /img/faq.jpg
+    ctaText: ''
+    ctaLink: ''
+    textContent: >-
+      Please go through the questions to see if your query has already been
+      answered.
   - title: What is a hackathon?
     textContent: >-
       Hackathon is an intense brainstorming marathon where people with different

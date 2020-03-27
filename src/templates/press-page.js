@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const PressKitPageTemplate = ({ title, content, contentComponent }) => {
+export const PressPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -29,18 +29,18 @@ export const PressKitPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-PressKitPageTemplate.propTypes = {
+PressPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const PressKitPage = ({ data }) => {
+const PressPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout title="Press kit">
-      <PressKitPageTemplate
+    <Layout title="Press">
+      <PressPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
@@ -49,14 +49,14 @@ const PressKitPage = ({ data }) => {
   )
 }
 
-PressKitPage.propTypes = {
+PressPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default PressKitPage
+export default PressPage
 
-export const pressKitPageQuery = graphql`
-  query PressKitPage($id: String!) {
+export const pressPageQuery = graphql`
+  query PressPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

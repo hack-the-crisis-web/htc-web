@@ -57,7 +57,7 @@ const FooterMenuRow = ({ data }) => (
         title="Generals"
         linkColumns={[
           [
-            { title: 'Press kit', url: '/press' },
+            { title: 'Press', url: '/press' },
             { title: 'Privacy Policy', url: '/privacy-policy' },
             { title: 'Terms of Service', url: '/terms-and-conditions' },
           ],

@@ -88,8 +88,8 @@ howItWorksItems:
   - title: Register Team
     textContent: >-
       When you feel like you’ve found an attractive idea, think about who to
-      hack with. Assemble a team of atleast 6 dedicated people and register the
-      idea and team via Guaana.
+      hack with. Assemble a team of atleast 6-12 dedicated people and register
+      the idea and team via Guaana.
     ctaText: 06-08 April
     ctaLink: /
     image: /img/step3.png

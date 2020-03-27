@@ -52,7 +52,7 @@ export const IndexPageTemplate = ({
       title="Timeline"
       description={timelineDescription}
       ctaLabel="Full agenda"
-      ctaUrl="/"
+      ctaUrl="/agenda"
       items={timeline}
     />
     <TracklistsSection description={tracklistDescription} />

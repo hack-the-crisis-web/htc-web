@@ -5,7 +5,7 @@ name: 'Maarja '
 surname: Pehk
 role: Human
 photo: /img/maarja-pehk.png
-about: maarja.pehk@gmail.com
+about: maarja@latitude59.ee
 linkedin: ''
 label: our-people
 tracklist: ''

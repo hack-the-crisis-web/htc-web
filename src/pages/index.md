@@ -61,9 +61,8 @@ contentItems:
       More than 1200 people across 14 time zones joined this effort and the
       world took notice. Now there are almost 30 initiatives around the globe
       hacking away, from India to Georgia to Brazil.
-    ctaText: About the first hackathon
-    ctaLink: >-
-      http://garage48.org/blog/fighting-the-covid-19-pandemic-with-the-power-of-community
+    ctaText: About the Global Movement
+    ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png
   - title: Far from over
     textContent: >-

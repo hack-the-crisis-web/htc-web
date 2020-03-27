@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Fighting a Global Crisis
-eventDate: '9-12 April, 2020'
+eventDate: '9-11 April, 2020'
 subheading: >-
   3 billion people in lockdown. Join together for the world's biggest
   hackathon.  

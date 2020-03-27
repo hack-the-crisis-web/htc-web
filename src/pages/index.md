@@ -91,7 +91,7 @@ howItWorksItems:
       When you feel like you’ve found an attractive idea, think about who to
       hack with. Assemble a team of 4-6 dedicated people and register the idea
       and team via Guaana.
-    ctaText: 06-08 March
+    ctaText: 06-08 April
     ctaLink: /
     image: /img/step3.png
     isActive: false

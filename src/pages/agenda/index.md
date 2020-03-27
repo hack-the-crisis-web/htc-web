@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-page
 path: /agenda
-title: Agenda
+title: Full Agenda TBA
 ---
-# To Be Announced
+#

@@ -81,7 +81,7 @@ howItWorksItems:
     textContent: >-
       Ideas are shared per track. Each track has been assigned a Flair (label)
       on our subreddit and #hashtag combination on Twitter.
-    ctaText: Share on Reddit
+    ctaText: Go to Reddit
     ctaLink: 'https://reddit.com/r/theglobalhack'
     image: /img/step1.png
     isActive: true

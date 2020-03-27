@@ -2,7 +2,9 @@
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '9-12 April, 2020'
-subheading: '3 billion people in lockdown. Join the world''s biggest hackathon.  '
+subheading: >-
+  3 billion people in lockdown. Join together for the world's biggest
+  hackathon.  
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'

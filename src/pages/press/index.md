@@ -3,7 +3,7 @@ templateKey: press-kit-page
 path: /press-kit
 title: Press kit
 ---
-# Press Kit
+
 
 ![](/img/presskit.jpg)
 

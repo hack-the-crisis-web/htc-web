@@ -1,7 +1,7 @@
 ---
-templateKey: press-kit-page
-path: /press-kit
-title: Press kit
+templateKey: press-page
+path: /press
+title: Press
 ---
 
 

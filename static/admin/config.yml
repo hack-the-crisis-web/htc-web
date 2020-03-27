@@ -374,14 +374,14 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/press/index.md'
-        label: 'Press kit'
-        name: 'press-kit-page'
+        label: 'Press'
+        name: 'press-page'
         fields:
           - {
               label: 'Template Key',
               name: 'templateKey',
               widget: 'hidden',
-              default: 'press-kit-page',
+              default: 'press-page',
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }

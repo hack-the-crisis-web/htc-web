@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
 import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
 import Supporters from '../components/Supporters/Supporters'
+import Button from '../components/Button/Button'
 import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
@@ -56,7 +57,21 @@ export const IndexPageTemplate = ({
     />
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
-    <JoinUsSection />
+    <JoinUsSection
+      Buttons={
+        <>
+          <Button href="/join">Join us</Button>
+          <Button
+            external
+            href="https://forms.gle/zD5L9frVyf5Pzr956"
+            rel="noopener"
+            target="_blank"
+          >
+            Join as a mentor
+          </Button>
+        </>
+      }
+    />
     <Supporters />
   </>
 )

@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AlternatingContent from '../components/AlternatingContent'
+import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
+import Button from '../components/Button/Button'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import OurPeople from '../components/People/OurPeople'
 
@@ -12,6 +14,23 @@ export const JoinPageTemplate = ({
   ourPeopleTitle,
 }) => (
   <>
+    <JoinUsSection
+      Buttons={
+        <>
+          <Button external href="mailto:hello@theglobalhack.com">
+            Join as organiser
+          </Button>
+          <Button
+            external
+            href="https://forms.gle/zD5L9frVyf5Pzr956"
+            rel="noopener"
+            target="_blank"
+          >
+            Join as a mentor
+          </Button>
+        </>
+      }
+    />
     <div className="section">
       <AlternatingContent contentItems={contentItems}></AlternatingContent>
       <OurPeople description={trackleadsDescription} title={ourPeopleTitle} />

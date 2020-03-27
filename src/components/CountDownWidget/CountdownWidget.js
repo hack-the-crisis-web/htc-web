@@ -34,7 +34,12 @@ class CountDownWidget extends React.Component {
     const hours = Math.floor(
       (this.state.timeToEvent - days * dayLengthInMS) / hourLengthInMS
     )
-    const shouldShowWidget = this.state.timeToEvent > 0
+    const shouldShowWidget =
+      (days > 0 && hours > 0) || (days === 0 && hours > 0)
+    const dayString =
+      days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
+    // const hourString = !dayString ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''
+    const toWhatString = 'till registration'
 
     return (
       <div
@@ -47,10 +52,9 @@ class CountDownWidget extends React.Component {
         {shouldShowWidget && (
           <>
             <img className={styles.icon} alt="time to event" src={clockIcon} />
-            <span className={styles.text}>
-              {days} {days !== 1 ? 'days' : 'day'} {hours}{' '}
-              {hours !== 1 ? 'hours' : 'hour'} till start
-            </span>
+            <span
+              className={styles.text}
+            >{`${dayString} ${toWhatString}`}</span>
           </>
         )}
       </div>

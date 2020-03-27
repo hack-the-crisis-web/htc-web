@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const eventDate = new Date('10 April 2020 10:00 UTC')
+    const eventDate = new Date('6 April 2020 10:00 UTC')
     const navLinkClassnames = classnames(
       'navbar-item',
       'hover-effect-small',
@@ -132,12 +132,9 @@ const Navbar = class extends React.Component {
                 eventTime={eventDate.toISOString()}
               />
               <div className="navbar-item is-hidden-desktop">
-                <SocialIconLink type="guaana" href="https://guaana.com" />
-              </div>
-              <div className="navbar-item is-hidden-desktop">
                 <SocialIconLink
-                  type="slack"
-                  href="https://theglobalhack.slack.com/"
+                  type="reddit"
+                  href="https://reddit.com/r/theglobalhack"
                 />
               </div>
               <div className="navbar-item">

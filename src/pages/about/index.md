@@ -16,3 +16,5 @@ On 9-12 April, 2020 we’re putting on The Global Hack to imagine the possibilit
 We’re looking for brilliant people from every corner of the globe to participate in The Global Hack. We find ourselves in a unique situation, and are literally all in this together—the entire world is looking for solutions to the same problems at the same time.
 
 [Hack The Crisis Global Community >](https://garage48.org/hackthecrisis)
+
+[Hack-The-Crisis: 6 Lessons From Estonia’s Coronavirus Crisis Response](https://www.forbes.com/sites/robertwolcott/2020/03/15/hack-the-crisis-6-lessons-from-estonias-coronavirus-crisis-response/#44b28e0d4fca) by Forbes

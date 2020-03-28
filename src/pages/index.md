@@ -37,10 +37,10 @@ timeline:
     date: 2020-04-11T21:00:00.000Z
 heading: placeholder
 howItWorksDescription: >-
-  The Global Hack is an online hackathon fighting off the crisis to battle the
-  problems we are facing as a global society after the immediate corona crisis
-  is over. We are bringing together world-class mentors and globally talented
-  teams to build the solutions for a better future. 
+  The Global Hack is an online hackathon solving the problems we are facing as a
+  global society after the immediate corona crisis is over. We are bringing
+  together world-class mentors and globally talented teams to build the
+  solutions for a better future. 
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest

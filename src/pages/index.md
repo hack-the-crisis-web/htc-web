@@ -78,17 +78,17 @@ contentItems:
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
-      Ideas are shared per track. Each track has been assigned a Flair (label)
-      on our subreddit and #hashtag combination on Twitter.
-    ctaText: Go to Reddit
+      This is a community effort. Join our subreddit /r/theglobalhack to share
+      and discuss ideas, get feedback, find teammates, get inspired.
+    ctaText: Post your idea
     ctaLink: 'https://reddit.com/r/theglobalhack'
     image: /img/step1.png
     isActive: true
   - title: Register Team
     textContent: >-
-      When you feel like you’ve found an attractive idea, think about who to
-      hack with. Assemble a team of atleast 6-12 dedicated people and register
-      the idea and team via Guaana.
+      When you feel like you’ve found an attractive idea, assemble atleast 6-12
+      dedicated people to hack with. The team leader then needs to register the
+      idea and team via Guaana.
     ctaText: 06-08 April
     ctaLink: /
     image: /img/step3.png

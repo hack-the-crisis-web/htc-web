@@ -78,8 +78,8 @@ contentItems:
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
-      This is a community effort. Join our subreddit /r/theglobalhack to share
-      and discuss ideas, get feedback, find teammates, get inspired.
+      Join our subreddit /r/theglobalhack to post and discuss ideas, get
+      feedback, find teammates, get inspired.
     ctaText: Post your idea
     ctaLink: 'https://reddit.com/r/theglobalhack'
     image: /img/step1.png

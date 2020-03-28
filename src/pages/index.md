@@ -37,9 +37,10 @@ timeline:
     date: 2020-04-11T21:00:00.000Z
 heading: placeholder
 howItWorksDescription: >-
-  The crisis is far from over. Join the hack of our lifetime - The Global Hack -
-  9-12 April 2020. We are bringing together world-class mentors and globally
-  talented teams to build the solutions for the better tomorrow.
+  The Global Hack is an online hackathon fighting off the crisis to battle the
+  problems we are facing as a global society after the immediate corona crisis
+  is over. We are bringing together world-class mentors and globally talented
+  teams to build the solutions for a better future. 
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest
@@ -78,17 +79,17 @@ contentItems:
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
-      Join our subreddit /r/theglobalhack to post and discuss ideas, get
-      feedback, find teammates and get inspired.
-    ctaText: Post your idea
+      Ideas are shared per track. Each track has been assigned a Flair (label)
+      on our subreddit and #hashtag combination on Twitter.
+    ctaText: Go to Reddit
     ctaLink: 'https://reddit.com/r/theglobalhack'
     image: /img/step1.png
     isActive: true
   - title: Register Team
     textContent: >-
-      When you feel like you’ve found an attractive idea, assemble atleast 6-12
-      dedicated people to hack with. The team leader then needs to register the
-      idea and team via Guaana.
+      When you feel like you’ve found an attractive idea, think about who to
+      hack with. Assemble a team of atleast 6-12 dedicated people and register
+      the idea and team via Guaana.
     ctaText: 06-08 April
     ctaLink: /
     image: /img/step3.png

@@ -3,7 +3,7 @@ templateKey: person
 personId: '{{uuid}}'
 name: 'Sandra '
 surname: Raju
-role: Social Person
+role: Social Human
 photo: /img/sandra_raju.png
 about: ''
 linkedin: ''

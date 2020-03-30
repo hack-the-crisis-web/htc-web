@@ -4,7 +4,7 @@ import '../all.sass'
 import Section from '../Section/Section'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import SectionDescription from '../SectionDescription/SectionDescription'
-import CustomLink from '../CustomLink/CustomLink'
+import Button from '../Button/Button'
 import Timeline from './Timeline/Timeline'
 import styles from './TimelineSection.module.scss'
 
@@ -28,9 +28,9 @@ const TimelineSection = ({ title, description, ctaLabel, ctaUrl, items }) => (
 
       {!!ctaLabel && !!ctaUrl && (
         <div className={styles.cta}>
-          <CustomLink className={styles.button} to={ctaUrl}>
+          <Button className={styles.button} href={ctaUrl}>
             {ctaLabel}
-          </CustomLink>
+          </Button>
         </div>
       )}
     </div>

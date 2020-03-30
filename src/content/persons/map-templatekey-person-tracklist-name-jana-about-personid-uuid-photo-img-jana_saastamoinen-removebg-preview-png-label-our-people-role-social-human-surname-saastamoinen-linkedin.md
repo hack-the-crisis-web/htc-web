@@ -4,7 +4,7 @@ personId: '{{uuid}}'
 name: Jana
 surname: Saastamoinen
 role: Social Human
-photo: /img/jana_saastamoinen-removebg-preview.png
+photo: /img/0-removebg-preview.png
 about: ''
 linkedin: ''
 label: our-people

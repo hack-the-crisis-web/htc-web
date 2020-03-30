@@ -250,7 +250,7 @@ collections:
               default: '',
             }
 
-          - {
+          - &timeline {
               label: Timeline,
               name: timeline,
               widget: list,
@@ -326,7 +326,7 @@ collections:
                   },
                 ],
             }
-          - {
+          - &howItWorksItems {
               label: 'How it works Items',
               name: howItWorksItems,
               widget: list,
@@ -385,6 +385,13 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+          - {
+              label: 'Components',
+              name: 'components',
+              widget: 'list',
+              types: [*contentItems, *howItWorksItems, *timeline],
+            }
+
       - file: 'src/pages/privacy-policy/index.md'
         label: 'Privacy Policy'
         name: 'privacy-policy-page'

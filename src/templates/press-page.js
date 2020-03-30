@@ -3,10 +3,16 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Timeline from '../components/TimelineSection/Timeline/Timeline'
+import AlternatingContent from '../components/AlternatingContent'
 
-export const PressPageTemplate = ({ title, content, contentComponent }) => {
+export const PressPageTemplate = ({
+  title,
+  content,
+  contentComponent,
+  components,
+}) => {
   const PageContent = contentComponent || Content
-
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -18,6 +24,18 @@ export const PressPageTemplate = ({ title, content, contentComponent }) => {
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                     {title}
                   </h2>
+                  {components.map(item => {
+                    if (item.timeline !== null) {
+                      return <Timeline items={item.timeline} />
+                    }
+                    if (item.contentItems !== null) {
+                      return (
+                        <AlternatingContent
+                          contentItems={item.contentItems}
+                        ></AlternatingContent>
+                      )
+                    }
+                  })}
                   <PageContent className="content" content={content} />
                 </div>
               </div>
@@ -44,6 +62,7 @@ const PressPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        components={post.frontmatter.components}
       />
     </Layout>
   )
@@ -61,7 +80,30 @@ export const pressPageQuery = graphql`
       html
       frontmatter {
         title
+        components {
+          timeline {
+            title
+            isActive
+            date
+            image {
+              id
+              publicURL
+            }
+          }
+          contentItems {
+            title
+            textContent
+            image {
+              id
+              publicURL
+            }
+            ctaText
+            ctaLink
+          }
+        }
       }
     }
   }
 `
+
+//

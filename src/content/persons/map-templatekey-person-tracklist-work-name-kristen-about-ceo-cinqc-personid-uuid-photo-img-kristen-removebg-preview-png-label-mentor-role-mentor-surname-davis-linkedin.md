@@ -5,7 +5,7 @@ name: Kristen
 surname: Davis
 role: CEO CinqC
 photo: /img/kristen-removebg-preview.png
-about: CEO CinqC
+about: ''
 linkedin: ''
 label: mentor
 tracklist: Work

@@ -3,7 +3,7 @@ templateKey: person
 personId: '{{uuid}}'
 name: Kristen
 surname: Davis
-role: Mentor
+role: CEO CinqC
 photo: /img/kristen-removebg-preview.png
 about: CEO CinqC
 linkedin: ''

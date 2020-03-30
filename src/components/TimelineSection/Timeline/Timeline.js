@@ -4,7 +4,6 @@ import styles from './Timeline.module.scss'
 
 const Timeline = ({ items }) => (
   <div className={styles.timeline}>
-    <div className={styles.dashed} />
     {items.map(({ image, title, date, isActive }) => (
       <TimelineItem
         image={image.publicURL}

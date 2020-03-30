@@ -1,0 +1,12 @@
+---
+templateKey: person
+personId: '{{uuid}}'
+name: Kristen
+surname: Davis
+role: Mentor
+photo: /img/kristen-removebg-preview.png
+about: CEO CinqC
+linkedin: ''
+label: mentor
+tracklist: Work
+---

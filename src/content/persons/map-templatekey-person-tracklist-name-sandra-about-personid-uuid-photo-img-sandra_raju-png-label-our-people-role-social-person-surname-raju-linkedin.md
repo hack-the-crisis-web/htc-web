@@ -4,7 +4,7 @@ personId: '{{uuid}}'
 name: 'Sandra '
 surname: Raju
 role: Social Human
-photo: /img/sandra_raju.png
+photo: /img/aandra_raju-removebg-preview.png
 about: ''
 linkedin: ''
 label: our-people

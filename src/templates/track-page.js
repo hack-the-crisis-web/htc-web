@@ -46,9 +46,7 @@ export const TrackTemplate = ({
     {content && <HTMLContentSection content={content} />}
     <TrackMentors
       hashtag={hashtag}
-      description={
-        'Mxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.'
-      }
+      description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
   </>
 )

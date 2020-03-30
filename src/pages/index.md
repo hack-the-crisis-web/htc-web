@@ -51,7 +51,7 @@ trackleadsDescription: >-
 timelineDescription: ' '
 contentItems:
   - title: Backstory
-    textContent: >-
+    textContent: >
       On 13–15 March something spectacular started in Estonia. It took fewer
       than six hours for AccelerateEstonia, Garage48, and Guaana to put together
       an online hackathon to tackle the devastating effects of the Coronavirus
@@ -59,8 +59,9 @@ contentItems:
 
 
       More than 1200 people across 14 time zones joined this effort and the
-      world took notice. Now there are almost 30 initiatives around the globe
-      hacking away, from India to Georgia to Brazil.
+      world took notice. Now there are almost 40+  initiatives around the globe
+      hacking away, from India to Georgia to Brazil. Hackathons all around the
+      globe are reaching more than 200,000 participants.
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png

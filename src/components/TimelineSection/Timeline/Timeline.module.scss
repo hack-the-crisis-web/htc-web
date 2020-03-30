@@ -2,20 +2,11 @@
 
 .timeline {
   position: relative;
-  display: inline-flex;
-  padding-left: 31px;
-
-  .dashed {
-    position: absolute;
-    z-index: -1;
-    width: calc(100% + 31px);
-    height: 1px;
-    left: 0;
-    top: 42px;
-    border-top: 2px dashed $info;
-  }
+  display: flex;
+  justify-content: space-between;
 
   .item {
+    min-width: 122px;
     width: 122px;
     text-align: center;
 

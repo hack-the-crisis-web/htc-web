@@ -1,6 +1,7 @@
 @import '../../styles/styleSetup.scss';
 
 .timelineScrollable {
+  width: 100%;
   overflow-x: scroll;
 
   &::-webkit-scrollbar {
@@ -29,4 +30,18 @@
   a.button {
     display: inline-block;
   }
+}
+
+.timelineWrapper {
+  position: relative;
+}
+
+.dashed {
+  position: absolute;
+  z-index: -1;
+  width: 200vw;
+  height: 1px;
+  left: -100vw;
+  top: 42px;
+  border-top: 2px dashed $info;
 }

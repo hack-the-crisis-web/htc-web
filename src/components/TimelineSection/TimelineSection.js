@@ -19,9 +19,13 @@ const TimelineSection = ({ title, description, ctaLabel, ctaUrl, items }) => (
           marginBottom={45}
         />
       )}
-      <div className={styles.timelineScrollable}>
-        <Timeline items={items} />
+      <div className={classnames('container', styles.timelineWrapper)}>
+        <div className={styles.dashed} />
+        <div className={styles.timelineScrollable}>
+          <Timeline items={items} />
+        </div>
       </div>
+
       {!!ctaLabel && !!ctaUrl && (
         <div className={styles.cta}>
           <CustomLink className={styles.button} to={ctaUrl}>

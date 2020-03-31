@@ -21,7 +21,7 @@ timeline:
     date: 2020-04-05T21:00:00.000Z
   - title: Teams Announced
     isActive: false
-    image: /img/creativity.jpg
+    image: /img/teams.jpg
     date: 2020-04-07T21:00:00.000Z
   - title: The hackathon Starts
     isActive: false
@@ -33,7 +33,7 @@ timeline:
     date: 2020-04-10T21:00:00.000Z
   - title: Demos & Awards
     isActive: false
-    image: /img/oportunity_globe.png
+    image: /img/winner.jpg
     date: 2020-04-11T21:00:00.000Z
 heading: placeholder
 howItWorksDescription: >-

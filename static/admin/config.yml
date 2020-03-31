@@ -349,6 +349,55 @@ collections:
                   },
                 ],
             }
+          - {
+              label: End Section Items,
+              name: sectionItems,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Text content',
+                    name: 'textContent',
+                    widget: 'text',
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Buttons',
+                    name: 'buttons',
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: 'CTA text',
+                          name: 'ctaText',
+                          widget: 'string',
+                          required: false,
+                          default: '',
+                        },
+                        {
+                          label: 'CTA link',
+                          name: 'ctaLink',
+                          widget: 'string',
+                          required: false,
+                          default: '',
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: 'src/pages/about/index.md'
         label: 'About'
         name: 'about'

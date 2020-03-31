@@ -15,8 +15,12 @@ const HowItWorksSection = ({ items, description }) => (
         <SectionDescription className={styles.description} text={description} />
         <div className={classnames(styles.cards, 'columns is-multiline')}>
           {items.map(
-            ({ title, textContent, image, ctaText, ctaLink, isActive }) => (
+            (
+              { title, textContent, image, ctaText, ctaLink, isActive },
+              index
+            ) => (
               <div
+                key={index}
                 className={classnames(
                   styles.column,
                   'column is-full-mobile is-full-tablet is-one-third-desktop'

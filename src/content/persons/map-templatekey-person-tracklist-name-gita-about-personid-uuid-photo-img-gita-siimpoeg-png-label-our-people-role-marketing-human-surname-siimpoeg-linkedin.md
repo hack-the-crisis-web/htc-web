@@ -1,6 +1,6 @@
 ---
 templateKey: person
-personId: '{{uuid}}'
+personId: '/persons/map-templatekey-person-tracklist-name-gita-about-personid-uuid-photo-img-gita-siimpoeg-png-label-our-people-role-marketing-human-surname-siimpoeg-linkedin/'
 name: Gita
 surname: Siimpoeg
 role: Marketing Human

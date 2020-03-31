@@ -1,6 +1,6 @@
 ---
 templateKey: person
-personId: '{{uuid}}'
+personId: '/persons/map-templatekey-person-tracklist-name-anniken-about-anniken-haldna-gmail-com-personid-uuid-photo-img-anniken_haldna-png-label-our-people-role-human-too-surname-haldna-linkedin/'
 name: Calum
 surname: Cameron
 role: Humans human

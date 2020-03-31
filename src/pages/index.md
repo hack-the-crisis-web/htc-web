@@ -2,9 +2,7 @@
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '9-12 April, 2020'
-subheading: >-
-  3 billion people in lockdown. Join together for the world's biggest
-  hackathon.
+subheading: 3 billion people in lockdown. Join together for the world's biggest hackathon.
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'
@@ -103,36 +101,18 @@ howItWorksItems:
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/step2.png
     isActive: false
-description: placeholder
 sectionItems:
   - title: Every hand counts
     textContent: >
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
+      Organizing a fully online global hackathon takes a lot! We need both
+      volunteers and mentors to help make this happen
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png
     buttons:
+      - ctaText: Join the team
+        ctaLink: 'https://theglobalhack.com/join'
       - ctaText: Get on Slack
         ctaLink: 'https://theglobalhack.slack.com/'
-      - ctaText: Get on Slack
-        ctaLink: 'https://theglobalhack.slack.com/'
-  - title: Every hand counts
-    textContent: >
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-    ctaText: About the Global Movement
-    ctaLink: 'http://garage48.org/hackthecrisis'
-    image: /img/backstory.png
-    buttons:
-      - ctaText: Get on Slack
-  - title: Every hand counts
-    textContent: >
-      Organizing a fully online global hackathon takes a lot! We need both volunteers and mentors to help make this happen
-    ctaText: About the Global Movement
-    ctaLink: 'http://garage48.org/hackthecrisis'
-    buttons:
-      - ctaText: Get on Slack
+description: placeholder
 ---

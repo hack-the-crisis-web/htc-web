@@ -7,7 +7,7 @@ description: >-
   lagged far behind that of the private sector.
 keyMentor: >-
   /persons/map-templatekey-person-tracklist-governance-name-toomas-hendrik-about-personid-uuid-photo-img-toomas_hendrik_ilves-removebg-preview-png-label-track-lead-role-former-president-of-estonia-surname-i/
-featuredimage: /img/globalhack_thi.png
+featuredimage: /img/globalhack_thi_1_.png
 trackLogo: /img/goverment.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'

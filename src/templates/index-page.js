@@ -31,6 +31,7 @@ export const IndexPageTemplate = ({
   heroCTALeftLink,
   heroCTARightText,
   heroCTARightLink,
+  sectionItems,
 }) => (
   <>
     <HeroSection
@@ -58,6 +59,7 @@ export const IndexPageTemplate = ({
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
     <JoinUsSection
+      sectionItems={sectionItems}
       Buttons={
         <>
           <Button href="/join">Join us</Button>
@@ -105,6 +107,7 @@ const IndexPage = ({ data }) => {
         heroCTALeftLink={frontmatter.heroCTALeftLink}
         heroCTARightText={frontmatter.heroCTARightText}
         heroCTARightLink={frontmatter.heroCTARightLink}
+        sectionItems={frontmatter.sectionItems}
       />
     </Layout>
   )
@@ -166,6 +169,17 @@ export const pageQuery = graphql`
           }
           ctaText
           ctaLink
+        }
+        sectionItems {
+          title
+          textContent
+          image {
+            publicURL
+          }
+          buttons {
+            ctaText
+            ctaLink
+          }
         }
       }
     }

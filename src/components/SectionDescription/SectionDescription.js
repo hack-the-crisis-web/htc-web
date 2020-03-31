@@ -7,11 +7,13 @@ const SectionDescription = ({
   className,
   restrictWidth = true,
   marginBottom = 55,
+  alignRight,
 }) => (
   <div
     className={classnames(
       styles.content,
       { [styles.restrictWidth]: restrictWidth },
+      { [styles.alignRight]: alignRight },
       className
     )}
     style={{ marginBottom: marginBottom }}

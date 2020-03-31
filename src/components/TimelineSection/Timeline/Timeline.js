@@ -4,8 +4,9 @@ import styles from './Timeline.module.scss'
 
 const Timeline = ({ items }) => (
   <div className={styles.timeline}>
-    {items.map(({ image, title, date, isActive }) => (
+    {items.map(({ image, title, date, isActive }, index) => (
       <TimelineItem
+        key={index}
         image={image.publicURL}
         title={title}
         date={date}

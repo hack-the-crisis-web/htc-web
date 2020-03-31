@@ -6,7 +6,7 @@ export const FooterCopyright = () => (
   <div className={styles.links}>
     <SocialIconLink type="garage48" color="black" href="https://garage48.org" />
     <span className={styles.copyright}>
-      This event is brough to you by Garage48. © 2020. All right reserved.
+      This event is brought to you by Garage48. © 2020. All rights reserved.
     </span>
   </div>
 )

@@ -126,7 +126,7 @@ const SocialIconLink = ({ type, href, color = 'white' }) => {
   const { alt, src, width, height } = getImgPropsForIconType(type, color)
   return (
     <a className={styles.noDecoration} href={href} target="_blank">
-      <img alt={alt} src={src} style={{ width, height }} />
+      <img alt={alt} src={src} style={{ width, height, display: 'block' }} />
     </a>
   )
 }

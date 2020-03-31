@@ -373,6 +373,18 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+      - file: 'src/pages/how-it-works/index.md'
+        label: 'How it works'
+        name: 'how-it-works-page'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'how-it-works-page',
+            }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/press/index.md'
         label: 'Press'
         name: 'press-page'

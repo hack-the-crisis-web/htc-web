@@ -8,7 +8,7 @@ subheading: >-
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'
-heroCTARightText: Share your Idea
+heroCTARightText: Share Ideas
 heroCTARightLink: 'https://reddit.com/r/theglobalhack/'
 timeline:
   - title: Share ideas on Reddit

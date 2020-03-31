@@ -37,13 +37,13 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
+    {content && <HTMLContentSection content={content} />}
     {!!parseTwitterWidgetCode(widgetCode) && (
       <Section>
         <TwitterFeedTitle>{hashtag}</TwitterFeedTitle>
         <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
       </Section>
     )}
-    {content && <HTMLContentSection content={content} />}
     <TrackMentors
       hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."

@@ -23,11 +23,11 @@ timeline:
     isActive: false
     image: /img/creativity.jpg
     date: 2020-04-07T21:00:00.000Z
-  - title: Hackathon Starts
+  - title: The hackathon Starts
     isActive: false
     image: /img/goverment.jpg
     date: 2020-04-08T21:00:00.000Z
-  - title: Hackathon Ends
+  - title: The hackathon Ends
     isActive: false
     image: /img/mental_health.jpg
     date: 2020-04-10T21:00:00.000Z

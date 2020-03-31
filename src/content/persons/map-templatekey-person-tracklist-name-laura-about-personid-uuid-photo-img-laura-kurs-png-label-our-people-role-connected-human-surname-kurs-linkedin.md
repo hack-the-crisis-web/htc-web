@@ -1,6 +1,6 @@
 ---
 templateKey: person
-personId: '{{uuid}}'
+personId: '/persons/map-templatekey-person-tracklist-name-laura-about-personid-uuid-photo-img-laura-kurs-png-label-our-people-role-connected-human-surname-kurs-linkedin/'
 name: Laura
 surname: Kurs
 role: Connected Human

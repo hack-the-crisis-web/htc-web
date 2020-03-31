@@ -1,6 +1,6 @@
 ---
 templateKey: person
-personId: '{{uuid}}'
+personId: '/persons/map-templatekey-person-tracklist-name-maarja-about-maarja-pehk-gmail-com-personid-uuid-photo-img-maarja-pehk-png-label-our-people-role-human-surname-pehk-linkedin/'
 name: 'Maarja '
 surname: Pehk
 role: Connected Human

@@ -8,6 +8,11 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+  sanitize_replacement: '_'
+
 media_folder: static/img
 public_folder: /img
 
@@ -71,7 +76,7 @@ collections:
           label: 'Person ID',
           name: 'personId',
           widget: 'hidden',
-          default: '{{uuid}}',
+          default: '{{slug}}',
         }
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Surname', name: 'surname', widget: 'string', required: true }

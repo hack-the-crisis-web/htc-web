@@ -8,10 +8,11 @@ subheading: >-
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'
-heroCTARightText: Share Ideas
-heroCTARightLink: 'https://reddit.com/r/theglobalhack/'
+heroCTARightText: Join Slack
+heroCTARightLink: >-
+  https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
 timeline:
-  - title: Share ideas on Reddit
+  - title: Let's get ideas going in Slack
     isActive: true
     image: /img/crisis.jpg
     date: ''
@@ -49,7 +50,7 @@ howItWorksDescription: >-
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest
-  changes:
+  challenges. 
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.
@@ -85,11 +86,12 @@ contentItems:
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
-      Idea submission is now open! Join our subreddit community to post and
-      discuss ideas, get feedback, find teammates and get inspired.
-    ctaText: Go to Reddit
-    ctaLink: 'https://reddit.com/r/theglobalhack'
-    image: /img/step1.png
+      Idea submission is now open! Join our Slack community to post and discuss
+      ideas, get feedback, find teammates and get inspired.
+    ctaText: Join our slack
+    ctaLink: >-
+      https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
+    image: /img/step2.png
     isActive: true
   - title: Register Team
     textContent: >-
@@ -104,9 +106,9 @@ howItWorksItems:
     textContent: >-
       Your team will be assigned a Slack channel on April 9 to be assisted via.
       Log on and hack away! These extremely intense hours may change the world!
-    ctaText: Get on Slack
+    ctaText: Future is created NOW!
     ctaLink: 'https://theglobalhack.slack.com/'
-    image: /img/step2.png
+    image: /img/joinus.png
     isActive: false
 sectionItems:
   - title: Every hand counts

@@ -6,8 +6,8 @@ description: >-
   Classrooms around the world have suddenly been locked shut and teachers are
   urgently rethinking how to teach effectively.
 keyMentor: Obama
-featuredimage: /img/education.jpg
-trackLogo: ''
+trackLogo: /img/education.jpg
+featuredimage: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why Education?
 
 Few things have had a more powerfully positive impact on our planet than improved access to education. However, classrooms around the world have suddenly been locked shut and teachers are urgently rethinking how to teach effectively.

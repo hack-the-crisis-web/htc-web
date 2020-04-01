@@ -6,8 +6,8 @@ description: >-
   The circumstances can be mentally challenging as relationships will be under
   pressure and many will feel lonelier than ever before.
 keyMentor: ''
-featuredimage: /img/mental_health.jpg
-trackLogo: ''
+trackLogo: /img/mental_health.jpg
+featuredimage: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why Mental Health?
 
 A sudden change in circumstances can be mentally challenging, whether it’s losing a loved one, a job or even just political upheaval. All these factors combine in this crisis in ways that most of us have never seen during our lifetimes. In addition, relationships will be put under considerable pressure and many will be lonelier than ever before, which is one of the most significant contributing factors to ill mental health.

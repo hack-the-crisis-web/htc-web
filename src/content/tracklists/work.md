@@ -6,8 +6,8 @@ description: >-
   It’s possible that many of the temporary changes during this period will
   become the new normal and remain permanently.
 keyMentor: Obama
-featuredimage: /img/work.jpg
-trackLogo: ''
+trackLogo: /img/work.jpg
+featuredimage: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0755063761f18fda9b08c17144c62379e96ad7fc"
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why Work?
 
 Organisations of all types and sizes have been forced to adapt during the crisis, largely by embracing remote work through technology and new processes. This is considerably easier for some than others, however.

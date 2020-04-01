@@ -27,13 +27,14 @@ const TrackHeroSection = ({
           <div
             className={classnames('is-hidden-tablet', styles.responsiveImage)}
           >
-            <img alt={hasMentor ? mentor : title} src={featuredImage} />
-            {trackLogo && (
+            {(featuredImage || trackLogo) && (
               <img
-                className={styles.trackLogo}
-                alt={title}
-                src={trackLogo}
+                alt={hasMentor ? mentor : title}
+                src={featuredImage ? featuredImage : trackLogo}
               />
+            )}
+            {!featuredImage && trackLogo && (
+              <img className={styles.trackLogo} alt={title} src={trackLogo} />
             )}
           </div>
           <div
@@ -61,8 +62,13 @@ const TrackHeroSection = ({
           )}
         </div>
         <div className={classnames('is-hidden-mobile', styles.image)}>
-          <img alt={hasMentor ? mentor : title} src={featuredImage} />
-          {trackLogo && (
+          {(featuredImage || trackLogo) && (
+            <img
+              alt={hasMentor ? mentor : title}
+              src={featuredImage ? featuredImage : trackLogo}
+            />
+          )}
+          {featuredImage && trackLogo && (
             <img className={styles.trackLogo} alt={title} src={trackLogo} />
           )}
         </div>

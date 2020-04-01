@@ -19,7 +19,7 @@ const TracklistsSection = ({ data, description }) => {
               (
                 {
                   node: {
-                    frontmatter: { title, description, featuredimage, hashtag },
+                    frontmatter: { title, description, trackLogo, hashtag },
                   },
                 },
                 index
@@ -36,7 +36,7 @@ const TracklistsSection = ({ data, description }) => {
                         .replace(/ +/g, '-')}
                       title={title}
                       text={description}
-                      image={featuredimage}
+                      image={trackLogo}
                       hashtag={hashtag}
                     />
                   </div>
@@ -62,7 +62,7 @@ export default props => (
               frontmatter {
                 title
                 description
-                featuredimage
+                trackLogo
                 hashtag
               }
             }

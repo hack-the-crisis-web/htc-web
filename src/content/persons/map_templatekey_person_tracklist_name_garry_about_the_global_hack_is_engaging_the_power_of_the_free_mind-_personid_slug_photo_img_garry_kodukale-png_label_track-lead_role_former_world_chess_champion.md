@@ -3,10 +3,8 @@ templateKey: person
 personId: '{{slug}}'
 name: Garry
 surname: Kasparov
-role: >-
-  Former World Chess Champion, Avast Security Ambassador and Author of Deep
-  Thinking: Where Machine Intelligence Ends and Human Creativity Begins. 
-photo: /img/globalhack_kasparov.png
+role: 'Former World Chess Champion, Avast Security Ambassador and Author'
+photo: /img/globalhack_kasparov-alt.png
 about: |-
 
 

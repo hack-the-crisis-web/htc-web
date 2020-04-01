@@ -37,13 +37,8 @@
 .personimage {
   position: absolute;
   bottom: 0;
-  right: 5%;
-  width: 60%;
+  right: 0;
+  max-width: 60%;
   max-height: 80%;
   object-fit: contain;
-
-  @include desktop() {
-    right: 35%;
-    transform: translate(50%);
-  }
 }

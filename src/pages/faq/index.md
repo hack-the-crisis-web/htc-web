@@ -51,19 +51,6 @@ contentItems:
     textContent: "If you are a government organization or sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
     ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
     ctaText: Submit here
-  - title: How can I participate in the Hackathon with my existing project?
-    textContent: >-
-      During the past few weeks we’ve seen an impressive number of  initiatives
-      to develop digital solutions and infrastructure to face the Coronavirus
-      crisis. We have immense respect for your work and are collecting all your
-      projects in this document.
-
-
-      We want to pool our talents and resources to make these commitments both
-      visible and sustainable.
-
-
-      Feel free to register as a challenge sponsor with your existing ideas,
-      phrase your challenges as scaling challenges for your beta versions (for
-      example), and find support for your next steps within the network.
+  - title: Can I submit already existing projects?
+    textContent: "Yes, please! During the past few weeks, we’ve seen an impressive number of initiatives to develop digital solutions and infrastructure to face the coronavirus crisis and do urge you for further development of these projects.\L\LWe have immense respect for your work, so please feel free to submit your existing challenge and the team working to improve it, like every other team. We expect that you continue developing your solution further during the hackathon. Phrase your challenges and emphasize how you will scale it or improve it.\L"
 ---

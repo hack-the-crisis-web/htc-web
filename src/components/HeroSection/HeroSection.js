@@ -1,7 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
 import Button from '../Button/Button'
-import checkIfInternalLink from '../checkIfInternalLink';
 import styles from './HeroSection.module.scss'
 import '../all.sass'
 
@@ -32,17 +31,12 @@ const HeroSection = ({
             <h3 className="is-family-secondary">{subheading}</h3>
             <div className={styles.buttonWrapper}>
               {showLeftButton && (
-                <Button
-                  external={!checkIfInternalLink(heroCTALeftLink)}
-                  href={heroCTALeftLink}
-                  className={styles.btn}
-                >
+                <Button href={heroCTALeftLink} className={styles.btn}>
                   {heroCTALeftText}
                 </Button>
               )}
               {showRightButton && (
                 <Button
-                  external={!checkIfInternalLink(heroCTARightLink)}
                   href={heroCTARightLink}
                   btnStyle="outline"
                   className={styles.btn}

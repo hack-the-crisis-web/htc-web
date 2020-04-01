@@ -33,7 +33,7 @@ const TrackHeroSection = ({
                 src={featuredImage ? featuredImage : trackLogo}
               />
             )}
-            {!featuredImage && trackLogo && (
+            {featuredImage && trackLogo && (
               <img className={styles.trackLogo} alt={title} src={trackLogo} />
             )}
           </div>

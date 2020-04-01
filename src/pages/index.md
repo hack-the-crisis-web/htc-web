@@ -42,7 +42,7 @@ howItWorksDescription: >-
   as to build resilience post-pandemic.
 
   The Global Hack has already drawn attention across the globe - covered by
-  Forbes, Silicon Republic, GovInsider among others - and brought on board a
+  *Forbes*, Silicon Republic, GovInsider among others - and brought on board a
   fleet of world-class mentors, such as Silicon Valley’s tech superstar Steve
   Jurvetson and former President of Estonia and a visiting fellow at Stanford -
   Toomas Hendrik Ilves. 

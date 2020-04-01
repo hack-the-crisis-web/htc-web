@@ -55,8 +55,8 @@ export const IndexPageTemplate = ({
       ctaUrl="/agenda"
       items={timeline}
     />
-    <TrackLeads description={trackleadsDescription} />
     <TracklistsSection description={tracklistDescription} />
+    <TrackLeads description={trackleadsDescription} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <JoinUsSection sectionItems={sectionItems} />
     <Partners />

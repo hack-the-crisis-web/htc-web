@@ -44,8 +44,7 @@ howItWorksDescription: >-
   The Global Hack has already drawn attention across the globe - covered by
   *Forbes*, Silicon Republic, GovInsider among others - and brought on board a
   fleet of world-class mentors, such as Silicon Valley’s tech superstar Steve
-  Jurvetson and former President of Estonia and a visiting fellow at Stanford -
-  Toomas Hendrik Ilves. 
+  Jurvetson, former President of Estonia Toomas Hendrik Ilves and Head of TED. 
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest

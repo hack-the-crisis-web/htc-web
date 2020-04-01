@@ -110,7 +110,7 @@ sectionItems:
       volunteers and mentors to help make this happen
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
-    image: /img/backstory.png
+    image: /img/join-us-section.png
     buttons:
       - ctaText: Join the team
         ctaLink: 'https://theglobalhack.com/join'

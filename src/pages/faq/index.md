@@ -45,8 +45,10 @@ contentItems:
     textContent: "If you don’t have a team yet to solve a challenge - join Slack, recruit team members and then submit your team alongside the challenge for review in Guaana. \nIf you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
     ctaText: ''
     ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
-  - title: Where can I submit my challenge?
-    textContent: "If you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
+  - title: >-
+      Where can I submit my challenge?(government organisation or sponsor
+      company)
+    textContent: "If you are a government organization or sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
     ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
     ctaText: Submit here
   - title: How can I participate in the Hackathon with my existing project?

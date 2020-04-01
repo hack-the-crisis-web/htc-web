@@ -5,9 +5,9 @@ hashtag: 'Share and Inspire using #theglobalhack #work'
 description: >-
   It’s possible that many of the temporary changes during this period will
   become the new normal and remain permanently.
-keyMentor: Obama
+keyMentor: '{{slug}}'
+featuredimage: /img/garry_kodukale.png
 trackLogo: /img/work.jpg
-featuredimage: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0755063761f18fda9b08c17144c62379e96ad7fc"

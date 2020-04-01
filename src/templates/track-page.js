@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
+import Sponsors from '../components/Supporters/Sponsors'
 import TrackMentors from '../components/People/TrackMentors'
 import TwitterFeed from '../components/TwitterFeed/TwitterFeed'
 import parseTwitterWidgetCode from '../components/parseTwitterWidgetCode'
@@ -48,6 +49,7 @@ export const TrackTemplate = ({
       hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
+    <Sponsors track={title} />
   </>
 )
 

@@ -5,7 +5,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
 import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
-import Supporters from '../components/Supporters/Supporters'
+import Sponsors from '../components/Supporters/Sponsors'
+import Partners from '../components/Supporters/Partners'
 import Button from '../components/Button/Button'
 import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
@@ -74,7 +75,8 @@ export const IndexPageTemplate = ({
         </>
       }
     />
-    <Supporters />
+    <Partners />
+    <Sponsors />
   </>
 )
 

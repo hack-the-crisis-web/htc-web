@@ -114,7 +114,8 @@ sectionItems:
     buttons:
       - ctaText: Join the team
         ctaLink: /join
-      - ctaText: Get on Slack
-        ctaLink: 'https://theglobalhack.slack.com/'
+      - ctaText: Join as mentor
+        ctaLink: >-
+          https://docs.google.com/forms/d/e/1FAIpQLSdTzJSiUmLyK0FlQcbAAaXKdtdKuWsPhA-RgLJRw3LG6vhi4g/viewform
 description: placeholder
 ---

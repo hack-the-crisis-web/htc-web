@@ -113,7 +113,7 @@ sectionItems:
     image: /img/join-us-section.png
     buttons:
       - ctaText: Join the team
-        ctaLink: 'https://theglobalhack.com/join'
+        ctaLink: /join
       - ctaText: Get on Slack
         ctaLink: 'https://theglobalhack.slack.com/'
 description: placeholder

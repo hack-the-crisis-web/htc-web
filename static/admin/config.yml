@@ -58,6 +58,16 @@ collections:
           widget: image,
           media_library: { config: { multiple: false } },
         }
+      - {
+          label: 'Track',
+          name: 'sponsoredTrack',
+          widget: 'relation',
+          collection: 'tracklists',
+          searchFields: ['title'],
+          valueField: 'title',
+          required: false,
+          default: '',
+        }
 
   - name: 'person'
     label: 'Person'

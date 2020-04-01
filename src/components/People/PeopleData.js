@@ -34,6 +34,7 @@ const PeopleData = ({ type, hashtag, children }) => (
                 label
                 tracklist
                 about
+                linkedin
               }
             }
           }

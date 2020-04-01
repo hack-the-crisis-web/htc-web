@@ -14,7 +14,6 @@ export const ResultsPageTemplate = ({ winners, contentItems }) => {
             <AlternatingContent
               contentItems={contentItems}
             ></AlternatingContent>
-            {console.log(winners)}
             <WinnersSection items={winners} />
           </div>
         </div>

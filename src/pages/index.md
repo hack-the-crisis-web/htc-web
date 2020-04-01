@@ -106,7 +106,7 @@ howItWorksItems:
     textContent: >-
       Your team will be assigned a Slack channel on April 9 to be assisted via.
       Log on and hack away! These extremely intense hours may change the world!
-    ctaText: Future is created NOW!
+    ctaText: Hack of our lifetime!
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/joinus.png
     isActive: false

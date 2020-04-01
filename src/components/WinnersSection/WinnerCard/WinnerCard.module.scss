@@ -1,0 +1,40 @@
+@import '../../../styles/styleSetup.scss';
+
+.card {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+
+  img {
+    margin: auto;
+  }
+}
+
+.imageContainer {
+  max-width: 250px;
+  margin: auto;
+
+  @include desktop() {
+    margin: auto 0;
+  }
+}
+
+.title {
+  color: $primary;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.category {
+  font-size: 15px;
+  color: $dark-grey;
+}
+
+.team {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: $dark-grey;
+}

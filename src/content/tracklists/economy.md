@@ -4,10 +4,10 @@ title: Economy
 hashtag: 'Share and Inspire using #theglobalhack #economy'
 description: >-
   We are facing a severe economic crisis like no other as traditional methods
-  for stimulating the economy don’t work under lockdown. 
+  for stimulating the economy don’t work under lockdown.
 keyMentor: ''
-featuredimage: /img/economy.jpg
-trackLogo: ''
+trackLogo: /img/economy.jpg
+featuredimage: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why economy?
 
 We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too.

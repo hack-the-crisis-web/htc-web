@@ -21,43 +21,49 @@ const PersonCard = ({
   tracklist,
   label,
   about,
-}) => (
-  <div className={'column is-4'}>
-    <div className={'tile is-parent '}>
-      <div
-        className={`tile is-child box notification has-text-white hover-effect ${
-          styles.persontile
-        } ${selectClassname(label)}`}
-      >
-        <div className={`${styles.tiletext}`}>
-          <div>
-            <p className={`title ${styles.name}`}>{`${name} ${surname}`}</p>
-            <p className={`subtitle ${styles.description}`}>{role}</p>
+  linkedin,
+}) => {
+  const isLink = label === 'mentor' && linkedin
+  const Element = isLink ? 'a' : 'div'
+
+  return (
+    <Element className={'column is-4'} href={isLink ? linkedin : undefined}>
+      <div className={'tile is-parent '}>
+        <div
+          className={`tile is-child box notification has-text-white hover-effect ${
+            styles.persontile
+          } ${selectClassname(label)}`}
+        >
+          <div className={`${styles.tiletext}`}>
+            <div>
+              <p className={`title ${styles.name}`}>{`${name} ${surname}`}</p>
+              <p className={`subtitle ${styles.description}`}>{role}</p>
+            </div>
+            {!!tracklist && (
+              <p className={`subtitle ${styles.description}`}>
+                #{tracklist.toLowerCase()}
+              </p>
+            )}
+            {label === 'our-people' && !!about && (
+              <a
+                href={`mailto:${about}`}
+                className={`subtitle ${styles.description}`}
+              >
+                {about}
+              </a>
+            )}
           </div>
-          {!!tracklist && (
-            <p className={`subtitle ${styles.description}`}>
-              #{tracklist.toLowerCase()}
-            </p>
-          )}
-          {label === 'our-people' && !!about && (
-            <a
-              href={`mailto:${about}`}
-              className={`subtitle ${styles.description}`}
-            >
-              {about}
-            </a>
+          {!!photo && (
+            <img
+              src={photo}
+              alt={`${name} ${surname}`}
+              className={`${styles.personimage}`}
+            />
           )}
         </div>
-        {!!photo && (
-          <img
-            src={photo}
-            alt={`${name} ${surname}`}
-            className={`${styles.personimage}`}
-          />
-        )}
       </div>
-    </div>
-  </div>
-)
+    </Element>
+  )
+}
 
 export default PersonCard

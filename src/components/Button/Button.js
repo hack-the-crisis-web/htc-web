@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import CircleLoader from '../CircleLoader/CircleLoader'
 import styles from './Button.module.scss'
+import checkIfInternalLink from '../checkIfInternalLink'
 
 const Button = ({
   btnStyle,
@@ -17,8 +18,9 @@ const Button = ({
   align,
   ...buttonProps
 }) => {
-  const Element = external ? 'a' : href ? Link : 'button'
-  const to = external ? { href } : href ? { to: href } : {}
+  const isExternal = external || !checkIfInternalLink(href)
+  const Element = isExternal ? 'a' : href ? Link : 'button'
+  const to = isExternal ? { href } : href ? { to: href } : {}
   const loaderColor = btnStyle === 'primary' ? 'light' : undefined
 
   const classList = classNames(styles.button, 'hover-effect', {

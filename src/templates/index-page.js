@@ -7,7 +7,6 @@ import TracklistsSection from '../components/TracklistsSection/TracklistsSection
 import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
 import Sponsors from '../components/Supporters/Sponsors'
 import Partners from '../components/Supporters/Partners'
-import Button from '../components/Button/Button'
 import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
@@ -45,7 +44,6 @@ export const IndexPageTemplate = ({
       heroCTARightText={heroCTARightText}
       heroCTARightLink={heroCTARightLink}
     />
-    <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <HowItWorksSection
       description={howItWorksDescription}
       items={howItWorksItems}
@@ -59,22 +57,8 @@ export const IndexPageTemplate = ({
     />
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
-    <JoinUsSection
-      sectionItems={sectionItems}
-      Buttons={
-        <>
-          <Button href="/join">Join us</Button>
-          <Button
-            external
-            href="https://forms.gle/zD5L9frVyf5Pzr956"
-            rel="noopener"
-            target="_blank"
-          >
-            Join as a mentor
-          </Button>
-        </>
-      }
-    />
+    <AlternatingContent contentItems={contentItems}></AlternatingContent>
+    <JoinUsSection sectionItems={sectionItems} />
     <Partners />
     <Sponsors />
   </>

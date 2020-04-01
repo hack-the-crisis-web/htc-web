@@ -43,12 +43,12 @@ contentItems:
     textContent: "Yes, in the registration form you are asked to mark whether you are building your idea from scratch or you are building a new feature for existing tech. Both are welcomed and will be evaluated separately.\L"
   - title: "Where can I submit my challenge?\L"
     textContent: "If you don’t have a team yet to solve a challenge - join Slack, recruit team members and then submit your team alongside the challenge for review in Guaana. \nIf you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
-    ctaText: ' If you are a Government organization or Sponsor company - submit your challenge here. '
+    ctaText: ''
     ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
   - title: Where can I submit my challenge?
-    textContent: >-
-      You can submit your challenge via Guaana. Each challenge sponsor is
-      allowed to submit only one challenge.
+    textContent: "If you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
+    ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
+    ctaText: Submit here
   - title: How can I participate in the Hackathon with my existing project?
     textContent: >-
       During the past few weeks we’ve seen an impressive number of  initiatives

@@ -364,7 +364,7 @@ collections:
                   },
                 ],
             }
-          - {
+          - &sectionItems {
               label: End Section Items,
               name: sectionItems,
               widget: list,
@@ -511,3 +511,4 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: 'Our People Title', name: ourPeopleTitle, widget: string }
           - *contentItems
+          - *sectionItems

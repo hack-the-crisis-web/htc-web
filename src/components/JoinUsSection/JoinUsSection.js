@@ -8,6 +8,7 @@ import Section from '../Section/Section'
 import Button from '../Button/Button'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import SectionDescription from '../SectionDescription/SectionDescription'
+import sectionItemPropTypes from './sectionItemPropTypes'
 
 const JoinUsSection = ({ sectionItems }) => {
   return sectionItems && sectionItems.length
@@ -52,7 +53,7 @@ const JoinUsSection = ({ sectionItems }) => {
 }
 
 JoinUsSection.propTypes = {
-  Buttons: PropTypes.node,
+  sectionItems: PropTypes.arrayOf(PropTypes.shape(sectionItemPropTypes)),
 }
 
 export default JoinUsSection

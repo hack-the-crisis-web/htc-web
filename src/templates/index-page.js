@@ -14,6 +14,7 @@ import TrackLeads from '../components/People/TrackLeads'
 import TimelineSection from '../components/TimelineSection/TimelineSection'
 import '../components/all.sass'
 import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
+import sectionItemPropTypes from '../components/JoinUsSection/sectionItemPropTypes'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -69,6 +70,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   subheading: PropTypes.string,
   contentItems: PropTypes.arrayOf(PropTypes.shape(contentBlockPropTypes)),
+  sectionItems: PropTypes.arrayOf(PropTypes.shape(sectionItemPropTypes)),
 }
 
 const IndexPage = ({ data }) => {

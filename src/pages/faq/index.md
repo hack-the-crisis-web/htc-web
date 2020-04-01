@@ -53,4 +53,31 @@ contentItems:
     ctaText: Submit here
   - title: Can I submit already existing projects?
     textContent: "Yes, please! During the past few weeks, we’ve seen an impressive number of initiatives to develop digital solutions and infrastructure to face the coronavirus crisis and do urge you for further development of these projects.\L\LWe have immense respect for your work, so please feel free to submit your existing challenge and the team working to improve it, like every other team. We expect that you continue developing your solution further during the hackathon. Phrase your challenges and emphasize how you will scale it or improve it.\L"
+  - title: "What is the Team & Challenge submission evaluation?\L"
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: "The submissions will be evaluated based on the following criteria: team size - if the team is able to deliver the results (do you have all the necessary competences to build your idea); are you in the right Track; and feasibility, viability and possible impact on the society.\L\LRemember that in this hackathon, we are looking for stuff that can actually be useful, either in saving lives, saving communities or saving businesses. Focus on solving the problem, the business model is not too important at this point.\L"
+  - title: "Who owns the intellectual property of the hackathon projects?\L"
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: >-
+      Always the team who created the project - not The Global Hack organizing
+      team nor our partner companies.
+  - title: "Is there a participation fee?\L"
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: "No. You do not have to pay anything to take part of The Global Hack. \LJoin our Slack workspace and get brainstorming now! \_"
+  - title: Why do we need this hackathon?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: "\L\LIn the upcoming weeks, months and perhaps even years we will have to face a great number of challenges during and in the aftermath of the viral pandemic. Our resilience is being tested. Health systems, transportation, logistics, mobility services, food security, governmental services are jeopardized. We face millions of challenges, today, tomorrow and many months from now.\L\L Our society is blessed with an abundance of creativity and entrepreneurial spirit. We can use the best of this to maintain and create a sustainable and resilient future. If we take action together, we can do what is needed.\n"
+  - title: "Who are the people behind The Global Hack?\L"
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: "The Global Hack is a global initiative which unites the Hack the Crisis movement and the 40+ hackathons organized in the frames of this movement. The core initiative comes from the team who organized the very first hackathon 13-15 of March and who are passionate about solving the huge ongoing crisis that concerns everyone at the moment (the people are from Garage48, Accelerate Estonia, Guaana and Mooncascade). BUT this is truly a global effort and movement involving communities and organizers from all over the world.\L"
 ---

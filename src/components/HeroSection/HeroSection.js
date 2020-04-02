@@ -32,13 +32,7 @@ const HeroSection = ({
             <h3 className="is-family-secondary">{subheading}</h3>
             <div className={styles.buttonWrapper}>
               {showLeftButton && (
-                <Button
-                  href={heroCTALeftLink}
-                  className={styles.btn}
-                  onClick={() => {
-                    sendFBTrackingEvent('Lead')
-                  }}
-                >
+                <Button href={heroCTALeftLink} className={styles.btn}>
                   {heroCTALeftText}
                 </Button>
               )}
@@ -47,6 +41,9 @@ const HeroSection = ({
                   href={heroCTARightLink}
                   btnStyle="outline"
                   className={styles.btn}
+                  onClick={() => {
+                    sendFBTrackingEvent('Lead')
+                  }}
                 >
                   {heroCTARightText}
                 </Button>

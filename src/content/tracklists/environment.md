@@ -6,8 +6,8 @@ description: >-
   Measures to combat coronavirus have helped reduce pollution dramatically. We
   now need to figure how to continue doing so.
 keyMentor: Obama
-trackLogo: /img/enviroment.jpg
 featuredimage: ''
+trackLogo: /img/enviroment.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="238623d492d2f03d78c8bbf62e92c02a185227b0"
@@ -17,11 +17,10 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
-
 ## **Why Environment?**
 
 **Before this coronavirus crisis began, our planet was already in a climate crisis – although with less consensus about the urgency of the issue and less cooperation aimed at solving it.**
 
 **Now, measures to combat coronavirus have unintentionally helped our environment as pollution has reduced dramatically. Will our planet return to its previous ways after this crisis or will we discover a new appreciation for our temporarily cleaner world, as well as new ideas to work together to clean it up even more?**
 
-[Share Ideas and find a Team on Reddit >](https://reddit.com/r/theglobalhack)
+[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)

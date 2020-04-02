@@ -9,4 +9,5 @@ about: ''
 linkedin: ''
 label: our-people
 tracklist: ''
+identifier: Laura Kurs, our-people
 ---

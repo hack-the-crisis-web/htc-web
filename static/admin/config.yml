@@ -74,6 +74,7 @@ collections:
     folder: 'src/content/persons'
     create: true
     slug: '{{slug}}'
+    identifier_field: identifier
     fields:
       - {
           label: 'Template Key',
@@ -81,13 +82,8 @@ collections:
           widget: 'hidden',
           default: 'person',
         }
-
-      - {
-          label: 'Person ID',
-          name: 'personId',
-          widget: 'hidden',
-          default: '{{slug}}',
-        }
+      - { label: 'Person ID', name: 'personId', widget: 'id' }
+      - { label: 'Title', name: 'identifier', widget: 'string', required: true }
       - { label: 'Name', name: 'name', widget: 'string', required: true }
       - { label: 'Surname', name: 'surname', widget: 'string', required: true }
       - { label: 'Role', name: 'role', widget: 'string', required: true }

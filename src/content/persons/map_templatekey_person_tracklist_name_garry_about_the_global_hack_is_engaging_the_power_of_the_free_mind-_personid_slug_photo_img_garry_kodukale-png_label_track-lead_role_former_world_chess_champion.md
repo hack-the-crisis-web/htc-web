@@ -5,14 +5,11 @@ personId: >-
 identifier: 'Garry Kasparov, track-lead, Work'
 name: Garry
 surname: Kasparov
-role: 'Former World Chess Champion, Avast Security Ambassador and'
+role: >-
+  Former World Chess Champion, Avast Security Ambassador and Author of Deep
+  Thinking: Where Machine Intelligence Ends and Human Creativity Begins
 photo: /img/globalhack_kasparov.png
-about: >-
-  Author of Deep Thinking: Where Machine Intelligence Ends and Human Creativity
-  Begins
-
-
-  The Global Hack is engaging the power of the free mind.
+about: The Global Hack is engaging the power of the free mind.
 linkedin: ''
 label: track-lead
 tracklist: Work

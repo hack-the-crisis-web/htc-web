@@ -37,4 +37,8 @@ For the most promising track idea to develop the project.
 
 [Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)\
 \
-Join as a mentor for this track >
+Join as a mentor for this track >\
+\
+**Track organisers**
+
+Economy track of The Global Hack is organised by Latvian creative forces from startup, tech, corporate and creative communities, all powered by Swedbank. The same people who were behind [HackForce](https://www.facebook.com/events/611058086114849/), crisis response online hackathon in Latvia that took place between March 17 and19.

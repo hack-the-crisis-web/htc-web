@@ -21,6 +21,16 @@ widgetCode: >-
 
 We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too.
 
-Yet an economic crisis can give birth to successful companies, while a national crisis can result in a completely new economic order for the better. We should expect the global economy to be very different after this global crisis so how should we start adapting for this now?
+We should expect the global economy to be challenged and very different to what we have been used to, so how can we help businesses and individuals during these turbulent times?An economic crisis can also give birth to successful companies, and a national crisiscan result in a completely new economic order for the better.What should we do to start adapting for this now?
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+
+
+## Challenges
+
+Various businesses have put their operations on hold, more and more people are out of work, while there are businesses that now face skyrocketing demand for their goods and services and cannot keep up. Such industries as event, tourism, media, avio, catering have to fight extinction, while others thrive.
+
+Think, for instance, about how to fix this structural imbalance, how to boost those businesses thriving and support those barely surviving.How to approach the rapidly increasing unemployment rate in both short and long term, how to mobilize the talented and bright minds now out of work. How to take advantage of the banking and fintech solutions out there to fight the crisis or what new solutions are needed now. What online tools or platforms can be part of the solution and what new framework of cooperation and partnerships would work best?
+
+[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)\
+\
+Join as a mentor for this track >

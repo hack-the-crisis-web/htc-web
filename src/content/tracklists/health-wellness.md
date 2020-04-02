@@ -6,8 +6,8 @@ description: >-
   Through this crisis and beyond, both people and organisations will be thinking
   how not to overwhelm our healthcare systems.
 keyMentor: ''
-trackLogo: /img/wellbeing.jpg
 featuredimage: ''
+trackLogo: /img/wellbeing.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"
@@ -17,11 +17,10 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
-
 ## Why Health & Wellness?
 
 We are facing, first and foremost, a health crisis that will have a lasting impact and necessitate a vibrant health tech sector. Every death is a tragedy and every serious illness is a cause for serious concern, no matter the cause. However, this virus also has the potential to overwhelm our healthcare systems and reduce access to regular treatments, jeopardising public health on an even larger scale.
 
 Through this crisis and beyond, both people and organisations will be thinking about the health of themselves and others in new ways and they will need new technology to support this. How can this result in a lasting long term positive impact?
 
-[Share Ideas and find a Team on Reddit >](https://reddit.com/r/theglobalhack)
+[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)

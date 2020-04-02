@@ -5,9 +5,11 @@ import LogosBlock from '../LogosBlock/LogosBlock'
 export default () => (
   <StaticQuery
     query={graphql`
-      query Partners {
+      query SupportingOrganisations {
         allMarkdownRemark(
-          filter: { frontmatter: { templateKey: { in: ["supporters"] } } }
+          filter: {
+            frontmatter: { templateKey: { in: ["supportingOrganisations"] } }
+          }
         ) {
           edges {
             node {
@@ -26,7 +28,7 @@ export default () => (
     `}
     render={data => (
       <LogosBlock
-        title="Organising partners"
+        title="Supporting organisations"
         items={data.allMarkdownRemark.edges.map(({ node }) => ({
           slug: node.fields.slug,
           ...node.frontmatter,

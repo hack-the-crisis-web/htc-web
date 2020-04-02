@@ -13,6 +13,7 @@ const SEO = ({ title, description, pathname }) => (
           titleTemplate,
           defaultDescription,
           siteUrl,
+          twitterUsername,
         },
       },
     }) => {
@@ -20,6 +21,7 @@ const SEO = ({ title, description, pathname }) => (
         title: title || defaultTitle,
         description: description || defaultDescription,
         url: `${siteUrl}${pathname || '/'}`,
+        twitterUsername,
       }
 
       return (
@@ -40,13 +42,14 @@ const SEO = ({ title, description, pathname }) => (
             {seo.description && (
               <meta property="og:description" content={seo.description} />
             )}
-            {seo.image && (
-              <meta
-                property="og:image"
-                content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
-              />
-            )}
+            <meta
+              property="og:image"
+              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
+            />
             <meta name="twitter:card" content="summary_large_image" />
+            {twitterUsername && (
+              <meta name="twitter:creator" content={seo.twitterUsername} />
+            )}
             {seo.title && (
               <meta
                 name="twitter:title"
@@ -56,12 +59,10 @@ const SEO = ({ title, description, pathname }) => (
             {seo.description && (
               <meta name="twitter:description" content={seo.description} />
             )}
-            {seo.image && (
-              <meta
-                name="twitter:image"
-                content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
-              />
-            )}
+            <meta
+              name="twitter:image"
+              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
+            />
             <link
               rel="apple-touch-icon"
               sizes="180x180"
@@ -85,10 +86,6 @@ const SEO = ({ title, description, pathname }) => (
               href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
               color="#ff4400"
             />
-            <meta
-              property="og:image"
-              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
-            />
           </Helmet>
         </>
       )
@@ -106,6 +103,7 @@ const query = graphql`
         titleTemplate
         defaultDescription: description
         siteUrl: url
+        twitterUsername
       }
     }
   }

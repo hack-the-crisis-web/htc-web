@@ -20,6 +20,12 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '584421012148265',
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {

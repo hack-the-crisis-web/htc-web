@@ -57,11 +57,6 @@
   color: $mooncascade-yellow;
 }
 
-.and {
-  display: none;
-
-  @include desktop() {
-    display: block;
-    padding: 0 15px 0 6px;
-  }
+.veebimajutus {
+  color: $veebimajutus-orange;
 }

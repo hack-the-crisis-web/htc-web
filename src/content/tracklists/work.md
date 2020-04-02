@@ -6,7 +6,7 @@ description: >-
   It’s possible that many of the temporary changes during this period will
   become the new normal and remain permanently.
 keyMentor: '{{slug}}'
-featuredimage: /img/garry_vol2.png
+featuredimage: /img/globalhack_kasparov.png
 trackLogo: /img/work.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'

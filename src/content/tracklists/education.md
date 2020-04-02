@@ -6,8 +6,8 @@ description: >-
   Classrooms around the world have suddenly been locked shut and teachers are
   urgently rethinking how to teach effectively.
 keyMentor: Obama
-trackLogo: /img/education.jpg
 featuredimage: ''
+trackLogo: /img/education.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"
@@ -17,7 +17,6 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
-
 ## Why Education?
 
 Few things have had a more powerfully positive impact on our planet than improved access to education. However, classrooms around the world have suddenly been locked shut and teachers are urgently rethinking how to teach effectively.
@@ -26,4 +25,4 @@ The impact of this ranges from slight inconvenience in digitally connected count
 
 Countries like Estonia have shown that the technology for e-schooling works through the crisis, but it still has room for improvement and any improvements we can find to help pupils learn now could become the new normal for better education in future.
 
-[Share Ideas and find a Team on Reddit >](https://reddit.com/r/theglobalhack)
+[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)

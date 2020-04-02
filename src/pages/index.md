@@ -79,8 +79,9 @@ contentItems:
       pandemics, and all crises for that matter, more effectively. So we never
       have to lock down again.
     image: /img/oportunity_globe.png
-    ctaText: Pitch in on Reddit
-    ctaLink: 'https://reddit.com/r/theglobalhack'
+    ctaText: Get on Slack >
+    ctaLink: >-
+      https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
 howItWorksItems:
   - title: Share Ideas
     textContent: >-

@@ -3,6 +3,7 @@ import classNames from 'classnames'
 import Button from '../Button/Button'
 import styles from './HeroSection.module.scss'
 import '../all.sass'
+import sendFBTrackingEvent from '../SEO/sendFBTrackingEvent'
 
 const HeroSection = ({
   title,
@@ -31,7 +32,13 @@ const HeroSection = ({
             <h3 className="is-family-secondary">{subheading}</h3>
             <div className={styles.buttonWrapper}>
               {showLeftButton && (
-                <Button href={heroCTALeftLink} className={styles.btn}>
+                <Button
+                  href={heroCTALeftLink}
+                  className={styles.btn}
+                  onClick={() => {
+                    sendFBTrackingEvent('Lead')
+                  }}
+                >
                   {heroCTALeftText}
                 </Button>
               )}

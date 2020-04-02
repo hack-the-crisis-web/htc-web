@@ -167,15 +167,15 @@ collections:
           label: 'Featured Image',
           name: 'featuredimage',
           widget: image,
-          required: true,
+          required: false,
           media_library: { config: { multiple: false } },
-          default: '/uploads/portrait-placeholder.png',
+          default: '',
         }
       - {
           label: 'Track Logo',
           name: 'trackLogo',
           widget: 'image',
-          default: '/src/img/placeholders/hero.png',
+          default: '',
           media_library: { config: { multiple: false } },
           required: false,
         }

@@ -1,6 +1,7 @@
 ---
 templateKey: person
 personId: '/persons/map-templatekey-person-personid-uuid-photo-img-testimage-removebg-preview-png-name-our-person-surname-test-role-helpful-volunteer-label-our-people/'
+identifier: Kai Isand, our-people
 name: Kai
 surname: Isand
 role: Super Human

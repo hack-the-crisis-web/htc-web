@@ -9,4 +9,5 @@ about: anniken@latitude59.ee
 linkedin: ''
 label: our-people
 tracklist: ''
+identifier: Anniken Haldna, our-people
 ---

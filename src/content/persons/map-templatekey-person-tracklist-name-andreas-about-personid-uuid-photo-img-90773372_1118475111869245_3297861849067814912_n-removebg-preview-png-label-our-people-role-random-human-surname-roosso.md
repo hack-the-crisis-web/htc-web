@@ -9,4 +9,5 @@ about: ''
 linkedin: ''
 label: our-people
 tracklist: ''
+identifier: Andreas Roosson, our-people
 ---

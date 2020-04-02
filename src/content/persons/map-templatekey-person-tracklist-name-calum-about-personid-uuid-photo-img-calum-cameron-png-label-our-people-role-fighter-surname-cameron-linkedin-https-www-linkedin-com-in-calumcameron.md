@@ -9,4 +9,5 @@ about: marko@guaana.com
 linkedin: ''
 label: our-people
 tracklist: ''
+identifier: Marko Russiver, our-people
 ---

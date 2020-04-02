@@ -17,6 +17,27 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: 'supportingOrganisations'
+    label: 'Supporting organisations'
+    folder: 'src/content/supportingOrganisations'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'supportingOrganisations',
+        }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+
   - name: 'supporters'
     label: 'Supporters'
     folder: 'src/content/supporters'
@@ -38,8 +59,39 @@ collections:
           media_library: { config: { multiple: false } },
         }
 
+  - name: 'trackOrganisers'
+    label: 'Track organisers'
+    folder: 'src/content/trackOrganisers'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'trackOrganisers',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+      - {
+          label: 'Track',
+          name: 'sponsoredTrack',
+          widget: 'relation',
+          collection: 'tracklists',
+          searchFields: ['title'],
+          valueField: 'title',
+          required: true,
+          default: '',
+        }
+
   - name: 'sponsors'
-    label: 'Sponsors'
+    label: 'Sponsors / Global partners'
     folder: 'src/content/sponsors'
     create: true
     slug: '{{slug}}'
@@ -60,6 +112,7 @@ collections:
         }
       - {
           label: 'Track',
+          hint: 'Leave empty to display on Landing page in Global partners block, select track to display as track sponsor',
           name: 'sponsoredTrack',
           widget: 'relation',
           collection: 'tracklists',

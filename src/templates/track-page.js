@@ -13,6 +13,7 @@ import TwitterFeed from '../components/TwitterFeed/TwitterFeed'
 import parseTwitterWidgetCode from '../components/parseTwitterWidgetCode'
 import Section from '../components/Section/Section'
 import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
+import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 
 export const TrackTemplate = ({
   title,
@@ -49,7 +50,12 @@ export const TrackTemplate = ({
       hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
-    <Sponsors track={title} />
+    <TrackOrganisers trackTitle={title} title={'Track organisers'} />
+    <Sponsors
+      trackTitle={title}
+      title={'Sponsors'}
+      buttonText={'Become a track sponsor'}
+    />
   </>
 )
 

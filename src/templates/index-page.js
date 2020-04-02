@@ -15,6 +15,7 @@ import TimelineSection from '../components/TimelineSection/TimelineSection'
 import '../components/all.sass'
 import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
 import sectionItemPropTypes from '../components/JoinUsSection/sectionItemPropTypes'
+import SupportingOrganisations from '../components/Supporters/SupportingOrganisations'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -61,7 +62,8 @@ export const IndexPageTemplate = ({
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <JoinUsSection sectionItems={sectionItems} />
     <Partners />
-    <Sponsors />
+    <Sponsors title="Global partners" buttonText="Become a partner" />
+    <SupportingOrganisations />
   </>
 )
 

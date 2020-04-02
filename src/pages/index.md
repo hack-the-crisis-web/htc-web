@@ -18,7 +18,7 @@ timeline:
     date: ''
   - title: Register on Guaana
     isActive: false
-    image: /img/content.jpg
+    image: /img/register.jpg
     date: 2020-04-05T21:00:00.000Z
   - title: Teams Announced
     isActive: false
@@ -26,11 +26,11 @@ timeline:
     date: 2020-04-07T21:00:00.000Z
   - title: The hackathon Starts
     isActive: false
-    image: /img/goverment.jpg
+    image: /img/start.jpg
     date: 2020-04-08T21:00:00.000Z
   - title: The hackathon Ends
     isActive: false
-    image: /img/mental_health.jpg
+    image: /img/end.jpg
     date: 2020-04-10T21:00:00.000Z
   - title: Demos & Awards
     isActive: false

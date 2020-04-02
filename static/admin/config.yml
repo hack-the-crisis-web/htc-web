@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: cms-fix-labels
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'

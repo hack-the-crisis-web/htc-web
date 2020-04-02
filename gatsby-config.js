@@ -5,6 +5,7 @@ module.exports = {
       'Global hack is the biggest online hackathon in the world fighting off the crisis to battle the problems we are facing as a global society after the immediate corona crisis is over. We are bringing together world class mentors and globally talented teams to build the solutions for the better future. Together.',
     url: 'https://theglobalhack.com',
     titleTemplate: '%s | The Global Hack',
+    twitterUsername: '@theglobalhack',
   },
   plugins: [
     {

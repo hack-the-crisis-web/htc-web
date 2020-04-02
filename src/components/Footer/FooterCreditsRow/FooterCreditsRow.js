@@ -13,11 +13,16 @@ const FooterCreditsRow = () => (
             <p className={classNames(styles.brandManual)}>Brand Manual</p>
           </a>
         </div>
-        <p className={classNames(styles.and)}>&</p>
         <div className={classNames(styles.creditsContent)}>
           <p>Developed by</p>
           <a href="https://mooncascade.com/" target="_blank" rel="noopener">
             <p className={classNames(styles.mooncascade)}>Mooncascade</p>
+          </a>
+        </div>
+        <div className={classNames(styles.creditsContent)}>
+          <p>Domain by</p>
+          <a href="https://www.veebimajutus.ee/" target="_blank" rel="noopener">
+            <p className={classNames(styles.veebimajutus)}>Veebimajutus</p>
           </a>
         </div>
       </div>

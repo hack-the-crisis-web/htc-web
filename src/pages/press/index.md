@@ -7,7 +7,7 @@ title: Press
 
 For press-related inquiries please contact [Elis Tootsman](<mailto:elis@accelerateestonia.ee&subject=Press Inquiry>).
 
-[Download Our Visual Assets >](https://we.tl/t-y9oOYNuVGr)
+[Download Our Visual Assets >](https://drive.google.com/file/d/1G6stK1LGXnCNwR_Fq0FfiK24nGDZjZcx/view?usp=sharing)
 
 [Media Kit >](https://docs.google.com/document/d/18CVv9BYzZvyzoDo-VwDI2wo0znWzrVLq8_TpUpP3LFQ/edit)
 

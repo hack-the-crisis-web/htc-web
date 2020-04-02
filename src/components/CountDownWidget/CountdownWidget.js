@@ -35,7 +35,8 @@ class CountDownWidget extends React.Component {
       (this.state.timeToEvent - days * dayLengthInMS) / hourLengthInMS
     )
     const shouldShowWidget =
-      (days > 0 && hours > 0) || (days === 0 && hours > 0)
+      (days > 0 && hours >= 0) || (days === 0 && hours > 0)
+    console.log(days, hours, shouldShowWidget)
     const dayString =
       days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
     // const hourString = !dayString ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''

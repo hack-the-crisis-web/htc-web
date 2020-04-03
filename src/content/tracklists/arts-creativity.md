@@ -19,6 +19,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
+ctaDescription: ''
+ctaText: ''
+ctaUrl: ''
 ---
 
 ## **Why Arts & Creativity?**

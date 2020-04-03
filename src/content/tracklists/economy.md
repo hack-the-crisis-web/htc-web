@@ -28,9 +28,6 @@ challenges:
       the crisis or what new solutions are needed now. What online tools or
       platforms can be part of the solution and what new framework of
       cooperation and partnerships would work best?
-
-
-      **Prizes:** €5k for the most promising track idea to develop the project.
     logo: /img/swedbanki-logo-2png2.jpg
     logoTitle: Swedbank
     linkTitle: ''

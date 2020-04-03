@@ -28,7 +28,7 @@ challenges:
       the crisis or what new solutions are needed now. What online tools or
       platforms can be part of the solution and what new framework of
       cooperation and partnerships would work best?
-    logo: /img/swedbanki-logo-2png2.jpg
+    logo: /img/swedbank_logo_.png
     logoTitle: Swedbank
     linkTitle: ''
     linkUrl: ''

@@ -10,8 +10,11 @@ featuredimage: ''
 trackLogo: /img/creativity.jpg
 challengesTitle: Challanges set by our partners
 challengesDescription: >-
-  **Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
-  tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.**
+  Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore,
+  cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+
+
+  Second paragraph of text.
 challenges:
   - title: Challenge title 1
     description: >-

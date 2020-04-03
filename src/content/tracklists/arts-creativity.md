@@ -30,6 +30,12 @@ challenges:
     logoTitle: ''
     linkTitle: ''
     linkUrl: ''
+  - title: Challenge 3
+    description: description
+    logoTitle: ''
+    linkTitle: Link title
+    linkUrl: 'http://www.google.com'
+    logo: /img/apple-touch-icon.png
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"

@@ -23,4 +23,4 @@ widgetCode: >-
 
 **This crisis poses serious new challenges to creatives as less people are able to visit their work and funding from both public and private sources will be strained for the foreseeable future. The world needs art now more than ever though so how do we solve this?**
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

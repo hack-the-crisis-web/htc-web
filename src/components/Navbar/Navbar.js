@@ -130,8 +130,8 @@ const Navbar = class extends React.Component {
               />
               <div className="navbar-item is-hidden-desktop">
                 <SocialIconLink
-                  type="reddit"
-                  href="https://reddit.com/r/theglobalhack"
+                  type="slack"
+                  href="http://theglobalhack.com/slack"
                 />
               </div>
               <div className="navbar-item">

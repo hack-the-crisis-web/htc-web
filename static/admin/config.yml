@@ -229,6 +229,61 @@ collections:
           required: false,
         }
       - {
+          label: 'Challenges title',
+          name: 'challengesTitle',
+          widget: 'string',
+          required: false,
+        }
+      - {
+          label: 'Challenges description',
+          name: 'challengesDescription',
+          widget: 'text',
+          required: false,
+        }
+      - &challengeItems {
+          label: Challenges,
+          name: challenges,
+          widget: list,
+          fields:
+            [
+              {
+                label: 'Title',
+                name: 'title',
+                widget: 'string',
+                required: true,
+                default: '',
+              },
+              {
+                label: 'Description',
+                name: 'description',
+                widget: 'markdown',
+                required: true,
+              },
+              { label: 'Logo', name: 'logo', widget: 'image', required: false },
+              {
+                label: 'Logo subtitle',
+                name: 'logoTitle',
+                widget: 'string',
+                required: false,
+                default: '',
+              },
+              {
+                label: 'Link title',
+                name: 'linkTitle',
+                widget: 'string',
+                required: false,
+                default: '',
+              },
+              {
+                label: 'Link URL',
+                name: 'linkUrl',
+                widget: 'string',
+                required: false,
+                default: '',
+              },
+            ],
+        }
+      - {
           label: 'Twitter Widget Code',
           hint: 'Copy the code from EmbedSocial',
           name: 'widgetCode',
@@ -609,23 +664,18 @@ collections:
               widget: 'hidden',
               default: 'slack-page',
             }
+          - { label: Title, name: title, widget: string, default: '' }
           - {
-              label: Title,
-              name: title,
+              label: Description,
+              name: description,
               widget: string,
               default: '',
             }
           - {
-            label: Description,
-            name: description,
-            widget: string,
-            default: '',
-            }
-          - {
-            label: Link text,
-            hint: 'The text that will be on the manual backup link if auto redirect does not work',
-            name: linkText,
-            widget: string,
-            default: '',
+              label: Link text,
+              hint: 'The text that will be on the manual backup link if auto redirect does not work',
+              name: linkText,
+              widget: string,
+              default: '',
             }
           - { label: Slack URL, name: slackURL, widget: string, default: '/' }

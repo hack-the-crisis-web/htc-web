@@ -15,6 +15,7 @@ import Section from '../components/Section/Section'
 import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
+import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 
 export const TrackTemplate = ({
   title,
@@ -27,6 +28,9 @@ export const TrackTemplate = ({
   featuredImage,
   trackLogo,
   content,
+  challengesTitle,
+  challengesDescription,
+  challenges,
   widgetCode,
 }) => (
   <>
@@ -41,6 +45,11 @@ export const TrackTemplate = ({
       trackLogo={trackLogo}
     />
     {content && <HTMLContentSection content={content} />}
+    <ChallengesSection
+      challengesTitle={challengesTitle}
+      challengesDescription={challengesDescription}
+      challenges={challenges}
+    />
     {!!parseTwitterWidgetCode(widgetCode) && (
       <Section>
         <TwitterFeedTitle>
@@ -72,7 +81,7 @@ TrackTemplate.propTypes = {
 }
 
 const TrackPage = ({ data }) => {
-  const { frontmatter = {} } = data.markdownRemark
+  const { frontmatter = {}, html } = data.markdownRemark
   const { mentor = {} } = data
 
   return (
@@ -87,7 +96,10 @@ const TrackPage = ({ data }) => {
         mentorAbout={mentor ? mentor.frontmatter.about : undefined}
         featuredImage={frontmatter.featuredimage}
         trackLogo={frontmatter.trackLogo}
-        content={data.markdownRemark.html}
+        content={html}
+        challengesTitle={frontmatter.challengesTitle}
+        challengesDescription={frontmatter.challengesDescription}
+        challenges={frontmatter.challenges}
         widgetCode={frontmatter.widgetCode}
       />
     </Layout>
@@ -115,6 +127,16 @@ export const pageQuery = graphql`
         hashtag
         keyMentor
         trackLogo
+        challengesTitle
+        challengesDescription
+        challenges {
+          title
+          description
+          logo
+          logoTitle
+          linkTitle
+          linkUrl
+        }
         widgetCode
       }
     }

@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import styles from './CustomLink.module.scss'
 import checkIfInternalLink from '../checkIfInternalLink'
 
-const CustomLink = ({ children, to, light }) => {
+const CustomLink = ({ children, to, light, className }) => {
   const isInternal = checkIfInternalLink(to)
 
   const linkContent = (
@@ -14,9 +14,13 @@ const CustomLink = ({ children, to, light }) => {
     </>
   )
 
-  const linkClasses = classnames(styles.customLink, {
-    [styles['light']]: light,
-  })
+  const linkClasses = classnames(
+    styles.customLink,
+    {
+      [styles['light']]: light,
+    },
+    className
+  )
 
   return isInternal ? (
     <Link className={linkClasses} to={to}>

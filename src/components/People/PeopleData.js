@@ -1,23 +1,25 @@
 import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
 
-const filterVisiblePersons = (data, type, hashtag = '') =>
-  data.filter(
-    ({ label, tracklist }) =>
-      label === type &&
-      (type !== 'mentor' || hashtag.includes(tracklist.toLowerCase()))
-  )
+const filterVisiblePersons = (data, type, tracklist = '') =>
+  data.filter(person => {
+    return (
+      person.label === type &&
+      (type !== 'mentor' || person.tracklist === tracklist)
+    )
+  })
 
-const filterData = (data, type, hashtag) => {
+const filterData = (data, type, tracklist) => {
   const people = data.allMarkdownRemark.edges.map(
     ({ node: { frontmatter } }) => ({
       ...frontmatter,
     })
   )
-  return filterVisiblePersons(people, type, hashtag)
+  console.log(tracklist)
+  return filterVisiblePersons(people, type, tracklist)
 }
 
-const PeopleData = ({ type, hashtag, children }) => (
+const PeopleData = ({ type, tracklist, children }) => (
   <StaticQuery
     query={graphql`
       query PeopleBlock {
@@ -43,7 +45,7 @@ const PeopleData = ({ type, hashtag, children }) => (
     `}
     render={data =>
       React.cloneElement(children, {
-        data: filterData(data, type, hashtag),
+        data: filterData(data, type, tracklist),
       })
     }
   />

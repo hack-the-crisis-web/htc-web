@@ -8,10 +8,8 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/creativity.jpg
+challengesTitle: Challanges set by our partners
 challengesDescription: >-
-  ## Challanges set by our partners
-
-
   **Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
   tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.**
 challenges:

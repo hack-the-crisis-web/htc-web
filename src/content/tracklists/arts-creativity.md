@@ -8,6 +8,34 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/creativity.jpg
+challengesDescription: >-
+  ## Challanges set by our partners
+
+
+  **Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero
+  tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.**
+challenges:
+  - title: Challenge title 1
+    description: >-
+      crisis poses serious new challenges to creatives as less people are able
+      to visit their work and funding from both public and private sources will
+      be strained for the foreseeable future.
+    logo: /img/crisis.jpg
+    logoTitle: Challenge type title
+    linkTitle: Read more
+    linkUrl: 'http://www.google.com'
+  - title: Challenge title 2
+    description: challenge 2 description
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+  - title: Challenge 3 title
+    description: challenge 3 description
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"

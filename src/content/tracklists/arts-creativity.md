@@ -22,7 +22,7 @@ challenges:
       be strained for the foreseeable future.
     logo: /img/crisis.jpg
     logoTitle: Challenge type title
-    linkTitle: Read more
+    linkTitle: Read more link
     linkUrl: 'http://www.google.com'
   - title: Challenge title 2
     description: challenge 2 description

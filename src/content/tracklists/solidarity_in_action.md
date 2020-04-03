@@ -1,11 +1,11 @@
 ---
 templateKey: tracklists
 title: Solidarity in Action
-hashtag: '#solidarityinaction #theglobalhack'
+hashtag: 'Share & inspire using #solidarityinaction #theglobalhack'
 description: >-
   The pandemic is bringing people together like no other time in recent history.
-  The challenge is to harness this collective strength of humanity to first beat
-  the virus and then change the world for the better.
+  Let's harness this collective strength of humanity to first beat the virus and
+  then change the world for the better.
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/solidarity.png

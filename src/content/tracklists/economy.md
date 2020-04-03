@@ -5,8 +5,8 @@ hashtag: 'Share and Inspire using #theglobalhack #economy'
 description: >-
   We are facing a severe economic crisis like no other as traditional methods
   for stimulating the economy don’t work under lockdown.
-keyMentor: ''
-featuredimage: ''
+keyMentor: 14cb751d-759c-4f73-b394-88101f688e12
+featuredimage: /img/globalhack_jurvetson.png
 trackLogo: /img/economy.jpg
 widgetCode: >-
   <div class='embedsocial-hashtag'

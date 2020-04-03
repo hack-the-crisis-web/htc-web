@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Environment
-hashtag: 'Share and Inspire using #theglobalhack #environment'
+hashtag: '#theglobalhack #environment'
 description: >-
   Measures to combat coronavirus have helped reduce pollution dramatically. We
   now need to figure how to continue doing so.
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## **Why Environment?**
 
 **Before this coronavirus crisis began, our planet was already in a climate crisis – although with less consensus about the urgency of the issue and less cooperation aimed at solving it.**

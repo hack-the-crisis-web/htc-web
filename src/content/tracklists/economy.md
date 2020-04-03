@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Economy
-hashtag: 'Share and Inspire using #theglobalhack #economy'
+hashtag: '#theglobalhack #economy'
 description: >-
   We are facing a severe economic crisis like no other as traditional methods
   for stimulating the economy don’t work under lockdown.
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why economy?
 
 We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too.

@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Empowerment
-hashtag: 'Share and Inspire using #theglobalhack #empowerment'
+hashtag: '#theglobalhack #empowerment'
 description: >-
   This pandemic will affect everyone, but those among the poorest and most
   vulnerable will be negatively impacted more than others.
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why Empowerment?
 
 A large proportion of our planet has been lifted out of poverty over recent decades, largely thanks to new opportunities from trade and technology. Yet we still live in a world of vast inequalities. This pandemic will affect everyone on Earth, but some will be negatively impacted more than others, especially those who are already among the poorest and most vulnerable.

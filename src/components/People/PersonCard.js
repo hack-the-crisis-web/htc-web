@@ -19,6 +19,7 @@ const PersonCard = ({
   surname,
   role,
   tracklist,
+  hashtag,
   label,
   about,
   linkedin,
@@ -39,10 +40,8 @@ const PersonCard = ({
               <p className={`title ${styles.name}`}>{`${name} ${surname}`}</p>
               <p className={`subtitle ${styles.description}`}>{role}</p>
             </div>
-            {!!tracklist && (
-              <p className={`subtitle ${styles.description}`}>
-                #{tracklist.toLowerCase()}
-              </p>
+            {!!tracklist && !!hashtag && (
+              <p className={`subtitle ${styles.description}`}>{hashtag}</p>
             )}
             {label === 'our-people' && !!about && (
               <a

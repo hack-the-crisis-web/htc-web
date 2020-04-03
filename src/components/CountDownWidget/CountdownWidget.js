@@ -39,7 +39,7 @@ class CountDownWidget extends React.Component {
     const dayString =
       days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
     // const hourString = !dayString ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''
-    const toWhatString = 'till registration'
+    const toWhatString = 'till hackathon'
 
     return (
       <div

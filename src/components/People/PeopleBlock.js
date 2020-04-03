@@ -5,7 +5,17 @@ import PersonCard from './PersonCard'
 const PeopleBlock = ({ data }) =>
   data.map(
     (
-      { name, surname, role, photo, label, tracklist, about, linkedin },
+      {
+        name,
+        surname,
+        role,
+        photo,
+        label,
+        tracklist,
+        hashtag,
+        about,
+        linkedin,
+      },
       index
     ) => (
       <PersonCard
@@ -15,6 +25,7 @@ const PeopleBlock = ({ data }) =>
         surname={surname}
         role={role}
         tracklist={tracklist}
+        hashtag={hashtag}
         label={label}
         about={about}
         linkedin={linkedin}

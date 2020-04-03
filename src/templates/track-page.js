@@ -14,6 +14,7 @@ import parseTwitterWidgetCode from '../components/parseTwitterWidgetCode'
 import Section from '../components/Section/Section'
 import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
+import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 
 export const TrackTemplate = ({
   title,
@@ -42,12 +43,16 @@ export const TrackTemplate = ({
     {content && <HTMLContentSection content={content} />}
     {!!parseTwitterWidgetCode(widgetCode) && (
       <Section>
-        <TwitterFeedTitle>{hashtag}</TwitterFeedTitle>
+        <TwitterFeedTitle>
+          {TWITTER_FEED_SHARE}
+          {hashtag}
+        </TwitterFeedTitle>
         <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
       </Section>
     )}
     <TrackMentors
       tracklist={title}
+      hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
     <TrackOrganisers trackTitle={title} title={'Track organisers'} />

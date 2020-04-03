@@ -16,6 +16,7 @@ import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
+import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
 
 export const TrackTemplate = ({
   title,
@@ -32,6 +33,9 @@ export const TrackTemplate = ({
   challengesDescription,
   challenges,
   widgetCode,
+  ctaDescription,
+  ctaText,
+  ctaUrl,
 }) => (
   <>
     <TrackHeroSection
@@ -59,6 +63,11 @@ export const TrackTemplate = ({
         <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
       </Section>
     )}
+    <TrackCallToActionSection
+      ctaDescription={ctaDescription}
+      ctaText={ctaText}
+      ctaUrl={ctaUrl}
+    />
     <TrackMentors
       tracklist={title}
       hashtag={hashtag}
@@ -101,6 +110,9 @@ const TrackPage = ({ data }) => {
         challengesDescription={frontmatter.challengesDescription}
         challenges={frontmatter.challenges}
         widgetCode={frontmatter.widgetCode}
+        ctaDescription={frontmatter.ctaDescription}
+        ctaText={frontmatter.ctaText}
+        ctaUrl={frontmatter.ctaUrl}
       />
     </Layout>
   )
@@ -138,6 +150,9 @@ export const pageQuery = graphql`
           linkUrl
         }
         widgetCode
+        ctaDescription
+        ctaText
+        ctaUrl
       }
     }
     mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {

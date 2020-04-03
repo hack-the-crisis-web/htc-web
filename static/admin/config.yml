@@ -294,7 +294,27 @@ collections:
           required: false,
           default: '',
         }
-
+      - {
+          label: 'Call action description',
+          name: 'ctaDescription',
+          widget: 'text',
+          required: false,
+          default: '',
+        }
+      - {
+          label: 'Call action link text',
+          name: 'ctaText',
+          widget: 'string',
+          required: false,
+          default: '',
+        }
+      - {
+          label: 'Call action link URL',
+          name: 'ctaUrl',
+          widget: 'string',
+          required: false,
+          default: '',
+        }
   - name: 'pages'
     label: 'Pages'
     files:

@@ -1,19 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: 'Challenges set by our partners'
-challengesDescription: ''
-challenges:
-  - title: Swedbank challenge
-    description: >-
-      Various businesses have put their operations on hold, more and more people are out of work, while there are businesses that now face skyrocketing demand for their goods and services and cannot keep up. Such industries as event, tourism, media, avio, catering have to fight extinction, while others thrive.
-
-      Think, for instance, about how to fix this structural imbalance, how to boost those businesses thriving and support those barely surviving. How to approach the rapidly increasing unemployment rate in both short and long term, how to mobilize the talented and bright minds now out of work. How to take advantage of the banking and fintech solutions out there to fight the crisis or what new solutions are needed now. What online tools or platforms can be part of the solution and what new framework of cooperation and partnerships would work best?
-
-      **Prizes:** €5k for the most promising track idea to develop the project.
-    logo: /img/swedbanki-logo-2png2.jpg
-    logoTitle: Swedbank
-    linkTitle: ''
-    linkUrl: ''
 title: Economy
 hashtag: '#theglobalhack #economy'
 description: >-
@@ -22,6 +8,33 @@ description: >-
 keyMentor: 14cb751d-759c-4f73-b394-88101f688e12
 featuredimage: /img/globalhack_jurvetson.png
 trackLogo: /img/economy.jpg
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: Swedbank challenge
+    description: >-
+      Various businesses have put their operations on hold, more and more people
+      are out of work, while there are businesses that now face skyrocketing
+      demand for their goods and services and cannot keep up. Such industries as
+      event, tourism, media, avio, catering have to fight extinction, while
+      others thrive. 
+
+
+      Think, for instance, about how to fix this structural imbalance, how to
+      boost those businesses thriving and support those barely surviving. How to
+      approach the rapidly increasing unemployment rate in both short and long
+      term, how to mobilize the talented and bright minds now out of work. How
+      to take advantage of the banking and fintech solutions out there to fight
+      the crisis or what new solutions are needed now. What online tools or
+      platforms can be part of the solution and what new framework of
+      cooperation and partnerships would work best?
+
+
+      **Prizes:** €5k for the most promising track idea to develop the project.
+    logo: /img/swedbanki-logo-2png2.jpg
+    logoTitle: Swedbank
+    linkTitle: ''
+    linkUrl: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

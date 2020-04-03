@@ -47,7 +47,7 @@ export const TrackTemplate = ({
       </Section>
     )}
     <TrackMentors
-      hashtag={hashtag}
+      tracklist={title}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
     <TrackOrganisers trackTitle={title} title={'Track organisers'} />

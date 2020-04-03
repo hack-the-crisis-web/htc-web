@@ -6,7 +6,7 @@ name: Christopher M.
 surname: Schroeder
 role: 'Global Investor, Internet/Media entrepreneur'
 photo: /img/christopher_m._schroeder.png
-about: ''
+about: 'Global Investor, Internet/Media entrepreneur'
 linkedin: 'https://www.linkedin.com/in/schroederchrism/'
 label: mentor
 tracklist: Media & Entertainment

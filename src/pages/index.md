@@ -91,7 +91,7 @@ howItWorksItems:
     isActive: true
   - title: Register Team
     textContent: >-
-      Once you’ve found an attractive idea, assemble a team of 6-12 dedicated
+      Once you’ve found an attractive idea, assemble a team of 4-12 dedicated
       people with the necessary skills. The team leader must now officially
       register the idea and team via Guaana.
     ctaText: 06-08 April

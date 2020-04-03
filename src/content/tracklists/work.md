@@ -5,7 +5,7 @@ hashtag: 'Share and Inspire using #theglobalhack #work'
 description: >-
   It’s possible that many of the temporary changes during this period will
   become the new normal and remain permanently.
-keyMentor: '{{slug}}'
+keyMentor: 4a27c2fe-2136-4fc3-ab03-90c6c549ec1b
 featuredimage: /img/globalhack_kasparov.png
 trackLogo: /img/work.jpg
 widgetCode: >-

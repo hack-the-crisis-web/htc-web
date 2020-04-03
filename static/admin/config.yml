@@ -599,3 +599,33 @@ collections:
                   { label: 'Image', name: 'image', widget: 'image' },
                 ],
             }
+      - file: 'src/pages/slack/index.md'
+        label: 'Slack settings'
+        name: 'slack-page'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'slack-page',
+            }
+          - {
+              label: Title,
+              name: title,
+              widget: string,
+              default: '',
+            }
+          - {
+            label: Description,
+            name: description,
+            widget: string,
+            default: '',
+            }
+          - {
+            label: Link text,
+            hint: 'The text that will be on the manual backup link if auto redirect does not work',
+            name: linkText,
+            widget: string,
+            default: '',
+            }
+          - { label: Slack URL, name: slackURL, widget: string, default: '/' }

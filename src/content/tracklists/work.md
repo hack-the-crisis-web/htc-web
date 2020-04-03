@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Work
 hashtag: '#theglobalhack #work'
 description: >-

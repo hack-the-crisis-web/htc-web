@@ -1,13 +1,9 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 keyMentor: ''
-challengesTitle: Challanges set by our partners
-challengesDescription: >-
-  Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore,
-  cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
-
-
-  Second paragraph of text.
 title: Arts & Creativity
 hashtag: '#theglobalhack #creativity'
 description: >-
@@ -23,37 +19,6 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: |-
-  Got inspired ?
-  Hurry up, only 2 days left to submit your idea.
-challenges:
-  - title: Challenge title 1
-    description: >-
-      crisis poses serious new challenges to creatives as less people are able
-      to visit their work and funding from both public and private sources will
-      be strained for the foreseeable future.
-    logo: /img/crisis.jpg
-    logoTitle: Challenge type title
-    linkTitle: Read more link
-    linkUrl: 'http://www.google.com'
-  - title: Challenge 2 title
-    description: |-
-      challenge 2 description
-
-      ![img alt](/img/g48-.png "img title")
-
-      more text
-    logoTitle: ''
-    linkTitle: ''
-    linkUrl: ''
-  - title: Challenge 3
-    description: description
-    logoTitle: ''
-    linkTitle: Link title
-    linkUrl: 'http://www.google.com'
-    logo: /img/apple-touch-icon.png
-ctaText: SUBMIT IDEA
-ctaUrl: 'https://theglobalhack.com/'
 ---
 
 ## **Why Arts & Creativity?**

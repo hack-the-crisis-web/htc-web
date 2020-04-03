@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: dev
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -233,14 +233,16 @@ collections:
           name: 'challengesTitle',
           widget: 'string',
           required: false,
+          default: '',
         }
       - {
           label: 'Challenges description',
           name: 'challengesDescription',
           widget: 'text',
           required: false,
+          default: '',
         }
-      - &challengeItems {
+      - {
           label: Challenges,
           name: challenges,
           widget: list,
@@ -253,13 +255,14 @@ collections:
                 required: true,
                 default: '',
               },
+              { label: 'Description', name: 'description', widget: 'markdown' },
               {
-                label: 'Description',
-                name: 'description',
-                widget: 'markdown',
-                required: true,
+                label: 'Logo',
+                name: 'logo',
+                widget: 'image',
+                required: false,
+                default: '',
               },
-              { label: 'Logo', name: 'logo', widget: 'image', required: false },
               {
                 label: 'Logo subtitle',
                 name: 'logoTitle',

@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Education
 hashtag: '#theglobalhack #education'
 description: >-

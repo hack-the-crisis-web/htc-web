@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Solidarity in Action
 hashtag: '#solidarityinaction #theglobalhack'
 description: >-

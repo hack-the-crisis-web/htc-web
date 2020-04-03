@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Environment
 hashtag: '#theglobalhack #environment'
 description: >-

@@ -33,7 +33,7 @@ Think, for instance, about how to fix this structural imbalance, how to boost th
 
 For the most promising track idea to develop the project.
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)\
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)\
 \
 [Join as a mentor for this track >](http://ej.uz/Economytrack)\
 \

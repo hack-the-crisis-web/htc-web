@@ -6,7 +6,7 @@ name: Lembit
 surname: Loo
 role: EMEA Director - Net Group
 photo: /img/lembit_loo-mental_health.png
-about: ''
+about: EMEA Director - Net Group
 linkedin: ''
 label: mentor
 tracklist: Mental Health

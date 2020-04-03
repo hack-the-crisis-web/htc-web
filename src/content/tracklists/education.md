@@ -25,4 +25,4 @@ The impact of this ranges from slight inconvenience in digitally connected count
 
 Countries like Estonia have shown that the technology for e-schooling works through the crisis, but it still has room for improvement and any improvements we can find to help pupils learn now could become the new normal for better education in future.
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

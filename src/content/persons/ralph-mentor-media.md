@@ -8,7 +8,7 @@ role: Mentor
 photo: >-
   /img/1c546215-7360-4296-a37d-599b3b7dca9e_-_ralph_echemendia-removebg-preview.png
 about: The Ethical Hacker
-linkedin: ''
+linkedin: 'https://www.linkedin.com/in/ralphez/'
 label: mentor
 tracklist: Media & Entertainment
 ---

@@ -23,4 +23,4 @@ Organisations of all types and sizes have been forced to adapt during the crisis
 
 It’s possible that many of the temporary changes during this period will become the new normal and remain permanently as their benefits are appreciated. How can we help this adaption for companies of varying types through the crisis and beyond?
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

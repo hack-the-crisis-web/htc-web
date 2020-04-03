@@ -9,8 +9,7 @@ heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Let's hack
 heroCTALeftLink: '#how-it-works'
 heroCTARightText: Join Slack
-heroCTARightLink: >-
-  https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
+heroCTARightLink: 'http://theglobalhack.com/slack'
 timeline:
   - title: Let's get ideas going in Slack
     isActive: true
@@ -80,16 +79,14 @@ contentItems:
       have to lock down again.
     image: /img/oportunity_globe.png
     ctaText: Get on Slack >
-    ctaLink: >-
-      https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
+    ctaLink: 'http://theglobalhack.com/slack'
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
       Idea submission is now open! Join our Slack community to post and discuss
       ideas, get feedback, find teammates and get inspired.
     ctaText: Join our slack
-    ctaLink: >-
-      https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw
+    ctaLink: 'http://theglobalhack.com/slack'
     image: /img/step2.png
     isActive: true
   - title: Register Team

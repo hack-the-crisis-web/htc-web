@@ -38,7 +38,7 @@ contentItems:
     image: ''
     ctaText: ''
     ctaLink: ''
-    textContent: "The minimum requirement of team members is 6 people. As you have to coordinate within your team, we recommend a manageable team size up to 12 members to be effective. But if you want to go with a larger team, we have no objections. If you’re looking for brand new team members, head to Slack. \L"
+    textContent: "The minimum requirement of team members is 4 people. As you have to coordinate within your team, we recommend a manageable team size up to 12 members to be effective. But if you want to go with a larger team, we have no objections. If you’re looking for brand new team members, head to Slack. \L"
   - title: Can I register as a team / company?
     textContent: "Yes, in the registration form you are asked to mark whether you are building your idea from scratch or you are building a new feature for existing tech. Both are welcomed and will be evaluated separately.\L"
   - title: "Where can I submit my challenge?\L"

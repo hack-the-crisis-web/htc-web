@@ -1,16 +1,16 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Mental Health
 hashtag: '#theglobalhack #mentalhealth'
 description: >-
   The circumstances can be mentally challenging as relationships will be under
   pressure and many will feel lonelier than ever before.
-keyMentor: ''
-featuredimage: ''
+keyMentor: 71560666-8603-46f1-8016-a20cb8a643c8
+featuredimage: /img/globalhack_khaliya.png
 trackLogo: /img/mental_health.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

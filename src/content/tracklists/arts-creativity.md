@@ -1,13 +1,6 @@
 ---
 templateKey: tracklists
-title: Arts & Creativity
-hashtag: 'Share and Inspire using #theglobalhack #creativity'
-description: >-
-  Crises pose serious new challenges to creatives as budgets, funding and
-  exposure will be strained for the foreseeable future.
 keyMentor: ''
-featuredimage: ''
-trackLogo: /img/creativity.jpg
 challengesTitle: Challanges set by our partners
 challengesDescription: >-
   Pedit quo minus id quod maxime Est et expedita distinctio. Nam libero tempore,
@@ -15,6 +8,24 @@ challengesDescription: >-
 
 
   Second paragraph of text.
+title: Arts & Creativity
+hashtag: 'Share and Inspire using #theglobalhack #creativity'
+description: >-
+  Crises pose serious new challenges to creatives as budgets, funding and
+  exposure will be strained for the foreseeable future.
+featuredimage: ''
+trackLogo: /img/creativity.jpg
+widgetCode: >-
+  <div class='embedsocial-hashtag'
+  data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"
+  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.src =
+  "https://embedsocial.com/cdn/ht.js";
+  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
+  "EmbedSocialHashtagScript"));</script>
+ctaDescription: |-
+  Got inspired ?
+  Hurry up, only 2 days left to submit your idea.
 challenges:
   - title: Challenge title 1
     description: >-
@@ -41,14 +52,8 @@ challenges:
     linkTitle: Link title
     linkUrl: 'http://www.google.com'
     logo: /img/apple-touch-icon.png
-widgetCode: >-
-  <div class='embedsocial-hashtag'
-  data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"
-  ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id; js.src =
-  "https://embedsocial.com/cdn/ht.js";
-  d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
-  "EmbedSocialHashtagScript"));</script>
+ctaText: SUBMIT IDEA
+ctaUrl: 'https://theglobalhack.com/'
 ---
 ## **Why Arts & Creativity?**
 

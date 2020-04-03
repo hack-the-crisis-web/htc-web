@@ -29,15 +29,13 @@ Various businesses have put their operations on hold, more and more people are o
 
 Think, for instance, about how to fix this structural imbalance, how to boost those businesses thriving and support those barely surviving.How to approach the rapidly increasing unemployment rate in both short and long term, how to mobilize the talented and bright minds now out of work. How to take advantage of the banking and fintech solutions out there to fight the crisis or what new solutions are needed now. What online tools or platforms can be part of the solution and what new framework of cooperation and partnerships would work best?\
 \
-Prizes
-
-€5k
+**Prizes: €5k**
 
 For the most promising track idea to develop the project.
 
 [Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)\
 \
-Join as a mentor for this track >\
+[Join as a mentor for this track >](http://ej.uz/Economytrack)\
 \
 **Track organisers**
 

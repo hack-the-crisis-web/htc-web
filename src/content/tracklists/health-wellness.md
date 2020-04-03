@@ -23,4 +23,4 @@ We are facing, first and foremost, a health crisis that will have a lasting impa
 
 Through this crisis and beyond, both people and organisations will be thinking about the health of themselves and others in new ways and they will need new technology to support this. How can this result in a lasting long term positive impact?
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

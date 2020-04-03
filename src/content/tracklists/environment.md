@@ -23,4 +23,4 @@ widgetCode: >-
 
 **Now, measures to combat coronavirus have unintentionally helped our environment as pollution has reduced dramatically. Will our planet return to its previous ways after this crisis or will we discover a new appreciation for our temporarily cleaner world, as well as new ideas to work together to clean it up even more?**
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

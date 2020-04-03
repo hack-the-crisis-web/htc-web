@@ -24,18 +24,6 @@ challenges:
     logoTitle: Challenge type title
     linkTitle: Read more link
     linkUrl: 'http://www.google.com'
-  - title: Challenge title 2
-    description: challenge 2 description
-    logo: ''
-    logoTitle: ''
-    linkTitle: ''
-    linkUrl: ''
-  - title: Challenge 3 title
-    description: challenge 3 description
-    logo: ''
-    logoTitle: ''
-    linkTitle: ''
-    linkUrl: ''
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"

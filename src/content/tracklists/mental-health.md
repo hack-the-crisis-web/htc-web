@@ -23,4 +23,4 @@ A sudden change in circumstances can be mentally challenging, whether it’s los
 
 However, it’s ok not to be ok at any time, not just during this crisis, and this affects all of us. Mental health challenges are far less visible than physical health challenges, but they are just as important and just as deserving of solutions. If we can surge healthcare capacity to fight the virus then how can we make a similar effort to improve mental health.
 
-[Share Ideas and find a Team on Slack >](https://join.slack.com/t/theglobalhack/shared_invite/zt-cuprrpvm-_JnVgAFazJxFmr4Tc0dZXw)
+[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

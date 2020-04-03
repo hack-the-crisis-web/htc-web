@@ -26,7 +26,12 @@ challenges:
     linkTitle: Read more link
     linkUrl: 'http://www.google.com'
   - title: Challenge 2 title
-    description: challenge 2 description
+    description: |-
+      challenge 2 description
+
+      ![img alt](/img/g48-.png "img title")
+
+      more text
     logoTitle: ''
     linkTitle: ''
     linkUrl: ''

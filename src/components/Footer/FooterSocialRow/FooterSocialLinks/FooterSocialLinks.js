@@ -6,9 +6,9 @@ export const FooterSocialLinks = () => (
   <div className={styles.links}>
     <div className={styles.link}>
       <SocialIconLink
-        type="reddit"
+        type="slack"
         color="black"
-        href="https://reddit.com/r/theglobalhack"
+        href="http://theglobalhack.com/slack"
       />
     </div>
     <div className={styles.link}>

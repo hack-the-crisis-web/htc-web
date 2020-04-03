@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Solidarity in Action
-hashtag: '#solidarity-in-action #theglobalhack'
+hashtag: '#solidarityinaction #theglobalhack'
 description: >-
   The pandemic is bringing people together like no other time in recent history.
   The challenge is to harness this collective strength of humanity to first beat
@@ -11,7 +11,7 @@ featuredimage: ''
 trackLogo: /img/solidarity.png
 widgetCode: >-
   <div class='embedsocial-hashtag'
-  data-ref="6dba55d89ab03ff4c4cbca25937b8febfc9a7e7a"
+  data-ref="b740c2bdc73065cfcf9020b3a4b31006108c9aed"
   ></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;}
   js = d.createElement(s); js.id = id; js.src =
   "https://embedsocial.com/cdn/ht.js";

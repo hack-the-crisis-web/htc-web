@@ -1,0 +1,56 @@
+@import '../../styles/styleSetup.scss';
+
+.container {
+  background: $lighter-grey;
+}
+
+.card {
+  background: $white;
+  padding: 18px 22px 28px 22px;
+  border-radius: 5px;
+
+  .logo {
+    margin-bottom: 8px;
+    width: 70px;
+    height: auto;
+    max-height: 70px;
+  }
+
+  .logoTitle {
+    margin-bottom: 4px;
+  }
+
+  .text {
+    color: $black;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.13px;
+    line-height: 28px;
+  }
+
+  .link {
+    margin-top: 25px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    border-bottom: 1px solid $primary;
+
+    .arrow {
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      transform: rotate(315deg);
+      border-right: 1px solid $primary;
+      border-bottom: 1px solid $primary;
+    }
+  }
+}

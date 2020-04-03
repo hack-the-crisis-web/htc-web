@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Mental Health
 hashtag: '#theglobalhack #mentalhealth'
 description: >-

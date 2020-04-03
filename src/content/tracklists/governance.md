@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Governance
 hashtag: '#theglobalhack #governance'
 description: >-

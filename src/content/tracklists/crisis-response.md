@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Crisis Response
 hashtag: '#theglobalhack #crisisresponse'
 description: >-

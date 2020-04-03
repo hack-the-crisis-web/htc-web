@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Empowerment
 hashtag: '#theglobalhack #empowerment'
 description: >-

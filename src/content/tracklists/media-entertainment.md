@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Media & Entertainment
 hashtag: '#theglobalhack #media'
 description: >-

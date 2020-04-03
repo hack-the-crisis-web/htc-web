@@ -1,5 +1,8 @@
 ---
 templateKey: tracklists
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 title: Health & Wellness
 hashtag: '#theglobalhack #health'
 description: >-

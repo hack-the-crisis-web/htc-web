@@ -1,7 +1,7 @@
 ---
 templateKey: tracklists
 title: Work
-hashtag: 'Share and Inspire using #theglobalhack #work'
+hashtag: '#theglobalhack #work'
 description: >-
   It’s possible that many of the temporary changes during this period will
   become the new normal and remain permanently.
@@ -17,6 +17,7 @@ widgetCode: >-
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
 ---
+
 ## Why Work?
 
 Organisations of all types and sizes have been forced to adapt during the crisis, largely by embracing remote work through technology and new processes. This is considerably easier for some than others, however.

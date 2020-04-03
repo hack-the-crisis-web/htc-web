@@ -1,25 +1,30 @@
 import { graphql, StaticQuery } from 'gatsby'
 import React from 'react'
+import getSingleHashtag from '../getSingleHashtag'
 
-const filterVisiblePersons = (data, type, tracklist = '') =>
-  data.filter(person => {
-    return (
-      person.label === type &&
-      (type !== 'mentor' || person.tracklist === tracklist)
-    )
-  })
+const filterVisiblePersons = (data, type, tracklist = '', hashtag) =>
+  data
+    .filter(person => {
+      return (
+        person.label === type &&
+        (type !== 'mentor' || person.tracklist === tracklist)
+      )
+    })
+    .map(item => ({
+      ...item,
+      hashtag: hashtag ? getSingleHashtag(hashtag) : undefined,
+    }))
 
-const filterData = (data, type, tracklist) => {
+const filterData = (data, type, tracklist, hashtag) => {
   const people = data.allMarkdownRemark.edges.map(
     ({ node: { frontmatter } }) => ({
       ...frontmatter,
     })
   )
-  console.log(tracklist)
-  return filterVisiblePersons(people, type, tracklist)
+  return filterVisiblePersons(people, type, tracklist, hashtag)
 }
 
-const PeopleData = ({ type, tracklist, children }) => (
+const PeopleData = ({ type, tracklist, hashtag, children }) => (
   <StaticQuery
     query={graphql`
       query PeopleBlock {
@@ -45,7 +50,7 @@ const PeopleData = ({ type, tracklist, children }) => (
     `}
     render={data =>
       React.cloneElement(children, {
-        data: filterData(data, type, tracklist),
+        data: filterData(data, type, tracklist, hashtag),
       })
     }
   />

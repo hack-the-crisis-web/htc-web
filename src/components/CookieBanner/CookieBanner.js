@@ -15,7 +15,6 @@ const CookieBanner = () => {
     const expires = '; expires=' + date.toUTCString()
 
     document.cookie = COOKIE_NAME + '=' + 'true' + expires + '; path=/'
-    console.log(document.cookie[COOKIE_NAME])
     setCookiesAccepted(true)
   }
 

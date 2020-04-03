@@ -18,8 +18,8 @@ const TrackMentorsWithData = ({ data, description }) => {
     </Section>
   )
 }
-const TrackMentors = ({ tracklist, description }) => (
-  <PeopleData type="mentor" tracklist={tracklist}>
+const TrackMentors = ({ tracklist, description, hashtag }) => (
+  <PeopleData type="mentor" tracklist={tracklist} hashtag={hashtag}>
     <TrackMentorsWithData description={description} />
   </PeopleData>
 )

@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Health & Wellness
 hashtag: '#theglobalhack #health'
 description: >-
@@ -11,6 +8,21 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/wellbeing.jpg
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: >-
+      Coordinated systems for the prioritisation of testing and vaccinations and
+      virus transmission
+    logo: /img/eu.jpg
+    logoTitle: by The European Commisision
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Systems that allow to prioritize testing and vaccination action to
+      maximise the greater good. Solutions should be science-based and empower
+      targeted public health measures to reduce the risk of infection help track
+      the chains of infections quickly.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

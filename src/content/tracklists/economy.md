@@ -42,6 +42,21 @@ challenges:
       afloat, adjust business models, continue their businesses, collaborate
       effectively, manage value chain disruptions, and facilitate the transition
       towards online.
+  - title: Stay safe and enjoy Human Contact Free Tourism
+    logo: /img/ee.jpg
+    logoTitle: by Enterprise Estonia
+    linkTitle: Read full brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/4FKRrhFJnTZNeutR7/main
+    description: >-
+      Tourism companies, especially the smaller ones, in the present state of
+      emergency situation, are suffering economic losses, because their direct
+      source of income is the service consumers, both domestic and foreign
+      tourists, who are not allowed to travel until unknown time. Tourism
+      companies need immediately and quickly rethink their business model and
+      use the existing situation to offer a different kind and innovative
+      service, that usually is not their core business. Read more about the
+      challenge here:
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

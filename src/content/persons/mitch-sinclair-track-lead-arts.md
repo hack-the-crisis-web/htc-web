@@ -8,7 +8,7 @@ role: 'Executive Design Director, IDEO Cambridge'
 photo: /img/globalhack_sinclair-alt.png
 about: >-
   What The Global Hack represents to me is the world without borders, it's a
-  world that's coming together right now in fundamentally new ways. 
+  world that's coming together right now -in fundamentally new ways. 
 linkedin: ''
 label: track-lead
 tracklist: Arts & Creativity

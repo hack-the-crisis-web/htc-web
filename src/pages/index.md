@@ -19,11 +19,7 @@ timeline:
     isActive: true
     image: /img/register.jpg
     date: ''
-  - title: Teams Announced
-    isActive: false
-    image: /img/teams.jpg
-    date: 2020-04-07T21:00:00.000Z
-  - title: The hackathon Starts
+  - title: Team announced and Hackathon Starts
     isActive: false
     image: /img/start.jpg
     date: 2020-04-08T21:00:00.000Z

@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: bf41a942-6726-46bd-abf9-71bdbd6b0ded
-identifier: Marina Shutova
+identifier: Marina Shutova-mentor-education
 name: Marina
 surname: Shutova
 role: Customer Success Manager at Lingvist

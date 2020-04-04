@@ -8,9 +8,21 @@ description: >-
 keyMentor: 71560666-8603-46f1-8016-a20cb8a643c8
 featuredimage: /img/globalhack_khaliya.png
 trackLogo: /img/mental_health.jpg
-challengesTitle: ''
+challengesTitle: Challenges set by our partners
 challengesDescription: ''
-challenges: []
+challenges:
+  - title: Too much free time or not enough meaningful involvement?
+    logo: /img/ee.jpg
+    logoTitle: by Estonian Social Insurance Board
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Studies have shown that too much free time for youngsters can lead to self
+      harm, risk behaviour and victimization. During times of crises when direct
+      social inerraction and mobilty is limited, how do we keep our young
+      generation (13-19 years old) safe and meaningfully active? We need a
+      community based solution that will help engage young people in to
+      acitivites that will empower the youth and strenghten the local community.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

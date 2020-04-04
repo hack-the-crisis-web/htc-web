@@ -18,7 +18,7 @@ timeline:
   - title: Register on devpost
     isActive: true
     image: /img/apple-touch-icon.png
-    date: 2020-04-03T21:00:00.000Z
+    date: ''
   - title: Teams Announced
     isActive: false
     image: /img/teams.jpg

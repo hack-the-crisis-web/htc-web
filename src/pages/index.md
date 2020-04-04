@@ -15,10 +15,10 @@ timeline:
     isActive: true
     image: /img/crisis.jpg
     date: ''
-  - title: Register on Guaana
-    isActive: false
+  - title: Register on devpost
+    isActive: true
     image: /img/register.jpg
-    date: 2020-04-05T21:00:00.000Z
+    date: 2020-04-03T21:00:00.000Z
   - title: Teams Announced
     isActive: false
     image: /img/teams.jpg

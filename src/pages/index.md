@@ -17,7 +17,7 @@ timeline:
     date: ''
   - title: Register your idea on devpost
     isActive: true
-    image: /img/apple-touch-icon.png
+    image: /img/register.jpg
     date: ''
   - title: Teams Announced
     isActive: false
@@ -96,7 +96,7 @@ howItWorksItems:
       register in Devpost
     ctaText: 04-08 April
     ctaLink: 'https://theglobalhack.devpost.com/'
-    image: /img/step3.png
+    image: /img/step3-8516109b837803b7af26dccbf7f194fd.png
     isActive: true
   - title: Start hacking
     textContent: >-

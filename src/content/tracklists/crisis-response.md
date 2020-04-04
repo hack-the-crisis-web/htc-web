@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Crisis Response
 hashtag: '#theglobalhack #crisisresponse'
 description: >-
@@ -11,6 +8,18 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/crisis.jpg
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: Data access and tracking
+    logo: /img/eu.jpg
+    logoTitle: by The European Commisision
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Across all those challenges, the Commission will foster the use of space
+      data and services (Copernicus images, Galileo positioning), which can be a
+      key enabler for many of the challenges.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

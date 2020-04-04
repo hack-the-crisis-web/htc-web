@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: 32e9292c-00ee-4f88-a561-54b88a058fe7
-identifier: Signe Viimsalu
+identifier: Signe Viimsalu-mentor-environment
 name: Signe
 surname: Viimsalu
 role: Independent expert @EU commission

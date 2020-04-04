@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Education
 hashtag: '#theglobalhack #education'
 description: >-
@@ -11,6 +8,18 @@ description: >-
 keyMentor: Obama
 featuredimage: ''
 trackLogo: /img/education.jpg
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: New forms of education
+    logo: /img/eu.jpg
+    logoTitle: by The European Commisision
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      In the education field, what is the best way to help schools, teachers and
+      pupils to continue their studies, and benefit from the latest EdTech
+      innovations.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"

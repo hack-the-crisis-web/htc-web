@@ -15,7 +15,7 @@ timeline:
     isActive: true
     image: /img/crisis.jpg
     date: ''
-  - title: Register on devpost
+  - title: Register your idea on devpost
     isActive: true
     image: /img/apple-touch-icon.png
     date: ''

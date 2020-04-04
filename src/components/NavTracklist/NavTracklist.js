@@ -8,7 +8,7 @@ const NavTracklist = ({ data, buttonClassName, subnavButtonClassname }) => {
     return null
   }
   return (
-    <NavDropdown buttonClassName={buttonClassName} buttonText="Tracks">
+    <NavDropdown buttonClassName={buttonClassName} buttonText="Tracklist">
       {data.map(
         ({
           node: {

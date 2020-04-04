@@ -1,16 +1,16 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
-keyMentor: ''
 title: Arts & Creativity
 hashtag: '#theglobalhack #creativity'
 description: >-
   Crises pose serious new challenges to creatives as budgets, funding and
   exposure will be strained for the foreseeable future.
-featuredimage: ''
+keyMentor: 181182f9-3b9b-4d26-8c57-6d5051a53725
+featuredimage: /img/globalhack_sinclair.png
 trackLogo: /img/creativity.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"

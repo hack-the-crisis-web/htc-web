@@ -57,6 +57,19 @@ challenges:
       use the existing situation to offer a different kind and innovative
       service, that usually is not their core business. Read more about the
       challenge here:
+  - title: Preventing a dramatic drop in youth employment rates after COVID-19
+    logo: /img/ee.jpg
+    logoTitle: by Estonianian Social Insurance Board
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      After the economic crisis of 2008, there was a dramatic rise in young
+      people's (16-26 years old) unemployment rates. We should be better
+      prepared to deal with possible similar consequences after COVID-19. We are
+      looking for a proactive solution to manage possible risks rising from the
+      economic repercussions of the virus. In addition, the solution could
+      support the community by linking the unemployed youth and community
+      problems/shortcomings.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

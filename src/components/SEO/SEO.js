@@ -61,7 +61,7 @@ const SEO = ({ title, description, pathname }) => (
             )}
             <meta
               name="twitter:image"
-              content={`${withPrefix('/')}img/global_hack_key_social.jpg`}
+              content={`https://theglobalhack.com/img/global_hack_key_social_twitter.jpg`} // Needs absolute URL
             />
             <link
               rel="apple-touch-icon"

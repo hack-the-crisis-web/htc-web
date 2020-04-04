@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Solidarity in Action
 hashtag: '#solidarityinaction #theglobalhack'
 description: >-
@@ -12,6 +9,21 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/solidarity.png
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: Ensuring solidarity across the EU
+    logo: /img/eu.jpg
+    logoTitle: by The European Commisision
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      To develop specific actions that need to be taken at the EU-level to
+      protect the health, well-being and livelihoods of citizens. These actions
+      will include activities focused on support measures to protect citizen's
+      jobs and income; ensuring the stable supply of protective equipment and
+      medicine across Europe and solutions to ensure the continuous supply of
+      basic goods and food across EU borders.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="b740c2bdc73065cfcf9020b3a4b31006108c9aed"

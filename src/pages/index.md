@@ -44,7 +44,7 @@ howItWorksDescription: >-
   The Global Hack has already drawn attention across the globe - covered by
   Forbes, Silicon Republic, GovInsider among others - and brought on board a
   fleet of world-class mentors, such as Silicon Valley’s tech superstar Steve
-  Jurvetson, former President of Estonia Toomas Hendrik Ilves and Khaliya,
+  Jurvetson, former President of Estonia Toomas Hendrik Ilves and Khaliya - 
   public health specialist and a neuro-technologist. 
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
@@ -93,11 +93,11 @@ howItWorksItems:
     textContent: >-
       Once you’ve found an attractive idea, assemble a team of 4-12 dedicated
       people with the necessary skills. The team leader must now officially
-      register the idea and team via Guaana.
-    ctaText: 06-08 April
-    ctaLink: /
+      register in Devpost
+    ctaText: 04-08 April
+    ctaLink: 'https://theglobalhack.devpost.com/'
     image: /img/step3.png
-    isActive: false
+    isActive: true
   - title: Start hacking
     textContent: >-
       Your team will be assigned a Slack channel on April 9 to be assisted via.

@@ -23,6 +23,16 @@ challenges:
       maximise the greater good. Solutions should be science-based and empower
       targeted public health measures to reduce the risk of infection help track
       the chains of infections quickly.
+  - title: Social distancing app
+    logo: /img/ee.jpg
+    logoTitle: by Estonian Ministry of Economic Affairs and Communications
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Main problem regarding to public health is social distancing. Its
+      important to make sure that people don´t get closer than 2 meters. On the
+      other hand being indoor 24/7 is not good for health also. Possible
+      solution an app that measures movement and distance between people.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

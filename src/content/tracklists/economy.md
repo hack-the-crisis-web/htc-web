@@ -32,6 +32,16 @@ challenges:
     logoTitle: Swedbank
     linkTitle: ''
     linkUrl: ''
+  - title: Economic impact & support to SMEs and startups
+    logo: /img/eu.jpg
+    logoTitle: by The European Commisision
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Actions and solutions to support local SMEs & startups, so they can stay
+      afloat, adjust business models, continue their businesses, collaborate
+      effectively, manage value chain disruptions, and facilitate the transition
+      towards online.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

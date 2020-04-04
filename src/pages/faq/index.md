@@ -42,7 +42,7 @@ contentItems:
   - title: Can I register as a team / company?
     textContent: "Yes, in the registration form you are asked to mark whether you are building your idea from scratch or you are building a new feature for existing tech. Both are welcomed and will be evaluated separately.\L"
   - title: "Where can I submit my challenge?\L"
-    textContent: "If you don’t have a team yet to solve a challenge - join Slack, recruit team members and then submit your team alongside the challenge for review in Guaana. \nIf you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
+    textContent: "If you don’t have a team yet to solve a challenge - join Slack, recruit team members and then submit your team alongside the challenge for review in Devpost(linked on our landing page) \nIf you are a Government organization or Sponsor company - submit your challenge here. Each challenge sponsor is allowed to submit only one challenge.\L"
     ctaText: ''
     ctaLink: 'https://www.guaana.com/challenge/zASRJiZsEoyDZds6n'
   - title: >-
@@ -80,4 +80,11 @@ contentItems:
     ctaText: ''
     ctaLink: ''
     textContent: "The Global Hack is a global initiative which unites the Hack the Crisis movement and the 40+ hackathons organized in the frames of this movement. The core initiative comes from the team who organized the very first hackathon 13-15 of March and who are passionate about solving the huge ongoing crisis that concerns everyone at the moment (the people are from Garage48, Accelerate Estonia, Guaana and Mooncascade). BUT this is truly a global effort and movement involving communities and organizers from all over the world.\L"
+  - title: What are the terms and conditions of The Global Hack
+    image: ''
+    ctaText: Full participant agreement and Code of Conduct
+    ctaLink: 'https://theglobalhack.com/terms-and-conditions/'
+    textContent: >+
+      Please read the participant agreement and code of conduct to get to know
+      the terms and conditions more closely.
 ---

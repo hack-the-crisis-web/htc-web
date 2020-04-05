@@ -6,7 +6,7 @@ name: Thomas
 surname: Ermacora
 role: Futurist
 photo: /img/globalhack_ermacora-alt.png
-about: ''
+about: 'It''s going to be an extraordinary adventure together to heal our planet.  '
 linkedin: ''
 label: track-lead
 tracklist: Crisis Response

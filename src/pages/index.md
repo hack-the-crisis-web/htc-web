@@ -4,7 +4,7 @@ title: Fighting a Global Crisis
 eventDate: '9-12 April, 2020'
 subheading: >-
   3 billion people in lockdown. Let's hack the future so we never go through
-  this again. 
+  this again.
 heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: Register
 heroCTALeftLink: 'https://theglobalhack.devpost.com/'
@@ -22,15 +22,15 @@ timeline:
   - title: Team announced and Hackathon Starts
     isActive: false
     image: /img/start.jpg
-    date: 2020-04-08T21:00:00.000Z
+    date: 2020-04-09
   - title: The hackathon Ends
     isActive: false
     image: /img/end.jpg
-    date: 2020-04-10T21:00:00.000Z
+    date: 2020-04-11
   - title: Demos & Awards
     isActive: false
     image: /img/winner.jpg
-    date: 2020-04-11T21:00:00.000Z
+    date: 2020-04-12
 heading: placeholder
 howItWorksDescription: >-
   The Global Hack is an online hackathon designed to share and rapidly develop
@@ -41,11 +41,11 @@ howItWorksDescription: >-
   Forbes, Silicon Republic, GovInsider among others - and brought on board a
   fleet of world-class mentors, such as Silicon Valley’s tech superstar Steve
   Jurvetson, former President of Estonia Toomas Hendrik Ilves and Khaliya - 
-  public health specialist and a neuro-technologist. 
+  public health specialist and a neuro-technologist.
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest
-  challenges. 
+  challenges.
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.
@@ -60,7 +60,7 @@ contentItems:
       about solving the huge ongoing crisis that concerns everyone at the moment
       (the people are from Garage48, Accelerate Estonia, Guaana). BUT this is
       truly a global effort and movement involving communities and organizers
-      from all over the world. 
+      from all over the world.
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png

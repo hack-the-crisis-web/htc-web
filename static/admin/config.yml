@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: timeline-fix
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -401,6 +401,7 @@ collections:
                   {
                     label: 'Date',
                     name: 'date',
+                    format: 'YYYY-MM-DD',
                     widget: 'date',
                     required: false,
                     default: '',

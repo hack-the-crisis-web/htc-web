@@ -59,6 +59,7 @@ const FooterMenuRow = ({ data }) => (
           [
             { title: 'Press', url: '/press' },
             { title: 'Privacy Policy', url: '/privacy-policy' },
+            { title: 'Code of Conduct', url: '/code-of-conduct' },
             { title: 'Terms of Service', url: '/terms-and-conditions' },
           ],
         ]}

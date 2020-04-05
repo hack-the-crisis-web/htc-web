@@ -6,7 +6,7 @@ subheading: >-
   3 billion people in lockdown. Let's hack the future so we never go through
   this again. 
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: Register Now
+heroCTALeftText: Register
 heroCTALeftLink: 'https://theglobalhack.devpost.com/'
 heroCTARightText: Join Slack
 heroCTARightLink: 'http://theglobalhack.com/slack'
@@ -81,7 +81,7 @@ howItWorksItems:
     textContent: >-
       Idea submission is now open! Join our Slack community to post and discuss
       ideas, get feedback, find teammates and get inspired.
-    ctaText: Join our slack
+    ctaText: Join slack
     ctaLink: 'http://theglobalhack.com/slack'
     image: /img/step2.png
     isActive: true
@@ -94,11 +94,11 @@ howItWorksItems:
     ctaLink: 'https://theglobalhack.devpost.com/'
     image: /img/step3-8516109b837803b7af26dccbf7f194fd.png
     isActive: true
-  - title: Start hacking
+  - title: Hack of our lives
     textContent: >-
       Your team will be assigned a Slack channel on April 9 to be assisted via.
       Log on and hack away! These extremely intense hours may change the world!
-    ctaText: Hack of our lifetime!
+    ctaText: Start hacking
     ctaLink: 'https://theglobalhack.slack.com/'
     image: /img/joinus.png
     isActive: false

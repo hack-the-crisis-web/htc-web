@@ -21,11 +21,11 @@ contentItems:
       Sunday, 12 April (Time: TBA) with the announcement of the results.
   - title: "Where is The Global Hack organized?\L"
     image: ''
-    ctaText: ''
-    ctaLink: ''
-    textContent: >-
+    ctaText: Join our slack here
+    ctaLink: theglobalhack.com/slack
+    textContent: >
       Our hackathon will take place exclusively online. We use Slack workspace
-      as the main platform for communication and Guaana platform for the
+      as the main platform for communication and Devpost platform for the
       hackathon submissions. These online services are completely free to use
       for attendees.
   - textContent: "We’re looking for brilliant people from every corner of the globe. Field experts, scientists, tech enthusiasts, business leaders, project managers, marketers, designers & innovators, are all welcomed to join. The key attribute here is “motivation to act”.\L"
@@ -84,7 +84,7 @@ contentItems:
     image: ''
     ctaText: Full participant agreement and Code of Conduct
     ctaLink: 'https://theglobalhack.com/terms-and-conditions/'
-    textContent: >+
+    textContent: >
       Please read the participant agreement and code of conduct to get to know
       the terms and conditions more closely.
 ---

@@ -11,7 +11,7 @@ trackLogo: /img/enviroment.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''
 challenges:
-  - title: Stopping cigarette littering
+  - title: Stop cigarette littering
     logo: /img/logo-wcd-2020-black-large---anneli-ohvril.png
     logoTitle: by World Cleanup Day
     linkTitle: ''

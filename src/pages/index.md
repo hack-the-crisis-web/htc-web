@@ -6,8 +6,8 @@ subheading: >-
   3 billion people in lockdown. Let's hack the future so we never go through
   this again. 
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: Let's hack
-heroCTALeftLink: '#how-it-works'
+heroCTALeftText: Register Now
+heroCTALeftLink: 'https://theglobalhack.devpost.com/'
 heroCTARightText: Join Slack
 heroCTARightLink: 'http://theglobalhack.com/slack'
 timeline:
@@ -90,7 +90,7 @@ howItWorksItems:
       Once you’ve found an attractive idea, assemble a team of 4-12 dedicated
       people with the necessary skills. The team leader must now officially
       register in Devpost
-    ctaText: 04-08 April
+    ctaText: NOW
     ctaLink: 'https://theglobalhack.devpost.com/'
     image: /img/step3-8516109b837803b7af26dccbf7f194fd.png
     isActive: true

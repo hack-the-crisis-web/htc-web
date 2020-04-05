@@ -34,7 +34,9 @@
 
 .timelineWrapper {
   position: relative;
-  width: 100%;
+  width: calc(100% + 3rem);
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
 }
 
 .dashed {

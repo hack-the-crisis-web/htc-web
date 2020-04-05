@@ -22,15 +22,15 @@ timeline:
   - title: Team announced and Hackathon Starts
     isActive: false
     image: /img/start.jpg
-    date: 2020-04-09
+    date: '2020-04-09'
   - title: The hackathon Ends
     isActive: false
     image: /img/end.jpg
-    date: 2020-04-11
+    date: '2020-04-11'
   - title: Demos & Awards
     isActive: false
     image: /img/winner.jpg
-    date: 2020-04-12
+    date: '2020-04-12'
 heading: placeholder
 howItWorksDescription: >-
   The Global Hack is an online hackathon designed to share and rapidly develop

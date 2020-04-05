@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Environment
 hashtag: '#theglobalhack #environment'
 description: >-
@@ -11,6 +8,22 @@ description: >-
 keyMentor: Obama
 featuredimage: ''
 trackLogo: /img/enviroment.jpg
+challengesTitle: Challenges set by our partners
+challengesDescription: ''
+challenges:
+  - title: by World Cleanup day
+    logo: /img/logo-wcd-2020-black-large---anneli-ohvril.png
+    logoTitle: World Cleanup Day
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      6 trillion cigarettes are smoked annually out of which 4,5 trillion butts
+      end up in nature every year. As cigarette butts are small and don't seem
+      harmful, they are too often littered. Cigarette butts take up to 15 years
+      to degrade in the environment and killing living beings. How we can clean
+      up all the cigarette butts from nature after COVID-19 as there is a threat
+      that butts are infected with virus. How we avoid cigarette butts to end up
+      in nature?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="238623d492d2f03d78c8bbf62e92c02a185227b0"

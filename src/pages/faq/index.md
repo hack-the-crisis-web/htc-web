@@ -55,6 +55,8 @@ contentItems:
     ctaText: Submit here
   - title: Can I submit already existing projects?
     textContent: "Yes, please! During the past few weeks, we’ve seen an impressive number of initiatives to develop digital solutions and infrastructure to face the coronavirus crisis and do urge you for further development of these projects.\L\LWe have immense respect for your work, so please feel free to submit your existing challenge and the team working to improve it, like every other team. We expect that you continue developing your solution further during the hackathon. Phrase your challenges and emphasize how you will scale it or improve it.\L"
+    ctaText: Submit your project here
+    ctaLink: 'https://theglobalhack.devpost.com/'
   - title: "What is the Team & Challenge submission evaluation?\L"
     image: ''
     ctaText: ''

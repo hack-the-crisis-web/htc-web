@@ -7,7 +7,7 @@ surname: Saxton
 role: Global Head of Marketing @JLL
 photo: /img/i05_michael_saxton_health_and_wellness-removebg-preview.png
 about: ''
-linkedin: ''
+linkedin: 'https://www.linkedin.com/in/michaelsaxton33/'
 label: mentor
 tracklist: Health & Wellness
 ---

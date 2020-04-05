@@ -5,7 +5,7 @@ identifier: Rodion Salnik-mentor
 name: 'Rodion '
 surname: Salnik
 role: Co-founder of CASERS and Brocoders
-photo: /src/img/placeholders/placeholder-person.png
+photo: /img/i08_rodion_salnik_work-removebg-preview.png
 about: ''
 linkedin: 'https://www.linkedin.com/in/rodik/'
 label: mentor

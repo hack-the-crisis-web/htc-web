@@ -7,7 +7,7 @@ surname: Cuppens
 role: Head of Surf Studio @KBC Bank
 photo: /img/i21_pascal_cuppens_environment-removebg-preview.png
 about: ''
-linkedin: ''
+linkedin: 'https://www.linkedin.com/in/pascal-cuppens-649891/'
 label: mentor
 tracklist: Environment
 ---

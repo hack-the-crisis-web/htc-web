@@ -8,6 +8,6 @@ role: 'Global Investor, Internet/Media entrepreneur'
 photo: /img/christopher_m._schroeder.png
 about: 'Global Investor, Internet/Media entrepreneur'
 linkedin: 'https://www.linkedin.com/in/schroederchrism/'
-label: mentor
+label: track-lead
 tracklist: Media & Entertainment
 ---

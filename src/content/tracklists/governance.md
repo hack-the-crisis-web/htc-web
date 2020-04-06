@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Governance
 hashtag: '#theglobalhack #governance'
 description: >-
@@ -12,6 +9,9 @@ keyMentor: >-
   /persons/map-templatekey-person-tracklist-governance-name-toomas-hendrik-about-personid-uuid-photo-img-toomas_hendrik_ilves-removebg-preview-png-label-track-lead-role-former-president-of-estonia-surname-i/
 featuredimage: /img/globalhack_thi_1_.png
 trackLogo: /img/goverment.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="129f5f3526eff770a8a6b5d947289ba064f45c00"
@@ -20,6 +20,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
+ctaDescription: Register your team and idea on Devpost
+ctaText: Register Now
+ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
 
 ## Why governance?

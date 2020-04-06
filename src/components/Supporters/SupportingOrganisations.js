@@ -19,7 +19,9 @@ export default () => (
               frontmatter {
                 name
                 link
-                image
+                image {
+                  publicURL
+                }
               }
             }
           }

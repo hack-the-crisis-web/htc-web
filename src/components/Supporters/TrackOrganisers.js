@@ -18,7 +18,9 @@ const TrackOrganisers = ({ title, trackTitle }) => (
               frontmatter {
                 name
                 link
-                image
+                image {
+                  publicURL
+                }
                 sponsoredTrack
               }
             }

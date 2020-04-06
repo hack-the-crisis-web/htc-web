@@ -14,7 +14,7 @@ challengesDescription: ''
 challenges:
   - title: Ensuring solidarity across the EU
     logo: /img/eu.jpg
-    logoTitle: by The European Commisision
+    logoTitle: by The European Commission
     linkTitle: ''
     linkUrl: ''
     description: >-

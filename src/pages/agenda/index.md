@@ -3,16 +3,18 @@ templateKey: agenda-page
 path: /agenda
 title: Full Agenda
 ---
-**01.04 Wednesday**\
+##### **01.04 Wednesday**
+
 Ideation in [Slack](https://theglobalhack.com/slack)
 
-**04.04 Saturday**\
+### **04.04 Saturday**
+
 Registration opens in [Devpost](theglobalhack.devpost.com)
 
 * Team leader registers idea and team of at-least 4
 * Be sure to include team leader's contact details, country and timezone for scheduling checkpoints
 
-**09.04 Thursday**
+#### **09.04 Thursday**
 
 12:00 UTC Registration closes\
 13:00 UTC Announcing accepted teams (via Slack)

@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Empowerment
 hashtag: '#theglobalhack #empowerment'
 description: >-
@@ -11,6 +8,9 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/inequality.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="e67898f49a521a080b99bdb65c05f2ae80f7f04b"
@@ -19,6 +19,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
+ctaDescription: Register your team and idea on Devpost
+ctaText: Register Now
+ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
 
 ## Why Empowerment?

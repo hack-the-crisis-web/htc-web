@@ -42,3 +42,42 @@
   max-height: 80%;
   object-fit: contain;
 }
+
+.mentorList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mentorListTitle {
+  color: $primary;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.mentorData {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+  margin: 15px 15px;
+  min-width: 300px;
+}
+
+.mentorImage {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.mentorName {
+  font-size: 20px;
+  color: $text;
+  text-transform: capitalize;
+}
+
+.mentorRole {
+  font-size: 15px;
+}

@@ -16,6 +16,7 @@ import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
+import MentorNameList from '../components/People/MentorNameList'
 
 export const TrackTemplate = ({
   title,
@@ -48,7 +49,6 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
-    {console.log(mentorsList)}
     {content && <HTMLContentSection content={content} />}
     <ChallengesSection
       challengesTitle={challengesTitle}
@@ -75,6 +75,7 @@ export const TrackTemplate = ({
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
     <TrackOrganisers trackTitle={title} title={'Track organisers'} />
+    <MentorNameList tracklistTitle={title} mentors={mentorsList} />
     <Sponsors
       trackTitle={title}
       title={'Sponsors'}

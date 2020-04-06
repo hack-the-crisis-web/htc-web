@@ -70,6 +70,25 @@ challenges:
       afloat, adjust business models, continue their businesses, collaborate
       effectively, manage value chain disruptions, and facilitate the transition
       towards online.
+  - title: >-
+      Conflict Resolution during Times of Crises: Practicing Restorative Justice
+      Online
+    logo: /img/ee.jpg
+    logoTitle: by Estonian Social Insurance Board
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/65P97fcZhQaL4tCWX/main
+    description: >-
+      Due to the spread of COVID-19 and the need to abstain from physical
+      contact, we among many countries have been forced to shut down victim
+      offender mediation and other restorative justice services.It is troubling
+      to see rise as well as transformation of conflicts in communities,
+      families and among juveniles while being unable to provide mediation
+      services due to the isolation requirements. The solution we are looking
+      for, should enable us to create a safe and functioning online environment
+      that is easy to access, enables identification, does not require
+      high-level IT skills and provides protection of personal data and online
+      security.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

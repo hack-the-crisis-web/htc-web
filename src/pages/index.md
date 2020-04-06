@@ -75,11 +75,11 @@ contentItems:
       future pandemics, and all crises for that matter, more effectively. 
 
 
-      Participants of the hack have a chance to get 100k+  to make their amazing
-      ideas to come true. 
-    image: /img/reward-post.png
-    ctaText: Get on Slack >
-    ctaLink: 'http://theglobalhack.com/slack'
+      We're giving away 120 000€ (and growing) to make your amazing ideas to
+      come true.
+    image: /img/globalhack-reward-web.png
+    ctaText: Register Team & Idea >
+    ctaLink: 'https://theglobalhack.devpost.com/'
 howItWorksItems:
   - title: Share Ideas
     textContent: >-

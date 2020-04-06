@@ -43,9 +43,9 @@ howItWorksDescription: >-
 
   The Global Hack has already drawn attention across the globe - covered by
   Forbes, Silicon Republic, CNN among others - and brought on board a fleet of
-  world-class mentors, such as Silicon Valley’s tech superstar Steve Jurvetson,
-  former President of Estonia Toomas Hendrik Ilves and Khaliya -  public health
-  specialist and a neuro-technologist.
+  world-class mentors, such as Sam Altman, CEO of OpenAI, former President of
+  Estonia Toomas Hendrik Ilves and Khaliya -  public health specialist and a
+  neuro-technologist.
 tracklistDescription: >-
   The tracks are inspired by the UN sustainability goals that cover the majority
   of our future challenges. These are the areas most likely to see the biggest

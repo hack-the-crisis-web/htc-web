@@ -32,21 +32,8 @@ By participating in the Event, you agree to abide by this Agreement that is a bi
       4. You will not post or submit solicitations of business or advertisements;
       5. You will not submit contain that contains viruses, malware or any other disabling or malicious code; and
       6. You will not attempt, create, or use any unauthorized access to our network or other platform or storage systems used during the Event.
-   3. **Code of Conduct**. You shall fully adhere to the code of conduct of the Event (“**Code of Conduct**”). You confirm you have reviewed the Code of Conduct, understands and accepts it and shall not violate any terms thereof.\
-      \
-      **THE GLOBAL HACKATHON**
-
-      **Code of Conduct**
-
-      We want the global hackathon to be a safe and welcoming event. Our team is dedicated to providing a harassment-free experience for everyone. We want the same commitment from our participants.
-
-      We welcome and include anyone who wants to participate. We expect members and participants to follow these rules. If you ever have any questions about this code, email us @ [hello@theglobalhack.com](mailto:hello@theglobalhack.com). 
-
-      1. **Treat others as you would like them treating you**. Harassment is not tolerated. This goes for all kinds of harassment be it related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Sponsors and partners are also subject to the anti-harassment policy. If you notice behavior in contradiction with this, please do report it to us. All reporters have the right to remain anonymous.
-      2. **Act like a professional.**This goes for all communications, all ideas, all challenges, all submissions.Be a part of conversations, offer your perspective, respect the other people participating and contribute to a positive, inclusive environment. Any off-topic discussions should be held outside the dedicated platforms.
-      3. **No spam, advertising or unnecessary self-promoting.**Sharing services with team members that could benefit the development of your idea members’ needs is fine. Direct selling or unnecessary advertising is not tolerated.
-   4. **Privacy Policies**. You confirm that you have reviewed our privacy policy (available at <https://theglobalhack.com/privacy-policy>) and by entering into this Agreement accepts the terms thereof.
-   5. **Terms of Service of Used Platforms**. The Global Hack Event is organized using multiple third-party platforms and service providers. Each of those shall offer their services at their own terms and conditions. We shall not be liable for their performance. Please study their terms prior to use.
+   3. **Privacy Policies**. You confirm that you have reviewed our privacy policy (available at <https://theglobalhack.com/privacy-policy>) and by entering into this Agreement accepts the terms thereof.
+   4. **Terms of Service of Used Platforms**. The Global Hack Event is organized using multiple third-party platforms and service providers. Each of those shall offer their services at their own terms and conditions. We shall not be liable for their performance. Please study their terms prior to use.
 5. **IP and non-disclosure**
 6. 1. **Ownership of Platform and of the Event**. You acknowledge that all rights to the platform where the Event is organized, including any associated written materials and other documentation provided under this Agreement, belongs exclusively to TheGlobal Hack Team or its third-party suppliers.
    2. **Ownership of Creations**. You own the rights to their projects you create during the Event. We do note that your employer or other third may have certain rights to your creations. As we are not a party to these commitments we are unable to affect the application and consequences thereof.

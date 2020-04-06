@@ -35,7 +35,7 @@ challenges:
       solution an app that measures movement and distance between people.
   - title: Managing post-crisis medical appointment waiting lists
     logo: /img/ee.jpg
-    logoTitle: 'Public Sector Innovatsion Team, Estonia'
+    logoTitle: 'by Public Sector Innovatsion Team, Estonia'
     linkTitle: Full Brief >
     linkUrl: >-
       https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/JGBLHXKgcGMTvXcDZ/main
@@ -53,6 +53,20 @@ challenges:
       the appointments where there is no longer a necessity to see the doctor;
       make best use of doctors’ time; keep people in the loop of what is
       happening?
+  - title: Understanding medication need to enable effective supply chain
+    logo: /img/ca.jpg
+    logoTitle: 'by '
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/ETzYdzhpWZHF5Ssty/main
+    description: >-
+      There are people who are vulnerable to pandemics - the immuno compromised
+      folks with heart disease, diabetes, etc. How can we identify the medical
+      needs by geography to effectively manage our supply chains during a
+      crisis?A form like registry website that allows people to register
+      themselves during a crisis - data columns - name or nick name, email
+      address, postal code, medical condition, top 3 drugs/ medications needed
+      to sustain good health
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

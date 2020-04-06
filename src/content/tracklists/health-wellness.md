@@ -55,7 +55,7 @@ challenges:
       happening?
   - title: Understanding medication need to enable effective supply chain
     logo: /img/ca.jpg
-    logoTitle: by Canada
+    logoTitle: by Canadian Government
     linkTitle: Full Brief >
     linkUrl: >-
       https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/ETzYdzhpWZHF5Ssty/main

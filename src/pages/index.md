@@ -38,7 +38,7 @@ howItWorksDescription: >-
   as to build resilience post-pandemic.
 
 
-  Our prize pool for the best ideas is 100k euros. 
+  Our prize pool for the best ideas is 120k euros. 
 
 
   The Global Hack has already drawn attention across the globe - covered by

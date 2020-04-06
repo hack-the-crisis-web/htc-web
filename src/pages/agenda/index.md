@@ -70,7 +70,7 @@ Americas 10:00 UTC-5
 
 13:00 UTC Hackathon finishes
 
-* Submission of final results
+* Final results have to be submitted by 13:00
 * Mentors start evaluating submissions
 
 ### **12.04 Sunday**

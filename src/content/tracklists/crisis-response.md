@@ -20,6 +20,24 @@ challenges:
       Across all those challenges, the Commission will foster the use of space
       data and services (Copernicus images, Galileo positioning), which can be a
       key enabler for many of the challenges.
+  - title: Trust-id-id vs. Cov-id
+    logo: /img/eu.jpg
+    logoTitle: by European Commission
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/n6rEatJDiERYzPzku/main
+    description: >-
+      A system for sharing, in a secure and convenient way, trustworthy
+      information about you relevant for the management of Covid-19 crisis. This
+      trustworthy information would be digitally stored as credentials /
+      attestations issued to you by the authorities responsible for accrediting
+      its validity and veracity. For example, this system would serve to prove
+      to your HR department that you have gone through the disease and cannot
+      infect other people, and therefore you can be sent back to work, by means
+      of an attestation given to you by your hospital, or to justify in front of
+      a policeman that you have not respected the confinement because you are
+      part of the essential workforce, by means of an attestation given to you
+      by your company.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

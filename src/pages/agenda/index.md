@@ -3,7 +3,7 @@ templateKey: agenda-page
 path: /agenda
 title: Full Agenda
 ---
-##### **01.04 Wednesday**
+### **01.04 Wednesday**
 
 Ideation in [Slack](https://theglobalhack.com/slack)
 
@@ -14,9 +14,10 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 * Team leader registers idea and team of at-least 4
 * Be sure to include team leader's contact details, country and timezone for scheduling checkpoints
 
-#### **09.04 Thursday**
+### **09.04 Thursday**
 
-12:00 UTC Registration closes\
+##### 12:00 UTC Registration closes
+
 13:00 UTC Announcing accepted teams (via Slack)
 
 * Once approved teams can start hacking whenever they want
@@ -31,9 +32,9 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 
 14:15 UTC Start hacking!
 
-**10.04 Friday**
+### **10.04 Friday**
 
-**Checkpoint 1**
+##### **Checkpoint 1**
 
 Asia/Australia 10:00 UTC+7\
 Europe, Mdl-East & Africa 10:00 CET\
@@ -43,7 +44,7 @@ Americas 10:00 UTC-5
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
 * If Zoom is unavailable you may use any link-based video conferencing service that doesn’t need downloading (like Jitsi, Hangouts, Skype etc)
 
-**Checkpoint 2**
+##### **Checkpoint 2**
 
 Asia/Australia 17:00 UTC+7\
 Europe, Mdl-East, Africa 17:00 CET\
@@ -51,14 +52,14 @@ Americas 17:00 UTC-5
 
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
 
-**11.04 Saturday**
+### **11.04 Saturday**
 
-07:00 - 13:00 UTC Prototype submission
+##### 07:00 - 13:00 UTC Prototype submission
 
 * Teams submit answers to short questionnaire
 * Upload videos to a dedicated video platform ([youtube](youtube.com), [vimeo](vimeo.com) etc) and share link in submission on [Guaana](guaana.com) (links TBA via Slack)
 
-**Checkpoint 3**
+##### **Checkpoint 3**
 
 Asia/Australia 10:00 UTC+7\
 Europe, Mdl-East & Africa 10:00 CET\
@@ -72,7 +73,7 @@ Americas 10:00 UTC-5
 * Submission of final results
 * Mentors start evaluating submissions
 
-**12.04 Sunday**
+### **12.04 Sunday**
 
 08:00 UTC Track Closing ceremonies (happening in parallel via Zoom)
 
@@ -86,6 +87,6 @@ Americas 10:00 UTC-5
 * Announce winner by audience votes
 * Announce overall winner by Grand Jury (TBA)
 
-**13.04 Monday**
+### **13.04 Monday**
 
 Sleep

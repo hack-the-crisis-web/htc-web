@@ -55,29 +55,29 @@ trackleadsDescription: >-
   the world tackle this crisis.
 timelineDescription: ' '
 contentItems:
-  - title: Backstory
+  - title: Stronger Together
     textContent: >
       The Global Hack is a global initiative which unites the Hack the Crisis
       movement and the 40+ hackathons organized in the frames of this movement.
-      The core initiative comes from the team who organized the very first
-      hackathon just in 6 hours on 13-15 of March in Estonia and are passionate
-      about solving the huge ongoing crisis that concerns everyone at the moment
-      (the people are from Garage48, Accelerate Estonia, Guaana). BUT this is
-      truly a global effort and movement involving communities and organizers
-      from all over the world.
+      This is truly a global effort and movement involving communities and
+      organizers from all over the world.
+
+      We have partnered with UN, New America, World Food and more to support the
+      message of finding solutions. 
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png
-  - title: Far from over
+  - title: The Goal
     textContent: >-
-      How will we deal with the changed relationships in the economy, the future
-      of work, healthcare and a world transformed, perhaps, beyond recognition? 
+      How will we deal with the changing relationships in the economy, the
+      future of work, healthcare and a world transformed, perhaps, beyond
+      recognition?  We need to come up with solutions that will help us fight
+      future pandemics, and all crises for that matter, more effectively. 
 
 
-      We need to come up with solutions that will help us fight future
-      pandemics, and all crises for that matter, more effectively. So we never
-      have to lock down again.
-    image: /img/oportunity_globe.png
+      Participants of the hack have a chance to get 100k+  to make their amazing
+      ideas to come true. 
+    image: /img/reward-post.png
     ctaText: Get on Slack >
     ctaLink: 'http://theglobalhack.com/slack'
 howItWorksItems:

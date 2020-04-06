@@ -8,6 +8,6 @@ role: Futurist in Chief @Dubai Future Foundation
 photo: /img/dr._noah_raford_governance.png
 about: ''
 linkedin: 'https://www.linkedin.com/in/dr-noah-raford-4a0a681/?originalSubdomain=ae'
-label: mentor
+label: track-lead
 tracklist: Governance
 ---

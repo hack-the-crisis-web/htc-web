@@ -33,6 +33,26 @@ challenges:
       important to make sure that people don´t get closer than 2 meters. On the
       other hand being indoor 24/7 is not good for health also. Possible
       solution an app that measures movement and distance between people.
+  - title: Managing post-crisis medical appointment waiting lists
+    logo: /img/ee.jpg
+    logoTitle: 'Public Sector Innovatsion Team, Estonia'
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/JGBLHXKgcGMTvXcDZ/main
+    description: >-
+      Many medical appointments and surgeries (that do not require immediate
+      attention) are being postponed due to Covid-19 and new appointments are
+      made only when there is utmost necessity. Some appointments are conducted
+      over telephone or video-calls, but many of them are being postponed to an
+      unknown future.\
+
+      How to reorganize the appointments so that people can get the help they
+      need on time and have timely information about what to expect; How could
+      we: reorganise the appointments; in what order should the appointments
+      take place; assess the criticality of the appointments; cancel/postpone
+      the appointments where there is no longer a necessity to see the doctor;
+      make best use of doctors’ time; keep people in the loop of what is
+      happening?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

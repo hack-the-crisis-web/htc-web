@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import mentors from '../../mentors.json'
-
 import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
@@ -37,6 +35,7 @@ export const TrackTemplate = ({
   ctaDescription,
   ctaText,
   ctaUrl,
+  mentorsList,
 }) => (
   <>
     <TrackHeroSection
@@ -49,7 +48,7 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
-    {console.log(mentors)}
+    {console.log(mentorsList)}
     {content && <HTMLContentSection content={content} />}
     <ChallengesSection
       challengesTitle={challengesTitle}
@@ -91,9 +90,10 @@ TrackTemplate.propTypes = {
   contentItems: PropTypes.arrayOf(PropTypes.shape(contentBlockPropTypes)),
 }
 
-const TrackPage = ({ data }) => {
+const TrackPage = ({ data, pageContext }) => {
   const { frontmatter = {}, html } = data.markdownRemark
   const { mentor = {} } = data
+  const mentorsList = pageContext.mentors
 
   return (
     <Layout title={frontmatter.title}>
@@ -115,6 +115,7 @@ const TrackPage = ({ data }) => {
         ctaDescription={frontmatter.ctaDescription}
         ctaText={frontmatter.ctaText}
         ctaUrl={frontmatter.ctaUrl}
+        mentorsList={mentorsList}
       />
     </Layout>
   )

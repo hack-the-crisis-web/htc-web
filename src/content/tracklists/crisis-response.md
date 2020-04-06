@@ -38,6 +38,31 @@ challenges:
       a policeman that you have not respected the confinement because you are
       part of the essential workforce, by means of an attestation given to you
       by your company.
+  - title: >-
+      PanEquity – Data and Digital Innovation for Equitable and Timely Policy
+      Responses to COVID-19
+    logo: /img/unesco.png
+    logoTitle: by UNESCO MOST
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/XjvfnBemSfszpkde6/main
+    description: >-
+      In the COVID-19 crisis the most marginalized are not only more affected by
+      the disease but are also more affected – socially and economically - by
+      our (governance) responses to the pandemic. Call it the double injustice
+      of COVID-19. 
+
+
+      Questions for the public sector in this context are i.a., how can we
+      factor such inequalities into our responses and how can we increase the
+      transparency of our responses in terms of their equity and distributional
+      effects?
+
+
+      We hope that through our GlobalHack challenge, we will find partners,
+      innovative solutions and resources for the creation of new platforms and
+      citizens engagement tools that will help feeding real-time data about
+      equity dimensions of policy responses to the COVID-19 crisis.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

@@ -49,7 +49,7 @@ challenges:
       challenge here:
   - title: Preventing a dramatic drop in youth employment rates after COVID-19
     logo: /img/ee.jpg
-    logoTitle: by Estonianian Social Insurance Board
+    logoTitle: by Estonian Social Insurance Board
     linkTitle: ''
     linkUrl: ''
     description: >-
@@ -62,7 +62,7 @@ challenges:
       problems/shortcomings.
   - title: Economic impact & support to SMEs and startups
     logo: /img/eu.jpg
-    logoTitle: by The European Commisision
+    logoTitle: by The European Commission
     linkTitle: ''
     linkUrl: ''
     description: >-

@@ -78,14 +78,14 @@ Americas 10:00 UTC-5
 08:00 UTC Track Closing ceremonies (happening in parallel via Zoom)
 
 * Top 15 per track announced
-* Video presentations from Top 15 teams
-* Top 3 announced going to overall finals
+* Video presentations from Top 180 teams
+* Top 3 per track announced, going to overall finals
 
 13:00 UTC The Global Hack finals and Closing Ceremony (via Zoom)
 
-* Announce winner for each track
-* Announce winner by audience votes
-* Announce overall winner by Grand Jury (TBA)
+* Winners for each track announced
+* Winner by audience announced
+* Overall winner announced by Grand Jury (TBA)
 
 ### **13.04 Monday**
 

@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import '../components/all.sass'
+import mentors from '../../mentors.json'
+
 import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
@@ -17,7 +18,6 @@ import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
-import mentors from '../../mentors.json'
 
 export const TrackTemplate = ({
   title,

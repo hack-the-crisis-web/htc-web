@@ -20,6 +20,25 @@ challenges:
       In the education field, what is the best way to help schools, teachers and
       pupils to continue their studies, and benefit from the latest EdTech
       innovations.
+  - title: Tools for Making Learning Visible
+    logo: /img/lv.jpg
+    logoTitle: 'by National Centre for Education, Latvia'
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/KRokbc762os8G2W85/main
+    description: >-
+      Starting next school year, Latvian schools will be implementing a newly
+      developed curriculum, emphasizing meaningful learning, lifelong learning
+      skills. This means greater emphasis on clear learning goals for students,
+      timely and developmental feedback, self-monitoring and reflection on what
+      is being learned and what must be improved. Latvian schools - pupils and
+      teachers - need a set of integrated tools, where teachers can monitor
+      student progress against clear learning goals, students can follow their
+      own growth and submit evidence of learning, students of different ages and
+      stages can create portfolios of their work, reflect on it, select their
+      best pieces, choose to make them visible to peers and teachers for
+      feedback, in other words - simple, straightforward tools that help make
+      learning visible to everyone involved.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"

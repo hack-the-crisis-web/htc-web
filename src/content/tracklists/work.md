@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Work
 hashtag: '#theglobalhack #work'
 description: >-
@@ -11,6 +8,9 @@ description: >-
 keyMentor: 4a27c2fe-2136-4fc3-ab03-90c6c549ec1b
 featuredimage: /img/globalhack_kasparov.png
 trackLogo: /img/work.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0755063761f18fda9b08c17144c62379e96ad7fc"
@@ -19,6 +19,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
+ctaDescription: Register your team and idea on Devpost
+ctaText: Register Now
+ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
 
 ## Why Work?

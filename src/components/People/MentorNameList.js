@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Section from '../Section/Section'
-import avatar from '../../img/placeholders/avatar.png'
 
 import styles from './PersonCard.module.scss'
 
 const MentorNameList = ({ tracklistTitle, mentors }) => {
+  if (mentors.length === 0) return null
+
   return (
     <Section>
       <p className={styles.mentorListTitle}>We have planty more fish.</p>
@@ -16,11 +17,8 @@ const MentorNameList = ({ tracklistTitle, mentors }) => {
           mentor[4] !== '' &&
           mentor[4] === tracklistTitle ? (
             <li className={styles.mentorData} key={index}>
-              <img src={avatar} className={styles.mentorImage} alt="avatar" />
-              <div>
-                <p className={styles.mentorName}>{mentor[1].toLowerCase()}</p>
-                <p className={styles.mentorRole}>{mentor[3]}</p>
-              </div>
+              <p className={styles.mentorName}>{mentor[1].toLowerCase()}</p>
+              <p className={styles.mentorRole}>{mentor[3]}</p>
             </li>
           ) : null
         )}

@@ -2,7 +2,12 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
-const mentors = require('./mentors.json')
+let mentors
+try {
+  mentors = require('./mentors.json')
+} catch {
+  mentors = []
+}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions

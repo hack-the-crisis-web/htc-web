@@ -19,9 +19,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: ''
-ctaText: ''
-ctaUrl: ''
+ctaDescription: Registration is now open!
+ctaText: Register your team and idea on Devpost
+ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
 
 ## **Why Arts & Creativity?**

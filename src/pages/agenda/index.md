@@ -25,7 +25,7 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 
 13:00 UTC Grand Opening Ceremony Broadcast (via [Zoom](https://zoom.us/))
 
-13:30 UTC Parallel Opening Ceremonies for all Tracks (via Zoom)
+13:30 UTC Opening Ceremonies for all Tracks (happening in parallel via Zoom)
 
 * Track leads introduced
 * Overview of agenda, mentors, rules and guidelines

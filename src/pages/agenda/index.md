@@ -24,6 +24,9 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 
 13:30 UTC Parallel Opening Ceremonies for all Tracks (via Zoom)
 
+* Track leads introduced
+* Overview of agenda, mentors, rules and guidelines
+
 14:15 UTC Start hacking!
 
 **10.04 Friday**
@@ -48,6 +51,11 @@ Americas 17:00 UTC-5
 
 **11.04 Saturday**
 
+07:00 - 13:00 UTC Prototype submission
+
+* Teams submit answers to short questionnaire
+* Upload videos to a dedicated video platform ([youtube](youtube.com), [vimeo](vimeo.com) etc) and share link in submission on [Guaana](guaana.com) (links TBA via Slack)
+
 **Checkpoint 3**
 
 Asia/Australia 10:00 UTC+7\
@@ -64,7 +72,7 @@ Americas 10:00 UTC-5
 
 **12.04 Sunday**
 
-08:00 UTC Track Closing ceremonies (in parallel via Zoom)
+08:00 UTC Track Closing ceremonies (happening in parallel via Zoom)
 
 * Top 15 per track announced
 * Video presentations from Top 15 teams
@@ -72,5 +80,10 @@ Americas 10:00 UTC-5
 
 13:00 UTC The Global Hack finals and Closing Ceremony (via Zoom)
 
-* Grand Jury decides and reveals overall winner
-* Awards
+* Announce winner for each track
+* Announce winner by audience votes
+* Announce overall winner by Grand Jury (TBA)
+
+**13.04 Monday**
+
+Sleep

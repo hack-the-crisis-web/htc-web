@@ -23,7 +23,7 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 * Once approved teams can start hacking whenever they want
 * Team leads create private channels for their teams in our Slack workspace
 
-13:00 UTC Grand Opening Ceremony Broadcast (via Zoom)
+13:00 UTC Grand Opening Ceremony Broadcast (via [Zoom](https://zoom.us/))
 
 13:30 UTC Parallel Opening Ceremonies for all Tracks (via Zoom)
 
@@ -42,7 +42,7 @@ Americas 10:00 UTC-5
 
 * Note, if the team arrives later than the first checkpoint on Friday they will not run for prizes and be part on the finals. This is why it's crucial to be on Slack as well as let us know your timezone
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
-* If Zoom is unavailable you may use any link-based video conferencing service that doesn’t need downloading (like Jitsi, Hangouts, Skype etc)
+* If Zoom is unavailable you may use any link-based video conferencing service that doesn’t need downloading (like [Jitsi](https://meet.jit.si/), [Hangouts](https://hangouts.google.com/webchat/start), [Skype](https://www.skype.com/en/) etc)
 
 ##### **Checkpoint 2**
 
@@ -57,7 +57,7 @@ Americas 17:00 UTC-5
 ##### 07:00 - 13:00 UTC Prototype submission
 
 * Teams submit answers to short questionnaire
-* Upload videos to a dedicated video platform ([youtube](youtube.com), [vimeo](vimeo.com) etc) and share link in submission on [Guaana](guaana.com) (links TBA via Slack)
+* Upload videos to a dedicated video platform ([Youtube](https://youtube.com), [Vimeo](https://vimeo.com) etc) and share link in submission on [Guaana](https://guaana.com) (links TBA via Slack)
 
 ##### **Checkpoint 3**
 

@@ -16,9 +16,7 @@ const sponsorQuery = graphql`
           frontmatter {
             name
             link
-            image {
-              publicURL
-            }
+            image
             sponsoredTrack
           }
         }

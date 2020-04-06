@@ -1,8 +1,5 @@
 ---
 templateKey: tracklists
-challengesTitle: ''
-challengesDescription: ''
-challenges: []
 title: Media & Entertainment
 hashtag: '#theglobalhack #media'
 description: >-
@@ -11,6 +8,9 @@ description: >-
 keyMentor: ''
 featuredimage: ''
 trackLogo: /img/content.jpg
+challengesTitle: ''
+challengesDescription: ''
+challenges: []
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"
@@ -19,6 +19,9 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
+ctaDescription: Register your team and idea on Devpost
+ctaText: Register Now
+ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
 
 ## **Why Media & Entertainment?**

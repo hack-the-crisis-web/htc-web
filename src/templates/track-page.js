@@ -17,6 +17,7 @@ import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
+import mentors from '../../mentors.json'
 
 export const TrackTemplate = ({
   title,
@@ -48,6 +49,7 @@ export const TrackTemplate = ({
       featuredImage={featuredImage}
       trackLogo={trackLogo}
     />
+    {console.log(mentors)}
     {content && <HTMLContentSection content={content} />}
     <ChallengesSection
       challengesTitle={challengesTitle}

@@ -8,6 +8,6 @@ role: Founder/DESIRE Health Inclusive Organization
 photo: /img/i28_adejoke_ogungbire-health_and_wellness-removebg-preview.png
 about: ''
 linkedin: 'https://www.linkedin.com/in/adejokeogungbire/'
-label: track-lead
+label: mentor
 tracklist: Health & Wellness
 ---

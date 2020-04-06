@@ -11,7 +11,30 @@ featuredimage: /img/globalhack_thi_1_.png
 trackLogo: /img/goverment.jpg
 challengesTitle: ''
 challengesDescription: ''
-challenges: []
+challenges:
+  - title: '#GloCha challenge'
+    logo: ''
+    logoTitle: by GloCha Global Challenges Foundation New York Inc
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/idk6a3tiMLncmQK6R/main
+    description: >-
+      In the current corona-crisis many societal stakeholders like citizens,
+      local communities, schools, universities, companies, civil society
+      organizations etc. recognise that they have valuable resources to
+      contribute to an effective, equitable and sustainable response to the
+      crisis.\
+
+      \
+
+      But there is a lack of coordination and innovation capacity among existing
+      public institutions on local, national and international level – the
+      natural leaders for public good delivery collaboration.\
+
+      \
+
+      This local and global multistakeholder engagement gap is the focus of the
+      present #GloCha challenge – a global public sector innovation initiative.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="129f5f3526eff770a8a6b5d947289ba064f45c00"

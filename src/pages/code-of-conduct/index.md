@@ -3,7 +3,6 @@ templateKey: code-of-conduct-page
 path: /code-of-conduct
 title: Code of Conduct
 ---
-
 We want the global hackathon to be a safe and welcoming event. Our team is dedicated to providing a harassment-free experience for everyone. We want the same commitment from our participants.
 
 We welcome and include anyone who wants to participate. We expect members and participants to follow these rules. If you ever have any questions about this code, email us @ [hello@theglobalhack.com](mailto:hello@theglobalhack.com).

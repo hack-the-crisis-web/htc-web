@@ -1,3 +1,5 @@
+var proxy = require('http-proxy-middleware')
+
 module.exports = {
   siteMetadata: {
     title: 'The Global Hack',
@@ -6,6 +8,17 @@ module.exports = {
     url: 'https://theglobalhack.com',
     titleTemplate: '%s | The Global Hack',
     twitterUsername: '@theglobalhack',
+  },
+  developMiddleware: app => {
+    app.use(
+      '/.netlify/functions/',
+      proxy.createProxyMiddleware({
+        target: 'http://localhost:9000',
+        pathRewrite: {
+          '/.netlify/functions/': '',
+        },
+      })
+    )
   },
   plugins: [
     {

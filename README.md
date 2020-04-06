@@ -41,6 +41,7 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 ### Access Locally
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
+
 ```
 $ git clone https://github.com/[GITHUB_USERNAME]/[REPO_NAME].git
 $ cd [REPO_NAME]
@@ -82,13 +83,17 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview)
 
 Note: Don't forget to also remove them from `package.json` and `yarn.lock` / `package-lock.json` using `yarn` or `npm`. During the build netlify-cms-app will bundle the media libraries as well, having them removed will save you build time.
 Example:
+
 ```
 yarn remove netlify-cms-media-library-uploadcare
 ```
+
 OR
+
 ```
 yarn remove netlify-cms-media-library-cloudinary
 ```
+
 ## Getting Started (Without Netlify)
 
 ```
@@ -119,6 +124,12 @@ MacOS users might also encounter some errors, for more info check [node-gyp](htt
 ## Purgecss
 
 This plugin uses [gatsby-plugin-purgecss](https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/) and [bulma](https://bulma.io/). The bulma builds are usually ~170K but reduced 90% by purgecss.
+
+## Lambda
+
+Usage locally: `npm run build:lambda && npm run start:lambda` for each lambda function change. Access lambdas at `localhost:9000/hello` etc.
+
+Netlify should get the lambda dependencies automatically, so don't push changes to the `netlify.toml` file, these are for local dev only.
 
 # CONTRIBUTING
 

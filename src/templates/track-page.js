@@ -16,6 +16,7 @@ import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
+import MentorNameList from '../components/People/MentorNameList'
 
 export const TrackTemplate = ({
   title,
@@ -70,6 +71,7 @@ export const TrackTemplate = ({
       title={'Sponsors'}
       buttonText={'Become a track sponsor'}
     />
+    <MentorNameList tracklistTitle={title} />
   </>
 )
 

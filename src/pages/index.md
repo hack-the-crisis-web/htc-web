@@ -27,6 +27,10 @@ timeline:
     isActive: false
     image: /img/end.jpg
     date: '2020-04-11'
+  - title: Evaluation on Guaana
+    isActive: false
+    image: /img/evaluation.jpg
+    date: '2020-04-11'
   - title: Demos & Awards
     isActive: false
     image: /img/winner.jpg

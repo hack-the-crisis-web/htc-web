@@ -39,6 +39,25 @@ challenges:
       best pieces, choose to make them visible to peers and teachers for
       feedback, in other words - simple, straightforward tools that help make
       learning visible to everyone involved.
+  - title: Tools to support home-schooling
+    logo: /img/pipedrive.png
+    logoTitle: Challenge by Pipedrive
+    linkTitle: Learn more about Pipedrive
+    linkUrl: 'https://www.pipedrive.com/et'
+    description: >-
+      Shutting down schools has caused an enormous burden on teachers, students,
+      and schools, as well as parents who have to find means to support
+      home-schooling. Parents with full-time jobs need to find solutions to stay
+      professional and focus on their job, while at the same time supporting and
+      explaining homework for their children. Teachers don’t have a unified
+      system to which they can all be easily on-boarded, many of them using Zoom
+      or other video tools for the first time in their lives. Students struggle
+      with lack of explanations and unified platforms to submit all their
+      homework in one place. There are families who lack the technology or
+      equipment to support all their children at once, and there is no risk-free
+      environment to manage the supply for the demand. Let’s join forces to
+      develop tools for teachers and students that are effective and easy to use
+      during this new normal.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"

@@ -1,0 +1,4 @@
+[submodule "htc-blog"]
+	path = htc-blog
+	url = https://github.com/hack-the-crisis-web-blog/htc-blog.git
+	branch = master

@@ -4,13 +4,14 @@ import classnames from 'classnames'
 import styles from './CustomLink.module.scss'
 import checkIfInternalLink from '../checkIfInternalLink'
 
-const CustomLink = ({ children, to, light, className }) => {
+const CustomLink = ({ children, to, light, className, reversed }) => {
   const isInternal = checkIfInternalLink(to)
 
   const linkContent = (
     <>
+      {reversed && <span className={styles.arrow}>&lt;</span>}
       <span className={styles.text}>{children}</span>
-      <span className={styles.arrow}>&gt;</span>
+      {!reversed && <span className={styles.arrow}>&gt;</span>}
     </>
   )
 
@@ -18,6 +19,7 @@ const CustomLink = ({ children, to, light, className }) => {
     styles.customLink,
     {
       [styles['light']]: light,
+      [styles.reversed]: reversed,
     },
     className
   )

@@ -24,6 +24,39 @@ challenges:
       up all the cigarette butts from nature after COVID-19 as there is a threat
       that butts are infected with virus. How we avoid cigarette butts to end up
       in nature?
+  - title: Re-organise our activities to benefit the environment
+    logo: /img/logo-wcd-2020-black-large_-_anneli_ohvril_1_.png
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      The current crisis offers us a great opportunity to re-think our social
+      and economic systems.\
+
+      Coronavirus comes together with deep economic crisis. As governments,
+      businesses and people are focused on crises and how to deal with its
+      consequences, the environmental topic is most probably the subject to
+      postpone. This can lead us even to greater economic crises that comes from
+      climate change that is speeding up due to pressure to economic growth.
+      Failure in climate change mitigation could lead to greater human life and
+      economic losses.\
+
+      How we can use the model how we fight with coronavirus to tackle the
+      environmental challenges? The world needs to demonstrate the same unity
+      and commitment to climate action and cutting greenhouse gas emissions as
+      to containing the Coronavirus pandemic.\
+
+      The Covid-19 pandemic has unleashed humanity’s instinct to transform
+      itself in the face of a universal threat and it can help us do the same to
+      create a livable planet for future generations.\
+
+      On an individual level how we can re-organise our activities to benefit
+      the environment? How the governments can use the economic stimulus
+      packages as a tool to catalyze the transformation to restorative and
+      sustainable society?\
+
+      How to help businesses quikly find a circular economy models as the way to
+      restore their businesses.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="238623d492d2f03d78c8bbf62e92c02a185227b0"

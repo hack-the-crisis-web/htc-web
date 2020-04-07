@@ -5,7 +5,7 @@ identifier: Stephanie Hannon-esileht
 name: 'Stephanie '
 surname: Hannon
 role: Core team US Digital Response
-photo: /img/globalhack_hannon.png
+photo: /img/globalhack_hannon-alt.png
 about: ''
 linkedin: ''
 label: track-lead

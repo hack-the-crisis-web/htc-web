@@ -8,6 +8,6 @@ role: Activator
 photo: /img/globalhack_mei-alt.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Health & Wellness
 ---

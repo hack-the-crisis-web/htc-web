@@ -23,11 +23,12 @@ ctaDescription: Register your team and idea on Devpost
 ctaText: Register Now
 ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
-
 ## **Why Arts & Creativity?**
 
-**It’s difficult to value art and creativity in the best of times, but especially alongside an issue that involves loss of life, the most valuable thing of all. But art in its many different forms from music to comedy, is essential for helping us find meaning, beauty and comfort in this world.**
+Arts in its many different forms from music to theatre and from films to video-gaming and comedy is essential for helping us find purpose, beauty and comfort in life. Arts & creativity do not just enlighten and entertain us but help us process life around us. Looking deeper, we find that arts and creativity also form the pillars of our economy and competitive edge.
 
-**This crisis poses serious new challenges to creatives as less people are able to visit their work and funding from both public and private sources will be strained for the foreseeable future. The world needs art now more than ever though so how do we solve this?**
+As concert halls, theatres, museums and libraries around the world go dark and thousands of gigs, festivals, exhibitions, conferences, galas and sports games have been cancelled or postponed, we need to ensure that we will have this vibrant cultural life to go back to. It’s not a luxury but a public good that also keeps cities and communities alive, draws tourists and business and provides a playfield for self-expression and innovation.
+
+No one knows when life returns to normal for the creators, companies and organisations in the sector, furthermore, it’s hard to tell what the “new normal” will be. For the time being, the activities, income streams and funding have been strained. It is time to upgrade the sector’s capacity to innovate - not only by temporary solutions to overcome a few months but by strengthening the groundwork and rebuilding business models for a more sustainable future.
 
 [Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

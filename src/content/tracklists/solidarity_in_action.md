@@ -26,7 +26,7 @@ challenges:
       basic goods and food across EU borders.
   - title: 'Connect and inspire change-makers for action, now and beyond the crisis'
     logo: /img/sdg_action.png
-    logoTitle: ''
+    logoTitle: BY SDG Action Campaign
     linkTitle: ''
     linkUrl: ''
     description: >-

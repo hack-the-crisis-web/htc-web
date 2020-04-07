@@ -1,17 +1,23 @@
-import React from "react";
-import classnames from "classnames";
-import { Link } from "gatsby";
-import Button from "../Button/Button";
-import styles from "./BlogPostCard.module.scss";
+import React from 'react'
+import classnames from 'classnames'
+import { Link } from 'gatsby'
+import Button from '../Button/Button'
+import styles from './BlogPostCard.module.scss'
 
-const BlogPostCard = ({ link, image, title, alt, date, intro }) => (
-  <Link className={classnames(styles.card, "hover-effect")} to={link}>
+const BlogPostCard = ({ link, image, title, date, intro }) => (
+  <Link className={classnames(styles.card, 'hover-effect')} to={link}>
     {image && (
       <div
         className={styles.image}
         style={
-          image.publicURL
-            ? { backgroundImage: `url('${image.publicURL}')` }
+          image
+            ? {
+                // very ugly, i know, but need it for now
+                backgroundImage: `url('${image.replace(
+                  '../../../static/',
+                  '/'
+                )}')`,
+              }
             : {}
         }
       />
@@ -23,6 +29,6 @@ const BlogPostCard = ({ link, image, title, alt, date, intro }) => (
       <Button>Read more</Button>
     </div>
   </Link>
-);
+)
 
-export default BlogPostCard;
+export default BlogPostCard

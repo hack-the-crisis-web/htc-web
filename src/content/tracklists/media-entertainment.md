@@ -10,7 +10,36 @@ featuredimage: ''
 trackLogo: /img/content.jpg
 challengesTitle: ''
 challengesDescription: ''
-challenges: []
+challenges:
+  - title: >-
+      How can we best leverage multimedia formats and opportunities in offline
+      or online channels to increase awareness of the Sustainable Development
+      Goals?
+    logo: /img/sdg_action.png
+    logoTitle: By UN SDG Action Campaign
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      The COVID-19 pandemic has increased our awareness and understanding of the
+      interconnectedness across sectors, regions and generations with specific
+      focus on health, economic development, environment and on social
+      inclusion. All those topics are contained in [The 2030 Agenda for
+      Sustainable
+      Development](https://sustainabledevelopment.un.org/post2015/transformingourworld),
+      agreed upon by all governments in 2015 with a shared vision of improving
+      the lives of people everywhere, whilst protecting our planet. The agenda
+      commits to the essentials that every human being needs, now and in the
+      future, from health to decent work to clean air to reliable institutions.
+      This agenda contains [17 measurable Sustainable Development
+      Goals](https://www.un.org/sustainabledevelopment/) to be achieved by 2030.
+      Five years into the 2030 Agenda, we still need actions, creativity and
+      champions to scale up awareness and involvement of people on the
+      Sustainable Development Goals. How can we best leverage multimedia formats
+      and opportunities in offline or online channels to increase awareness of
+      the Sustainable Development Goals and even more importantly accelerate
+      action towards their achievement?Lastly, how can we leverage this time of
+      crises to put in motion behavioural shifts that can be sustained beyond
+      the crises?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"

@@ -8,6 +8,6 @@ role: Founder Adaptive Medical Systems
 photo: /img/globalhack_radley-alt.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Health & Wellness
 ---

@@ -8,6 +8,6 @@ role: Founder Coach at TheStartupFounderCoach
 photo: /img/globalhack_dexter-alt.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Health & Wellness
 ---

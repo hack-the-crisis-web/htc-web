@@ -5,7 +5,6 @@ import Section from '../Section/Section'
 import styles from './PersonCard.module.scss'
 
 const MentorNameList = ({ tracklistTitle, mentors }) => {
-  console.log(tracklistTitle)
   if (mentors.length === 0) return null
   const filteredMentors = mentors.filter(
     mentor =>

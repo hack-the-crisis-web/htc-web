@@ -35,6 +35,36 @@ challenges:
 
       This local and global multistakeholder engagement gap is the focus of the
       present #GloCha challenge – a global public sector innovation initiative.
+  - title: How Health Sector Regulators can take effective decisions?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: More info >
+    linkUrl: >-
+      https://www.ecdc.europa.eu/en/publications-data/considerations-relating-social-distancing-measures-response-covid-19-second
+    description: >-
+      \
+
+      Public health agencies are dealing with outbreak with the means they have
+      like collecting information, assessing the situation, communication to the
+      public and even forcing restrictions. Countries have made different
+      measure to reduce physical contact between people and in this way limit
+      the spreading of the virus. How can the decision makers compare different
+      options?
+  - title: What Research Community needs to learn and understand?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: More info >
+    linkUrl: >-
+      https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
+    description: >-
+      Even during the outbreak, we should have reliable scientific evidence for
+      the preventive actions. How can we do research faster without sacrificing
+      credibility? What is needed for rapid scientific research? In the short
+      and long run, we need to base the views and recommendations on data. How
+      can we collect valid and complete data sets in real time?\
+
+      https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide.
+      Data is available in different formats (CSV, JSON, XML).
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="129f5f3526eff770a8a6b5d947289ba064f45c00"

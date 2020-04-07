@@ -9,10 +9,11 @@ Ideation in [Slack](https://theglobalhack.com/slack)
 
 ### **04.04 Saturday**
 
-Registration opens in [Devpost](theglobalhack.devpost.com)
+Registration opens in [Devpost](https://theglobalhack.devpost.com) (see [Guidelines](https://docs.google.com/document/d/15HvsreMqU4xzxAphQmL6gmymAVu6A2AeWmkEM-nIZ8k/edit))
 
-* Team leader registers idea and team of at-least 4
-* Be sure to include team leader's contact details, country and timezone for scheduling checkpoints
+* Team Lead registers idea and team of at-least 4 people
+* Your team has to be functional – it must include all roles necessary to build your hackathon project
+* Be sure to include Team Leads contact details, country and timezone for scheduling checkpoints
 
 ### **09.04 Thursday**
 
@@ -20,10 +21,10 @@ Registration opens in [Devpost](theglobalhack.devpost.com)
 
 13:00 UTC Announcing accepted teams (via Slack)
 
-* Once approved teams can start hacking whenever they want
+* Approved teams can start hacking whenever they want
 * Team leads create private channels for their teams in our Slack workspace
 
-13:00 UTC Grand Opening Ceremony Broadcast (via [Zoom](https://zoom.us/))
+13:00 UTC Grand Opening Ceremony Broadcast (via Youtube Live
 
 13:30 UTC Opening Ceremonies for all Tracks (happening in parallel via Zoom)
 
@@ -40,9 +41,9 @@ Asia/Australia 10:00 UTC+7\
 Europe, Mdl-East & Africa 10:00 CET\
 Americas 10:00 UTC-5
 
-* Note, if the team arrives later than the first checkpoint on Friday they will not run for prizes and be part on the finals. This is why it's crucial to be on Slack as well as let us know your timezone
+* Note, the checkpoints are mandatory – if the Team Lead does not represent their team at the checkpoint or if the team arrives later than the first checkpoint on Friday they will not run for prizes and be part on the finals. This is why it’s crucial to be on Slack as well submitting your timezone during project registration in Devpost
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
-* If Zoom is unavailable you may use any link-based video conferencing service that doesn’t need downloading (like [Jitsi](https://meet.jit.si/), [Hangouts](https://hangouts.google.com/webchat/start), [Skype](https://www.skype.com/en/) etc)
+* If Zoom is unavailable Team Mentor may use any link-based video conferencing service that doesn’t need downloading (like[ Jitsi](https://meet.jit.si/),[ Hangouts](https://hangouts.google.com/webchat/start),[ Skype](https://www.skype.com/en/) etc)
 
 ##### **Checkpoint 2**
 
@@ -78,7 +79,7 @@ Americas 10:00 UTC-5
 08:00 UTC Track Closing ceremonies (happening in parallel via Zoom)
 
 * Top 15 per track announced
-* Video presentations from Top 180 teams
+* Video presentations from Top 15 teams from track
 * Top 3 per track announced, going to overall finals
 
 13:00 UTC The Global Hack finals and Closing Ceremony (via Zoom)

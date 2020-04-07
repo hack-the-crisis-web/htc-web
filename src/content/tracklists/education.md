@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #education'
 description: >-
   Classrooms around the world have suddenly been locked shut and teachers are
   urgently rethinking how to teach effectively.
-keyMentor: Obama
-featuredimage: ''
+keyMentor: 4cbecbb9-a2f9-4930-86e6-3f626e47779d
+featuredimage: /img/globalhack_hoffmann_1_.png
 trackLogo: /img/education.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

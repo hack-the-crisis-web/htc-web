@@ -23,6 +23,24 @@ challenges:
       generation (13-19 years old) safe and meaningfully active? We need a
       community based solution that will help engage young people in to
       acitivites that will empower the youth and strenghten the local community.
+  - title: >-
+      How to cope with stress and anxiety created by the isolation and
+      uncertainty
+    logo: /img/pipedrive.png
+    logoTitle: by Pipedrive
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      We have been given instructions on how we can contribute to flatten the
+      curve, to keep our risk-groups more safe by washing our hands, keeping our
+      distance and reserving time for them to go stock up their supplies. This
+      gives us a sense of controllable actions, and therefore reduces anxiety.
+      How can we support people to retake control of their mental health; those
+      who are struggling to find a great work-life or digital versus real life
+      balance, who are crippled by the fear of not knowing if they will have any
+      income on the next payday, or find it challenging to be with their
+      children 24/7 and not having a single moment of break. Let’s join forces
+      and build solutions to get the help we need before it breaks us.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

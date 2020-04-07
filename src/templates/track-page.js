@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import '../components/all.sass'
 import Layout from '../components/Layout'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
@@ -17,6 +16,7 @@ import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
+import MentorNameList from '../components/People/MentorNameList'
 
 export const TrackTemplate = ({
   title,
@@ -36,6 +36,7 @@ export const TrackTemplate = ({
   ctaDescription,
   ctaText,
   ctaUrl,
+  mentorsList,
 }) => (
   <>
     <TrackHeroSection
@@ -73,6 +74,10 @@ export const TrackTemplate = ({
       hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
+    <MentorNameList
+      tracklistTitle={title.toLowerCase().replace('&', 'and')}
+      mentors={mentorsList}
+    />
     <TrackOrganisers trackTitle={title} title={'Track organisers'} />
     <Sponsors
       trackTitle={title}
@@ -89,9 +94,10 @@ TrackTemplate.propTypes = {
   contentItems: PropTypes.arrayOf(PropTypes.shape(contentBlockPropTypes)),
 }
 
-const TrackPage = ({ data }) => {
+const TrackPage = ({ data, pageContext }) => {
   const { frontmatter = {}, html } = data.markdownRemark
   const { mentor = {} } = data
+  const mentorsList = pageContext.mentors
 
   return (
     <Layout title={frontmatter.title}>
@@ -113,6 +119,7 @@ const TrackPage = ({ data }) => {
         ctaDescription={frontmatter.ctaDescription}
         ctaText={frontmatter.ctaText}
         ctaUrl={frontmatter.ctaUrl}
+        mentorsList={mentorsList}
       />
     </Layout>
   )

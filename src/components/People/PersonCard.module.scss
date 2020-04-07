@@ -42,3 +42,33 @@
   max-height: 80%;
   object-fit: contain;
 }
+
+.mentorList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mentorListTitle {
+  color: $primary;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.mentorData {
+  width: 25%;
+  margin: 15px 15px;
+  min-width: 220px;
+}
+
+.mentorName {
+  font-size: 20px;
+  color: $text;
+  text-transform: capitalize;
+}
+
+.mentorRole {
+  font-size: 15px;
+}

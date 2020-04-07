@@ -24,6 +24,29 @@ challenges:
       jobs and income; ensuring the stable supply of protective equipment and
       medicine across Europe and solutions to ensure the continuous supply of
       basic goods and food across EU borders.
+  - title: 'Connect and inspire change-makers for action, now and beyond the crisis'
+    logo: /img/sdg_action.png
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Now more than ever, we need greater collaboration to scale up local and
+      digital solutions. This is the time to connect people with a passion for
+      making a difference in tackling the most challenging issues that our
+      communities face. This is the time to also connect actions taken by people
+      across the world for greater impact and share the inspiring stories of the
+      ordinary heroes who are driving change.\
+
+      The challenge is to formulate a solution that can bring together action
+      campaigns - from the United Nations system and other institutional
+      partners - with everyone who is inspired to take action, from civil
+      society organizations to artists, social innovators and governments, to
+      generate meaningful change for a better world.\
+
+      How do we harness the momentum for good that has emerged from the crisis
+      to inspire and build a growing global community of people eager to take
+      action, to help them learn about the ways they can contribute and connect
+      with people, entities and resources they need?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="b740c2bdc73065cfcf9020b3a4b31006108c9aed"

@@ -10,3 +10,5 @@ yarn-error.log
 .idea
 mentors.csv
 mentors.json
+static/blog-images
+src/pages/blog

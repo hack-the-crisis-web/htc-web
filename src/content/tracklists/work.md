@@ -8,9 +8,36 @@ description: >-
 keyMentor: 4a27c2fe-2136-4fc3-ab03-90c6c549ec1b
 featuredimage: /img/globalhack_kasparov.png
 trackLogo: /img/work.jpg
-challengesTitle: ''
+challengesTitle: Challenges by our partners
 challengesDescription: ''
-challenges: []
+challenges:
+  - title: Hack for Big Choices
+    logo: /img/lt.jpg
+    logoTitle: by Lithuania
+    linkTitle: ''
+    linkUrl: 'http://h4bc.org/'
+    description: >-
+      The whole world is sitting at home. On the one hand, it is an opportunity
+      to have a well-earned rest and spend valuable time with your family. On
+      the other hand, this situation might complicate quickly as quarantine
+      could easily last for longer than a few months. What should these people
+      do then?\
+
+      \
+
+      “ChangeMakers’ON” invites you to accept the challenge and solve the
+      problem of unemployment in Lithuania. Spending more time at home can bring
+      new opportunities and ideas on how one can earn very much needed
+      internet-enabled income. This is especially important for those, who lost
+      their jobs and are not just on temporary remote work or holidays. Do you
+      have any ideas how they can survive? How everybody can enable the virtual
+      world not only for calls with friends but also to create a new business
+      and a new source of income? These solutions are now inevitable in order to
+      prevent or contain the spread of COVID-19. The teams with the most
+      feasible ideas will have the opportunity to take advantage of the \
+
+      “ChangeMakers‘ON“ accelerator: to have individual consultations and get
+      funding to buy needed equipment for a new workplace.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0755063761f18fda9b08c17144c62379e96ad7fc"

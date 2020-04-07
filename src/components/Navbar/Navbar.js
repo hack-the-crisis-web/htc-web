@@ -107,6 +107,9 @@ const Navbar = class extends React.Component {
                 buttonClassName={navLinkClassnames}
                 subnavButtonClassname={subnavLinkClassnames}
               />
+              <NavLink to="/agenda" className={navLinkClassnames}>
+                Agenda
+              </NavLink>
               <NavLink to="/about" className={navLinkClassnames}>
                 About
               </NavLink>

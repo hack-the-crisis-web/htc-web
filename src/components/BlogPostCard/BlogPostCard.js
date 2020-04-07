@@ -15,7 +15,7 @@ const BlogPostCard = ({ link, image, title, date, intro }) => (
                 // very ugly, i know, but need it for now
                 backgroundImage: `url('${image.replace(
                   '../../../static/',
-                  ''
+                  '/'
                 )}')`,
               }
             : {}

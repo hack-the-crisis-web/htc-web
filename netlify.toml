@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "(cp -a htc-blog/static/blog-images static/ ||:) && npm run build"
+  command = "(git submodule update --init --force --recursive --remote && cp -a htc-blog/static/blog-images static/ ||:) && npm run build"
   functions = "lambda"
 [build.environment]
   YARN_VERSION = "1.9.4"

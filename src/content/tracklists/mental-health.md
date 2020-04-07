@@ -41,6 +41,16 @@ challenges:
       income on the next payday, or find it challenging to be with their
       children 24/7 and not having a single moment of break. Let’s join forces
       and build solutions to get the help we need before it breaks us.
+  - title: Body and mind
+    logo: /img/see.png
+    logoTitle: by Smart Everyting Everywhere
+    linkTitle: About SEE >
+    linkUrl: www.see40.org
+    description: >-
+      An instrument that will help us maintain overall good mental health while
+      isolated at home during this crisis. The instrument will help suggest and
+      keep track of daily habits that can keep us healthy both physically, as
+      well as mentally
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

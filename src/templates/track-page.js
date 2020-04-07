@@ -74,7 +74,10 @@ export const TrackTemplate = ({
       hashtag={hashtag}
       description="These experts will be available to you throughout the event to mentor you in case you're stuck or need a second opinion."
     />
-    <MentorNameList tracklistTitle={title} mentors={mentorsList} />
+    <MentorNameList
+      tracklistTitle={title.toLowerCase().replace('&', 'and')}
+      mentors={mentorsList}
+    />
     <TrackOrganisers trackTitle={title} title={'Track organisers'} />
     <Sponsors
       trackTitle={title}

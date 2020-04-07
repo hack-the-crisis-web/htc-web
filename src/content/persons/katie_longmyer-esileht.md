@@ -8,6 +8,6 @@ role: Good Peoples Global
 photo: /img/globalhack_longmyer-alt.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Arts & Creativity
 ---

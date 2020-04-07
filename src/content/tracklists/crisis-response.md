@@ -63,6 +63,35 @@ challenges:
       innovative solutions and resources for the creation of new platforms and
       citizens engagement tools that will help feeding real-time data about
       equity dimensions of policy responses to the COVID-19 crisis.
+  - title: What tools should Health Professionals have?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: More info >
+    linkUrl: 'https://www.ecdc.europa.eu/en/novel-coronavirus/laboratory-support'
+    description: >-
+      \
+
+      COVID-19 outbreak creates a huge burden on the health system. The
+      challenge is to organise and optimise the testing of infections. New
+      testing methods and tools are emerging. How can we get the full benefits
+      from new tests, how can we guarantee the accuracy and reliability of the
+      tests and how can we evaluate and optimise our testing strategies?
+  - title: How Public Health Agencies can manage the outbreak more efficiently?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: More info >
+    linkUrl: >-
+      https://www.ecdc.europa.eu/en/current-risk-assessment-novel-coronavirus-situation
+    description: >-
+      One challenge during the outbreak is to organise the health care.
+      Preliminary data from the EU/EEA (from the countries with available data)
+      show that around 20-30% of diagnosed COVID-19 cases are hospitalised and
+      4% have severe illness. Hospitalisation rates are higher for those aged 60
+      years and above, and for those with other underlying health conditions.
+      How can we reduce the burden in health care? How can we focus the
+      re-sources to achieve best outcome? How can we target the control
+      measures? ECDC maintains risk assessments which are available on the web
+      site.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

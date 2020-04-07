@@ -27,11 +27,11 @@ class BlogRoll extends React.Component {
                   return (
                     <div
                       key={post.id}
-                      className="column is-full-mobile is-full-tablet is-full-desktop"
+                      className="column is-full-mobile is-full-tablet is-half-desktop"
                     >
                       <BlogPostCard
                         title={post.frontmatter.title}
-                        // image={post.frontmatter.featuredimage}
+                        image={post.frontmatter.featuredimage}
                         alt={post.frontmatter.title}
                         link={post.fields.slug}
                         date={post.frontmatter.date}
@@ -76,6 +76,7 @@ export default () => (
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
+                featuredimage
               }
             }
           }

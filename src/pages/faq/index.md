@@ -38,7 +38,7 @@ contentItems:
     image: ''
     ctaText: ''
     ctaLink: ''
-    textContent: "The minimum requirement of team members is 4 people. As you have to coordinate within your team, we recommend a manageable team size up to 12 members to be effective. But if you want to go with a larger team, we have no objections. If you’re looking for brand new team members, head to Slack. \L"
+    textContent: "The minimum requirement of team members is 2 people. As you have to coordinate within your team, we recommend a manageable team size up to 12 members to be effective. But if you want to go with a larger team, we have no objections. If you’re looking for brand new team members, head to Slack. \L"
   - title: Can I register as a team / company?
     textContent: "Yes, in the registration form you are asked to mark whether you are building your idea from scratch or you are building a new feature for existing tech. Both are welcomed and will be evaluated separately.\L"
     ctaText: Register your team in Devpost
@@ -91,4 +91,46 @@ contentItems:
     textContent: >
       Please read the participant agreement and code of conduct to get to know
       the terms and conditions more closely.
+  - title: Where do we upload the prototype?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: Guaana links will become available prior to prototype submissions.
+  - title: How do we present our prototype?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: >-
+      Teams need to upload a video demo (to youtube, vimeo or any other openly
+      accessible video platform) of the prototype explaining what the problem is
+      being solved and how, what the impact is and proof of concept. If it’s an
+      app or service, a link to the deployed build is a bonus.
+  - title: When is the deadline to upload our prototype?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: See the Agenda page as the deadlines may change.
+  - title: How refined does the prototype have to be?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: >-
+      It’s a two day hackathon. No need to over do things that you will not have
+      time to present or are not vital to functionality. We don’t want to see
+      registration forms, log ins etc. Don’t build out the whole product or
+      service. Core mechanics are the value. Focus on that. Use existing stacks,
+      design resources, etc and build a working prototype not mockups.
+  - title: How do we do the checkpoints with the team mentor?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: >-
+      Use zoom, hangouts, skype, jit.si or any other url-accessible video
+      conference service. Take a minute to get to know the service beforehand so
+      you don’t waste any valuable time during the checkpoint.
+  - title: Can our team get a private Slack channel?
+    image: ''
+    ctaText: ''
+    ctaLink: ''
+    textContent: Yes. Do it yourself once accepted and inside your track workplace.
 ---

@@ -6,7 +6,7 @@ name: 'Achim '
 surname: Steiner
 role: 'Administrator, UNDP '
 photo: /img/globalhack_steiner.png
-about: ''
+about: '"This moment is a historic opportunity for all of us."'
 linkedin: ''
 label: track-lead
 tracklist: Solidarity in Action

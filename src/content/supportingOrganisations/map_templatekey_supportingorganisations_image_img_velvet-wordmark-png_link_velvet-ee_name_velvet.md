@@ -1,6 +1,6 @@
 ---
 templateKey: supportingOrganisations
 name: Velvet
-link: velvet.ee
+link: www.velvet.ee
 image: /img/velvet-wordmark.png
 ---

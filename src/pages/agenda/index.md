@@ -37,9 +37,9 @@ Registration opens in [Devpost](https://theglobalhack.devpost.com) (see [Guideli
 
 ##### **Checkpoint 1**
 
-Asia/Australia 10:00 UTC+7\
-Europe, Mdl-East & Africa 10:00 CET\
-Americas 10:00 UTC-5
+Asia/Australia 11:00 ASEAN Common Time (10:00 UTC+7)\
+Europe, Mdl-East & Africa 10:00 CEST (10:00 UTC+2)\
+Americas 08:00 PT 11:00 EDT; (10:00 UTC-5)
 
 * Note, the checkpoints are mandatory – if the Team Lead does not represent their team at the checkpoint or if the team arrives later than the first checkpoint on Friday they will not run for prizes and be part on the finals. This is why it’s crucial to be on Slack as well submitting your timezone during project registration in Devpost
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
@@ -47,9 +47,9 @@ Americas 10:00 UTC-5
 
 ##### **Checkpoint 2**
 
-Asia/Australia 17:00 UTC+7\
-Europe, Mdl-East, Africa 17:00 CET\
-Americas 17:00 UTC-5
+Asia/Australia 18:00 ASEAN Common Time (17:00 UTC+7)\
+Europe, Mdl-East & Africa 17:00 CEST (17:00 UTC+2)\
+Americas 15:00 PT; 18:00 EDT (17:00 UTC-5)
 
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
 
@@ -62,9 +62,9 @@ Americas 17:00 UTC-5
 
 ##### **Checkpoint 3**
 
-Asia/Australia 10:00 UTC+7\
-Europe, Mdl-East & Africa 10:00 CET\
-Americas 10:00 UTC-5
+Asia/Australia 11:00 ASEAN Common Time (10:00 UTC+7)\
+Europe, Mdl-East & Africa 10:00 CEST (10:00 UTC+2)\
+Americas 08:00 PT 11:00 EDT; (10:00 UTC-5)
 
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
 * Be ready to show a demo

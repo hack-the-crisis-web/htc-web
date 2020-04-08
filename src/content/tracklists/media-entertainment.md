@@ -85,6 +85,17 @@ challenges:
 
       All of these people are currently grounded at home. In the time of social
       distancing, this is an opportunity for distant socialising.
+  - title: TMW
+    logo: /img/tmw2020_logorgb_6.png
+    logoTitle: by Tallinn Music Week
+    linkTitle: More info >
+    linkUrl: 'https://www.telia.ee/era'
+    description: >-
+      The challenge is to reduce the amount of “fake news” in our (tv)
+      broadcasts and increase media literacy of regular content viewers. This
+      could be achieved by highlighting the sources on which the (tv) broadcasts
+      are based up-on and what is the agenda of the person (a politician, a
+      doctor, a businessman etc) delivering the message.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"

@@ -1,7 +1,7 @@
 ---
 templateKey: sponsors
-name: Kalam centre -health
+name: Kalam centre -mental health
 link: theglobalhack.com
 image: /img/kalam_centre_logo.png
-sponsoredTrack: Health & Wellness
+sponsoredTrack: Mental Health
 ---

@@ -1,6 +1,6 @@
 ---
 templateKey: trackOrganisers
-name: cyqurex-mental health
+name: cyqurex-l health
 link: theglobalhack.com
 image: /img/cyqurex_logo.png
 sponsoredTrack: Health & Wellness

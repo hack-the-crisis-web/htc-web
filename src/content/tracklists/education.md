@@ -70,13 +70,13 @@ ctaDescription: Register your team and idea on Devpost
 ctaText: Register Now
 ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
-
 ## Why Education?
 
 Few things have had a more powerfully positive impact on our planet than improved access to education. However, classrooms around the world have suddenly been locked shut and teachers are urgently rethinking how to teach effectively.
 
 The impact of this ranges from slight inconvenience in digitally connected countries to complete interruption of education in many other parts of the world. There are also many challenging consequences, including an increase in hunger among pupils who depended on school meals and an added burden on parents.
 
-Countries like Estonia have shown that the technology for e-schooling works through the crisis, but it still has room for improvement and any improvements we can find to help pupils learn now could become the new normal for better education in future.
+Work track of The Global Hack is led by the Team who were behind “[Hack for Italy](http://hackforitaly.online/)”, a crisis response online hackathon in Italy that took place between March 27 and 29.\
+Thanks to the international appeal, the team has now joined the forces with international communities from the Middle East, Eastern Europe and Italy.
 
 [Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

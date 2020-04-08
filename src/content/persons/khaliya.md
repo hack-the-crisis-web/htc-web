@@ -3,7 +3,7 @@ templateKey: person
 personId: 71560666-8603-46f1-8016-a20cb8a643c8
 identifier: 'Khaliya '
 name: Khaliya
-surname: Aga Khan
+surname: ´
 role: 'Public health specialist, neurotechnologist and humanitarian'
 photo: /img/globalhack_khaliya-alt.png
 about: >-

@@ -23,8 +23,6 @@ April 10: Americas 15:00 PT; 18:00 EDT (17:00 UTC-5)\
 April 11: Europe, Mdl-East & Africa 10:00 CEST (10:00 UTC+2)\
 April 11: Asia/Australia 11:00 ASEAN Common Time (10:00 UTC+7)
 
-
-
 ### **01.04 Wednesday**
 
 Ideation in [Slack](https://theglobalhack.com/slack)
@@ -33,7 +31,7 @@ Ideation in [Slack](https://theglobalhack.com/slack)
 
 Registration opens in [Devpost](https://theglobalhack.devpost.com) (see [Guidelines](https://docs.google.com/document/d/15HvsreMqU4xzxAphQmL6gmymAVu6A2AeWmkEM-nIZ8k/edit))
 
-* Team Lead registers idea and team of at-least 4 people
+* Team Lead registers idea and team of at-least 2 people
 * Your team has to be functional – it must include all roles necessary to build your hackathon project
 * Be sure to include Team Leads contact details, country and timezone for scheduling checkpoints
 

@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #creativity'
 description: >-
   Crises pose serious new challenges to creatives as budgets, funding and
   exposure will be strained for the foreseeable future.
-keyMentor: 181182f9-3b9b-4d26-8c57-6d5051a53725
-featuredimage: /img/globalhack_sinclair.png
+keyMentor: 3fb111b3-afb8-4a20-9e6d-922e94e41650
+featuredimage: /img/globalhack_robb.png
 trackLogo: /img/creativity.jpg
 challengesTitle: ''
 challengesDescription: ''

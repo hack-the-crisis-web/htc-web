@@ -3,8 +3,8 @@ templateKey: tracklists
 title: Empowerment
 hashtag: '#theglobalhack #empowerment'
 description: >-
-  This pandemic will affect everyone, but those among the poorest and most
-  vulnerable will be negatively impacted more than others.
+  How can we come together through this crisis and achieve greater equality and
+  access to opportunities instead?
 keyMentor: ''
 featuredimage: /img/globalhack_rostom.png
 trackLogo: /img/inequality.jpg

@@ -6,7 +6,7 @@ name: 'Achim '
 surname: Steiner
 role: ' Administrator, UNDP '
 photo: /img/globalhack_steiner.png
-about: ''
+about: 'Something. '
 linkedin: ''
 label: track-lead
 tracklist: Solidarity in Action

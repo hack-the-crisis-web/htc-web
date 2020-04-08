@@ -8,7 +8,7 @@ description: >-
   then change the world for the better.
 keyMentor: ''
 featuredimage: ''
-trackLogo: /img/solidarity.png
+trackLogo: /img/solidarity.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''
 challenges:

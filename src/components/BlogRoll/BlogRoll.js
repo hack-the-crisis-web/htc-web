@@ -33,7 +33,11 @@ class BlogRoll extends React.Component {
                         title={post.frontmatter.title}
                         image={post.frontmatter.featuredimage}
                         alt={post.frontmatter.title}
-                        link={post.fields.slug}
+                        // dirty hack, but I rather do that, than do some changes now in submodules and netlify pipeline
+                        link={post.fields.slug.replace(
+                          'blog~Updated upstream',
+                          'news'
+                        )}
                         date={post.frontmatter.date}
                         intro={post.excerpt}
                       />

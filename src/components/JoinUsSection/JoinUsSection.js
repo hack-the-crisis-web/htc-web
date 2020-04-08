@@ -36,7 +36,7 @@ const JoinUsSection = ({ sectionItems }) => {
               {item.buttons && (
                 <div className={classNames(styles.buttonWrapper)}>
                   {item.buttons.map((button, index) => (
-                    <Button key={index} href={button.ctaLink}>
+                    <Button disabled key={index} href={button.ctaLink}>
                       {button.ctaText}
                     </Button>
                   ))}

@@ -56,6 +56,35 @@ challenges:
       opportunities to develop new approaches for fans and artists to connect
       and engage. The goal of this challenge is to design applications that
       bring artists and fans closer together.
+  - title: E-tool to demand and supply of language education
+    logo: /img/ee.jpg
+    logoTitle: 'by Ministry of Rural Affairs, Estonia'
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      How could we get Estonian speakers to help out non-Estonian speakers with
+      language speaking practice.\
+
+      \
+
+      In Estonia, approximately 30% of the population do not speak Estonian as
+      their native language. Due to that, this is negatively affecting not only
+      their job prospects and the level of income, but also their ability to
+      participate in society on an equal basis with Estonian speakers.\
+
+      \
+
+      Over the past years, interest towards learning Estonian language has
+      risen, however due to COVID-19, all language courses have been cancelled.
+      In addition, there is a great number of people who would like to practice
+      their language skills and not lose what they have acquired, during the
+      courses. There is a need for voluntary Estonian speaking people, who would
+      help keep language learners’ speaking practice active.\
+
+      \
+
+      All of these people are currently grounded at home. In the time of social
+      distancing, this is an opportunity for distant socialising.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"

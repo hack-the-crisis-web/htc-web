@@ -55,7 +55,8 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach(edge => {
       const id = edge.node.id
       createPage({
-        path: edge.node.fields.slug,
+        // dirty hack, but I rather do that, than do some changes now in submodules and netlify pipeline
+        path: edge.node.fields.slug.replace('blog~Updated upstream', 'news'),
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),

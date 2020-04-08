@@ -7,7 +7,7 @@ description: >-
   Let's harness this collective strength of humanity to first beat the virus and
   then change the world for the better.
 keyMentor: ''
-featuredimage: ''
+featuredimage: /img/globalhack_steiner-alt.png
 trackLogo: /img/solidarity.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

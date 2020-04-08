@@ -212,6 +212,15 @@ challenges:
       contribution to finance the SMEs and micro-businesses through the purchase
       of the solidarity vouchers, knowing that they won’t be able to use the
       vouchers for the next couple of weeks or even months.
+  - title: Future of Barcelona
+    logo: /img/barcelona.jpg
+    logoTitle: by City of Barcelona
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/jPS7PdkxtNrfv5k4Q/main
+    description: >-
+      We're looking for all kinds of innovative solutions. Please see full
+      Brief.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

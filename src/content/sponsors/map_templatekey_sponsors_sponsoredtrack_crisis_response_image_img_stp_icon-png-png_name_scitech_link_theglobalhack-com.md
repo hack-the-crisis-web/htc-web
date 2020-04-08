@@ -1,6 +1,6 @@
 ---
 templateKey: sponsors
-name: SciTech
+name: SciTech-crisis
 link: theglobalhack.com
 image: /img/stp_icon-png.png
 sponsoredTrack: Crisis Response

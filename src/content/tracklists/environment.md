@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #environment'
 description: >-
   Measures to combat coronavirus have helped reduce pollution dramatically. We
   now need to figure how to continue doing so.
-keyMentor: Obama
-featuredimage: ''
+keyMentor: 38688d9b-c758-4c90-89e8-89852bd21429
+featuredimage: /img/samantha-cristoforetti_round.png
 trackLogo: /img/enviroment.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

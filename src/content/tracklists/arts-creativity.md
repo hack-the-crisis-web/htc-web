@@ -10,7 +10,42 @@ featuredimage: /img/globalhack_robb.png
 trackLogo: /img/creativity.jpg
 challengesTitle: ''
 challengesDescription: ''
-challenges: []
+challenges:
+  - title: TMW 01
+    logo: /img/tmw2020_logorgb_6.png
+    logoTitle: by Tallinn Music Week
+    linkTitle: More info >
+    linkUrl: 'https://keychange.eu/'
+    description: >-
+      How can we support underrepresented voices in music during the pandemic to
+      sustain progress towards equality in music by 2022?
+  - title: TMW 02
+    logo: /img/tmw2020_logorgb_6.png
+    logoTitle: by Tallinn Music Week
+    linkTitle: More info >
+    linkUrl: 'https://www.telia.ee/era'
+    description: >-
+      How will music and culture venues as well as promoters and festivals
+      around the world survive this crisis? What could be the innovative,
+      progressive income stream that would be in accordance with the quarantine
+      rules?
+  - title: TMW 03
+    logo: /img/tmw2020_logorgb_6.png
+    logoTitle: by Tallinn Music Week
+    linkTitle: More info >
+    linkUrl: 'https://tmw.ee/'
+    description: >-
+      Many of the arts and creative sector players have not yet fully embraced
+      the era of digitalisation. Now we are forced to do so. While live streams
+      of music and theatre performances, as well as gallery excursions, are
+      taking place, we think the real innovation is still yet to emerge. How to
+      find your way down the digital path in constant information overload and
+      the abundance of available options? How to monetize the digital presence
+      by developing the activities into new business opportunities? How to make
+      your creative brand relevant on the global scale, now that it has reached
+      online? Out of uncertainty, discomfort and reevaluation we hope to build a
+      more sustainable future and upgrade the role of Arts & Creativity in the
+      society.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="33cd38ee45395a299030abcf14b83117f26e92e8"

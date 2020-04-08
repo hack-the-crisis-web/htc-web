@@ -138,11 +138,14 @@ ctaDescription: Register your team and idea on Devpost
 ctaText: Register Now
 ctaUrl: 'https://theglobalhack.devpost.com/'
 ---
-
 ## Why Health & Wellness?
 
 We are facing, first and foremost, a health crisis that will have a lasting impact and necessitate a vibrant health tech sector. Every death is a tragedy and every serious illness is a cause for serious concern, no matter the cause. However, this virus also has the potential to overwhelm our healthcare systems and reduce access to regular treatments, jeopardising public health on an even larger scale.
 
 Through this crisis and beyond, both people and organisations will be thinking about the health of themselves and others in new ways and they will need new technology to support this. How can this result in a lasting long term positive impact?
+
+Track is brought to you by Hack the Crisis - India, Ficci Flo Pune in association with Ministry of Electronics & Information Technology, Government of India (MEITY), MEITY Startup Hub (MSH), Make in India, MyGov, technology+startup hubs community, executed by Payal Rajpal(Founder [HackA​Cause](http://www.hackacause.in/page5.html)) & Gayatri Chhabria(Trustee [MMF](https://www.mmpc.in/who-we-are.html))the same forces which executed **Hack the Crisis – India,** are now leading the popular tracks of (Crisis + Health Wellness) at Global Hack.
+
+While no one can control a pandemic, we can have collective impact as a nation from finding solutions to COVID19 and revival measures post-crisis.
 
 [Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)

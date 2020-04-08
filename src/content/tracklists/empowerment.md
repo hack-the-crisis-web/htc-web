@@ -6,7 +6,7 @@ description: >-
   This pandemic will affect everyone, but those among the poorest and most
   vulnerable will be negatively impacted more than others.
 keyMentor: ''
-featuredimage: ''
+featuredimage: /img/globalhack_rostom.png
 trackLogo: /img/inequality.jpg
 challengesTitle: ''
 challengesDescription: ''

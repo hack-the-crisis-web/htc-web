@@ -58,6 +58,21 @@ challenges:
       environment to manage the supply for the demand. Let’s join forces to
       develop tools for teachers and students that are effective and easy to use
       during this new normal.
+  - title: Mobile-first education
+    logo: /img/paxful.png
+    logoTitle: by PAXFUL
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      In light of the current pandemic, the main challenge students and parents
+      are facing is being able to effectively access educational material on the
+      internet. This is an issue due to expensive internet subscription costs
+      paired with a loss of jobs and/or pay cuts.\
+
+      Most parents are more concerned about feeding their families as a priority
+      - meaning amenities like internet access is dropped. With mobile adoption
+      still high, how are we able to leverage mobile-first education so that
+      more children can continue their education remotely?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="d149a5c31ab8cd38c608370cf6a5b7efda5a3a82"

@@ -18,7 +18,7 @@ class BlogRoll extends React.Component {
             <SectionTitle title="The Daily Splash" />
             <SectionDescription
               text={
-                'Global tech community leads the movement gathers over 53 countries, over 5000 ideas and hundreds of professionals over the world. We fight against coronavirus. We work on solutions. We do it to change the world.'
+                'Global tech community leads the movement gathering over 53 countries, over 5000 ideas and hundreds of professionals over the world. We fight against coronavirus. We work on solutions. We do it to change the world.'
               }
             />
             <div className={'columns is-multiline is-mobile'}>

@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import CustomLink from '../components/CustomLink/CustomLink'
+import HeroSection from '../components/HeroSection/HeroSection'
 
 export const BlogPostTemplate = ({
   content,
@@ -13,28 +14,44 @@ export const BlogPostTemplate = ({
   title,
   helmet,
   date,
+  backgroundImage,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <CustomLink to="/news" reversed>
-              Back
-            </CustomLink>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{date}</p>
-            <p>{description}</p>
-            <PostContent content={content} />
+    <>
+      {backgroundImage && (
+        <HeroSection
+          backgroundImage={backgroundImage.replace('../../../static/', '/')}
+          title={title}
+          eventDate={date}
+        />
+      )}
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <CustomLink to="/news" reversed>
+                Back
+              </CustomLink>
+              {!backgroundImage && (
+                <>
+                  <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+                    {title}
+                  </h1>
+                  <p>{date}</p>
+                </>
+              )}
+              <section className="section">
+                <h3>{description}</h3>
+              </section>
+              <PostContent content={content} />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
 
@@ -55,6 +72,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        backgroundImage={post.frontmatter.featuredimage}
         helmet={
           <Helmet titleTemplate="%s | News">
             <title>{`${post.frontmatter.title}`}</title>
@@ -88,6 +106,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        featuredimage
       }
     }
   }

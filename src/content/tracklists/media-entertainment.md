@@ -6,7 +6,7 @@ description: >-
   The outbreak is rapidly changing the way we consume information and connect
   with each other.
 keyMentor: d67c0097-90c8-4217-83a6-89ab87ecfb04
-featuredimage: ''
+featuredimage: /img/globalhack_bush.png
 trackLogo: /img/content.jpg
 challengesTitle: ''
 challengesDescription: ''

@@ -95,7 +95,7 @@ howItWorksItems:
     isActive: true
   - title: Register Team
     textContent: >-
-      Once you’ve found an attractive idea, assemble a team of 4-12 dedicated
+      Once you’ve found an attractive idea, assemble a team of 2-12 dedicated
       people with the necessary skills. The team leader must now officially
       register in Devpost
     ctaText: REGISTER

@@ -15,6 +15,7 @@ export const BlogPostTemplate = ({
   helmet,
   date,
   backgroundImage,
+  author,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -25,6 +26,7 @@ export const BlogPostTemplate = ({
           backgroundImage={backgroundImage.replace('../../../static/', '/')}
           title={title}
           eventDate={date}
+          subheading={author}
         />
       )}
       <section className="section">
@@ -61,6 +63,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  author: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -73,6 +76,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         backgroundImage={post.frontmatter.featuredimage}
+        author={post.frontmatter.author}
         helmet={
           <Helmet titleTemplate="%s | News">
             <title>{`${post.frontmatter.title}`}</title>
@@ -107,6 +111,7 @@ export const pageQuery = graphql`
         title
         description
         featuredimage
+        author
       }
     }
   }

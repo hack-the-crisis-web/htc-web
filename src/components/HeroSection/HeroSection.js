@@ -29,7 +29,9 @@ const HeroSection = ({
           <div className="column is-7 is-offset-1">
             <h4>{eventDate}</h4>
             <h1 className="is-family-secondary">{title}</h1>
-            <h3 className="is-family-secondary">{subheading}</h3>
+            {subheading && (
+              <h3 className="is-family-secondary">{subheading}</h3>
+            )}
             <div className={styles.buttonWrapper}>
               {showLeftButton && (
                 <Button href={heroCTALeftLink} className={styles.btn}>

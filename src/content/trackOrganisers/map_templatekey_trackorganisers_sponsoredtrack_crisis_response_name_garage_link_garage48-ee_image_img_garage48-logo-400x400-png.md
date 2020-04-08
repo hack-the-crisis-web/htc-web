@@ -2,6 +2,6 @@
 templateKey: trackOrganisers
 name: garage
 link: garage48.ee
-image: /img/garage48-logo-400x400.png
+image: /img/g48-.png
 sponsoredTrack: Crisis Response
 ---

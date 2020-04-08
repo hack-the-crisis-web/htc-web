@@ -51,6 +51,23 @@ challenges:
       isolated at home during this crisis. The instrument will help suggest and
       keep track of daily habits that can keep us healthy both physically, as
       well as mentally
+  - title: Helping listeners
+    logo: /img/umg-.png
+    logoTitle: by Universal Music Group
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      The worldwide social and economic impacts of COVID-19 can leave many
+      feeling stressed, anxious, fearful and isolated. There’s great potential
+      that the emotions being experienced in these circumstances will have
+      larger, long-term effects on overall mental health in the future. So, it’s
+      important to focus efforts now on developing new and innovative methods to
+      maintain and restore mental wellness.
+
+
+      Music can be a very strong tool in helping listeners to reach a desired
+      state of mind and being. Using music, design ways to address mental health
+      issues that may arise from COVID-19.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

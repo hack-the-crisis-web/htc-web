@@ -40,6 +40,22 @@ challenges:
       action towards their achievement?Lastly, how can we leverage this time of
       crises to put in motion behavioural shifts that can be sustained beyond
       the crises?
+  - title: Bringing artists and fans together
+    logo: /img/umg-.png
+    logoTitle: by Universal Music Group
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Music has long been a unifier and source of solace through difficult and
+      challenging times. That role is as important today as ever.\
+
+      \
+
+      While the need for social distancing prevents us from experiencing music
+      communally these days, music’s technological advancements provide great
+      opportunities to develop new approaches for fans and artists to connect
+      and engage. The goal of this challenge is to design applications that
+      bring artists and fans closer together.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="8557ef64d9c37adb8e964db6d12d95daf5d8e029"

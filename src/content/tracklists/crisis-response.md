@@ -103,6 +103,12 @@ challenges:
       administrative procedures need the presence of the user. This heavily
       contributes to the system' block. How might we exploit new technologies to
       ensure data security without the need of original paper documents?
+  - title: 'This challenge is brough to you by:'
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: '![](/img/screenshot_2020-04-08_at_16.22.14.png)'
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

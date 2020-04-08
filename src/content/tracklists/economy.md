@@ -89,6 +89,76 @@ challenges:
       that is easy to access, enables identification, does not require
       high-level IT skills and provides protection of personal data and online
       security.
+  - title: Curving the Impact
+    logo: /img/theworldbank_0.png
+    logoTitle: by The World Bank
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      COVID-19 has had a substantial impact on society in terms of health,
+      emergency response, and economy. As the number of cases rises, the
+      countries started to implement unprecedented measures such as lock-down
+      their cities and stay-home order. Those policies surely save lives.
+      However, the economic disturbance due to COIVD-19 and related policies
+      might affect people’s lives just as much as any other financial crisis.
+      The challenges are more hazardous in the countries where their economies
+      are not formalized, guaranteed, and not publicly recognized/supported.
+
+
+      The most vulnerable to the economic challenges due to the COVID-19 are
+      those who have been working in the informal sector or those with a
+      disability, sickness, and old age. Hence, several national governments
+      have already announced their social protection measures, such as cash
+      transfer programs to mitigate the risk associated with COVID-19. Though
+      the success of cash transfer is critical to saving vulnerable people from
+      economic severity, the cash transfer program, especially in developing
+      countries, have several challenges:
+
+
+       No effective ways to transfer cash to those in need\
+
+       No accurate governmental data on the locations/names of those in need\
+
+       In many cases, they are not up to date
+
+
+      There is a significant risk of exclusion/inclusion error, due to the lack
+      of accessible service and problems with transparency of policy
+      implementation:
+
+
+       No effective ways to communicate with those in need\
+
+       Those people tend to have no access to an information source such as
+      internet
+
+
+      The situation requires solutions using technologies such as:
+
+
+       Mobile payment solutions to obtain cash from local organizations such as
+      bank\
+
+       Biometrics identifications to maximize the effectiveness of the cash
+      transfer\
+
+       Integrating the several governmental databases to update the
+      beneficiaries’ status\
+
+       Use of ML model to minimize the exclusion/inclusion error and establish
+      objective decision-making process for recipients\
+
+       Big data analysis using data from the public such as national/local
+      governments and private organization\
+
+       Use of drone or robots to promote cash transfer program to those who
+      need it avoiding physical interaction of people
+
+
+      The World Bank team has been supporting the government in identifying the
+      right and cost-efficient technologies that solve the delivery problems.
+      However, the urgency of the issue requires more agile and creative
+      solutions to address the challenges described above.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

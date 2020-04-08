@@ -186,6 +186,32 @@ challenges:
       unpaid vacations for the unseen future. How to bridge these problems? How
       to get locals with reduced working hours to contribute to this season’s
       harvest and our local food supply?
+  - title: >-
+      European Solidarity Voucher to ensure liquidity of SMEs in the EU’s
+      tourism sector
+    logo: /img/european_commission.svg.png
+    logoTitle: by European Commission
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/RNq6oPSAZTRoaMABt/main
+    description: >-
+      The European Solidarity Vouchers (voucher) Scheme incentives customers to
+      buy services from suppliers in the tourism sector and consume the services
+      after the crisis. Under the scheme customers would buy vouchers (for a
+      small hotel or B&B, or restaurant) via existing aggregator platforms.\
+
+      \
+
+      An emphasis of the solidarity scheme is that all actors are coming
+      together to support small businesses. The suggestion is that the online
+      platforms (i.e. booking.com; expedia.com, etc.) would be willing to waive
+      some of their booking fees based on the motivation of demonstrate
+      solidarity with small businesses. Second, the SMEs themselves would offer
+      discounts (10-15%) to costumers to provide them with incentives to
+      purchase the vouchers. Finally, the consumers would make a critical
+      contribution to finance the SMEs and micro-businesses through the purchase
+      of the solidarity vouchers, knowing that they won’t be able to use the
+      vouchers for the next couple of weeks or even months.
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

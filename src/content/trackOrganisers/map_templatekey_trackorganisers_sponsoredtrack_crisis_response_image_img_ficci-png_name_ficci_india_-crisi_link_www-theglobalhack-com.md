@@ -1,7 +1,7 @@
 ---
 templateKey: trackOrganisers
-name: Ficci(India)-crisi
-link: www.theglobalhack.com
+name: Ficci(India)-crisis
+link: theglobalhack.com
 image: /img/ficci.png
 sponsoredTrack: Crisis Response
 ---

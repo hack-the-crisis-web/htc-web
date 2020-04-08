@@ -114,6 +114,18 @@ challenges:
       routines and keeping from going stir crazy. We challenge you explore how
       music can be used to promote health and wellness in the “stay at home” era
       of COVID-19?
+  - title: Public health measures
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Public health measures adopted for reducing the impact of COVID-19 include
+      severe limitations of people movement and social contacts. It is difficult
+      to adhere to these recommendations for very long times. The rules and
+      prevention measures change when the epidemic proceeds. How can the citizen
+      get the latest instructions (valid for the location) and how to support
+      him to act accordingly?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

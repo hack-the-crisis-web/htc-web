@@ -5,8 +5,8 @@ hashtag: '#theglobalhack #crisisresponse'
 description: >-
   How do we help medical workers and emergency response personnel and what
   lessons can we all take forward for the next crisis?
-keyMentor: 3265801f-7b75-4c94-bba4-91a3ebbbe72a
-featuredimage: /img/globalhack_ermacora.png
+keyMentor: 7fbc20f4-3475-442d-9e33-f0e95a69033d
+featuredimage: /img/globalhack_feld.png
 trackLogo: /img/crisis.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

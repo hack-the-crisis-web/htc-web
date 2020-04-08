@@ -8,6 +8,7 @@ const SectionDescription = ({
   restrictWidth = true,
   marginBottom = 55,
   alignRight,
+  children,
 }) => (
   <div
     className={classnames(
@@ -25,6 +26,7 @@ const SectionDescription = ({
           {paragraph}
         </p>
       ))}
+    {children && <p className={styles.p}>{children}</p>}
   </div>
 )
 

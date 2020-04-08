@@ -1,4 +1,4 @@
-@import "../../styles/styleSetup.scss";
+@import '../../styles/styleSetup.scss';
 
 .card {
   display: flex;
@@ -20,6 +20,12 @@
     color: $dark;
     font-size: 15px;
     line-height: 28px;
+  }
+
+  .author {
+    color: $primary;
+    font-weight: bold;
+    margin: 15px 0;
   }
 
   .image {

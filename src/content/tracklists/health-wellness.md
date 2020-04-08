@@ -67,6 +67,53 @@ challenges:
       themselves during a crisis - data columns - name or nick name, email
       address, postal code, medical condition, top 3 drugs/ medications needed
       to sustain good health
+  - title: How to help Citizens during the outbreak?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      People feel helpless and uncertain in the COVID outbreak. There is a huge
+      need for up to date information about the outbreak. How can the citizen
+      get latest reliable information about the situation globally, in Europe,
+      in my country and in my neighbourhood? What is my risk to get ill right
+      now in my neighbourhood? How can I reduce the risk to get an infection?
+  - title: How to assist when people get sick and become patients?
+    logo: /img/1200px-ecdc_logo.svg.png
+    logoTitle: by European Centre for Disease Prevention and Control
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      COVID-19 is a new virus and there is only limited understanding of the
+      disease, symptoms and cure. The virus seems to be transmitted mainly via
+      small respiratory droplets through sneezing, coughing, or when people
+      interact with each other for some time in close proximity (usually less
+      than one metre). Symptoms of COVID-19 vary in severity from having no
+      symptoms at all (being asymptomatic) to having fever, cough, sore throat,
+      general weakness and fatigue and muscular pain and in the most severe
+      cases, severe pneumonia, acute respiratory distress syndrome, sepsis and
+      septic shock, all potentially leading to death. Reports show that clinical
+      deterioration can occur rapidly, often during the second week of disease.
+      The infectious period may begin one to two days before symptoms appear,
+      but people are likely most infectious during the symptomatic period, even
+      if symptoms are mild and very non-specific. The infectious period is now
+      estimated to last for 7-12 days in moderate cases and up to two weeks on
+      average in severe cases. If the citizen is not feeling well, then how he
+      can verify the symptoms and get medical consultation? How can be keep
+      track of the infected people?
+  - title: Music in the “stay at home” era of COVID-19
+    logo: /img/umg-.png
+    logoTitle: by Universal Music Group
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      Social distancing and new “work from home” lifestyles have confined
+      billions around the world to their homes. Many have gained time from
+      commutes, work commitments and recreational activities, but are challenged
+      with spending that time practicing healthy habits, maintaining active
+      routines and keeping from going stir crazy. We challenge you explore how
+      music can be used to promote health and wellness in the “stay at home” era
+      of COVID-19?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

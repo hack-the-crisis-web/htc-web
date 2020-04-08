@@ -159,6 +159,33 @@ challenges:
       right and cost-efficient technologies that solve the delivery problems.
       However, the urgency of the issue requires more agile and creative
       solutions to address the challenges described above.
+  - title: Distant Socialising
+    logo: /img/ee.jpg
+    logoTitle: 'by Ministry of Rural Affairs, Estonia'
+    linkTitle: ''
+    linkUrl: ''
+    description: >-
+      While the virus is having a halting effect on our lives, it has none on
+      the seasons. Spring has reached the Northern hemisphere marking the
+      beginning of a busy season in agriculture – a period where hiring in large
+      numbers is an absolute necessity.\
+
+      \
+
+      The share of immigrant labour among both skilled and seasonal workforce in
+      this sector is a well-know secret in most parts of the world. Many workers
+      left during the outbreak of the crises, but most were just getting ready
+      to come. Except that now, borders are closed, and ironically, national
+      food security now falls on the shoulders of locals – those who have never
+      had any interest and lack skills to take on this line of work.\
+
+      \
+
+      At the same time, unemployment is on the rise in many other sectors,
+      figures on payslips are diminishing and workers are forced to accept
+      unpaid vacations for the unseen future. How to bridge these problems? How
+      to get locals with reduced working hours to contribute to this season’s
+      harvest and our local food supply?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

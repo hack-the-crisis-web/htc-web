@@ -13,7 +13,7 @@ sectionItems:
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/join-us-section.png
     buttons:
-      - ctaText: Join as mentor
+      - ctaText: Sign Ups Closed
         ctaLink: >-
           https://docs.google.com/forms/d/e/1FAIpQLSdTzJSiUmLyK0FlQcbAAaXKdtdKuWsPhA-RgLJRw3LG6vhi4g/viewform
 ---

@@ -5,7 +5,7 @@ hashtag: '#theglobalhack #empowerment'
 description: >-
   How can we come together through this crisis and achieve greater equality and
   access to opportunities instead?
-keyMentor: ''
+keyMentor: 747b21cd-de4b-49cc-a672-229e8c3e15e0
 featuredimage: /img/globalhack_rostom.png
 trackLogo: /img/inequality.jpg
 challengesTitle: ''

@@ -2,12 +2,9 @@
 templateKey: tracklists
 title: Solidarity in Action
 hashtag: '#solidarityinaction #theglobalhack'
-description: >-
-  The pandemic is bringing people together like no other time in recent history.
-  Let's harness this collective strength of humanity to first beat the virus and
-  then change the world for the better.
+description: ´
 keyMentor: 48de6002-2c4e-4b81-beda-9b1257482407
-featuredimage: /img/globalhack_steiner-alt.png
+featuredimage: /img/achim-steiner_round.png
 trackLogo: /img/solidarity.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

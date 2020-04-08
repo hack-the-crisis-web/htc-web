@@ -18,8 +18,6 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
-  console.log(backgroundImage)
-
   return (
     <>
       {backgroundImage && (

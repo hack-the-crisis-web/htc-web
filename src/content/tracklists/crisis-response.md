@@ -92,6 +92,17 @@ challenges:
       re-sources to achieve best outcome? How can we target the control
       measures? ECDC maintains risk assessments which are available on the web
       site.
+  - title: Digitalisation Improvement
+    logo: /img/milano.png
+    logoTitle: by City of Milano
+    linkTitle: Full Brief >
+    linkUrl: >-
+      https://www.guaana.com/challenge/zASRJiZsEoyDZds6n/results/HTMGegZ9yjxiHaJoi/vQEh5mxEddhuX8xLH/main
+    description: >-
+      Everyone is currently locked down in his apartment and a lot of
+      administrative procedures need the presence of the user. This heavily
+      contributes to the system' block. How might we exploit new technologies to
+      ensure data security without the need of original paper documents?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e264b413c4a5ba808ffc691ff73d06ba60861fd"

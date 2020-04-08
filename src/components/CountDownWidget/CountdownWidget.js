@@ -34,11 +34,25 @@ class CountDownWidget extends React.Component {
     const hours = Math.floor(
       (this.state.timeToEvent - days * dayLengthInMS) / hourLengthInMS
     )
+    const totalHours = Math.floor(this.state.timeToEvent / hourLengthInMS)
+    const totalMinutes = Math.floor(
+      (this.state.timeToEvent / hourLengthInMS) * 60
+    )
+
     const shouldShowWidget =
-      (days > 0 && hours >= 0) || (days === 0 && hours > 0)
-    const dayString =
-      days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
-    // const hourString = !dayString ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''
+      (days > 0 && hours >= 0) || (days === 0 && hours >= 0 && totalMinutes > 0)
+    // const dayString =
+    //   days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
+    // const hourString =
+    //   days === 0 ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''
+
+    const totalHoursString = `${totalHours} ${
+      totalHours !== 1 ? 'hours' : 'hour'
+    }`
+    const totalMinutesString = `${totalMinutes} ${
+      totalMinutes !== 1 ? 'minutes' : 'minute'
+    }`
+
     const toWhatString = 'till hackathon'
 
     return (
@@ -52,9 +66,9 @@ class CountDownWidget extends React.Component {
         {shouldShowWidget && (
           <>
             <img className={styles.icon} alt="time to event" src={clockIcon} />
-            <span
-              className={styles.text}
-            >{`${dayString} ${toWhatString}`}</span>
+            <span className={styles.text}>{`${
+              totalHours === 0 ? totalMinutesString : totalHoursString
+            } ${toWhatString}`}</span>
           </>
         )}
       </div>

@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const eventDate = new Date('9 April 2020 10:00 UTC')
+    const eventDate = new Date('9 April 2020 13:00 UTC')
     const navLinkClassnames = classnames(
       'navbar-item',
       'hover-effect-small',

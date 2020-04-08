@@ -15,10 +15,10 @@ class BlogRoll extends React.Component {
       <div id="blogRoll" className="has-background-success">
         <Section>
           <div className={'container has-text-primary'}>
-            <SectionTitle title="Latest News" />
+            <SectionTitle title="The Daily Splash" />
             <SectionDescription
               text={
-                'The tracks are inspired by the UN sustainability goals that cover the majority of our future challenges. These are the areas most likely to see the biggest challenges.'
+                'Global tech community leads the movement gathers over 53 countries, over 5000 ideas and hundreds of professionals over the world. We fight against coronavirus. We work on solutions. We do it to change the world.'
               }
             />
             <div className={'columns is-multiline is-mobile'}>

@@ -5,7 +5,7 @@ hashtag: '#solidarityinaction #theglobalhack'
 description: ´
 keyMentor: 48de6002-2c4e-4b81-beda-9b1257482407
 featuredimage: /img/achim-steiner_round.png
-trackLogo: /img/ig_shareable_content_3_.png
+trackLogo: /img/solidarity.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''
 challenges:

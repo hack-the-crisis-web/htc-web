@@ -54,8 +54,8 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: Join dedicated Slack workspace for mentoring
-ctaText: Join Workspace
+ctaDescription: Registered teams join dedicated Slack workspace for mentoring
+ctaText: Join Workspace >
 ctaUrl: >-
   https://join.slack.com/t/tgh-creativitymedia/shared_invite/zt-dfgts1px-CchyWG1gLpI4MlKBU3L7mQ
 ---

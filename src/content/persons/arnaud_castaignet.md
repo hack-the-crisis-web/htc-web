@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: 753aa4ed-e034-4abf-ba5b-f8756666ad36
-identifier: Arnaud Castaignet
+identifier: Arnaud Castaignet-our people
 name: Arnaud
 surname: Castaignet
 role: Media Human

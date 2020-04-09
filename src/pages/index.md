@@ -6,10 +6,10 @@ subheading: >-
   3 billion people in lockdown. Let's hack the future and never go through this
   again.
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: Register
-heroCTALeftLink: 'https://theglobalhack.devpost.com/'
-heroCTARightText: Join Slack
-heroCTARightLink: 'http://theglobalhack.com/slack'
+heroCTALeftText: Join Slack
+heroCTALeftLink: 'http://theglobalhack.com/slack'
+heroCTARightText: ''
+heroCTARightLink: ''
 timeline:
   - title: Let's get ideas going in Slack
     isActive: true

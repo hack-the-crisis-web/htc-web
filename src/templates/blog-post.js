@@ -23,7 +23,7 @@ export const BlogPostTemplate = ({
     <>
       {backgroundImage && (
         <HeroSection
-          backgroundImage={backgroundImage.replace('../../../static/', '/')}
+          backgroundImage={backgroundImage}
           title={title}
           eventDate={date}
           subheading={author}
@@ -69,13 +69,18 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
+  const backgroundImage = post.frontmatter.featuredimage.replace(
+    '../../../static/',
+    '/'
+  )
+
   return (
     <Layout>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        backgroundImage={post.frontmatter.featuredimage}
+        backgroundImage={backgroundImage}
         author={post.frontmatter.author}
         helmet={
           <Helmet titleTemplate="%s | News">
@@ -83,6 +88,44 @@ const BlogPost = ({ data }) => {
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
+            />
+            <meta
+              name="image"
+              content={`https://theglobalhack.com/${backgroundImage}`}
+            />
+            <meta
+              property="og:url"
+              content={`https://theglobalhack.com${post.fields.slug.replace(
+                'blog~Updated upstream',
+                'news'
+              )}`}
+            />
+            <meta
+              property="og:title"
+              content={`${post.frontmatter.title} | The Global Hack`}
+            />
+            <meta
+              property="og:description"
+              content={post.frontmatter.description}
+            />
+            <meta
+              property="og:image"
+              content={`https://theglobalhack.com/${backgroundImage}`}
+            />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content="@theglobalhack" />
+            <meta
+              name="twitter:title"
+              content={`${post.frontmatter.title} | The Global Hack`}
+            />
+            <meta
+              name="twitter:description"
+              content={post.frontmatter.description}
+            />
+            )}
+            <meta
+              name="twitter:image"
+              content={`https://theglobalhack.com/${backgroundImage}`}
             />
           </Helmet>
         }
@@ -106,6 +149,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

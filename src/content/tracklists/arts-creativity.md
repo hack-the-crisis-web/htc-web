@@ -13,7 +13,7 @@ challengesDescription: ''
 challenges:
   - title: Challenge by Keychange
     logo: /img/prs-keychange-logo.jpg
-    logoTitle: by Tallinn Music Week
+    logoTitle: Challenge by Keychange
     linkTitle: More info >
     linkUrl: 'https://keychange.eu/'
     description: >-
@@ -21,9 +21,9 @@ challenges:
       sustain progress towards equality in music by 2022?
   - title: By Live Music Estonia
     logo: /img/live_music_estonia.png
-    logoTitle: by Tallinn Music Week
+    logoTitle: By Live Music Estonia
     linkTitle: More info >
-    linkUrl: 'https://www.telia.ee/era'
+    linkUrl: 'https://musicestonia.eu/live-music-estonia'
     description: >-
       How will music and culture venues as well as promoters and festivals
       around the world survive this crisis? What could be the innovative,

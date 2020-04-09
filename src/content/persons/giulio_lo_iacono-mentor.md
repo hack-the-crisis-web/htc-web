@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: 959b90c7-40cf-4d8e-9bc7-e868f5d024e1
-identifier: Giulio Lo Iacono-mentor
+identifier: Giulio Lo Iacono-mentor-media
 name: 'Giulio '
 surname: Lo Iacono
 role: ASviS - Italian Alliance for Sustainable Development

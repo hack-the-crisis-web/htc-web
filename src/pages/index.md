@@ -42,7 +42,7 @@ howItWorksDescription: >-
   as to build resilience post-pandemic.
 
 
-  Our prize pool for the best ideas is 120k euros. 
+  Our prize pool for the best ideas is 195k euros. 
 
 
   The Global Hack has already drawn attention across the globe - covered by
@@ -79,9 +79,9 @@ contentItems:
       future pandemics, and all crises for that matter, more effectively. 
 
 
-      We're giving away 120 000€ (and growing) to make your amazing ideas to
+      We're giving away 195 000€ (and growing) to make your amazing ideas to
       come true.
-    image: /img/globalhack-reward-web.png
+    image: /img/195k.png
     ctaText: Register Team & Idea >
     ctaLink: 'https://theglobalhack.devpost.com/'
 howItWorksItems:

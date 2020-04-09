@@ -46,7 +46,7 @@ Registration opens in [Devpost](https://theglobalhack.devpost.com) (see [Guideli
 
 13:00 UTC Grand Opening Ceremony Broadcast (via Youtube Live
 
-13:30 UTC Opening Ceremonies for all Tracks (happening in parallel via Zoom)
+ Opening Ceremonies for all Tracks (Track Organisers will specify)
 
 * Track leads introduced
 * Overview of agenda, mentors, rules and guidelines

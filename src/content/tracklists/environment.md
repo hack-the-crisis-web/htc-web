@@ -65,9 +65,10 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: Register your team and idea on Devpost
-ctaText: Register Now
-ctaUrl: 'https://theglobalhack.devpost.com/'
+ctaDescription: Registered teams join dedicated Slack workspace for mentoring
+ctaText: Join Workspace >
+ctaUrl: >-
+  https://join.slack.com/t/tgh-economy-environme/shared_invite/zt-d3ihmzlf-M_cufeVfqjpnIUc_GsAYYw
 ---
 
 ## **Why Environment?**

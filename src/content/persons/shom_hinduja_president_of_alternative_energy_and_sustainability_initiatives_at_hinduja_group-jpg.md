@@ -1,9 +1,7 @@
 ---
 templateKey: person
 personId: cddfa19e-2869-4a93-a022-7e957af84512
-identifier: >-
-  Shom Hinduja President of Alternative Energy and Sustainability Initiatives at
-  Hinduja Group.jpg
+identifier: Shom Hinduja -mental
 name: Shom
 surname: Hinduja
 role: >-

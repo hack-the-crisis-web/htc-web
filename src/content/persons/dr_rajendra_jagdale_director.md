@@ -6,7 +6,7 @@ name: Dr. Rajendra
 surname: Jagdale
 role: Director General and CEO of Science and Technology Park
 photo: >-
-  /img/dr_rajendra_jagdale_director_general_and_ceo_of_science_and_technology_park.jpg
+  /img/dr_rajendra_jagdale_director_general_and_ceo_of_science_and_technology_park-removebg-preview.png
 about: ''
 linkedin: ''
 label: mentor

@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: cf8ab080-13bb-47fd-9583-0ecfb59e1608
-identifier: Artur_Schaback-mentor-
+identifier: Artur_Schaback-mentor-economy
 name: Artur
 surname: Schaback
 role: 'Field expert, Product management Paxful'

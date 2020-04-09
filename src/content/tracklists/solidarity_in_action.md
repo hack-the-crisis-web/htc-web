@@ -44,7 +44,7 @@ challenges:
       to inspire and build a growing global community of people eager to take
       action, to help them learn about the ways they can contribute and connect
       with people, entities and resources they need?
-  - title: Track brought to you by SDG Action Campaign
+  - title: Track brought to you by UN SDG Action Campaign
     logo: ''
     logoTitle: ''
     linkTitle: ''

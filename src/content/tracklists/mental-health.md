@@ -68,6 +68,12 @@ challenges:
       Music can be a very strong tool in helping listeners to reach a desired
       state of mind and being. Using music, design ways to address mental health
       issues that may arise from COVID-19.
+  - title: Track is brought to you by
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: '![](/img/screenshot_2020-04-10_at_00.14.01.png)'
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="892920bc5458b727fec3a4346f9c29d08db63c4a"

@@ -11,16 +11,16 @@ trackLogo: /img/creativity.jpg
 challengesTitle: ''
 challengesDescription: ''
 challenges:
-  - title: TMW 01
-    logo: /img/tmw2020_logorgb_6.png
+  - title: Challenge by Keychange
+    logo: /img/prs-keychange-logo.jpg
     logoTitle: by Tallinn Music Week
     linkTitle: More info >
     linkUrl: 'https://keychange.eu/'
     description: >-
       How can we support underrepresented voices in music during the pandemic to
       sustain progress towards equality in music by 2022?
-  - title: TMW 02
-    logo: /img/tmw2020_logorgb_6.png
+  - title: By Live Music Estonia
+    logo: /img/live_music_estonia.png
     logoTitle: by Tallinn Music Week
     linkTitle: More info >
     linkUrl: 'https://www.telia.ee/era'

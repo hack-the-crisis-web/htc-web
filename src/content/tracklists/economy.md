@@ -229,7 +229,7 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: Join dedicated Slack workspace for mentoring
+ctaDescription: Registered teams join dedicated Slack workspace for mentoring
 ctaText: Join Workspace >
 ctaUrl: >-
   https://join.slack.com/t/tgh-economy-environme/shared_invite/zt-d3ihmzlf-M_cufeVfqjpnIUc_GsAYYw

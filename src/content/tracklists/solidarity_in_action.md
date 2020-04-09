@@ -58,9 +58,10 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: Register your team and idea on Devpost
-ctaText: Register Now
-ctaUrl: 'https://theglobalhack.devpost.com/'
+ctaDescription: Registered teams join dedicated Slack workspace for mentoring
+ctaText: Join Workspace >
+ctaUrl: >-
+  https://join.slack.com/t/tgh-solidarity/shared_invite/zt-dchic2lz-SFQf~AWq5ABKgKKOM8pPvw
 ---
 
 This moment is a historic opportunity for all of us. People have the power to change the world. We urgently need creative and scalable solutions that harness the positive power of solidarity and coordinated action to tackle this global challenge together and maintain this momentum beyond the crisis.

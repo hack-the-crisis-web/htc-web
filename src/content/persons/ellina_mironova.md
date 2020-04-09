@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: d86e818d-7ffb-4261-bd20-7663b6e375ce
-identifier: Ellina Mironova
+identifier: Ellina Mironova-PR human
 name: 'Ellina '
 surname: Mironova
 role: PR Human

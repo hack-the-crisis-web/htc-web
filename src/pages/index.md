@@ -20,7 +20,7 @@ timeline:
     image: /img/register.jpg
     date: ''
   - title: Team announced and Hackathon Starts
-    isActive: false
+    isActive: true
     image: /img/start.jpg
     date: '2020-04-09'
   - title: The hackathon Ends
@@ -102,12 +102,13 @@ howItWorksItems:
     ctaLink: 'https://theglobalhack.devpost.com/'
     image: /img/step3-8516109b837803b7af26dccbf7f194fd.png
     isActive: true
-  - title: Hack of our lives
+  - title: Submit for Evaluation
     textContent: >-
-      Your team will be assigned a Slack channel on April 9 to be assisted via.
-      Log on and hack away! These extremely intense hours may change the world!
-    ctaText: Start hacking
-    ctaLink: 'https://theglobalhack.slack.com/'
+      Upload a video demo of the prototype explaining the problem being solved
+      and how, impact and validation to Guaana. Links will become available
+      later on.
+    ctaText: Submit
+    ctaLink: '#'
     image: /img/joinus.png
     isActive: false
 sectionItems:

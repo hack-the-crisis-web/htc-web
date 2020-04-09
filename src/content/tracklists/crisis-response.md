@@ -117,8 +117,8 @@ widgetCode: >-
   "https://embedsocial.com/cdn/ht.js";
   d.getElementsByTagName("head")[0].appendChild(js);}(document, "script",
   "EmbedSocialHashtagScript"));</script>
-ctaDescription: Join dedicated Slack workspace for mentoring
-ctaText: Joni Workspace
+ctaDescription: Registered teams join dedicated Slack workspace for mentoring
+ctaText: Joni Workspace >
 ctaUrl: >-
   https://join.slack.com/t/tgh-crisishealth/shared_invite/zt-dcgmxnuv-9NGDKfujK0504pub~JqcGg
 ---

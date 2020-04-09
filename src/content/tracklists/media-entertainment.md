@@ -85,9 +85,9 @@ challenges:
 
       All of these people are currently grounded at home. In the time of social
       distancing, this is an opportunity for distant socialising.
-  - title: TMW
-    logo: /img/tmw2020_logorgb_6.png
-    logoTitle: by Tallinn Music Week
+  - title: Challenge by Telia
+    logo: /img/telia.png
+    logoTitle: by Telia
     linkTitle: More info >
     linkUrl: 'https://www.telia.ee/era'
     description: >-

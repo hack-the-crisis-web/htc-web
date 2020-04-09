@@ -98,8 +98,8 @@ howItWorksItems:
       Once you’ve found an attractive idea, assemble a team of 2-12 dedicated
       people with the necessary skills. The team leader must now officially
       register in Devpost
-    ctaText: REGISTER
-    ctaLink: 'https://theglobalhack.devpost.com/'
+    ctaText: CLOSED
+    ctaLink: '#'
     image: /img/step3-8516109b837803b7af26dccbf7f194fd.png
     isActive: true
   - title: Submit for Evaluation

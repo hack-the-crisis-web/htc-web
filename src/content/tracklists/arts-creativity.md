@@ -29,7 +29,7 @@ challenges:
       around the world survive this crisis? What could be the innovative,
       progressive income stream that would be in accordance with the quarantine
       rules?
-  - title: TMW 03
+  - title: By Tallinn Music Week
     logo: /img/tmw2020_logorgb_6.png
     logoTitle: by Tallinn Music Week
     linkTitle: More info >

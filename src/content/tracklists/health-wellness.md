@@ -126,6 +126,12 @@ challenges:
       prevention measures change when the epidemic proceeds. How can the citizen
       get the latest instructions (valid for the location) and how to support
       him to act accordingly?
+  - title: Track brought to you by
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: '![](/img/screenshot_2020-04-10_at_00.14.01.png)'
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="0e0f8d147b4635f142baa7059bb9dd0d857b4888"

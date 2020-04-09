@@ -59,6 +59,27 @@ collections:
           media_library: { config: { multiple: false } },
         }
 
+  - name: 'communityPartner'
+    label: 'Community Partner'
+    folder: 'src/content/communityPartner'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'communityPartner',
+        }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Link', name: 'link', widget: 'string', required: true }
+      - {
+          label: 'Image',
+          name: 'image',
+          widget: image,
+          media_library: { config: { multiple: false } },
+        }
+
   - name: 'trackOrganisers'
     label: 'Track organisers'
     folder: 'src/content/trackOrganisers'

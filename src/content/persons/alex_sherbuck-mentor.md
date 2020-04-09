@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: cb7d4b43-68b1-47e9-a112-c377e46f2f97
-identifier: Alex Sherbuck-mentor
+identifier: Alex Sherbuck-mentor-governance
 name: Alex
 surname: Sherbuck
 role: Tech - full stack software UNICEF

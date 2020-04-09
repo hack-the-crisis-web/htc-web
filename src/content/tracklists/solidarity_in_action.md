@@ -5,7 +5,7 @@ hashtag: '#solidarityinaction #theglobalhack'
 description: ´
 keyMentor: 48de6002-2c4e-4b81-beda-9b1257482407
 featuredimage: /img/achim-steiner_round.png
-trackLogo: /img/covid19_response_logo_horizontal_april_2020.png
+trackLogo: /img/covid19_response_logo_horizontal_april_2020.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''
 challenges:
@@ -44,6 +44,12 @@ challenges:
       to inspire and build a growing global community of people eager to take
       action, to help them learn about the ways they can contribute and connect
       with people, entities and resources they need?
+  - title: Track brought to you by SDG Action Campaign
+    logo: ''
+    logoTitle: ''
+    linkTitle: ''
+    linkUrl: ''
+    description: '![](/img/ig_shareable_content_2_.png)'
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="b740c2bdc73065cfcf9020b3a4b31006108c9aed"

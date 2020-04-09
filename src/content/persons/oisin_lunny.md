@@ -1,7 +1,7 @@
 ---
 templateKey: person
 personId: 64623474-91a5-46b3-8924-eecbfef9843d
-identifier: Oisin Lunny
+identifier: Oisin Lunny-mentor-arts
 name: 'Oisin '
 surname: Lunny
 role: Barcelona Technology School

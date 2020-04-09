@@ -40,7 +40,9 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    const eventDate = new Date('9 April 2020 13:00 UTC')
+    const eventDate = new Date('9 April 2020 14:00 UTC')
+    const eventEnd = new Date('11 April 2020 14:00 UTC')
+
     const navLinkClassnames = classnames(
       'navbar-item',
       'hover-effect-small',
@@ -68,6 +70,7 @@ const Navbar = class extends React.Component {
             <CountDownWidget
               className={'is-hidden-desktop'}
               eventTime={eventDate.toISOString()}
+              eventEnd={eventEnd.toISOString()}
             />
             <div
               className={classnames(
@@ -133,6 +136,7 @@ const Navbar = class extends React.Component {
               <CountDownWidget
                 className="is-hidden-touch"
                 eventTime={eventDate.toISOString()}
+                eventEnd={eventEnd.toISOString()}
               />
               <div className="navbar-item is-hidden-desktop">
                 <SocialIconLink

@@ -4,18 +4,27 @@ import classnames from 'classnames'
 import styles from './CountdownWidget.module.scss'
 import clockIcon from '../../img/clock.svg'
 
-const calculateTimeToEvent = eventTime => {
+const calculateTimeToEvent = (eventTime, eventEndTime) => {
   const now = Date.now()
   const eventDate = Date.parse(eventTime)
-  return eventDate - now
+  const eventEnd = Date.parse(eventEndTime)
+  return eventDate - now > 0 ? [eventDate - now, false] : [eventEnd - now, true]
 }
 
 class CountDownWidget extends React.Component {
-  state = { timeToEvent: 0 }
+  state = { timeToEvent: 0, eventStarted: false }
   ticker = null
 
   setTime() {
-    this.setState({ timeToEvent: calculateTimeToEvent(this.props.eventTime) })
+    const [timeToEvent, eventStarted] = calculateTimeToEvent(
+      this.props.eventTime,
+      this.props.eventEnd
+    )
+
+    this.setState({
+      timeToEvent,
+      eventStarted,
+    })
   }
 
   componentDidMount() {
@@ -41,10 +50,6 @@ class CountDownWidget extends React.Component {
 
     const shouldShowWidget =
       (days > 0 && hours >= 0) || (days === 0 && hours >= 0 && totalMinutes > 0)
-    // const dayString =
-    //   days !== 0 ? `${days} ${days !== 1 ? 'days' : 'day'}` : '< 1 day'
-    // const hourString =
-    //   days === 0 ? `${hours} ${hours !== 1 ? 'hours' : 'hour'}` : ''
 
     const totalHoursString = `${totalHours} ${
       totalHours !== 1 ? 'hours' : 'hour'
@@ -53,7 +58,9 @@ class CountDownWidget extends React.Component {
       totalMinutes !== 1 ? 'minutes' : 'minute'
     }`
 
-    const toWhatString = 'till hackathon'
+    const toWhatString = this.state.eventStarted
+      ? 'until deadline'
+      : 'till hackathon'
 
     return (
       <div

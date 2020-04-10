@@ -78,7 +78,7 @@ Note, the checkpoints are mandatory – if the Team Lead does not represent thei
 * 3 min video session with your dedicated Team Mentor (will be in contact with you via Slack prior to checkpoint)
 * Be ready to show a demo
 
-13:00 UTC Hackathon finishes
+13:00 UTC Hackathon finishes 
 
 * Final results have to be submitted by 13:00
 * Mentors start evaluating submissions

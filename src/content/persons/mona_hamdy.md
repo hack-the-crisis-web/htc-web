@@ -5,7 +5,7 @@ identifier: Mona Hamdy-esileht
 name: Mona
 surname: Hamdy
 role: 'Director, Harvard Arab Covid Response fund'
-photo: /img/mona-nassim-touil_round.png
+photo: /img/mona-nassim-touil.png
 about: ''
 linkedin: ''
 label: track-lead

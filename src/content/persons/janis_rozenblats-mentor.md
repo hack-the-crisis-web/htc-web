@@ -8,6 +8,6 @@ role: "Product management, Sales & Marketing, Design Pipedrive\t"
 photo: /img/janis_rozenblats_headshot_-_janis_rozenblats-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Empowerment
 ---

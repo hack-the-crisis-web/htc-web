@@ -271,9 +271,8 @@ ctaUrl: >-
 ---
 ## Why economy?
 
-We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too. An economic crisis can also give birth to successful companies, and a national crisis can result in a completely new economic order for the better. What should we do to start adapting for this now?
+We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too.
 
-[Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)\
 \
 **Track organisers**
 

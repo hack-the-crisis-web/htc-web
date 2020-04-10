@@ -6,7 +6,7 @@ description: >-
   How do we help medical workers and emergency response personnel and what
   lessons can we all take forward for the next crisis?
 keyMentor: 40cb12c1-2811-4a2c-a9f1-020a5115a584
-featuredimage: /img/payal-manan_round.png
+featuredimage: /img/india_lead.png
 trackLogo: /img/crisis.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''

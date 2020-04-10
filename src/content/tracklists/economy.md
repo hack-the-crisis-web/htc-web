@@ -31,8 +31,8 @@ challenges:
 
       [Read more](devpost.com/software/kent-sectoral-challenges)
   - title: 3 phases of the Kent Recovery Plan
-    logo: ''
-    logoTitle: ''
+    logo: /img/lik-master-logo-black.png
+    logoTitle: Challenge by Locate in Kent
     linkTitle: Read more
     linkUrl: 'https://devpost.com/software/3-phases-of-the-kent-recovery-plan'
     description: >-

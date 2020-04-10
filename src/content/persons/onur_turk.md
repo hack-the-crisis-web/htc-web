@@ -8,6 +8,6 @@ role: "Field expert, Sales & Marketing, Design, Public Sector Innovator Haros\t"
 photo: /img/onur-turk-photobw_-_onur_turk-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Work
 ---

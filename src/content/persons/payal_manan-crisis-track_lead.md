@@ -5,7 +5,7 @@ identifier: Payal Manan-crisis-track lead
 name: Payal
 surname: Manan
 role: 'Head Hack the Crisis - India, South Asia Head Robotex International'
-photo: /img/payal-manan.png
+photo: /img/india_lead.png
 about: ''
 linkedin: ''
 label: track-lead

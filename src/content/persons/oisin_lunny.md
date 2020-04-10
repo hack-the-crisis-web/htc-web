@@ -9,6 +9,6 @@ photo: >-
   /img/oisin_lunny_conference_photo_by_marie_glad_january_2017_-_colour_med_square_-_oisin_lunny-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Arts & Creativity
 ---

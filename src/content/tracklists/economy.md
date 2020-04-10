@@ -11,6 +11,41 @@ trackLogo: /img/economy.jpg
 challengesTitle: Challenges set by our partners
 challengesDescription: ''
 challenges:
+  - title: Kent sectoral challenges
+    logo: /img/lik-master-logo-black.png
+    logoTitle: Challenge by Locate in Kent
+    linkTitle: Read more
+    linkUrl: devpost.com/software/kent-sectoral-challenges
+    description: >-
+      There will be significant impacts on those sectors reliant on
+      discretionary consumer spending. This applies to the non-food retail
+      sector, already facing major structural challenges, and to leisure and
+      hospitality. Although relatively small in absolute employment numbers,
+      Kent has a large and productive agricultural sector, reliant on a seasonal
+      (and to a large extent migrant) workforce. While demand for food is
+      resilient, social distancing measures and reduced migration could impose
+      significant supply shocks on the industry.How can these sectors be
+      protected? How will the future of these sectors look? What policy changes
+      will help? Can there be a PPP model that is effective?
+
+
+      [Read more](devpost.com/software/kent-sectoral-challenges)
+  - title: 3 phases of the Kent Recovery Plan
+    logo: ''
+    logoTitle: ''
+    linkTitle: Read more
+    linkUrl: 'https://devpost.com/software/3-phases-of-the-kent-recovery-plan'
+    description: >-
+      Emergency: Kent is the Garden of England, its fruit and salads help to
+      feed the country. Kent alone needs up 7,500 workers on the fields. How can
+      this be achieved.\
+
+      Recovery: We don’t know when, but do know for certain that we will emerge
+      from the coronavirus crisis. When we do, our local Recovery Plan must be
+      ready to roll. As the most successful inward investment agency nationally,
+      Locate in Kent has a major role to play – but what should it be?\
+
+      Sustainability: What is the new normal for Kent?
   - title: Swedbank challenge
     description: >-
       Various businesses have put their operations on hold, more and more people
@@ -221,41 +256,6 @@ challenges:
     description: >-
       We're looking for all kinds of innovative solutions. Please see full
       Brief.
-  - title: Kent sectoral challenges
-    logo: /img/lik-master-logo-black.png
-    logoTitle: Challenge by Locate in Kent
-    linkTitle: Read more
-    linkUrl: devpost.com/software/kent-sectoral-challenges
-    description: >-
-      There will be significant impacts on those sectors reliant on
-      discretionary consumer spending. This applies to the non-food retail
-      sector, already facing major structural challenges, and to leisure and
-      hospitality. Although relatively small in absolute employment numbers,
-      Kent has a large and productive agricultural sector, reliant on a seasonal
-      (and to a large extent migrant) workforce. While demand for food is
-      resilient, social distancing measures and reduced migration could impose
-      significant supply shocks on the industry.How can these sectors be
-      protected? How will the future of these sectors look? What policy changes
-      will help? Can there be a PPP model that is effective?
-
-
-      [Read more](devpost.com/software/kent-sectoral-challenges)
-  - title: 3 phases of the Kent Recovery Plan
-    logo: ''
-    logoTitle: ''
-    linkTitle: Read more
-    linkUrl: 'https://devpost.com/software/3-phases-of-the-kent-recovery-plan'
-    description: >-
-      Emergency: Kent is the Garden of England, its fruit and salads help to
-      feed the country. Kent alone needs up 7,500 workers on the fields. How can
-      this be achieved.\
-
-      Recovery: We don’t know when, but do know for certain that we will emerge
-      from the coronavirus crisis. When we do, our local Recovery Plan must be
-      ready to roll. As the most successful inward investment agency nationally,
-      Locate in Kent has a major role to play – but what should it be?\
-
-      Sustainability: What is the new normal for Kent?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"
@@ -274,8 +274,6 @@ ctaUrl: >-
 We are facing a severe economic crisis like no other as traditional methods for stimulating the economy don’t work under lockdown. This is already having immediate economic consequences as we do not know how long this crisis will last and the impact is expected to last for a considerable time after that too. An economic crisis can also give birth to successful companies, and a national crisis can result in a completely new economic order for the better. What should we do to start adapting for this now?
 
 [Share Ideas and find a Team on Slack >](http://theglobalhack.com/slack)\
-\
-[Join as a mentor for this track >](http://ej.uz/Economytrack)\
 \
 **Track organisers**
 

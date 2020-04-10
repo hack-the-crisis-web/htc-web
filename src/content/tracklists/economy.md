@@ -223,8 +223,8 @@ challenges:
       Brief.
   - title: Kent sectoral challenges
     logo: /img/lik-master-logo-black.png
-    logoTitle: ''
-    linkTitle: Challenge by Locate in Kent
+    logoTitle: Challenge by Locate in Kent
+    linkTitle: Read more
     linkUrl: devpost.com/software/kent-sectoral-challenges
     description: >-
       There will be significant impacts on those sectors reliant on
@@ -240,6 +240,22 @@ challenges:
 
 
       [Read more](devpost.com/software/kent-sectoral-challenges)
+  - title: 3 phases of the Kent Recovery Plan
+    logo: ''
+    logoTitle: ''
+    linkTitle: Read more
+    linkUrl: 'https://devpost.com/software/3-phases-of-the-kent-recovery-plan'
+    description: >-
+      Emergency: Kent is the Garden of England, its fruit and salads help to
+      feed the country. Kent alone needs up 7,500 workers on the fields. How can
+      this be achieved.\
+
+      Recovery: We don’t know when, but do know for certain that we will emerge
+      from the coronavirus crisis. When we do, our local Recovery Plan must be
+      ready to roll. As the most successful inward investment agency nationally,
+      Locate in Kent has a major role to play – but what should it be?\
+
+      Sustainability: What is the new normal for Kent?
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

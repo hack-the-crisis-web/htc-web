@@ -8,6 +8,6 @@ role: Chairman of the Board of Global Entrepreneurs Network
 photo: /img/jeff_hoffman_media.png
 about: ''
 linkedin: 'https://www.linkedin.com/in/jeffhoff/'
-label: track-lead
+label: mentor
 tracklist: Media & Entertainment
 ---

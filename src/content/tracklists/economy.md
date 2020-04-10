@@ -221,6 +221,25 @@ challenges:
     description: >-
       We're looking for all kinds of innovative solutions. Please see full
       Brief.
+  - title: Kent sectoral challenges
+    logo: /img/lik-master-logo-black.png
+    logoTitle: ''
+    linkTitle: Challenge by Locate in Kent
+    linkUrl: devpost.com/software/kent-sectoral-challenges
+    description: >-
+      There will be significant impacts on those sectors reliant on
+      discretionary consumer spending. This applies to the non-food retail
+      sector, already facing major structural challenges, and to leisure and
+      hospitality. Although relatively small in absolute employment numbers,
+      Kent has a large and productive agricultural sector, reliant on a seasonal
+      (and to a large extent migrant) workforce. While demand for food is
+      resilient, social distancing measures and reduced migration could impose
+      significant supply shocks on the industry.How can these sectors be
+      protected? How will the future of these sectors look? What policy changes
+      will help? Can there be a PPP model that is effective?
+
+
+      [Read more](devpost.com/software/kent-sectoral-challenges)
 widgetCode: >-
   <div class='embedsocial-hashtag'
   data-ref="91d6d1f115cd637b0006de3a42b306a5bea286f3"

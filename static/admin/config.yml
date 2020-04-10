@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: result-page-2
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -686,21 +686,27 @@ collections:
           - { label: Title, name: title, widget: string }
           - *contentItems
           - {
-              label: 'Winners',
-              name: winners,
+              label: 'Overall Winner',
+              name: overallWinner,
               widget: list,
               fields:
                 [
-                  { label: 'Title', name: 'title', widget: 'string' },
-                  { label: 'Team', name: 'team', widget: 'string' },
                   {
-                    label: 'Category',
-                    name: 'category',
-                    widget: 'relation',
-                    collection: 'tracklists',
-                    searchFields: ['title'],
-                    valueField: 'title',
-                    required: false,
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    default: '',
+                  },
+                  {
+                    label: 'Team',
+                    name: 'team',
+                    widget: 'string',
+                    default: '',
+                  },
+                  {
+                    label: 'Prize',
+                    name: 'prize',
+                    widget: 'string',
                     default: '',
                   },
                   {
@@ -708,9 +714,91 @@ collections:
                     name: 'textContent',
                     widget: 'text',
                   },
-                  { label: 'Image', name: 'image', widget: 'image' },
+                  {
+                    label: 'Link',
+                    name: 'link',
+                    widget: 'string',
+                    default: '',
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: image,
+                    media_library: { config: { multiple: false } },
+                  },
                 ],
             }
+          - {
+              label: 'Track Winners',
+              name: trackWinners,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Track Winner',
+                    name: 'trackWinner',
+                    widget: 'object',
+                    fields:
+                      [
+                        {
+                          label: 'Title',
+                          name: 'title',
+                          widget: 'string',
+                          default: '',
+                        },
+                        {
+                          label: 'Category',
+                          name: 'category',
+                          widget: 'relation',
+                          collection: 'tracklists',
+                          searchFields: ['title'],
+                          valueField: 'title',
+                          required: false,
+                          default: '',
+                        },
+                        {
+                          label: 'Teams',
+                          name: 'teams',
+                          widget: list,
+                          fields:
+                            [
+                              {
+                                label: 'Team',
+                                name: 'team',
+                                widget: 'string',
+                                default: '',
+                              },
+                              {
+                                label: 'Prize',
+                                name: 'prize',
+                                widget: 'string',
+                                default: '',
+                              },
+
+                              {
+                                label: 'Link',
+                                name: 'link',
+                                widget: 'string',
+                                default: '',
+                              },
+                              {
+                                label: 'Text content',
+                                name: 'textContent',
+                                widget: 'text',
+                              },
+                              {
+                                label: 'Image',
+                                name: 'image',
+                                widget: image,
+                                media_library: { config: { multiple: false } },
+                              },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+
       - file: 'src/pages/slack/index.md'
         label: 'Slack settings'
         name: 'slack-page'

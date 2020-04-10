@@ -8,6 +8,6 @@ role: Field expert Abbey Road
 photo: /img/karim_fanous_headshot_-_cristina_pimentel-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Media & Entertainment
 ---

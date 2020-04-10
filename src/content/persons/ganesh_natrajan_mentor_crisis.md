@@ -8,6 +8,6 @@ role: Chairman at 5F World
 photo: /img/ganesh_natrajan_founder_chairman_at_5f_world-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Crisis Response
 ---

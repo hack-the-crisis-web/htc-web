@@ -8,6 +8,6 @@ role: Head of Baltic TV Content & Product I TV/Media I Telia Company
 photo: /img/i04_karl_anton-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Media & Entertainment
 ---

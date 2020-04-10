@@ -8,6 +8,6 @@ role: Keychange Project Manager
 photo: /img/i03_maxie_gedge-removebg-preview.png
 about: ''
 linkedin: ''
-label: track-lead
+label: mentor
 tracklist: Arts & Creativity
 ---

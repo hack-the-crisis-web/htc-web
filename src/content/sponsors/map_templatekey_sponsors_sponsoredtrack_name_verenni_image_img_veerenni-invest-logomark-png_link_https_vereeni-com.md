@@ -2,6 +2,6 @@
 templateKey: sponsors
 name: Verenni
 link: 'https://vereeni.com/'
-image: /img/veerenni-invest-logomark.png
+image: /img/black_1_.png
 sponsoredTrack: ''
 ---

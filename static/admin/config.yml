@@ -695,6 +695,7 @@ collections:
                     label: 'Title',
                     name: 'title',
                     widget: 'string',
+                    required: false,
                     default: '',
                   },
                   {
@@ -707,12 +708,15 @@ collections:
                     label: 'Prize',
                     name: 'prize',
                     widget: 'string',
+                    required: false,
                     default: '',
                   },
                   {
                     label: 'Text content',
                     name: 'textContent',
                     widget: 'text',
+                    required: false,
+                    default: '',
                   },
                   {
                     label: 'Link',
@@ -746,6 +750,7 @@ collections:
                           label: 'Title',
                           name: 'title',
                           widget: 'string',
+                          required: false,
                           default: '',
                         },
                         {
@@ -774,6 +779,7 @@ collections:
                                 label: 'Prize',
                                 name: 'prize',
                                 widget: 'string',
+                                required: false,
                                 default: '',
                               },
 
@@ -787,7 +793,9 @@ collections:
                               {
                                 label: 'Text content',
                                 name: 'textContent',
+                                required: false,
                                 widget: 'text',
+                                default: '',
                               },
                               {
                                 label: 'Image',

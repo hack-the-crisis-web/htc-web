@@ -83,13 +83,25 @@ Note, the checkpoints are mandatory – if the Team Lead does not represent thei
 * Final results have to be submitted by 13:00
 * Mentors start evaluating submissions
 
+17:00 UTC Track closing ceremonies (Top 15 per track announced)
+
+Video presentations from Top 15 teams from track + Top 3 per track announced, going to overall finals from:
+
+* Economy & Environment
+* Empowerment & Solidarity
+* Work & Education
+* Governance
+* Creativity & Media
+
 ### **12.04 Sunday**
 
-08:00 UTC Track Closing ceremonies (happening in parallel via Zoom)
+08:00 UTC Track closing ceremonies (Top 15 per track announced)
 
-* Top 15 per track announced
-* Video presentations from Top 15 teams from track
-* Top 3 per track announced, going to overall finals
+Video presentations from Top 15 teams from track + Top 3 per track announced, going to overall finals from:
+
+* Crisis Response
+* Health & Wellness
+* Mental Health
 
 13:00 UTC The Global Hack finals and Closing Ceremony (via Zoom)
 

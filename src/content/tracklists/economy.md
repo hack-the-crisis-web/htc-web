@@ -27,9 +27,6 @@ challenges:
       significant supply shocks on the industry.How can these sectors be
       protected? How will the future of these sectors look? What policy changes
       will help? Can there be a PPP model that is effective?
-
-
-      [Read more](devpost.com/software/kent-sectoral-challenges)
   - title: 3 phases of the Kent Recovery Plan
     logo: /img/lik-master-logo-black.png
     logoTitle: Challenge by Locate in Kent

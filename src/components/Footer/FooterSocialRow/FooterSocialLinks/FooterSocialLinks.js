@@ -15,7 +15,7 @@ export const FooterSocialLinks = () => (
       <SocialIconLink
         type="facebook"
         color="black"
-        href="https://www.facebook.com/events/164922557944001/"
+        href="https://www.facebook.com/theglobalhack/"
       />
     </div>
     <div className={styles.link}>

@@ -147,7 +147,7 @@ const Navbar = class extends React.Component {
               <div className="navbar-item">
                 <SocialIconLink
                   type="facebook"
-                  href="https://www.facebook.com/events/164922557944001/"
+                  href="https://www.facebook.com/theglobalhack/"
                 />
               </div>
               <div className="navbar-item">

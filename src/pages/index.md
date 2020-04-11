@@ -6,8 +6,8 @@ subheading: >-
   3 billion people in lockdown. Let's hack the future and never go through this
   again.
 heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: Join Slack
-heroCTALeftLink: 'http://theglobalhack.com/slack'
+heroCTALeftText: FINALS LIVE
+heroCTALeftLink: 'https://www.facebook.com/theglobalhack/live'
 heroCTARightText: ''
 heroCTARightLink: ''
 timeline:

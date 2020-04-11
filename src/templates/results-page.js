@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AlternatingContent from '../components/AlternatingContent'
 import WinnersSection from '../components/WinnersSection/WinnersSection'
-import TrackWinnersSection from '../components/TrackWinnersSection/TrackWinnersSection'
+import TrackWinnersSection from '../components/TrackWinnersDropdown/TrackWinnersDropdown'
 
 export const ResultsPageTemplate = ({
   overallWinner,

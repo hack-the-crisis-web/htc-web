@@ -2,12 +2,14 @@ import React from 'react'
 import classnames from 'classnames'
 import '../all.sass'
 import Section from '../Section/Section'
-import WinnerCard from './WinnerCard/WinnerCard'
+import WinnerCard from '../WinnerCard/WinnerCard'
+import WinnerHeader from '../WinnerHeader/WinnerHeader'
 import styles from './WinnersSection.module.scss'
 
 const WinnersSection = ({ items }) => (
   <Section>
-    {items.map(({ title, textContent, image, category, team }, index) => (
+    <WinnerHeader img="img/apple-touch-icon.png" title="Overall winner" />
+    {items.map(({ title, textContent, image, prize, team, link }, index) => (
       <div
         key={index}
         className={classnames(
@@ -19,8 +21,9 @@ const WinnersSection = ({ items }) => (
           image={image}
           title={title}
           description={textContent}
-          category={category}
+          prize={prize}
           team={team}
+          link={link}
         />
       </div>
     ))}

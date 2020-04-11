@@ -4,17 +4,24 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AlternatingContent from '../components/AlternatingContent'
 import WinnersSection from '../components/WinnersSection/WinnersSection'
+import TrackWinnersSection from '../components/TrackWinnersSection/TrackWinnersSection'
 
-export const ResultsPageTemplate = ({ winners, contentItems }) => {
+export const ResultsPageTemplate = ({
+  overallWinner,
+  contentItems,
+  trackWinners,
+}) => {
   return (
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <AlternatingContent
+              addMarginBottom={false}
               contentItems={contentItems}
             ></AlternatingContent>
-            <WinnersSection items={winners} />
+            <WinnersSection items={overallWinner} />
+            <TrackWinnersSection trackWinners={trackWinners} />
           </div>
         </div>
       </div>
@@ -34,8 +41,10 @@ const ResultsPage = ({ data }) => {
   return (
     <Layout title="Results">
       <ResultsPageTemplate
+        title={post.frontmatter.title}
         contentItems={post.frontmatter.contentItems}
-        winners={post.frontmatter.winners}
+        overallWinner={post.frontmatter.overallWinner}
+        trackWinners={post.frontmatter.trackWinners}
       />
     </Layout>
   )
@@ -61,13 +70,29 @@ export const resultsPageQuery = graphql`
           ctaLink
           textContent
         }
-        winners {
+        overallWinner {
           title
           team
-          category
+          prize
           textContent
+          link
           image {
             publicURL
+          }
+        }
+        trackWinners {
+          trackWinner {
+            title
+            category
+            teams {
+              team
+              prize
+              textContent
+              link
+              image {
+                publicURL
+              }
+            }
           }
         }
       }

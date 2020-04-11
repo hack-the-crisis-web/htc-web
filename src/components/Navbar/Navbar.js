@@ -114,7 +114,7 @@ const Navbar = class extends React.Component {
                 FAQ
               </NavLink>
               <NavLink to="/news" className={navLinkClassnames}>
-                The Daily Splash
+                News
               </NavLink>
               <NavLink to="/results" className={navLinkClassnames}>
                 Results

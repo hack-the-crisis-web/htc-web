@@ -24,11 +24,11 @@ timeline:
     image: /img/start.jpg
     date: '2020-04-09'
   - title: The hackathon Ends
-    isActive: false
+    isActive: true
     image: /img/end.jpg
     date: '2020-04-11'
   - title: Evaluation on Guaana
-    isActive: false
+    isActive: true
     image: /img/evaluation.jpg
     date: '2020-04-11'
   - title: Demos & Awards
@@ -107,10 +107,10 @@ howItWorksItems:
       Upload a video demo of the prototype explaining the problem being solved
       and how, impact and validation to Guaana. Links will become available
       later on.
-    ctaText: Submit
+    ctaText: Closed
     ctaLink: '#'
     image: /img/joinus.png
-    isActive: false
+    isActive: true
 sectionItems:
   - title: Every hand counts
     textContent: >

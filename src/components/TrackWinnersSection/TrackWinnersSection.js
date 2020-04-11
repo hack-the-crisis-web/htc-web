@@ -35,7 +35,7 @@ const TrackWinnersSection = ({ trackWinners, data }) => {
             <WinnerHeader
               small
               title="Top 3 teams"
-              img={'img/apple-touch-icon.png'}
+              img={'/img/apple-touch-icon.png'}
             />
             {trackWinner.teams.slice(0, 3).map((team, index) => (
               <WinnerCard
@@ -51,7 +51,7 @@ const TrackWinnersSection = ({ trackWinners, data }) => {
               <WinnerHeader
                 small
                 title="Top 4-15 teams"
-                img={'img/apple-touch-icon.png'}
+                img={'/img/apple-touch-icon.png'}
               />
               {trackWinner.teams.slice(3).map((team, index) => (
                 <WinnerCard

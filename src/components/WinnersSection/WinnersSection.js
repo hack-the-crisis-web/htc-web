@@ -8,7 +8,7 @@ import styles from './WinnersSection.module.scss'
 
 const WinnersSection = ({ items }) => (
   <Section>
-    <WinnerHeader img="img/apple-touch-icon.png" title="Overall winner" />
+    <WinnerHeader img="/img/apple-touch-icon.png" title="Overall winner" />
     {items.map(({ title, textContent, image, prize, team, link }, index) => (
       <div
         key={index}

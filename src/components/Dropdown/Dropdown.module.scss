@@ -1,0 +1,24 @@
+@import '../../styles/styleSetup.scss';
+
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.arrow {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  background-image: url('../../img/arrow.svg');
+}
+
+.isOpen {
+  transform: rotate(180deg);
+}

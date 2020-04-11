@@ -15,8 +15,8 @@ import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
 import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
-import TrackCallToActionSection from '../components/TrackCallToActionSection/TrackCallToActionSection'
 import MentorNameList from '../components/People/MentorNameList'
+import TrackWinnersSection from '../components/TrackWinnersSection/TrackWinnersSection'
 
 export const TrackTemplate = ({
   title,
@@ -33,10 +33,8 @@ export const TrackTemplate = ({
   challengesDescription,
   challenges,
   widgetCode,
-  ctaDescription,
-  ctaText,
-  ctaUrl,
   mentorsList,
+  trackWinners,
 }) => (
   <>
     <TrackHeroSection
@@ -64,10 +62,10 @@ export const TrackTemplate = ({
         <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
       </Section>
     )}
-    <TrackCallToActionSection
-      ctaDescription={ctaDescription}
-      ctaText={ctaText}
-      ctaUrl={ctaUrl}
+    <TrackWinnersSection
+      trackWinners={
+        trackWinners.filter(track => track.trackWinner.category === title)[0]
+      }
     />
     <TrackMentors
       tracklist={title}
@@ -96,7 +94,7 @@ TrackTemplate.propTypes = {
 
 const TrackPage = ({ data, pageContext }) => {
   const { frontmatter = {}, html } = data.markdownRemark
-  const { mentor = {} } = data
+  const { mentor = {}, trackWinners = {} } = data
   const mentorsList = pageContext.mentors
 
   return (
@@ -116,10 +114,8 @@ const TrackPage = ({ data, pageContext }) => {
         challengesDescription={frontmatter.challengesDescription}
         challenges={frontmatter.challenges}
         widgetCode={frontmatter.widgetCode}
-        ctaDescription={frontmatter.ctaDescription}
-        ctaText={frontmatter.ctaText}
-        ctaUrl={frontmatter.ctaUrl}
         mentorsList={mentorsList}
+        trackWinners={trackWinners.frontmatter.trackWinners}
       />
     </Layout>
   )
@@ -157,9 +153,6 @@ export const pageQuery = graphql`
           linkUrl
         }
         widgetCode
-        ctaDescription
-        ctaText
-        ctaUrl
       }
     }
     mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {
@@ -168,6 +161,23 @@ export const pageQuery = graphql`
         surname
         role
         about
+      }
+    }
+    trackWinners: markdownRemark(
+      frontmatter: { templateKey: { eq: "results-page" } }
+    ) {
+      frontmatter {
+        trackWinners {
+          trackWinner {
+            category
+            teams {
+              team
+              prize
+              textContent
+              link
+            }
+          }
+        }
       }
     }
   }

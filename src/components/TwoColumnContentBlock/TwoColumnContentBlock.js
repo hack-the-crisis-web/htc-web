@@ -16,15 +16,14 @@ const TwoColumnContentBlock = ({
   twoColumnClassName,
   titleClassName,
   descriptionClassName,
+  addMarginBottom = true,
 }) => {
   const shouldRenderCTA = !!ctaText && !!ctaLink
   return (
     <div
-      className={classnames(
-        'container',
-        styles.bottomMargin,
-        twoColumnClassName
-      )}
+      className={classnames('container', twoColumnClassName, {
+        [styles.bottomMargin]: addMarginBottom,
+      })}
     >
       <div
         className={classnames(

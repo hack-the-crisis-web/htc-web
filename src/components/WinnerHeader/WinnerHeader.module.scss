@@ -1,0 +1,40 @@
+@import '../../styles/styleSetup.scss';
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+  h2 {
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  img {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+  }
+}
+
+.withoutMargin {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.small {
+  h2 {
+    font-size: 20px;
+    color: $light-grey;
+  }
+
+  img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+}

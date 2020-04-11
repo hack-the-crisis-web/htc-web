@@ -5,7 +5,6 @@ import classnames from 'classnames'
 import SocialIconLink from '../SocialIconLink/SocialIconLink'
 import MainLogo from '../MainLogo/MainLogo'
 import NavLink from '../NavLink/NavLink'
-// import CountDownWidget from '../CountDownWidget/CountdownWidget'
 import NavTracklist from '../NavTracklist/NavTracklist'
 import styles from './Navbar.module.scss'
 import '../all.sass'
@@ -40,9 +39,6 @@ const Navbar = class extends React.Component {
   }
 
   render() {
-    // const eventDate = new Date('9 April 2020 14:00 UTC')
-    // const eventEnd = new Date('11 April 2020 14:00 UTC')
-
     const navLinkClassnames = classnames(
       'navbar-item',
       'hover-effect-small',
@@ -67,11 +63,6 @@ const Navbar = class extends React.Component {
             >
               <MainLogo />
             </Link>
-            {/* <CountDownWidget
-              className={'is-hidden-desktop'}
-              eventTime={eventDate.toISOString()}
-              eventEnd={eventEnd.toISOString()}
-            /> */}
             <div
               className={classnames(
                 'navbar-burger',
@@ -123,7 +114,10 @@ const Navbar = class extends React.Component {
                 FAQ
               </NavLink>
               <NavLink to="/news" className={navLinkClassnames}>
-                The Daily Splash
+                News
+              </NavLink>
+              <NavLink to="/results" className={navLinkClassnames}>
+                Results
               </NavLink>
             </div>
             <div
@@ -133,11 +127,6 @@ const Navbar = class extends React.Component {
                 styles.spaceRight
               )}
             >
-              {/* <CountDownWidget
-                className="is-hidden-touch"
-                eventTime={eventDate.toISOString()}
-                eventEnd={eventEnd.toISOString()}
-              /> */}
               <div className="navbar-item is-hidden-desktop">
                 <SocialIconLink
                   type="slack"

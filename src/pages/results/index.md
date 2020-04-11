@@ -3,7 +3,7 @@ templateKey: results-page
 path: /results
 title: Results
 contentItems:
-  - title: 'Becoming One.  '
+  - title: Becoming one
     image: /img/oportunity_globe.png
     textContent: >-
       As we are still tallying up the numbers and recovering from 48 hours of

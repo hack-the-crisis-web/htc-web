@@ -83,9 +83,9 @@ Note, the checkpoints are mandatory – if the Team Lead does not represent thei
 * Final results have to be submitted by 13:00
 * Mentors start evaluating submissions
 
-17:00 UTC Track closing ceremonies (Top 15 per track announced)
+17:00 UTC Track closing ceremonies
 
-Video presentations from Top 15 teams from track + Top 3 per track announced, going to overall finals from:
+Video presentations from top teams from track + Top 3 per track announced, going to overall finals from:
 
 * Economy & Environment
 * Empowerment & Solidarity
@@ -95,9 +95,9 @@ Video presentations from Top 15 teams from track + Top 3 per track announced, go
 
 ### **12.04 Sunday**
 
-08:00 UTC Track closing ceremonies (Top 15 per track announced)
+08:00 UTC Track closing ceremonies
 
-Video presentations from Top 15 teams from track + Top 3 per track announced, going to overall finals from:
+Video presentations from top teams from track + Top 3 per track announced, going to overall finals from:
 
 * Crisis Response
 * Health & Wellness

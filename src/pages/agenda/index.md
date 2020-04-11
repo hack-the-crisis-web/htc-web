@@ -106,7 +106,6 @@ Video presentations from Top 15 teams from track + Top 3 per track announced, go
 13:00 UTC The Global Hack finals and Closing Ceremony (via Zoom)
 
 * Winners for each track announced
-* Winner by audience announced
 * Overall winner announced by Grand Jury (TBA)
 
 ### **13.04 Monday**

@@ -9,6 +9,9 @@ import styles from './TrackWinnersDropdown.module.scss'
 const TrackWinnersDropdown = ({ trackWinners, data }) => {
   const [openedDropdownIndex, setOpenedDropdownIndex] = useState(null)
 
+  if (trackWinners.length === 1 && trackWinners[0].trackWinner.category === '')
+    return null
+
   const toggleDropdown = index => () => {
     setOpenedDropdownIndex(openedDropdownIndex === index ? null : index)
   }
@@ -17,7 +20,7 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
     const trackData = data.filter(
       track => track.node.frontmatter.title === category
     )
-    return trackData[0].node.frontmatter.trackLogo
+    return trackData[0] ? trackData[0].node.frontmatter.trackLogo : ''
   }
 
   return (

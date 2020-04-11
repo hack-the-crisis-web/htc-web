@@ -89,9 +89,6 @@ export const resultsPageQuery = graphql`
               prize
               textContent
               link
-              image {
-                publicURL
-              }
             }
           }
         }

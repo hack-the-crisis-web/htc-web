@@ -175,9 +175,6 @@ export const pageQuery = graphql`
               prize
               textContent
               link
-              image {
-                publicURL
-              }
             }
           }
         }

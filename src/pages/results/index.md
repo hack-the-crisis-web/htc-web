@@ -34,7 +34,7 @@ trackWinners:
             between 50% and 70%, starting from January 2020, most of the popular
             platforms are still hard to monetize as they do not offer pay per
             view option and their links are easily sharable.
-        - team: fingertips
+        - team: fingertrips
           prize: 5000€
           link: 'https://youtu.be/XQE7PFve8o4'
           textContent: >-
@@ -368,4 +368,70 @@ trackWinners:
             by taking advantage from big brand and famous chefs. Give people the
             chance to bring a local dimension and that "sense of neighborhood"
             in online experiences
+  - trackWinner:
+      title: ''
+      category:
+        - Education
+      teams:
+        - team: ' InsideScoop'
+          prize: 10 000€
+          link: www.youtube.com/watch?v=tQ6VaAy30RI
+          textContent: >-
+            As of March 16th, fifty percent of the world's kids are now in
+            online school, where students are reluctant to participate and are
+            often confused in class. The transition is just as hard for
+            teachers, who struggle to understand if their lessons are absorbed
+            by their students as they can barely see their faces and reactions.
+            To solve this, we built InsideScoop—a platform that uses
+            cutting-edge tools to personalize every student’s education by
+            providing their teachers with real-time actionable reports on each
+            student.
+        - team: Outside
+          prize: 5000€
+          link: 'https://youtu.be/G7-FKuCGQ3k'
+          textContent: >-
+            In these unprecedented times, and moving forward after this, we hope
+            that our product can significantly enhance the learning experience.
+            Making learning more immersive, interactive, and bring what people
+            learn to life. This will be the school of the future.
+        - team: European Device Donation Network
+          prize: 5000€
+          link: 'https://youtu.be/BZZzCHUJOcI'
+          textContent: >-
+            With the majority of schools switching to remote learning, many
+            families do not have a tablet or PC at home, or need to share one,
+            thus making it harder to follow remote lectures. Furthermore, many
+            households have a poor landline internet connection.
+        - team: '#WalkMeThroughIt'
+          prize: ''
+          link: 'https://youtu.be/1Rloo8nVIK4'
+          textContent: >-
+            We've solving the problem of non-interactivity in online DIY
+            tutorials. Things like cooking, fixing things around the house or on
+            your car, are easier to learn when you have someone guiding you
+            through it and giving you feedback live. Rather than a static guide.
+        - team: Jop
+          prize: ''
+          link: 'https://youtu.be/dm3uLMxilD8'
+          textContent: >-
+            An AI assistant (and friend) for teachers, parents and most of all
+            kids!
+        - team: EduData
+          prize: ''
+          link: 'https://arnavhiray-gmail.tinytake.com/tt/NDIwNDkzNl8xMzA5MDQ3Ng'
+          textContent: >-
+            EduData is an online educational database built with the vision to
+            support individuals around the world who are seeking help and
+            guidance to restart their life. Our mission is to create a global
+            community connecting students and mentors all around the world to
+            help further enhance their knowledge and skills as they face this
+            global pandemic.
+        - team: Marble
+          prize: ''
+          link: 'https://youtu.be/JcFMou_TC-8'
+          textContent: >-
+            Our mission is to support SMB on their way to innovation by
+            empowering their talents. Understanding of skillsets existing and
+            required will bring innovation and better processes management in
+            SMB.
 ---

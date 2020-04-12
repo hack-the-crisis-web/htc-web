@@ -261,4 +261,111 @@ trackWinners:
             essential item such as soap or aspirins, they have no way of getting
             them in a timely manner. Can you imagine running out of toilet
             paper?
+  - trackWinner:
+      title: ''
+      category:
+        - Economy
+      teams:
+        - team: Vendito
+          prize: 10 000€
+          link: 'https://www.fuerzacdmx.org/vendito-mvp'
+          textContent: >-
+            More and more small businesses are forced to close their doors,
+            unemployment is on the rise and could potentially reach 24 million
+            people around the world, their only hope to survive is to sell
+            online or by the phone. Sounds pretty simple right?
+
+            Our SOM is 4.1 million SMBs in Mexico that don't have any kind of
+            e-commerce
+        - team: Crisis Budget
+          prize: 5000€
+          link: 'https://vimeo.com/406506789'
+          textContent: >-
+            New assistance packages are announced by governments throughout the
+            world each day, it can be confusing and overwhelming to see what
+            actually applies to you and what assistance you are eligible for.
+            Our chatbot makes this understanding an easy and seamless process.
+        - team: EasySnap
+          prize: ''
+          link: 'https://youtu.be/RK0bcQAmXKU'
+          textContent: >-
+            We expect that this solution will reduce the friction in the SNAP
+            application process. Studies show that the program reduces the
+            probability of an recipient being food insecure by 30 percent (after
+            controlling for factors endogenous with SNAP eligibility). Helping
+            even one family get the food they need would make this work
+            worthwhile, but we expect many more would benefit from this
+            significantly easier process.
+        - team: Humans AI
+          prize: ''
+          link: 'https://youtu.be/RCm5oT33gK4'
+          textContent: >-
+            Providing a reliable source on income to the worst-hit economical
+            classes of India due to the lockdown. Small shop keepers, salesmen,
+            taxi drivers and watchmen in India have no means of earning money
+            during the lockdown. They also lack computers/laptops and cannot
+            work from home. Unable to find means to pay for rent, bills and food
+            along with little government support, a solution is needed, now.
+        - team: ThePaylink.com
+          prize: ''
+          link: 'https://youtu.be/M05S5v_AE3k'
+          textContent: >-
+            With over 3 million brick and mortar stores having to close, many
+            were ready to sell online for lack of presence and also payment
+            reliance on card presence to go cashless. Deliveries went through
+            the roof, but with no trust in cash (or lack of availability with
+            customers due to lockdowns), merchants have little options in
+            majority of the world. Cash on delivery also poses risks of customer
+            not present, cancelled orders (changed mind), or simply no change.
+        - team: NosiFood
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=JdIAbp-g0QM'
+          textContent: >-
+            We are here to support the restaurant industry communities,
+            restructuring how we operate and also saving jobs.
+
+            NosiFood platform aims to keep as many restaurants & cafes in
+            business as possible. NosiFood is here to stay. We are not only
+            built for the crisis, but here to change and elevate how restaurants
+            & cafes operate their takeaway services online & in their
+            communities.
+        - team: Samanya App
+          prize: ''
+          link: 'https://youtu.be/LWiYvpDUWdk'
+          textContent: >-
+            Governments around the globe are looking at a phased out removal of
+            lockdown restrictions. To allow appointment based visits to
+            groceries/pharmacies/utility stores, keeping in mind social
+            distancing norm and to allow rush free, easy shopping of essentials,
+            Samanya is the solution to connect suppliers (all size retailers &
+            stockists) to the buyers- our major target market, to streamline
+            outdoor visits for all citizens for the next 3-6 months.
+        - team: AXKI
+          prize: ''
+          link: 'https://youtu.be/CkXkPOPan2c'
+          textContent: >-
+            Small businesses are jeopardized by COVID-19 and help that the banks
+            and government are providing is not enough, and citizens must act
+            together in order to save jobs. In some countries, there is not any
+            support and lend money in the bank with a high rate of interest it´s
+            no and option to going up.
+        - team: '##Covexit'
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=0rto3r-V6L8'
+          textContent: >-
+            Many small shops experience extremely high losses in sales because
+            they can no longer sell their products . Whilst many products could
+            be sold online a lot of the owners don't know how to do that or
+            can't afford fees of existing marketplaces (e.g. Amazon). At the
+            same time people who are looking for those products are stuck at
+            home and want to support shops in their vicinity.
+        - team: BackToMySpot
+          prize: ''
+          link: 'https://youtu.be/xVEfrcSXZ-Y'
+          textContent: >-
+            We allow restaurants to have an immediate cashflow and a new digital
+            offer for the future by leveraging the loyalty of the customers and
+            by taking advantage from big brand and famous chefs. Give people the
+            chance to bring a local dimension and that "sense of neighborhood"
+            in online experiences
 ---

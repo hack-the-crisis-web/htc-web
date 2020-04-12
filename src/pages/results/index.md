@@ -834,4 +834,64 @@ trackWinners:
             levels. By allowing people to test themselves in the comfort of
             their own home, we can get an overview of the entire population
             without stressing the healthcare system.
+  - trackWinner:
+      title: ''
+      category:
+        - Work
+      teams:
+        - team: Serw
+          prize: 10 000€
+          link: 'https://youtu.be/_p1Wwl-Pldk'
+          textContent: >-
+            We want to make it easy for any professional to serve their
+            customers from anywhere while making money, thus supporting the new
+            world after COVID-19 by building an ecosystem around video-based
+            consulting, we want to make it easy for professionals to get more
+            customers frictionlessly through our system, thus increasing
+            opportunities.
+        - team: Friends for Work
+          prize: 5000€
+          link: 'https://youtu.be/uQ2wZUtWD3c'
+          textContent: >-
+            Friends for Work will not only help people to find the right
+            projects for them. The platform will become a community, a place
+            where values, personality, attitudes and passions will be as
+            appreciated as professional skills.
+        - team: '#ClansOfCause'
+          prize: 5000€
+          link: 'https://vimeo.com/406520758'
+          textContent: >-
+            We forge a stronger connection between individuals, communities and
+            workplaces. By support, kindness, and belonging we will create
+            greater local, and global resilience.
+        - team: Free chatbot to support remote work transition
+          prize: ''
+          link: 'https://youtu.be/6kOzHWqhGOY'
+          textContent: >-
+            We hope to support thousands of people whose performance suffers. We
+            believe we can support them emotionally, help them become more
+            productive, communicate better and generally solve personal and
+            professional challenges.
+        - team: The Virtual Incubator
+          prize: ''
+          link: 'https://youtu.be/OCx8VIASVlo'
+          textContent: >-
+            Our Virtual Incubator Platform helps entrepreneurs in Emerging
+            Markets to build viable businesses that solve social problems by
+            providing an effective virtual experience along the startup
+            lifecycle
+        - team: ' HeartLedWork'
+          prize: ''
+          link: 'https://youtu.be/sCQYk8jbDlU'
+          textContent: >-
+            A platform to facilitate offline and online workshops: planning
+            workshop activities with blocks, option to timebox activities,
+            alerts to participants to stay on track, also first mindfulness
+            process video for facilitators to add to their workshop.
+        - team: Flamingo Money Transfer
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=gXUwfu7o1HU'
+          textContent: >-
+            The Flamingo money transfer app helps families request money
+            seamlessly, and workers send money easily.
 ---

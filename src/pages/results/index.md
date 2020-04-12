@@ -698,4 +698,16 @@ trackWinners:
             are not measuring,’ and in New Zealand we do not provide public
             sector senior leaders with measurement data, trends, benchmarks or
             examples to show how to lift its innovative ability.
+  - trackWinner:
+      title: ''
+      category:
+        - Health & Wellness
+      teams:
+        - team: Filtertex
+          prize: 10 000€
+          link: 'https://youtu.be/_XjAU7eTWhU'
+          textContent: >-
+            The required machinery is extremely complex, expensive and there are
+            only a few companies across the globe that can make them, so
+            delivery time now is up to 15 months.
 ---

@@ -30,7 +30,11 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
         <Dropdown
           key={index}
           isOpen={openedDropdownIndex === index}
-          title={trackWinner.category.join(', ')}
+          title={
+            typeof trackWinner.category === 'string'
+              ? trackWinner.category
+              : trackWinner.category.join(', ')
+          }
           img={getTrackLogo(trackWinner.category)}
           onClick={toggleDropdown(index)}
         >

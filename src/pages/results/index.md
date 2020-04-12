@@ -894,4 +894,121 @@ trackWinners:
           textContent: >-
             The Flamingo money transfer app helps families request money
             seamlessly, and workers send money easily.
+  - trackWinner:
+      title: ''
+      category:
+        - Mental Health
+      teams:
+        - team: TRANS-LATE
+          prize: 10 000€
+          link: 'https://www.youtube.com/watch?v=J1pNXe8v7xc'
+          textContent: >-
+            Our idea is solving the problem of people in quarantine not being
+            able to go to wellness centers or mental-health clinics and perform
+            assisted therapy, assisted meditation\relaxation routines or
+            assisted immersive embodied therapies.
+        - team: Asha
+          prize: 5000€
+          link: 'https://photos.app.goo.gl/TxKeoCFzs2eJwFMf7'
+          textContent: >-
+            We aim to impact the 450 million people around the world that are
+            suffering from mental health issues. Our algorithms would also
+            reduce the hassle for the psychologists of taking notes. For
+            psychologists, it is tough to keep themselves alert in all the
+            sessions with the same level of concentration. Our algorithm
+            provides them with a patient dashboard that would help them give the
+            right advise even if they miss something.
+        - team: Act On Crisis
+          prize: 5000€
+          link: 'https://youtu.be/T1KJSdffOys'
+          textContent: >-
+            Before this crisis approx 12% of the world's population was in need
+            of psychological support. There’re currently 3bln people in lockdown
+            which means at least 360mln are experiencing strong emotional
+            imbalance. Yet they don't have access to secure online emotional
+            support which would fit their cultural background.
+        - team: EVAAI
+          prize: ''
+          link: 'https://youtu.be/2K0JFMskLtM'
+          textContent: >-
+            To disrupt the entire mental health industry. The use of AI and nlp
+            technology in the hands of mental health professionals can vastly
+            improve the lives of billions around the world.
+        - team: Amica
+          prize: ''
+          link: 'https://youtu.be/3EFAC_ydhnw'
+          textContent: >-
+            Amica is your social sidekick when friends seem to be slipping away
+            and contact is being lost. We want to help people have more
+            enriching relationships with their friends by monitoring their
+            relationships in a gameified way.
+        - team: Corona Therapists
+          prize: ''
+          link: 'https://youtu.be/iEgarFZJoao'
+          textContent: A website platform for engaging with individuals
+        - team: Lifebuddies
+          prize: ''
+          link: 'https://youtu.be/XEeywoLxv1I'
+          textContent: >-
+            Self-Development Advice based on Personality Science powered by Bot
+            & Community of Practioners
+        - team: CALLECT
+          prize: ''
+          link: 'https://youtu.be/kPBoNnyGspQ'
+          textContent: >-
+            Connectivity platform to match lonely people through anonymous
+            voice-calls
+        - team: Give On LIVE!
+          prize: ''
+          link: 'https://youtu.be/r99F8b8-oCE'
+          textContent: >-
+            With much of the world social distancing, we are called to distance,
+            but not isolate. There are many free resources to help with getting
+            through this time. Livestream helps watchers feel connected,
+            however, the platforms are so scattered, its very difficult for
+            people to find.
+        - team: MindLift
+          prize: ''
+          link: 'https://vimeo.com/406524859'
+          textContent: >-
+            Transform online mental healthcare by putting our customers needs
+            and wishes in the centre of the processes. We offer help navigating
+            the often confusing mental health landscape by personalized
+            suggestions and science based matching service with a mental health
+            professional. 
+        - team: fam cam
+          prize: ''
+          link: 'http://famcam.io/hackathonvideo'
+          textContent: >-
+            We have built a working prototype to of a plug-n-play webcam which
+            allows families to chat from their living rooms' big TV. Suitable
+            for older people, no setup needed, it comes with a pre-loaded video
+            calling software and account (like your new phone number).
+        - team: TosKa!
+          prize: ''
+          link: 'https://youtu.be/ZGqFjFteqsY'
+          textContent: >-
+            Our goal is to give support to those people that due to the lockdown
+            have to overcome their anxiety issues alone. We didn’t want to
+            create a medial solution, but a supporter, as if it was a friend.
+            The strength of our solution is its immediacy. 
+        - team: Motiv Social Diary
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=m55AinAmaSU'
+          textContent: >-
+            The need to prioritize mental health has been made more pertinent
+            with the global COVID19 pandemic and the social distancing or
+            isolation policies. On this note, we aim to build a social diary
+            where people are able to share their thoughts online via different
+            mediums like text and images. What we want to do is also be able to
+            pinpoint cases or trends of people experiencing a valley in their
+            lives so that the necessary help and support can be rendered.
+        - team: IT Psychological Support
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=hMNsocsaiTE'
+          textContent: >-
+            This app would bring is making feel people less lonely with their
+            thoughts and their issues. Everybody is going through hard time.
+            COVID19 is a pandemic therefore the app is expected to bring a great
+            positive impact around the globe.
 ---

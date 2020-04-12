@@ -4,7 +4,7 @@ path: /results
 title: Results
 contentItems:
   - title: Becoming one
-    image: /img/oportunity_globe.png
+    image: /img/winners.png
     textContent: >-
       As we are still tallying up the numbers and recovering from 48 hours of
       non-stop hackathon, we can already say that the world did come together. 

@@ -216,8 +216,49 @@ trackWinners:
             Next Generation Cost-effective Reusable Antiviral Mask: Self-healing
             Flexible PPE Equipment Exploiting the Novel Quantum Dot embedded
             Self-healing Nano-matrix.
-        - team: ''
+        - team: GMedChain
           prize: ''
-          link: ''
-          textContent: ''
+          link: 'https://youtu.be/Q1jXGTEjl5I'
+          textContent: >-
+            Our mission is to offer access to affordable and quality healthcare
+            supplies to patients around the world by improving the trust and
+            efficiency of the supply chain system with Blockchain technology.
+        - team: NoCrowd
+          prize: ''
+          link: 'https://youtu.be/TgzJskgN36s'
+          textContent: >-
+            There are 3 billion of us in lockdown, yet we still need to go
+            shopping, to the pharmacy or to work. The WHO and CDC claim that
+            lack of social distancing is the main reason the virus spreads. Not
+            knowing where crowded areas are when going out, or queuing in front
+            of stores and pharmacies for a long time make proper social
+            distancing impossible.
+        - team: HospiHelper
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=VD_LsM_CWHY'
+          textContent: >-
+            By orchestrating and matching hospitals and producers based on
+            resource demand and supply, we expect to bring the ends together. On
+            top of that we offer the hospital a solution to predict their
+            demands in resources based on the regional COVID cases. This will
+            lead to a better and faster allocation of protective equipment and
+            the required medical resources.
+        - team: VinCense Covid-19 Risk Detection Protocol
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=ydwnP2Aoc6Y'
+          textContent: >-
+            Our solution helps the government to prescreen their people to check
+            whether their vitals are in range or not basically to precheck
+            before advance testing. Our platform helps in mass digital
+            prescreening with 90 percent reduction in time and cost.
+        - team: LaCausa
+          prize: ''
+          link: 'https://youtu.be/fXzJSUdUGy0'
+          textContent: >-
+            All around the world, millions of people have gone into mandatory
+            quarantine. Transit and attention restrictions make it hard for us
+            to do any daily shopping. That means that if anyone runs out of an
+            essential item such as soap or aspirins, they have no way of getting
+            them in a timely manner. Can you imagine running out of toilet
+            paper?
 ---

@@ -616,4 +616,86 @@ trackWinners:
             sustainability initiatives. Our platform, Green Spotter, helps users
             connect with other people and sustainability initiatives in their
             communities.
+  - trackWinner:
+      title: ''
+      category:
+        - Governance
+      teams:
+        - team: Pandemia
+          prize: 10 000€
+          link: 'https://pandemia-government.herokuapp.com/video'
+          textContent: >-
+            Parliaments are put on hold because of the covid-19 pandemia. Some
+            parliaments around the world still meet in person and are setting a
+            conflicting signal to the general public. Our solution,
+            pandemia-government is an online space where parliamentary business
+            can be conducted in a safe, transparent fashion.
+        - team: cautio
+          prize: 5000€
+          link: 'https://youtu.be/l_8C1FLUaZk'
+          textContent: >-
+            With only a small amount of data, cautio is able to provide
+            governmental authorities, hospital workers and researchers with
+            valuable information on the development of the COVID-19 in different
+            sectors of society on a population-wide basis.
+        - team: LookOut
+          prize: 5000€
+          link: 'http://hack.byethost33.com/'
+          textContent: >-
+            The focus of LookOut is on improving the connect between the public
+            and the government, hence ensuring proper governance being followed
+            in a fast track manner, during these emergency situations it becomes
+            imperative to lessen this disparity between the areas, to ensure
+            that essentials are being received by everyone, and in an equitable
+            manner. 
+        - team: Data4Life Initiative
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=srmvU8uBKO0'
+          textContent: >-
+            The solution helps contain the spread of the virus, achieve faster
+            societal and economic recovery and build post COVID-19 resilience
+            through actionable, evidence based, insights.
+        - team: '**COVID Wave Command Center**'
+          prize: ''
+          link: 'https://youtu.be/VH2gmMtba3s'
+          textContent: >-
+            A solution for massive contact tracing that produced data to
+            understand specific locations of the outbreaks.
+        - team: Coronavirus Alert App
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=omWsip5ghGM'
+          textContent: >-
+            Our solution targets top decision-makers across government
+            organizations. We believe that change comes from a top-down approach
+            and if we can equip them with the right information and tools, we
+            can be a part of saving the lives of millions.
+        - team: Open Prescription
+          prize: ''
+          link: 'https://youtu.be/ATcgZfqorFk'
+          textContent: >-
+            A platform for authenticating and signing medical prescriptions by
+            validated doctors using digital identity and linked to drug
+            dispensing tracking.
+        - team: Signet.app
+          prize: ''
+          link: 'https://youtu.be/rePSmmSRmEk'
+          textContent: >-
+            Authorities, organizations and practitioners will be able to resume
+            and scale their operations online without having to compromise
+            privacy or trust
+        - team: BrightAct
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=8NnAIG6Zeco'
+          textContent: >-
+            App for victims of domestic violence to document and find support,
+            with a hidden log in and chat function.
+        - team: Innovation Barometer
+          prize: ''
+          link: 'https://youtu.be/b7RyajXiZbU'
+          textContent: >-
+            Public Sector Innovation is acknowledged as being vital to drive
+            better outcomes for citizens. However, ‘you cannot manage what you
+            are not measuring,’ and in New Zealand we do not provide public
+            sector senior leaders with measurement data, trends, benchmarks or
+            examples to show how to lift its innovative ability.
 ---

@@ -434,4 +434,95 @@ trackWinners:
             empowering their talents. Understanding of skillsets existing and
             required will bring innovation and better processes management in
             SMB.
+  - trackWinner:
+      title: ''
+      category:
+        - Empowerment
+        - Solidarity in Action
+      teams:
+        - team: BookingLive
+          prize: 10 000€
+          link: 'https://www.youtube.com/watch?v=dpkujqx30WA'
+          textContent: >-
+            Urgent resource needs (volunteers, PPE, care home staff) are not
+            being met because supply networks (staff agencies, volunteer bodies,
+            manufacturers) are too fragmented for already stretched institutions
+            to process in time. This puts strain on those triaging the
+            deployment of resources to resource consumers (hospitals, care
+            homes, isolating households) and leaves the vulnerable exposed, to
+            the point of costing lives.
+        - team: StaySafe
+          prize: 5000€
+          link: 'https://vimeo.com/406524396'
+          textContent: >-
+            The StaySafe app is a platform that helps people to help each other
+            in an interactive, efficient and sustainable way by connecting the
+            local force of volunteers(our heroes) with the people who need some
+            help (including the risk groups) through integrations of maps and
+            simple task management.
+        - team: VIRUS+
+          prize: 5000€
+          link: 'https://youtu.be/yLebB5nlWk0'
+          textContent: >-
+            Our accessible platform will raise awareness about positive societal
+            developments and inspire citizens to take collective action towards
+            a more sustainable future. We will overcome societal, territorial,
+            and technological barriers to empower the world and create a global
+            community with a richly diverse narrative.
+        - team: HourTime
+          prize: ''
+          link: 'https://youtu.be/bIJNOPf48nc'
+          textContent: >-
+            Hourtime focuses on sharing the time and skills of all stakeholders
+            to meet various tasks and establishes the foundations for a
+            cross-generational relationship beyond the simple need. In such a
+            way, all the users, the elderly included, are active part of the
+            system putting emphasis to the contribution that each individual can
+            give to another.
+        - team: LifeChain
+          prize: ''
+          link: 'https://youtu.be/_Q76GnHGdHQ'
+          textContent: >-
+            Revolution the way people help each other around the world by
+            building a solid layer of trust by ensuring helpers know for sure,
+            their donations are supporting the actual people in need, they
+            decided to help and everything is complaining with their own country
+            laws.
+        - team: SoSpesa
+          prize: ''
+          link: 'https://youtu.be/ldxB1L7qXKM'
+          textContent: >-
+            SoSpesa allows to sustain and support the communities we relish.
+            SoSpesa tackles three main areas of action: Storing and sharing
+            information, by saving and displaying your information (grocery list
+            and storage), and allowing you to easily signal whether
+            first-necessity products are available. 
+        - team: Everhelp
+          prize: ''
+          link: 'https://youtu.be/Md1lWecoaak'
+          textContent: >-
+            Our tool is created for tech savvy and non-tech savvy people (no
+            apps, no signups) and provides on demand volunteers to people
+            nearby.
+        - team: Zelos COVID-Help
+          prize: ''
+          link: 'https://youtu.be/jgBjhrTNe74'
+          textContent: >-
+            We created a solution where local leaders can offer support to their
+            community while civilian volunteers join their efforts during any
+            crisis and beyond.
+        - team: Spaced
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=uKh9uHcMDbE'
+          textContent: >-
+            Spaced is a mobile app for empowering people to stop subsequent
+            spikes of COVID-19 after quarantines are lifted by being able to see
+            how populated public spaces are and the best way to get to an
+            essential location with contacting the least amount of people.
+        - team: Connect
+          prize: ''
+          link: 'https://youtu.be/cQY9OuxlG_Y'
+          textContent: >-
+            Connect aims to help daily wage workers find alternative ways to
+            make money during the crisis.
 ---

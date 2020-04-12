@@ -48,6 +48,7 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
             {trackWinner.teams.slice(0, 3).map((team, index) => (
               <WinnerCard
                 key={index}
+                trackWinner={index === 0}
                 full
                 description={team.textContent}
                 team={team.team}

@@ -710,4 +710,128 @@ trackWinners:
             The required machinery is extremely complex, expensive and there are
             only a few companies across the globe that can make them, so
             delivery time now is up to 15 months.
+        - team: AI powered Digital Hospital & Coronavirus Laboratory
+          prize: 5000€
+          link: 'https://www.youtube.com/watch?v=9QmWTvzEht0'
+          textContent: >-
+            In order to ensure every COVID-19 patient receives quality
+            treatment, it is essential to offload workload to automated systems.
+            The A.I powered digital hospital and coronavirus laboratory will
+            help in performing millions of COVID-19 tests each minute, and
+            provide A.I monitored realtime doctor consultation to patients.
+        - team: COVID-19 early detection with HRV app
+          prize: 5000€
+          link: 'https://youtu.be/CYh8hDSeN7k'
+          textContent: >-
+            We built a symptom tagging feature for our iOS app, which allows us
+            to get labeled data sets to understand the connection between acute
+            HRV changes and their potential connection to approaching infection
+            (through symptoms reported by the user).
+        - team: Liber Health
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=isqCSyeW65g'
+          textContent: >-
+            The platform will save millions of patient lives which are lost due
+            to medical errors caused by the lack of verifiable health data and
+            patient mis-identification, specially in emergencies. When the
+            patient arrives at the hospital, they maybe unconscious or badly
+            hurt or unable to communicate due to old age or any other reason.
+            Our solution allows doctors to get instant access to patient health
+            records by just scanning the patient's eye.
+        - team: Knowrona
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=KMLhFxAZmYw'
+          textContent: Exclude fake news with machine learning.
+        - team: Low-Cost Portable Ventilator
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=eT18PJRNqZ8'
+          textContent: >-
+            This ventilator has the potential to address the global shortage of
+            ventilators, freeing up essential resources in hospitals and saving
+            lives in the process
+        - team: Create and compete in socially distanced sport
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=c0fgMJgCvSA'
+          textContent: >-
+            Enable the sport event industry to work and earn a living. Through
+            sport event organisers and their client base, we engage millions of
+            people fast. Through sport events as stress coping mechanism, we
+            lower some of the problems that have arisen because of Covid-19.
+            Through experimentation, design new way how we could look at sport
+            event approach.
+        - team: VoiceMed
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=tlKELwVfjC4'
+          textContent: >-
+            We want to check the entire world population using phone, app and
+            web for COVID19.
+        - team: Geo Trace
+          prize: ''
+          link: 'https://youtu.be/D4hnITNyCi0'
+          textContent: >-
+            If you can move extremely fast with contact tracing you can prevent
+            outbreaks. We aim to achieve critical mass use of our software so
+            there's no longer a choice between saving the economy or saving
+            lives.
+        - team: UltraViolet Virus Destroying Gimbal
+          prize: ''
+          link: 'https://youtu.be/fhLMhGQIT1I'
+          textContent: >-
+            Our solution can help avoid pandemics and keep the world safe from
+            pathogens. The UltraViolet Virus Destroying Gimbal helps
+            continuously maintain previously infectious surfaces safe. The
+            system consists of off-the-shelf-components and can be used
+            everywhere: public buildings, offices, apartment building stairwells
+            and lifts etc.
+        - team: 'Don''t Touch MEN [Mouth Eyes Nose]'
+          prize: ''
+          link: 'https://youtu.be/5tGSGrWI8oM'
+          textContent: >-
+            During social isolation over the last weeks, I have observed many
+            people in videoconferences constantly touching their faces, mostly
+            subconsciously. This is a potential infection path for the virus,
+            getting on a mucous membrane in your eyes, mouth or nose and enters
+            your body. Our app nudges you away from this risky behavior by
+            alerting you when your hand is close to your face.
+        - team: TrackCovid
+          prize: ''
+          link: 'https://vimeo.com/406522744'
+          textContent: >-
+            We are solving the problem of detecting and queuing people who
+            experience possible symptoms of COVID-19, helping overloaded medical
+            systems and the government prioritize medical help. Moreover, we are
+            reducing the anxiety of people who cannot get access to immediate
+            medical advice. This system also provides automatic research and
+            monitoring, helping to encompass immense target groups and represent
+            the results in the most convenient way for analysis.
+        - team: Coronarate
+          prize: ''
+          link: 'https://vimeo.com/406483408'
+          textContent: >-
+            We have created an existing award-winning citizen science reporting
+            system. There, the rationale is simple: we are used to rating
+            hotels, food, travel and so forth; why not do the same for the
+            environment? Envirate allows anyone with access to a smartphone to
+            give ratings on the environment around them simply using our three
+            main senses: LOOK, HEAR and BREATHE. Now, we are modifying our
+            Envirate platform for tracking Corona symptoms.
+        - team: Healshare
+          prize: ''
+          link: 'https://youtu.be/J1-WVCegdEk'
+          textContent: >-
+            We developed Healshare, an analytics-driven platform that offers you
+            an Android app to upload your breath data, with onboard signal
+            processing and in-cloud data analysis algorithms for detecting
+            patterns and trend analysis for early detection of breathing
+            discomfort.
+        - team: Go Test Yourself
+          prize: ''
+          link: 'https://www.loom.com/share/a301a2b16f464eac8d2f7e7d2e474474'
+          textContent: >-
+            Currently only severe cases and medical workers are being tested. In
+            the (near) future we will likely want to see exactly how many people
+            were infected to see if we are getting close to herd immunity
+            levels. By allowing people to test themselves in the comfort of
+            their own home, we can get an overview of the entire population
+            without stressing the healthcare system.
 ---

@@ -142,7 +142,7 @@ const Navbar = class extends React.Component {
               <div className="navbar-item">
                 <SocialIconLink
                   type="twitter"
-                  href="https://twitter.com/garage48"
+                  href="https://twitter.com/theglobalhack"
                 />
               </div>
             </div>

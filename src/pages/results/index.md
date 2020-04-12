@@ -24,7 +24,9 @@ overallWinner:
 trackWinners:
   - trackWinner:
       title: TOP3
-      category: Arts & Creativity
+      category:
+        - Arts & Creativity
+        - Media & Entertainment
       teams:
         - team: '  elektron.live'
           prize: 5000€

@@ -13,12 +13,39 @@ contentItems:
       projects. Thank you for joining the fight.
 overallWinner:
   - title: Overall Winner
-    team: ' '
-    prize: ''
-    textContent: |
-      ""
+    team: 'SunCrafter '
+    prize: Additional 10 000€
+    textContent: >-
+      The disinfection station will provide a holistic solution for a hygiene
+      method as a global standard. By providing easy, affordable and
+      barrier-free access to hand disinfection, we can help reduce the spread of
+      viruses like corona, both within Europe and abroad. We achieve such
+      extensive coverage by coupling UV lamps with our upcycled solar
+      generators, allowing it to be a truly sustainable and inclusive solution
+      that can be brought to exactly where it's needed.
+    link: 'https://youtu.be/8172hcxn724'
+    image: ''
+  - title: Runner Up
+    team: Material Mapper
+    prize: Additional 5000€
+    textContent: >-
+      A market research to validate the problem statement - a survey and
+      thorough in-person meetings with all major property developers,
+      municipalities, demolishing, recycling and construction companies in
+      Norway.
+    link: 'https://vimeo.com/406523039'
+    image: ''
+  - title: 2nd Runner Up
+    team: Act on Crisis
+    prize: 'https://youtu.be/T1KJSdffOys'
+    textContent: >-
+      Before this crisis approx 12% of the world's population was in need of
+      psychological support. There’re currently 3bln people in lockdown which
+      means at least 360mln are experiencing strong emotional imbalance. Yet
+      they don't have access to secure online emotional support which would fit
+      their cultural background.
     link: ''
-    image: /img/195k.png
+    image: ''
 trackWinners:
   - trackWinner:
       title: ''

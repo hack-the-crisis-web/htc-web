@@ -26,7 +26,7 @@ const TrackWinnersSection = ({ trackWinners }) => {
         </Section>
         <Section>
           <div className={styles.teams}>
-            <WinnerHeader title="Finalists" img={'/img/apple-touch-icon.png'} />
+            <WinnerHeader title="Finalists" img={'/img/bronze.png'} />
             {trackWinners.trackWinner.teams.slice(3).map((team, index) => (
               <WinnerCard
                 key={index}

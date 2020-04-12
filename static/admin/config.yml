@@ -761,6 +761,7 @@ collections:
                           widget: 'relation',
                           collection: 'tracklists',
                           searchFields: ['title'],
+                          multiple: true,
                           valueField: 'title',
                           required: false,
                           default: '',

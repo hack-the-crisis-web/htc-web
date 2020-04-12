@@ -64,7 +64,9 @@ export const TrackTemplate = ({
     )}
     <TrackWinnersSection
       trackWinners={
-        trackWinners.filter(track => track.trackWinner.category === title)[0]
+        trackWinners.filter(track =>
+          track.trackWinner.category.includes(title)
+        )[0]
       }
     />
     <TrackMentors

@@ -525,4 +525,95 @@ trackWinners:
           textContent: >-
             Connect aims to help daily wage workers find alternative ways to
             make money during the crisis.
+  - trackWinner:
+      title: ''
+      category:
+        - Environment
+      teams:
+        - team: Material Mapper
+          prize: 10 000€
+          link: 'https://vimeo.com/406523039'
+          textContent: >-
+            A market research to validate the problem statement - a survey and
+            thorough in-person meetings with all major property developers,
+            municipalities, demolishing, recycling and construction companies in
+            Norway.
+        - team: SunCrafter
+          prize: 5000€
+          link: 'https://youtu.be/8172hcxn724'
+          textContent: >-
+            The disinfection station will provide a holistic solution for a
+            hygiene method as a global standard. By providing easy, affordable
+            and barrier-free access to hand disinfection, we can help reduce the
+            spread of viruses like corona, both within Europe and abroad. We
+            achieve such extensive coverage by coupling UV lamps with our
+            upcycled solar generators, allowing it to be a truly sustainable and
+            inclusive solution that can be brought to exactly where it's needed.
+        - team: BD Waste Recovery Platform
+          prize: 5000€
+          link: 'https://youtu.be/BhRwkCnn_Ow'
+          textContent: >-
+            This platform enables the 10,000 people who lost their job during
+            this pandemic to gain extra income while recycling trash, get 20% of
+            the waste generated in Africa recycled in the first three years of
+            operation and save our environment from climate change.
+        - team: ClicKoala
+          prize: ''
+          link: 'https://youtu.be/7EjOlPzkAJU'
+          textContent: >-
+            An online search engine for sustainable products and services with
+            reliable eco-social certificates endorsed by sustainability experts.
+        - team: AWorld
+          prize: ''
+          link: 'https://youtu.be/fTtcxuT2Uao'
+          textContent: >-
+            The App connects people and uses gamification mechanics to
+            incentivize users in taking action with the goal to create a better
+            future and save our home and only planet, the A World.
+        - team: Alt. Soap
+          prize: ''
+          link: >-
+            https://www.youtube.com/watch?v=ABdkovTA_c4&feature=youtu.be&fbclid=IwAR3RdXGEqynIpoIj5wxp0IubrG9GBeNplnA_pu5ftBq6sp4givxTa9u6ApE
+          textContent: >-
+            In order to contribute in the fight against COVID-19, we created a
+            solidarity system as the following : 1 soap bought = 1 soap given to
+            Associations, NGOs for vulnerable communities.
+        - team: 'react:'
+          prize: ''
+          link: 'https://youtu.be/uTx066ZeKpI'
+          textContent: >-
+            We developed an app called react. React is a social engagement app
+            that empowers millennials on how to hack the environmental crisis
+            individually and connect the users to create even bigger impact by
+            crowd-hacks. The app displays the positive impact of individuals
+            and/or the crowd right after each completed challenge and rewards
+            them with trophies. The trophies can be redeemed in real life due to
+            our global sustainable business partners.
+        - team: ZeroD
+          prize: ''
+          link: bit.ly/zerodsubmission
+          textContent: >-
+            Taking an indexed approach that uplifts all skills and solutions.
+            Enabling citizen to offer their skills, by leveling the playing
+            field with proof of impact adjusted by time sensitivity. Global
+            participation is now made accessible so infinite human ingenuity to
+            accelerate response time to heal all is unlocked. Ultimate impact is
+            to mitigate Anthropocene and Capitalocene that sets conditions for
+            crisis once and for all.
+        - team: Sustainable water management in High Andean Region
+          prize: ''
+          link: 'https://youtu.be/4AsaQqgQnEg'
+          textContent: >-
+            We are expecting that our proposal has a great impact specially in
+            governments in order to encourage them to take corrective and
+            permanent actions in favor of the environment.
+        - team: 'Green Spotter '
+          prize: ''
+          link: 'https://www.youtube.com/watch?v=b6xd-FEFerU'
+          textContent: >-
+            We want to empower civilians to build environmentally conscious
+            futures, by connecting people to each other through local
+            sustainability initiatives. Our platform, Green Spotter, helps users
+            connect with other people and sustainability initiatives in their
+            communities.
 ---

@@ -17,10 +17,11 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
   }
 
   const getTrackLogo = category => {
-    const trackData = data.filter(
-      track => track.node.frontmatter.title === category
+    const trackData = data.filter(track =>
+      category.includes(track.node.frontmatter.title)
     )
-    return trackData[0] ? trackData[0].node.frontmatter.trackLogo : ''
+
+    return trackData.map(track => track.node.frontmatter.trackLogo)
   }
 
   return (
@@ -29,7 +30,7 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
         <Dropdown
           key={index}
           isOpen={openedDropdownIndex === index}
-          title={trackWinner.category}
+          title={trackWinner.category.join(', ')}
           img={getTrackLogo(trackWinner.category)}
           onClick={toggleDropdown(index)}
         >
@@ -51,11 +52,7 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
               />
             ))}
             <div className={styles.teams}>
-              <WinnerHeader
-                small
-                title="Finalists"
-                img={'/img/apple-touch-icon.png'}
-              />
+              <WinnerHeader small title="Finalists" img={'/img/bronze.png'} />
               {trackWinner.teams.slice(3).map((team, index) => (
                 <WinnerCard
                   key={index}

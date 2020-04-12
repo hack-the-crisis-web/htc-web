@@ -9,7 +9,11 @@ const WinnerHeader = ({ img, title, small, withoutMargin }) => (
       [styles.withoutMargin]: withoutMargin,
     })}
   >
-    <img alt={title} src={img} />
+    {typeof img === 'string' ? (
+      <img alt={title} src={img} />
+    ) : (
+      img.map((img, index) => <img key={index} alt={title} src={img} />)
+    )}
     <h2>{title}</h2>
   </div>
 )

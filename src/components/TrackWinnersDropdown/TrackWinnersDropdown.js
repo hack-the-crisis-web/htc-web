@@ -53,7 +53,7 @@ const TrackWinnersDropdown = ({ trackWinners, data }) => {
             <div className={styles.teams}>
               <WinnerHeader
                 small
-                title="Top 4-15 teams"
+                title="Finalists"
                 img={'/img/apple-touch-icon.png'}
               />
               {trackWinner.teams.slice(3).map((team, index) => (

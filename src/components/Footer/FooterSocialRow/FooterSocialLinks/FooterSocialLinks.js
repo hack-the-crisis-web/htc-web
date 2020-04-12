@@ -22,7 +22,7 @@ export const FooterSocialLinks = () => (
       <SocialIconLink
         type="twitter"
         color="black"
-        href="https://twitter.com/garage48"
+        href="https://twitter.com/theglobalhack"
       />
     </div>
   </div>

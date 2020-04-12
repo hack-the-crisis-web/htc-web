@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: merge-winners
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -761,6 +761,7 @@ collections:
                           widget: 'relation',
                           collection: 'tracklists',
                           searchFields: ['title'],
+                          multiple: true,
                           valueField: 'title',
                           required: false,
                           default: '',

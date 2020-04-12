@@ -23,6 +23,7 @@ export const BlogPostTemplate = ({
     <>
       {backgroundImage && (
         <HeroSection
+          centerHero
           backgroundImage={backgroundImage}
           title={title}
           eventDate={date}

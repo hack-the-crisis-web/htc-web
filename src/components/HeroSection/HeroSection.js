@@ -14,12 +14,15 @@ const HeroSection = ({
   heroCTALeftLink,
   heroCTARightText,
   heroCTARightLink,
+  centerHero = false,
 }) => {
   const showLeftButton = !!heroCTALeftLink && !!heroCTALeftText
   const showRightButton = !!heroCTARightLink && !!heroCTARightText
   return (
     <section
-      className={classNames('section', styles.heroWrapper)}
+      className={classNames('section', styles.heroWrapper, {
+        [styles.centerHero]: centerHero,
+      })}
       style={
         backgroundImage ? { backgroundImage: `url('${backgroundImage}')` } : {}
       }

@@ -10,12 +10,21 @@
     display: inline-block;
     font-weight: bold;
     margin-left: 15px;
+
+    @include mobile() {
+      font-size: initial;
+    }
   }
 
   img {
     display: inline-block;
     width: 70px;
     height: 70px;
+
+    @include mobile() {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 

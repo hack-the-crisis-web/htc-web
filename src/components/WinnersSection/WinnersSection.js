@@ -10,7 +10,7 @@ const WinnersSection = ({ items }) => {
   return items[0].team.trim() === '' ? null : (
     <Section>
       <WinnerHeader img="/img/apple-touch-icon.png" title="Overall winner" />
-      {items.map(({ title, textContent, image, prize, team, link }, index) => (
+      {items.map(({ title, textContent, prize, team, link }, index) => (
         <div
           key={index}
           className={classnames(
@@ -19,7 +19,6 @@ const WinnersSection = ({ items }) => {
           )}
         >
           <WinnerCard
-            image={image}
             title={title}
             description={textContent}
             prize={prize}

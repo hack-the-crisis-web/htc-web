@@ -37,14 +37,14 @@ overallWinner:
     image: ''
   - title: 2nd Runner Up
     team: Act on Crisis
-    prize: 'https://youtu.be/T1KJSdffOys'
+    prize: Additional 5000€
     textContent: >-
       Before this crisis approx 12% of the world's population was in need of
       psychological support. There’re currently 3bln people in lockdown which
       means at least 360mln are experiencing strong emotional imbalance. Yet
       they don't have access to secure online emotional support which would fit
       their cultural background.
-    link: ''
+    link: 'https://youtu.be/T1KJSdffOys'
     image: ''
 trackWinners:
   - trackWinner:

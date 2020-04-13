@@ -9,7 +9,7 @@ contentItems:
       As we are still tallying up the numbers and recovering from 48 hours of
       non-stop hackathon, we can already say that the world did come together. 
 
-      Over 15k participants from 100+ countries worked on 500 life-changing
+      Over 12k participants from 100+ countries worked on 500 life-changing
       projects. Thank you for joining the fight.
 overallWinner:
   - title: Overall Winner

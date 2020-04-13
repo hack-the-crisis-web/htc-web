@@ -402,7 +402,7 @@ trackWinners:
       teams:
         - team: ' InsideScoop'
           prize: 10 000€
-          link: www.youtube.com/watch?v=tQ6VaAy30RI
+          link: 'https://www.youtube.com/watch?v=tQ6VaAy30RI'
           textContent: >-
             As of March 16th, fifty percent of the world's kids are now in
             online school, where students are reluctant to participate and are

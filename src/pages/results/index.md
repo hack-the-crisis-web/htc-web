@@ -313,7 +313,7 @@ trackWinners:
             actually applies to you and what assistance you are eligible for.
             Our chatbot makes this understanding an easy and seamless process.
         - team: EasySnap
-          prize: ''
+          prize: 5000€
           link: 'https://youtu.be/RK0bcQAmXKU'
           textContent: >-
             We expect that this solution will reduce the friction in the SNAP

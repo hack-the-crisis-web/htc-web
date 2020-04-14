@@ -25,7 +25,7 @@ overallWinner:
       that can be brought to exactly where it's needed.
     link: 'https://youtu.be/8172hcxn724'
     image: ''
-  - title: 2nd Runner Up
+  - title: Runner Up
     team: Act on Crisis
     prize: Additional 5000€
     textContent: >-
@@ -36,7 +36,7 @@ overallWinner:
       their cultural background.
     link: 'https://youtu.be/T1KJSdffOys'
     image: ''
-  - title: Runner Up
+  - title: 2nd Runner Up
     team: Material Mapper
     prize: Additional 5000€
     textContent: >-

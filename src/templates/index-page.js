@@ -13,9 +13,8 @@ import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBl
 import TrackLeads from '../components/People/TrackLeads'
 import TimelineSection from '../components/TimelineSection/TimelineSection'
 import '../components/all.sass'
-import JoinUsSection from '../components/JoinUsSection/JoinUsSection'
-import sectionItemPropTypes from '../components/JoinUsSection/sectionItemPropTypes'
 import SupportingOrganisations from '../components/Supporters/SupportingOrganisations'
+import NewsletterSection from '../components/NewsletterSection/NewsletterSection'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -33,7 +32,7 @@ export const IndexPageTemplate = ({
   heroCTALeftLink,
   heroCTARightText,
   heroCTARightLink,
-  sectionItems,
+  newsletterSection,
 }) => (
   <>
     <HeroSection
@@ -60,7 +59,7 @@ export const IndexPageTemplate = ({
     <TracklistsSection description={tracklistDescription} />
     <TrackLeads description={trackleadsDescription} />
     <AlternatingContent contentItems={contentItems}></AlternatingContent>
-    <JoinUsSection sectionItems={sectionItems} />
+    <NewsletterSection newsletterContent={newsletterSection} />
     <Partners />
     <Sponsors title="Global partners" buttonText="Become a partner" />
     <SupportingOrganisations />
@@ -72,7 +71,6 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   subheading: PropTypes.string,
   contentItems: PropTypes.arrayOf(PropTypes.shape(contentBlockPropTypes)),
-  sectionItems: PropTypes.arrayOf(PropTypes.shape(sectionItemPropTypes)),
 }
 
 const IndexPage = ({ data }) => {
@@ -97,7 +95,7 @@ const IndexPage = ({ data }) => {
         heroCTALeftLink={frontmatter.heroCTALeftLink}
         heroCTARightText={frontmatter.heroCTARightText}
         heroCTARightLink={frontmatter.heroCTARightLink}
-        sectionItems={frontmatter.sectionItems}
+        newsletterSection={frontmatter.newsletterSection}
       />
     </Layout>
   )
@@ -160,16 +158,15 @@ export const pageQuery = graphql`
           ctaText
           ctaLink
         }
-        sectionItems {
+        newsletterSection {
           title
           textContent
           image {
             publicURL
           }
-          buttons {
-            ctaText
-            ctaLink
-          }
+          inputPlaceholder
+          buttonText
+          buttonsDisabled
         }
       }
     }

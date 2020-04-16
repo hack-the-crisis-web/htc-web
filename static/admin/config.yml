@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: newsetler
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -513,55 +513,53 @@ collections:
                   },
                 ],
             }
-          - &sectionItems {
-              label: End Section Items,
-              name: sectionItems,
-              widget: list,
-              fields:
-                [
-                  {
-                    label: 'Title',
-                    name: 'title',
-                    widget: 'string',
-                    required: false,
-                    default: '',
-                  },
-                  {
-                    label: 'Text content',
-                    name: 'textContent',
-                    widget: 'text',
-                  },
-                  {
-                    label: 'Image',
-                    name: 'image',
-                    widget: 'image',
-                    required: false,
-                    default: '',
-                  },
-                  {
-                    label: 'Buttons',
-                    name: 'buttons',
-                    widget: list,
-                    fields:
-                      [
-                        {
-                          label: 'CTA text',
-                          name: 'ctaText',
-                          widget: 'string',
-                          required: false,
-                          default: '',
-                        },
-                        {
-                          label: 'CTA link',
-                          name: 'ctaLink',
-                          widget: 'string',
-                          required: false,
-                          default: '',
-                        },
-                      ],
-                  },
-                ],
-            }
+          - &newsletterSection
+            label: Newsletter,
+            name: newsletterSection,
+            fields:
+              - {
+                  label: 'Title',
+                  name: 'title',
+                  widget: 'string',
+                  required: false,
+                  default: '',
+                }
+              - {
+                  label: 'Text content',
+                  name: 'textContent',
+                  widget: 'text',
+                  required: false,
+                  default: '',
+                }
+              - {
+                  label: 'Image',
+                  name: 'image',
+                  widget: 'image',
+                  required: false,
+                  default: '',
+                }
+              - {
+                  label: 'Input placeholder',
+                  name: 'inputPlaceholder',
+                  widget: 'text',
+                  required: false,
+                  default: '',
+                }
+              - {
+                  label: 'Button Text',
+                  name: 'buttonText',
+                  widget: 'string',
+                  required: false,
+                  default: '',
+                }
+              - {
+                  label: 'Disable button',
+                  name: 'buttonsDisabled',
+                  widget: 'string',
+                  required: false,
+                  default: '',
+                }
+
       - file: 'src/pages/about/index.md'
         label: 'About'
         name: 'about'
@@ -672,7 +670,55 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: 'Our People Title', name: ourPeopleTitle, widget: string }
           - *contentItems
-          - *sectionItems
+          - &sectionItems {
+              label: End Section Items,
+              name: sectionItems,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Text content',
+                    name: 'textContent',
+                    widget: 'text',
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Buttons',
+                    name: 'buttons',
+                    widget: list,
+                    fields:
+                      [
+                        {
+                          label: 'CTA text',
+                          name: 'ctaText',
+                          widget: 'string',
+                          required: false,
+                          default: '',
+                        },
+                        {
+                          label: 'CTA link',
+                          name: 'ctaLink',
+                          widget: 'string',
+                          required: false,
+                          default: '',
+                        },
+                      ],
+                  },
+                ],
+            }
       - file: 'src/pages/results/index.md'
         label: 'Results'
         name: 'results-page'

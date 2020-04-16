@@ -67,7 +67,7 @@ contentItems:
       organizers from all over the world.
 
       We have partnered with UN, New America, World Food and more to support the
-      message of finding solutions. 
+      message of finding solutions.
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png
@@ -111,16 +111,13 @@ howItWorksItems:
     ctaLink: '#'
     image: /img/joinus.png
     isActive: true
-sectionItems:
-  - title: Every hand counts
-    textContent: >
-      Organizing a fully online global hackathon takes a lot! We need both
-      volunteers and mentors to help make this happen
-    ctaText: About the Global Movement
-    ctaLink: 'http://garage48.org/hackthecrisis'
-    image: /img/join-us-section.png
-    buttons:
-      - ctaText: Sign Ups Closed
-        ctaLink: /join
+newsletterSection:
+  title: Newsletter
+  textContent: >
+    The hack is over but our journey has just begun. Sign up to our newsletter be notified what’s next.
+  image: /img/join-us-section.png
+  inputPlaceholder: Your e-mail
+  buttonText: SIGN ME UP!
+  buttonsDisabled: false
 description: placeholder
 ---

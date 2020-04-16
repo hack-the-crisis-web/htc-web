@@ -1,14 +1,4 @@
 ---
-templateKey: index-page
-title: Fighting a Global Crisis
-eventDate: '9-12 April, 2020'
-subheading: >-
-  3 billion people in lockdown. Let's hack the future and never go through this
-  again.
-heroImage: /img/keyvisual_nologo.jpg
-heroCTALeftText: SEE RESULTS
-heroCTALeftLink: 'https://theglobalhack.com/results'
-heroCTARightText: ''
 heroCTARightLink: ''
 timeline:
   - title: Let's get ideas going in Slack
@@ -35,29 +25,25 @@ timeline:
     isActive: false
     image: /img/winner.jpg
     date: '2020-04-12'
+heroImage: /img/keyvisual_nologo.jpg
 heading: placeholder
-howItWorksDescription: >-
-  The Global Hack is an online hackathon designed to share and rapidly develop
-  ideas for urgently needed solutions in the face of the current crisis, as well
-  as to build resilience post-pandemic.
-
-
-  Our prize pool for the best ideas is 195k euros. 
-
-
-  The Global Hack has already drawn attention across the globe - covered by
-  Forbes, Silicon Republic, CNN among others - and brought on board a fleet of
-  world-class mentors, such as Sam Altman, CEO of OpenAI, former President of
-  Estonia Toomas Hendrik Ilves and Khaliya -  public health specialist and a
-  neuro-technologist.
-tracklistDescription: >-
-  The tracks are inspired by the UN sustainability goals that cover the majority
-  of our future challenges. These are the areas most likely to see the biggest
-  challenges.
+templateKey: index-page
+title: Fighting a Global Crisis
+eventDate: '9-12 April, 2020'
+subheading: >-
+  3 billion people in lockdown. Let's hack the future and never go through this
+  again.
+heroCTALeftText: SEE RESULTS
+heroCTALeftLink: 'https://theglobalhack.com/results'
+heroCTARightText: ''
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.
-timelineDescription: ' '
+newsTitle: Latest news
+newsDescription: >-
+  Global tech community leads the movement gathering over 53 countries, over
+  5000 ideas and hundreds of professionals over the world. We fight against
+  coronavirus. We work on solutions. We do it to change the world.
 contentItems:
   - title: Stronger Together
     textContent: >
@@ -84,6 +70,33 @@ contentItems:
     image: /img/195k.png
     ctaText: Register Team & Idea >
     ctaLink: 'https://theglobalhack.devpost.com/'
+newsletterSection:
+  title: Newsletter
+  textContent: >
+    The hack is over but our journey has just begun. Sign up to our newsletter
+    be notified what’s next.
+  image: /img/join-us-section.png
+  inputPlaceholder: Your email
+  buttonText: SIGN ME UP!
+  buttonsDisabled: false
+tracklistDescription: >-
+  The tracks are inspired by the UN sustainability goals that cover the majority
+  of our future challenges. These are the areas most likely to see the biggest
+  challenges.
+howItWorksDescription: >-
+  The Global Hack is an online hackathon designed to share and rapidly develop
+  ideas for urgently needed solutions in the face of the current crisis, as well
+  as to build resilience post-pandemic.
+
+
+  Our prize pool for the best ideas is 195k euros. 
+
+
+  The Global Hack has already drawn attention across the globe - covered by
+  Forbes, Silicon Republic, CNN among others - and brought on board a fleet of
+  world-class mentors, such as Sam Altman, CEO of OpenAI, former President of
+  Estonia Toomas Hendrik Ilves and Khaliya -  public health specialist and a
+  neuro-technologist.
 howItWorksItems:
   - title: Share Ideas
     textContent: >-
@@ -111,14 +124,6 @@ howItWorksItems:
     ctaLink: '#'
     image: /img/joinus.png
     isActive: true
-newsletterSection:
-  title: Newsletter
-  textContent: >
-    The hack is over but our journey has just begun. Sign up to our newsletter
-    be notified what’s next.
-  image: /img/join-us-section.png
-  inputPlaceholder: Your email
-  buttonText: SIGN ME UP!
-  buttonsDisabled: false
+timelineDescription: ' '
 description: placeholder
 ---

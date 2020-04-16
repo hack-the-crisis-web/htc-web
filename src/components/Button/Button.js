@@ -16,7 +16,6 @@ const Button = ({
   size,
   external,
   align,
-
   ...buttonProps
 }) => {
   const isExternal = external || !checkIfInternalLink(href)

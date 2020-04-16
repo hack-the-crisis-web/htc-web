@@ -49,7 +49,7 @@ export const IndexPageTemplate = ({
       <Section>
         <SectionTitle title={newsTitle} />
         <SectionDescription text={newsDescription} />
-        <BlogRoll limit={3} />
+        <BlogRoll limit={4} />
       </Section>
     </div>
     <TrackLeads description={trackleadsDescription} />

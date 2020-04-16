@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll/BlogRoll'
+import NewsSection from '../components/NewsSection/NewsSection'
 
 export default class NewsPage extends React.Component {
   render() {
     return (
       <Layout>
-        <BlogRoll />
+        <NewsSection />
       </Layout>
     )
   }

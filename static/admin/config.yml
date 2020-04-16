@@ -365,6 +365,20 @@ collections:
               widget: 'text',
               default: '',
             }
+          - {
+              label: 'News section title',
+              name: 'newsTitle',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
+              label: 'News section description',
+              name: 'newsDescription',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
 
           - &contentItems {
               label: Content Items,

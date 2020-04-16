@@ -11,6 +11,10 @@ import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBl
 import TrackLeads from '../components/People/TrackLeads'
 import SupportingOrganisations from '../components/Supporters/SupportingOrganisations'
 import NewsletterSection from '../components/NewsletterSection/NewsletterSection'
+import BlogRoll from '../components/BlogRoll/BlogRoll'
+import Section from '../components/Section/Section'
+import SectionTitle from '../components/SectionTitle/SectionTitle'
+import SectionDescription from '../components/SectionDescription/SectionDescription'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -24,6 +28,8 @@ export const IndexPageTemplate = ({
   heroCTARightText,
   heroCTARightLink,
   newsletterSection,
+  newsTitle,
+  newsDescription,
 }) => (
   <>
     <HeroSection
@@ -38,6 +44,13 @@ export const IndexPageTemplate = ({
     />
     <div className="has-background-danger">
       <AlternatingContent contentItems={contentItems}></AlternatingContent>
+    </div>
+    <div className="has-background-success">
+      <Section>
+        <SectionTitle title={newsTitle} />
+        <SectionDescription text={newsDescription} />
+        <BlogRoll limit={3} />
+      </Section>
     </div>
     <TrackLeads description={trackleadsDescription} />
     <NewsletterSection newsletterContent={newsletterSection} />
@@ -74,6 +87,8 @@ const IndexPage = ({ data }) => {
         heroCTARightText={frontmatter.heroCTARightText}
         heroCTARightLink={frontmatter.heroCTARightLink}
         newsletterSection={frontmatter.newsletterSection}
+        newsTitle={frontmatter.newsTitle}
+        newsDescription={frontmatter.newsDescription}
       />
     </Layout>
   )
@@ -96,6 +111,8 @@ export const pageQuery = graphql`
         title
         subheading
         eventDate
+        newsTitle
+        newsDescription
         trackleadsDescription
         heroImage {
           publicURL

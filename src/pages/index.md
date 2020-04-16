@@ -11,13 +11,6 @@ subheading: >-
 heroCTALeftText: SEE RESULTS
 heroCTALeftLink: 'https://theglobalhack.com/results'
 heroCTARightText: ''
-<<<<<<< HEAD
-=======
-heroCTARightLink: ''
-newsTitle: Latest news
-newsDescription: ''
-heading: placeholder
->>>>>>> Add news section to landing page
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.

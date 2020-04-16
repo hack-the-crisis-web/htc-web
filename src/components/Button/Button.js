@@ -36,12 +36,12 @@ const Button = ({
   return (
     <Element {...buttonProps} {...to} className={classList}>
       {isLoading && (
-        <div className="button__loader">
+        <div className={styles.button__loader}>
           <CircleLoader size="small" color={loaderColor} />
         </div>
       )}
 
-      <div className="button__text">{children}</div>
+      <div className={styles.button__text}>{children}</div>
     </Element>
   )
 }

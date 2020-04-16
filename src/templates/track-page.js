@@ -17,6 +17,7 @@ import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import MentorNameList from '../components/People/MentorNameList'
 import TrackWinnersSection from '../components/TrackWinnersSection/TrackWinnersSection'
+import NewsletterSection from '../components/NewsletterSection/NewsletterSection'
 
 export const TrackTemplate = ({
   title,
@@ -35,6 +36,7 @@ export const TrackTemplate = ({
   widgetCode,
   mentorsList,
   trackWinners,
+  newsletterSection,
 }) => (
   <>
     <TrackHeroSection
@@ -62,6 +64,7 @@ export const TrackTemplate = ({
         <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
       </Section>
     )}
+    <NewsletterSection newsletterContent={newsletterSection} />
     <TrackWinnersSection
       trackWinners={
         trackWinners.filter(track =>
@@ -96,7 +99,7 @@ TrackTemplate.propTypes = {
 
 const TrackPage = ({ data, pageContext }) => {
   const { frontmatter = {}, html } = data.markdownRemark
-  const { mentor = {}, trackWinners = {} } = data
+  const { mentor = {}, trackWinners = {}, newsletter = {} } = data
   const mentorsList = pageContext.mentors
 
   return (
@@ -118,6 +121,9 @@ const TrackPage = ({ data, pageContext }) => {
         widgetCode={frontmatter.widgetCode}
         mentorsList={mentorsList}
         trackWinners={trackWinners.frontmatter.trackWinners}
+        newsletterSection={
+          newsletter ? newsletter.frontmatter.newsletterSection : undefined
+        }
       />
     </Layout>
   )
@@ -179,6 +185,22 @@ export const pageQuery = graphql`
               link
             }
           }
+        }
+      }
+    }
+    newsletter: markdownRemark(
+      frontmatter: { templateKey: { eq: "index-page" } }
+    ) {
+      frontmatter {
+        newsletterSection {
+          title
+          textContent
+          image {
+            publicURL
+          }
+          inputPlaceholder
+          buttonText
+          buttonsDisabled
         }
       }
     }

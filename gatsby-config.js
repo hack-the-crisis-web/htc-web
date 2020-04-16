@@ -97,6 +97,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint:
+          'https://theglobalhack.us19.list-manage.com/subscribe/post?u=e15f31ea3fa7af629c78a935b&amp;id=7dbdeed008',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,

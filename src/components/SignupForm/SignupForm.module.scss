@@ -1,0 +1,19 @@
+@import '../../styles/styleSetup.scss';
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input {
+  height: 55px;
+  max-width: 300px;
+}
+
+.infoMessage {
+  font-size: 14px;
+  color: $warning;
+  padding-left: calc(0.75em - 1px);
+  padding-top: calc(0.5em - 1px);
+}

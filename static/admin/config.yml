@@ -495,7 +495,7 @@ collections:
           - {
               label: Newsletter,
               name: newsletterSection,
-              type: object,
+              widget: object,
               fields:
                 [
                   {

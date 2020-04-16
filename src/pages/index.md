@@ -114,9 +114,10 @@ howItWorksItems:
 newsletterSection:
   title: Newsletter
   textContent: >
-    The hack is over but our journey has just begun. Sign up to our newsletter be notified what’s next.
+    The hack is over but our journey has just begun. Sign up to our newsletter
+    be notified what’s next.
   image: /img/join-us-section.png
-  inputPlaceholder: Your e-mail
+  inputPlaceholder: Your email
   buttonText: SIGN ME UP!
   buttonsDisabled: false
 description: placeholder

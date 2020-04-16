@@ -307,14 +307,6 @@ collections:
               },
             ],
         }
-      - {
-          label: 'Twitter Widget Code',
-          hint: 'Copy the code from EmbedSocial',
-          name: 'widgetCode',
-          widget: 'string',
-          required: false,
-          default: '',
-        }
   - name: 'pages'
     label: 'Pages'
     files:

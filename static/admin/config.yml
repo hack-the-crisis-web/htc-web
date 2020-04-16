@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: newsetler
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -492,7 +492,7 @@ collections:
                   },
                 ],
             }
-          - &newsletterSection {
+          - {
               label: Newsletter,
               name: newsletterSection,
               type: object,

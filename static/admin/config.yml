@@ -516,6 +516,7 @@ collections:
           - &newsletterSection
             label: Newsletter,
             name: newsletterSection,
+            type: object
             fields:
               - {
                   label: 'Title',

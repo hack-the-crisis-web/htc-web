@@ -3,14 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import BlogPostCard from '../BlogPostCard/BlogPostCard'
 
-const BlogRoll = ({ data, limit = 0 }) => {
+const BlogRoll = ({ data, limit = -1 }) => {
   const { edges } = data.allMarkdownRemark
-
-  const posts = edges ? edges.splice(limit) : []
 
   return (
     <div className={'columns is-multiline is-mobile'}>
-      {posts.map(({ node: post }) => {
+      {edges.slice(0, limit).map(({ node: post }) => {
         return (
           <div
             key={post.id}

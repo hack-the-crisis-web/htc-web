@@ -8,8 +8,6 @@ import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
 import Sponsors from '../components/Supporters/Sponsors'
 import TrackMentors from '../components/People/TrackMentors'
-import TwitterFeed from '../components/TwitterFeed/TwitterFeed'
-import parseTwitterWidgetCode from '../components/parseTwitterWidgetCode'
 import Section from '../components/Section/Section'
 import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
@@ -33,7 +31,6 @@ export const TrackTemplate = ({
   challengesTitle,
   challengesDescription,
   challenges,
-  widgetCode,
   mentorsList,
   trackWinners,
   newsletterSection,
@@ -50,21 +47,12 @@ export const TrackTemplate = ({
       trackLogo={trackLogo}
     />
     {content && <HTMLContentSection content={content} />}
+    <NewsletterSection newsletterContent={newsletterSection} />
     <ChallengesSection
       challengesTitle={challengesTitle}
       challengesDescription={challengesDescription}
       challenges={challenges}
     />
-    {!!parseTwitterWidgetCode(widgetCode) && (
-      <Section>
-        <TwitterFeedTitle>
-          {TWITTER_FEED_SHARE}
-          {hashtag}
-        </TwitterFeedTitle>
-        <TwitterFeed {...parseTwitterWidgetCode(widgetCode)} />
-      </Section>
-    )}
-    <NewsletterSection newsletterContent={newsletterSection} />
     <TrackWinnersSection
       trackWinners={
         trackWinners.filter(track =>
@@ -118,7 +106,6 @@ const TrackPage = ({ data, pageContext }) => {
         challengesTitle={frontmatter.challengesTitle}
         challengesDescription={frontmatter.challengesDescription}
         challenges={frontmatter.challenges}
-        widgetCode={frontmatter.widgetCode}
         mentorsList={mentorsList}
         trackWinners={trackWinners.frontmatter.trackWinners}
         newsletterSection={
@@ -160,7 +147,6 @@ export const pageQuery = graphql`
           linkTitle
           linkUrl
         }
-        widgetCode
       }
     }
     mentor: markdownRemark(frontmatter: { personId: { eq: $keyMentorId } }) {

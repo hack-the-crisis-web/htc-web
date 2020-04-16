@@ -3,39 +3,34 @@ import PropTypes from 'prop-types'
 import { graphql, StaticQuery } from 'gatsby'
 import BlogPostCard from '../BlogPostCard/BlogPostCard'
 
-class BlogRoll extends React.Component {
-  render() {
-    const { data, limit = 0 } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+const BlogRoll = ({ data, limit = 0 }) => {
+  const { edges } = data.allMarkdownRemark
 
-    return (
-      <div className={'columns is-multiline is-mobile'}>
-        {posts &&
-          posts.splice(limit).map(({ node: post }) => {
-            return (
-              <div
-                key={post.id}
-                className="column is-full-mobile is-full-tablet is-half-desktop"
-              >
-                <BlogPostCard
-                  title={post.frontmatter.title}
-                  image={post.frontmatter.featuredimage}
-                  alt={post.frontmatter.title}
-                  // dirty hack, but I rather do that, than do some changes now in submodules and netlify pipeline
-                  link={post.fields.slug.replace(
-                    'blog~Updated upstream',
-                    'news'
-                  )}
-                  date={post.frontmatter.date}
-                  intro={post.excerpt}
-                  author={post.frontmatter.author}
-                />
-              </div>
-            )
-          })}
-      </div>
-    )
-  }
+  const posts = edges ? edges.splice(limit) : []
+
+  return (
+    <div className={'columns is-multiline is-mobile'}>
+      {posts.map(({ node: post }) => {
+        return (
+          <div
+            key={post.id}
+            className="column is-full-mobile is-full-tablet is-half-desktop"
+          >
+            <BlogPostCard
+              title={post.frontmatter.title}
+              image={post.frontmatter.featuredimage}
+              alt={post.frontmatter.title}
+              // dirty hack, but I rather do that, than do some changes now in submodules and netlify pipeline
+              link={post.fields.slug.replace('blog~Updated upstream', 'news')}
+              date={post.frontmatter.date}
+              intro={post.excerpt}
+              author={post.frontmatter.author}
+            />
+          </div>
+        )
+      })}
+    </div>
+  )
 }
 
 BlogRoll.propTypes = {
@@ -46,7 +41,7 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default () => (
+export default props => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
@@ -73,6 +68,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count) => <BlogRoll data={data} count={count} {...props} />}
   />
 )

@@ -3,26 +3,42 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import TimelineSection from '../components/TimelineSection/TimelineSection'
+import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
+import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
+import SectionTitle from '../components/SectionTitle/SectionTitle'
 
 export const HowItWorksPageTemplate = ({
-  title,
   content,
   contentComponent,
+  timelineItems,
+  timelineDescription,
+  howItWorksItems,
+  howItWorksDescription,
+  tracklistDescription,
 }) => {
   const PageContent = contentComponent || Content
 
   return (
     <>
+      <HowItWorksSection
+        description={howItWorksDescription}
+        items={howItWorksItems}
+      />
+      <TracklistsSection description={tracklistDescription} />
+      <TimelineSection
+        title={'Timeline'}
+        items={timelineItems}
+        description={timelineDescription}
+      />
       <section className="section section--gradient">
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="columns">
                 <div className="column is-8">
-                  <div className="section">
-                    <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                      {title}
-                    </h2>
+                  <div className="section" style={{ paddingTop: 0 }}>
+                    <SectionTitle title="Agenda" />
                     <PageContent className="content" content={content} />
                   </div>
                 </div>
@@ -46,11 +62,16 @@ const HowItWorksPage = ({ data }) => {
   const { agendaMarkdown: post } = data
 
   return (
-    <Layout title="Agenda">
+    <Layout title="How it works">
       <HowItWorksPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        timelineItems={post.frontmatter.timeline}
+        timelineDescription={post.frontmatter.timelineDescription}
+        howItWorksItems={post.frontmatter.howItWorksItems}
+        howItWorksDescription={post.frontmatter.howItWorksDescription}
+        trackleadsDescription={post.frontmatter.trackleadsDescription}
       />
     </Layout>
   )
@@ -68,6 +89,28 @@ export const howItWorksPageQuery = graphql`
       html
       frontmatter {
         title
+        howItWorksDescription
+        tracklistDescription
+        timelineDescription
+        timeline {
+          image {
+            publicURL
+          }
+          title
+          date
+          isActive
+        }
+        howItWorksItems {
+          title
+          textContent
+          image {
+            id
+            publicURL
+          }
+          ctaText
+          ctaLink
+          isActive
+        }
       }
     }
   }

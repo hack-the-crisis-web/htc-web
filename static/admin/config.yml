@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: newsetler
+  branch: master
   commit_messages:
     create: 'Create {{collection}}'
     update: 'Update {{collection}}'
@@ -536,9 +536,9 @@ collections:
                   {
                     label: 'Disable button',
                     name: 'buttonsDisabled',
-                    widget: 'string',
+                    widget: 'boolean',
                     required: false,
-                    default: '',
+                    default: false,
                   },
                 ],
             }

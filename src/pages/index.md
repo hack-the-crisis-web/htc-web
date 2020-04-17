@@ -19,31 +19,29 @@ newsDescription: >-
   5000 ideas and hundreds of professionals over the world. We fight against
   coronavirus. We work on solutions. We do it to change the world.
 contentItems:
-  - title: Stronger Together
-    textContent: >
+  - title: Overview
+    textContent: >+
       The Global Hack is a global initiative which unites the Hack the Crisis
       movement and the 40+ hackathons organized in the frames of this movement.
       This is truly a global effort and movement involving communities and
       organizers from all over the world.
 
-      We have partnered with UN, New America, World Food and more to support the
-      message of finding solutions.
+      The Global Hack happened 9-12 April and was created battle the problems we
+      are facing globally in the midst of the crisis as well as creating
+      solutions for the post-crisis world.
+
     ctaText: About the Global Movement
     ctaLink: 'http://garage48.org/hackthecrisis'
     image: /img/backstory.png
-  - title: The Goal
-    textContent: >-
+  - title: Crisis is far from over
+    textContent: >
       How will we deal with the changing relationships in the economy, the
       future of work, healthcare and a world transformed, perhaps, beyond
       recognition?  We need to come up with solutions that will help us fight
       future pandemics, and all crises for that matter, more effectively. 
-
-
-      We're giving away 195 000€ (and growing) to make your amazing ideas to
-      come true.
-    image: /img/195k.png
-    ctaText: Register Team & Idea >
-    ctaLink: 'https://theglobalhack.devpost.com/'
+    image: /img/oportunity_globe.png
+    ctaText: Read about The Global Hack movement >
+    ctaLink: 'https://theglobalhack.com/about'
 newsletterSection:
   title: Our journey has just begun
   textContent: >

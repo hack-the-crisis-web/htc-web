@@ -30,8 +30,8 @@ contentItems:
       are facing globally in the midst of the crisis as well as creating
       solutions for the post-crisis world.
 
-    ctaText: About the Global Movement
-    ctaLink: 'http://garage48.org/hackthecrisis'
+    ctaText: The Global Hack results
+    ctaLink: 'https://theglobalhack.com/results'
     image: /img/backstory.png
   - title: Crisis is far from over
     textContent: >

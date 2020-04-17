@@ -10,11 +10,14 @@ subheading: >-
   again.
 heroCTALeftText: SEE RESULTS
 heroCTALeftLink: 'https://theglobalhack.com/results'
-heroCTARightText: ''
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.
 newsTitle: Latest news
+newsDescription: >-
+  Global tech community leads the movement gathering over 53 countries, over
+  5000 ideas and hundreds of professionals over the world. We fight against
+  coronavirus. We work on solutions. We do it to change the world.
 contentItems:
   - title: Stronger Together
     textContent: >

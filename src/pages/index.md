@@ -1,15 +1,15 @@
 ---
-heroCTARightLink: 'https://theglobalhack.com/news'
-heroCTARightText: BROWSE ARTICLES
-heroImage: /img/keyvisual_nologo.jpg
 templateKey: index-page
 title: Fighting a Global Crisis
 eventDate: '9-12 April, 2020'
 subheading: >-
   3 billion people in lockdown. Let's hack the future and never go through this
   again.
+heroImage: /img/keyvisual_nologo.jpg
 heroCTALeftText: SEE RESULTS
 heroCTALeftLink: 'https://theglobalhack.com/results'
+heroCTARightText: BROWSE ARTICLES
+heroCTARightLink: 'https://theglobalhack.com/news'
 trackleadsDescription: >-
   We've on-boarded some amazing track leaders who feel a strong sense to help
   the world tackle this crisis.
@@ -48,7 +48,7 @@ newsletterSection:
   title: Our journey has just begun
   textContent: >
     The hack is over but our journey has just begun. Sign up to our newsletter
-    be posted what’s next.
+    to be posted what’s next.
   image: /img/join-us-section.png
   inputPlaceholder: Your email
   buttonText: SIGN ME UP!

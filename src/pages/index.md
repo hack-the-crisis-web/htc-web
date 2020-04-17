@@ -42,10 +42,10 @@ contentItems:
     ctaText: Register Team & Idea >
     ctaLink: 'https://theglobalhack.devpost.com/'
 newsletterSection:
-  title: Newsletter
+  title: Our journey has just begun
   textContent: >
     The hack is over but our journey has just begun. Sign up to our newsletter
-    be notified what’s next.
+    be posted what’s next.
   image: /img/join-us-section.png
   inputPlaceholder: Your email
   buttonText: SIGN ME UP!

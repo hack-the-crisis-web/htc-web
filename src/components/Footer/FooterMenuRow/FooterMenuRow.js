@@ -46,9 +46,10 @@ const FooterMenuRow = ({ data }) => (
         linkColumns={[
           [
             { title: 'Home', url: '/' },
-            { title: 'About', url: '/about' },
+            { title: 'Results', url: '/results' },
+            { title: 'How it works', url: '/how-it-works' },
+            { title: 'News', url: '/news' },
             { title: 'Join us', url: '/join' },
-            { title: 'Agenda', url: '/agenda' },
             { title: 'FAQ', url: '/faq' },
           ],
         ]}
@@ -57,6 +58,7 @@ const FooterMenuRow = ({ data }) => (
         title="Generals"
         linkColumns={[
           [
+            { title: 'About', url: '/about' },
             { title: 'Press', url: '/press' },
             { title: 'Privacy Policy', url: '/privacy-policy' },
             { title: 'Code of Conduct', url: '/code-of-conduct' },

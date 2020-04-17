@@ -36,7 +36,7 @@ export const BlogPostTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <CustomLink to="/news" reversed>
-                Back
+                Back to News
               </CustomLink>
               {!backgroundImage && (
                 <>

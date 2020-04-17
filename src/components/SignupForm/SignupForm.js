@@ -22,7 +22,7 @@ const SignupForm = ({ placeholder, buttonText, disabled }) => {
         setMessage(result.msg)
       }
     } catch (err) {
-      setMessage('Something went wrong, try again later')
+      setMessage('Sorry, something went wrong :( try again later')
     }
 
     setLoading(false)
@@ -48,7 +48,12 @@ const SignupForm = ({ placeholder, buttonText, disabled }) => {
           {buttonText}
         </Button>
       </form>
-      {message && <p className={styles.infoMessage}>{message}</p>}
+      {message && (
+        <div
+          className={styles.infoMessage}
+          dangerouslySetInnerHTML={{ __html: message }}
+        ></div>
+      )}
     </>
   )
 }

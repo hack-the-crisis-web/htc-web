@@ -11,10 +11,8 @@ import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBl
 import TrackLeads from '../components/People/TrackLeads'
 import SupportingOrganisations from '../components/Supporters/SupportingOrganisations'
 import NewsletterSection from '../components/NewsletterSection/NewsletterSection'
-import BlogRoll from '../components/BlogRoll/BlogRoll'
-import Section from '../components/Section/Section'
-import SectionTitle from '../components/SectionTitle/SectionTitle'
-import SectionDescription from '../components/SectionDescription/SectionDescription'
+import NewsSection from '../components/NewsSection/NewsSection'
+import CustomLink from '../components/CustomLink/CustomLink'
 
 export const IndexPageTemplate = ({
   eventDate,
@@ -46,11 +44,13 @@ export const IndexPageTemplate = ({
       <AlternatingContent contentItems={contentItems}></AlternatingContent>
     </div>
     <div className="has-background-success">
-      <Section>
-        <SectionTitle title={newsTitle} />
-        <SectionDescription text={newsDescription} />
-        <BlogRoll limit={4} />
-      </Section>
+      <NewsSection
+        blogPostLimit={4}
+        title={newsTitle}
+        description={newsDescription}
+      >
+        <CustomLink to="/news">Browse all articles</CustomLink>
+      </NewsSection>
     </div>
     <TrackLeads description={trackleadsDescription} />
     <NewsletterSection newsletterContent={newsletterSection} />

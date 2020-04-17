@@ -44,7 +44,6 @@ export const TrackTemplate = ({
       trackLogo={trackLogo}
     />
     {content && <HTMLContentSection content={content} />}
-    <NewsletterSection newsletterContent={newsletterSection} />
     <ChallengesSection
       challengesTitle={challengesTitle}
       challengesDescription={challengesDescription}
@@ -57,6 +56,7 @@ export const TrackTemplate = ({
         )[0]
       }
     />
+    <NewsletterSection newsletterContent={newsletterSection} />
     <TrackMentors
       tracklist={title}
       hashtag={hashtag}

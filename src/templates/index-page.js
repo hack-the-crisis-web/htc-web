@@ -3,36 +3,31 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import TracklistsSection from '../components/TracklistsSection/TracklistsSection'
-import HowItWorksSection from '../components/HowItWorksSection/HowItWorksSection'
 import Sponsors from '../components/Supporters/Sponsors'
 import Partners from '../components/Supporters/Partners'
 import HeroSection from '../components/HeroSection/HeroSection'
 import AlternatingContent from '../components/AlternatingContent'
 import contentBlockPropTypes from '../components/TwoColumnContentBlock/contentBlockPropTypes'
 import TrackLeads from '../components/People/TrackLeads'
-import TimelineSection from '../components/TimelineSection/TimelineSection'
-import '../components/all.sass'
 import SupportingOrganisations from '../components/Supporters/SupportingOrganisations'
 import NewsletterSection from '../components/NewsletterSection/NewsletterSection'
+import NewsSection from '../components/NewsSection/NewsSection'
+import CustomLink from '../components/CustomLink/CustomLink'
 
 export const IndexPageTemplate = ({
   eventDate,
   title,
   subheading,
   contentItems,
-  howItWorksItems,
-  howItWorksDescription,
-  tracklistDescription,
   trackleadsDescription,
-  timelineDescription,
   heroImage,
-  timeline,
   heroCTALeftText,
   heroCTALeftLink,
   heroCTARightText,
   heroCTARightLink,
   newsletterSection,
+  newsTitle,
+  newsDescription,
 }) => (
   <>
     <HeroSection
@@ -45,20 +40,19 @@ export const IndexPageTemplate = ({
       heroCTARightText={heroCTARightText}
       heroCTARightLink={heroCTARightLink}
     />
-    <HowItWorksSection
-      description={howItWorksDescription}
-      items={howItWorksItems}
-    />
-    <TimelineSection
-      title="Timeline"
-      description={timelineDescription}
-      ctaLabel="Full agenda"
-      ctaUrl="/agenda"
-      items={timeline}
-    />
-    <TracklistsSection description={tracklistDescription} />
+    <div className="has-background-danger">
+      <AlternatingContent contentItems={contentItems}></AlternatingContent>
+    </div>
+    <div className="has-background-success">
+      <NewsSection
+        blogPostLimit={4}
+        title={newsTitle}
+        description={newsDescription}
+      >
+        <CustomLink to="/news">Browse all articles</CustomLink>
+      </NewsSection>
+    </div>
     <TrackLeads description={trackleadsDescription} />
-    <AlternatingContent contentItems={contentItems}></AlternatingContent>
     <NewsletterSection newsletterContent={newsletterSection} />
     <Partners />
     <Sponsors title="Global partners" buttonText="Become a partner" />
@@ -84,10 +78,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         eventDate={frontmatter.eventDate}
         contentItems={frontmatter.contentItems}
-        howItWorksItems={frontmatter.howItWorksItems}
-        howItWorksDescription={frontmatter.howItWorksDescription}
         tracklistDescription={frontmatter.tracklistDescription}
-        trackleadsDescription={frontmatter.trackleadsDescription}
         timelineDescription={frontmatter.timelineDescription}
         heroImage={frontmatter.heroImage.publicURL}
         timeline={frontmatter.timeline}
@@ -96,6 +87,8 @@ const IndexPage = ({ data }) => {
         heroCTARightText={frontmatter.heroCTARightText}
         heroCTARightLink={frontmatter.heroCTARightLink}
         newsletterSection={frontmatter.newsletterSection}
+        newsTitle={frontmatter.newsTitle}
+        newsDescription={frontmatter.newsDescription}
       />
     </Layout>
   )
@@ -118,18 +111,9 @@ export const pageQuery = graphql`
         title
         subheading
         eventDate
-        howItWorksDescription
-        tracklistDescription
+        newsTitle
+        newsDescription
         trackleadsDescription
-        timelineDescription
-        timeline {
-          image {
-            publicURL
-          }
-          title
-          date
-          isActive
-        }
         heroImage {
           publicURL
         }
@@ -137,17 +121,6 @@ export const pageQuery = graphql`
         heroCTALeftLink
         heroCTARightText
         heroCTARightLink
-        howItWorksItems {
-          title
-          textContent
-          image {
-            id
-            publicURL
-          }
-          ctaText
-          ctaLink
-          isActive
-        }
         contentItems {
           title
           textContent

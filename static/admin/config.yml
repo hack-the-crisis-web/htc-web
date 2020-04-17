@@ -360,66 +360,26 @@ collections:
               default: '',
             }
           - {
-              label: 'How it works',
-              name: howItWorksDescription,
-              widget: 'text',
-              default: '',
-            }
-          - {
-              label: 'Tracklist',
-              name: tracklistDescription,
-              widget: 'text',
-              default: '',
-            }
-          - {
               label: 'Track Leads',
               name: trackleadsDescription,
               widget: 'text',
               default: '',
             }
           - {
-              label: 'Timeline',
-              name: timelineDescription,
-              widget: 'text',
+              label: 'News section title',
+              name: 'newsTitle',
+              widget: 'string',
+              required: false,
+              default: '',
+            }
+          - {
+              label: 'News section description',
+              name: 'newsDescription',
+              widget: 'string',
+              required: false,
               default: '',
             }
 
-          - {
-              label: Timeline,
-              name: timeline,
-              widget: list,
-              fields:
-                [
-                  {
-                    label: 'Title',
-                    name: 'title',
-                    widget: 'string',
-                    required: false,
-                    default: '',
-                  },
-                  {
-                    label: 'Is Active?',
-                    name: 'isActive',
-                    widget: 'boolean',
-                    default: false,
-                  },
-                  {
-                    label: 'Image',
-                    name: 'image',
-                    widget: 'image',
-                    required: false,
-                    default: '',
-                  },
-                  {
-                    label: 'Date',
-                    name: 'date',
-                    format: 'YYYY-MM-DD',
-                    widget: 'date',
-                    required: false,
-                    default: '',
-                  },
-                ],
-            }
           - &contentItems {
               label: Content Items,
               name: contentItems,
@@ -458,29 +418,6 @@ collections:
                     widget: 'string',
                     required: false,
                     default: '',
-                  },
-                ],
-            }
-          - {
-              label: 'How it works Items',
-              name: howItWorksItems,
-              widget: list,
-              fields:
-                [
-                  { label: 'Title', name: 'title', widget: 'string' },
-                  {
-                    label: 'Text content',
-                    name: 'textContent',
-                    widget: 'text',
-                  },
-                  { label: 'Image', name: 'image', widget: 'image' },
-                  { label: 'CTA text', name: 'ctaText', widget: 'string' },
-                  { label: 'CTA link', name: 'ctaLink', widget: 'string' },
-                  {
-                    label: 'Is enabled?',
-                    name: 'isActive',
-                    widget: 'boolean',
-                    default: false,
                   },
                 ],
             }
@@ -547,18 +484,6 @@ collections:
             }
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
-      - file: 'src/pages/agenda/index.md'
-        label: 'Agenda'
-        name: 'agenda-page'
-        fields:
-          - {
-              label: 'Template Key',
-              name: 'templateKey',
-              widget: 'hidden',
-              default: 'agenda-page',
-            }
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/how-it-works/index.md'
         label: 'How it works'
         name: 'how-it-works-page'
@@ -569,6 +494,84 @@ collections:
               widget: 'hidden',
               default: 'how-it-works-page',
             }
+          - {
+              label: 'How it works',
+              name: howItWorksDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: 'Tracklist',
+              name: tracklistDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: 'Timeline',
+              name: timelineDescription,
+              widget: 'text',
+              default: '',
+            }
+          - {
+              label: Timeline,
+              name: timeline,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: 'Title',
+                    name: 'title',
+                    widget: 'string',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Is Active?',
+                    name: 'isActive',
+                    widget: 'boolean',
+                    default: false,
+                  },
+                  {
+                    label: 'Image',
+                    name: 'image',
+                    widget: 'image',
+                    required: false,
+                    default: '',
+                  },
+                  {
+                    label: 'Date',
+                    name: 'date',
+                    format: 'YYYY-MM-DD',
+                    widget: 'date',
+                    required: false,
+                    default: '',
+                  },
+                ],
+            }
+          - {
+              label: 'How it works Items',
+              name: howItWorksItems,
+              widget: list,
+              fields:
+                [
+                  { label: 'Title', name: 'title', widget: 'string' },
+                  {
+                    label: 'Text content',
+                    name: 'textContent',
+                    widget: 'text',
+                  },
+                  { label: 'Image', name: 'image', widget: 'image' },
+                  { label: 'CTA text', name: 'ctaText', widget: 'string' },
+                  { label: 'CTA link', name: 'ctaLink', widget: 'string' },
+                  {
+                    label: 'Is enabled?',
+                    name: 'isActive',
+                    widget: 'boolean',
+                    default: false,
+                  },
+                ],
+            }
+
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
       - file: 'src/pages/press/index.md'

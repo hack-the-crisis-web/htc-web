@@ -12,7 +12,7 @@ const TracklistsSection = ({ data, description }) => {
     <div id="tracklists" className="has-background-success">
       <Section>
         <div className={classnames('container has-text-primary')}>
-          <SectionTitle title="Tracklists" />
+          <SectionTitle title="Tracks" />
           <SectionDescription text={description} />
           <div className={classnames('columns is-multiline is-mobile')}>
             {data.map(

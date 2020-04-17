@@ -8,10 +8,7 @@ import TrackHeroSection from '../components/TrackHeroSection/TrackHeroSection'
 import HTMLContentSection from '../components/HTMLContentSection/HTMLContentSection'
 import Sponsors from '../components/Supporters/Sponsors'
 import TrackMentors from '../components/People/TrackMentors'
-import Section from '../components/Section/Section'
-import TwitterFeedTitle from '../components/TwitterFeed/TwitterFeedTitle'
 import TrackOrganisers from '../components/Supporters/TrackOrganisers'
-import { TWITTER_FEED_SHARE } from '../components/sharedStrings'
 import ChallengesSection from '../components/ChallengesSection/ChallengesSection'
 import MentorNameList from '../components/People/MentorNameList'
 import TrackWinnersSection from '../components/TrackWinnersSection/TrackWinnersSection'
@@ -47,7 +44,6 @@ export const TrackTemplate = ({
       trackLogo={trackLogo}
     />
     {content && <HTMLContentSection content={content} />}
-    <NewsletterSection newsletterContent={newsletterSection} />
     <ChallengesSection
       challengesTitle={challengesTitle}
       challengesDescription={challengesDescription}
@@ -60,6 +56,7 @@ export const TrackTemplate = ({
         )[0]
       }
     />
+    <NewsletterSection newsletterContent={newsletterSection} />
     <TrackMentors
       tracklist={title}
       hashtag={hashtag}

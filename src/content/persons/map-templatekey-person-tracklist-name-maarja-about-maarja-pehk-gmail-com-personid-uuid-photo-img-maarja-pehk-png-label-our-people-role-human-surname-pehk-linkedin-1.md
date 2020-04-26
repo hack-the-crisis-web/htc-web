@@ -5,7 +5,7 @@ personId: >-
 identifier: 'Anniken Haldna, our-people'
 name: Anniken
 surname: Haldna
-role: Logo slave human
+role: Marketing human
 photo: /img/screenshot_2020-03-27_at_12-removebg-preview__1_-removebg-preview.png
 about: anniken@latitude59.ee
 linkedin: ''

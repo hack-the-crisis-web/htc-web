@@ -25,13 +25,15 @@ const HeroSection = ({
         [styles.centerHero]: centerHero,
       })}
     >
-      <Img
-        className={styles.heroBackground}
-        fluid={backgroundImage.childImageSharp.fluid}
-        alt=""
-        style={{ position: 'absolute' }}
-        imgStyle={{ objectFit: 'cover', objectPosition: '50% 0%' }}
-      />
+      {backgroundImage && backgroundImage.childImageSharp && (
+        <Img
+          className={styles.heroBackground}
+          fluid={backgroundImage.childImageSharp.fluid}
+          alt=""
+          style={{ position: 'absolute' }}
+          imgStyle={{ objectFit: 'cover', objectPosition: '50% 0%' }}
+        />
+      )}
       <div className={classNames('container', styles.heroContainer)}>
         <div className="columns">
           <div className="column is-7 is-offset-1">

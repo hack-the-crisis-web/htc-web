@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import styles from './WinnerHeader.module.scss'
 
@@ -10,9 +11,16 @@ const WinnerHeader = ({ img, title, small, withoutMargin }) => (
     })}
   >
     {typeof img === 'string' ? (
-      <img alt={title} src={img} />
+      <img alt={title} src={img} className={styles.img} />
     ) : (
-      img.map((img, index) => <img key={index} alt={title} src={img} />)
+      img.map((logo, index) => (
+        <Img
+          className={styles.img}
+          fluid={logo.childImageSharp.fluid}
+          key={index}
+          alt={title}
+        />
+      ))
     )}
     <h2>{title}</h2>
   </div>

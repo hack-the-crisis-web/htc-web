@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import { Link } from 'gatsby'
 import Button from '../Button/Button'
@@ -6,20 +7,12 @@ import styles from './BlogPostCard.module.scss'
 
 const BlogPostCard = ({ link, image, title, date, intro, author }) => (
   <Link className={classnames(styles.card, 'hover-effect')} to={link}>
-    {image && (
-      <div
+    {image && image.childImageSharp && (
+      <Img
         className={styles.image}
-        style={
-          image
-            ? {
-                // very ugly, i know, but need it for now
-                backgroundImage: `url('${image.replace(
-                  '../../../static/',
-                  '/'
-                )}')`,
-              }
-            : {}
-        }
+        imgStyle={{ objectFit: 'cover' }}
+        fluid={image.childImageSharp.fluid}
+        alt={`${title} `}
       />
     )}
     {!!date && <p className={styles.date}>{date}</p>}

@@ -1,6 +1,6 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
-import '../../components/all.sass'
 import Section from '../Section/Section'
 import styles from './TrackHeroSection.module.scss'
 
@@ -28,13 +28,23 @@ const TrackHeroSection = ({
             className={classnames('is-hidden-tablet', styles.responsiveImage)}
           >
             {(featuredImage || trackLogo) && (
-              <img
+              <Img
+                className={styles.img}
+                fluid={
+                  featuredImage
+                    ? featuredImage.childImageSharp.fluid
+                    : trackLogo.childImageSharp.fluid
+                }
                 alt={hasMentor ? mentor : title}
-                src={featuredImage ? featuredImage : trackLogo}
               />
             )}
             {featuredImage && trackLogo && (
-              <img className={styles.trackLogo} alt={title} src={trackLogo} />
+              <Img
+                style={{ position: 'absolute' }}
+                className={styles.trackLogo}
+                fluid={trackLogo.childImageSharp.fluid}
+                alt={title}
+              />
             )}
           </div>
           <div
@@ -63,13 +73,24 @@ const TrackHeroSection = ({
         </div>
         <div className={classnames('is-hidden-mobile', styles.image)}>
           {(featuredImage || trackLogo) && (
-            <img
+            <Img
+              imgStyle={{ objectFit: 'fit', objectPosition: '100% 100%' }}
+              fluid={
+                featuredImage
+                  ? featuredImage.childImageSharp.fluid
+                  : trackLogo.childImageSharp.fluid
+              }
               alt={hasMentor ? mentor : title}
-              src={featuredImage ? featuredImage : trackLogo}
             />
           )}
           {featuredImage && trackLogo && (
-            <img className={styles.trackLogo} alt={title} src={trackLogo} />
+            <Img
+              style={{ position: 'absolute' }}
+              imgStyle={{ objectFit: 'fit', objectPosition: '100% 100%' }}
+              className={styles.trackLogo}
+              fluid={trackLogo.childImageSharp.fluid}
+              alt={title}
+            />
           )}
         </div>
       </div>

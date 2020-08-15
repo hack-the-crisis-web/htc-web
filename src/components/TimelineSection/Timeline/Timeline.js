@@ -7,7 +7,7 @@ const Timeline = ({ items }) => (
     {items.map(({ image, title, date, isActive }, index) => (
       <TimelineItem
         key={index}
-        image={image.publicURL}
+        image={image}
         title={title}
         date={date}
         isActive={isActive}

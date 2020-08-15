@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import CustomLink from '../CustomLink/CustomLink'
 import styles from './WinnerCard.module.scss'
@@ -16,7 +17,14 @@ const WinnerCard = ({
   <div className="columns">
     {!!image && (
       <div className={classnames('column', styles.imageContainer)}>
-        <img src={image.publicURL} className="column" alt={title} />
+        {image && image.childImageSharp && (
+          <Img
+            className="column"
+            imgStyle={{ objectFit: 'contain' }}
+            fluid={image.childImageSharp.fluid}
+            alt={title}
+          />
+        )}
       </div>
     )}
     <div className={classnames(styles.card, { 'column is-7': !full })}>

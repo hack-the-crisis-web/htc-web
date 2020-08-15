@@ -58,7 +58,13 @@ export default props => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
-                featuredimage
+                featuredimage {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 author
               }
             }

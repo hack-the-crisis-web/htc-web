@@ -18,7 +18,13 @@ const TrackOrganisers = ({ title, trackTitle }) => (
               frontmatter {
                 name
                 link
-                image
+                image {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 sponsoredTrack
               }
             }

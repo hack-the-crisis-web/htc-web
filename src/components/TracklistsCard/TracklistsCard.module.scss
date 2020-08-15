@@ -1,5 +1,11 @@
 @import '../../styles/styleSetup.scss';
 
+.img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -12,12 +18,6 @@
 
   @include until($tablet) {
     padding: 24px 20px;
-  }
-
-  img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
   }
 
   .title {

@@ -94,7 +94,11 @@ export const howItWorksPageQuery = graphql`
         timelineDescription
         timeline {
           image {
-            publicURL
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           title
           date
@@ -105,7 +109,11 @@ export const howItWorksPageQuery = graphql`
           textContent
           image {
             id
-            publicURL
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           ctaText
           ctaLink

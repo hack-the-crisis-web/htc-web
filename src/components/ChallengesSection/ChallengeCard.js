@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import { toHTML } from '../remarkToHTML'
 import { HTMLContent } from '../Content'
@@ -13,7 +14,13 @@ const ChallengeCard = ({
   linkUrl,
 }) => (
   <div className={styles.card}>
-    {logo && <img src={logo} className={styles.logo} alt={logoTitle} />}
+    {logo && logo.childImageSharp && (
+      <Img
+        fluid={logo.childImageSharp.fluid}
+        alt={logoTitle}
+        className={styles.logo}
+      />
+    )}
     {logoTitle && (
       <p className={classnames(styles.text, styles.logoTitle)}>{logoTitle}</p>
     )}

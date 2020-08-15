@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
 import contentBlockPropTypes from './contentBlockPropTypes'
@@ -33,9 +34,9 @@ const TwoColumnContentBlock = ({
           !image && styles.notAlternatingColumn
         )}
       >
-        {!!image && (
+        {!!image && image.childImageSharp && (
           <div className="column">
-            <img src={image.publicURL} alt={title}></img>
+            <Img fluid={image.childImageSharp.fluid} />
           </div>
         )}
         <div className={classnames('column', !image && 'is-8')}>

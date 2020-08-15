@@ -49,7 +49,13 @@ const TrackLeads = ({ description }) => (
                 name
                 surname
                 role
-                photo
+                photo {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 label
                 tracklist
                 about

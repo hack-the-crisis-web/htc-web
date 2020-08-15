@@ -80,7 +80,7 @@ const IndexPage = ({ data }) => {
         contentItems={frontmatter.contentItems}
         tracklistDescription={frontmatter.tracklistDescription}
         timelineDescription={frontmatter.timelineDescription}
-        heroImage={frontmatter.heroImage.publicURL}
+        heroImage={frontmatter.heroImage}
         timeline={frontmatter.timeline}
         heroCTALeftText={frontmatter.heroCTALeftText}
         heroCTALeftLink={frontmatter.heroCTALeftLink}
@@ -115,7 +115,11 @@ export const pageQuery = graphql`
         newsDescription
         trackleadsDescription
         heroImage {
-          publicURL
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
         heroCTALeftText
         heroCTALeftLink
@@ -126,7 +130,11 @@ export const pageQuery = graphql`
           textContent
           image {
             id
-            publicURL
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           ctaText
           ctaLink

@@ -62,7 +62,13 @@ export default props => (
               frontmatter {
                 title
                 description
-                trackLogo
+                trackLogo {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 hashtag
               }
             }

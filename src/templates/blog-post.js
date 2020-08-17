@@ -70,10 +70,7 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
 
-  const backgroundImage = post.frontmatter.featuredimage.replace(
-    '../../../static/',
-    '/'
-  )
+  const backgroundImage = post.frontmatter.featuredimage
 
   return (
     <Layout>
@@ -157,7 +154,13 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
-        featuredimage
+        featuredimage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         author
       }
     }

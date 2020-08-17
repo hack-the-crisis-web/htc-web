@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import PropTypes from 'prop-types'
 import classnames from 'classnames'
 import Section from '../Section/Section'
@@ -33,7 +34,14 @@ const LogosBlock = ({ title, items, buttonText }) =>
                 rel="noopener noreferrer"
                 className={styles.link}
               >
-                <img className={styles.logo} src={image} alt={name} />
+                {image && image.childImageSharp && (
+                  <Img
+                    imgStyle={{ objectFit: 'contain' }}
+                    fluid={image.childImageSharp.fluid}
+                    className={styles.logo}
+                    alt={name}
+                  />
+                )}
               </a>
             </LogoContainer>
           ))}

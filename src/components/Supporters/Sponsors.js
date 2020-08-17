@@ -16,7 +16,13 @@ const sponsorQuery = graphql`
           frontmatter {
             name
             link
-            image
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             sponsoredTrack
           }
         }

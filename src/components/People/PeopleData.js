@@ -37,7 +37,13 @@ const PeopleData = ({ type, tracklist, hashtag, children }) => (
                 name
                 surname
                 role
-                photo
+                photo {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
                 label
                 tracklist
                 about

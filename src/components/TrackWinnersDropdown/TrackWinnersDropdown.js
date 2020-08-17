@@ -87,7 +87,13 @@ export default props => (
             node {
               frontmatter {
                 title
-                trackLogo
+                trackLogo {
+                  childImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }

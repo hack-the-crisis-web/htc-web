@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import '../all.sass'
 import styles from './PersonCard.module.scss'
 
@@ -52,11 +53,16 @@ const PersonCard = ({
               </a>
             )}
           </div>
-          {!!photo && (
-            <img
-              src={photo}
+          {photo && photo.childImageSharp && (
+            <Img
+              className={styles.personimage}
+              style={{ position: 'absolute' }}
+              imgStyle={{
+                objectFit: 'contain',
+                objectPosition: '100% 100%',
+              }}
+              fluid={photo.childImageSharp.fluid}
               alt={`${name} ${surname}`}
-              className={`${styles.personimage}`}
             />
           )}
         </div>

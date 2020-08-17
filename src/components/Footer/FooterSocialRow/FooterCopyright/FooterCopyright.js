@@ -1,5 +1,4 @@
 import React from 'react'
-import SocialIconLink from '../../../SocialIconLink/SocialIconLink'
 import styles from './FooterCopyright.module.scss'
 
 export const FooterCopyright = () => (

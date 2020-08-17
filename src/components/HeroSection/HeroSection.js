@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classNames from 'classnames'
 import Button from '../Button/Button'
 import styles from './HeroSection.module.scss'
@@ -23,10 +24,16 @@ const HeroSection = ({
       className={classNames('section', styles.heroWrapper, {
         [styles.centerHero]: centerHero,
       })}
-      style={
-        backgroundImage ? { backgroundImage: `url('${backgroundImage}')` } : {}
-      }
     >
+      {backgroundImage && backgroundImage.childImageSharp && (
+        <Img
+          className={styles.heroBackground}
+          fluid={backgroundImage.childImageSharp.fluid}
+          alt=""
+          style={{ position: 'absolute' }}
+          imgStyle={{ objectFit: 'cover', objectPosition: '50% 0%' }}
+        />
+      )}
       <div className={classNames('container', styles.heroContainer)}>
         <div className="columns">
           <div className="column is-7 is-offset-1">

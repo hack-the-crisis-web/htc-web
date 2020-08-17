@@ -64,7 +64,11 @@ export const resultsPageQuery = graphql`
         contentItems {
           title
           image {
-            publicURL
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
           }
           ctaText
           ctaLink

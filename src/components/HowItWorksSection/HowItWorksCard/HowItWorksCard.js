@@ -1,4 +1,5 @@
 import React from 'react'
+import Img from 'gatsby-image'
 import classnames from 'classnames'
 import '../../all.sass'
 import Button from '../../Button/Button'
@@ -14,9 +15,14 @@ const HowItWorksCard = ({
   isActive,
 }) => (
   <div className={classnames(styles.card, 'column is-10')}>
-    {!!image && (
+    {image && image.childImageSharp && (
       <div className={styles.imageContainer}>
-        <img src={image.publicURL} alt={title} />
+        <Img
+          className={styles.img}
+          imgStyle={{ objectFit: 'contain' }}
+          fluid={image.childImageSharp.fluid}
+          alt={title}
+        />
       </div>
     )}
     {!!step && <span className={styles.step}>{step}</span>}

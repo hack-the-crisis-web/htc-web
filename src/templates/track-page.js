@@ -130,16 +130,34 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        featuredimage
+        featuredimage {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         hashtag
         keyMentor
-        trackLogo
+        trackLogo {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         challengesTitle
         challengesDescription
         challenges {
           title
           description
-          logo
+          logo {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           logoTitle
           linkTitle
           linkUrl
